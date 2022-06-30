@@ -540,7 +540,7 @@ export default {
       let view = new MapView({
         container: 'viewDiv',
         map,
-        center: [117.36887, 31.87657],
+        center: [117.373724, 31.886219],
         zoom: 15
       });
 
