@@ -12,6 +12,7 @@ router.beforeEach(async (to, from, next) => {
   NProgress.start();
   document.title = getPageTitle(to.meta.title);
   const isLogin = getCache('TOKEN');
+  // const isLogin = true;
   if (to.path == '/login') {
     next();
     NProgress.done();
