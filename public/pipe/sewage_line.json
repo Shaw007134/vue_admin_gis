@@ -1,0 +1,2211 @@
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36833120366808, 31.884049351572479],
+          [117.3687209107496, 31.884058079012735]
+        ]
+      },
+      "properties": {
+        "FID": 0,
+        "NAME": "WS_MA400_Conduits05_01",
+        "InNode": "WS67",
+        "OutNode": "WS68",
+        "InSurElev": 29.026,
+        "InElev": 25.795999999999999,
+        "InNodeElev": 25.795999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3687209107496, 31.884058079012735],
+          [117.36908383408854, 31.884074485040497]
+        ]
+      },
+      "properties": {
+        "FID": 1,
+        "NAME": "WS_MA400_Conduits05_02",
+        "InNode": "WS68",
+        "OutNode": "WS69",
+        "InSurElev": 28.538,
+        "InElev": 25.178000000000001,
+        "InNodeElev": 25.178000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37019595994843, 31.884096376442656],
+          [117.37056842287782, 31.884106185445265]
+        ]
+      },
+      "properties": {
+        "FID": 2,
+        "NAME": "WS_MA400_Conduits05_04",
+        "InNode": "WS74",
+        "OutNode": "WS75",
+        "InSurElev": 26.638999999999999,
+        "InElev": 22.939,
+        "InNodeElev": 22.939,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37056842287782, 31.884106185445265],
+          [117.37093561775744, 31.884114980520049]
+        ]
+      },
+      "properties": {
+        "FID": 3,
+        "NAME": "WS_MA400_Conduits05_05",
+        "InNode": "WS75",
+        "OutNode": "WS76",
+        "InSurElev": 26.295999999999999,
+        "InElev": 23.495999999999999,
+        "InNodeElev": 23.495999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37169811444598, 31.884130519717257],
+          [117.37209092795491, 31.884138839685889]
+        ]
+      },
+      "properties": {
+        "FID": 4,
+        "NAME": "WS_MA400_Conduits05_08",
+        "InNode": "WS80",
+        "OutNode": "WS82",
+        "InSurElev": 25.222000000000001,
+        "InElev": 22.972000000000001,
+        "InNodeElev": 22.972000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37162802597595, 31.887246314341823],
+          [117.37216663653709, 31.887263929431356]
+        ]
+      },
+      "properties": {
+        "FID": 5,
+        "NAME": "WS_MA500_Conduits02_02",
+        "InNode": "WS19",
+        "OutNode": "WS21",
+        "InSurElev": 25.616,
+        "InElev": 22.216000000000001,
+        "InNodeElev": 22.216000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37283502073684, 31.884156130064842],
+          [117.37320717223834, 31.884164741662094]
+        ]
+      },
+      "properties": {
+        "FID": 6,
+        "NAME": "WS_MA500_Conduits06_04",
+        "InNode": "WS86",
+        "OutNode": "WS87",
+        "InSurElev": 24.167000000000002,
+        "InElev": 20.547000000000001,
+        "InNodeElev": 20.547000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37325558578405, 31.887295267503635],
+          [117.37357886267652, 31.887305915482152]
+        ]
+      },
+      "properties": {
+        "FID": 7,
+        "NAME": "WS_MA500_Conduits02_05",
+        "InNode": "WS27",
+        "OutNode": "WS28",
+        "InSurElev": 23.321000000000002,
+        "InElev": 20.600999999999999,
+        "InNodeElev": 20.600999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37391509363671, 31.884395828915469],
+          [117.37397680497932, 31.884394971460985]
+        ]
+      },
+      "properties": {
+        "FID": 8,
+        "NAME": "WS_BR400_Conduits22_01",
+        "InNode": "WS66",
+        "OutNode": "WS65",
+        "InSurElev": 23.384,
+        "InElev": 20.364000000000001,
+        "InNodeElev": 20.364000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37398108782475, 31.884181036169235],
+          [117.37410591131552, 31.884183292816616]
+        ]
+      },
+      "properties": {
+        "FID": 9,
+        "NAME": "WS_MA600_Conduits07_03",
+        "InNode": "WS92",
+        "OutNode": "WS93",
+        "InSurElev": 23.538,
+        "InElev": 19.838000000000001,
+        "InNodeElev": 19.838000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37392404314099, 31.886113856766702],
+          [117.37393352312344, 31.885702875260943]
+        ]
+      },
+      "properties": {
+        "FID": 10,
+        "NAME": "WS_MA500_Conduits04_11",
+        "InNode": "WS57",
+        "OutNode": "WS58",
+        "InSurElev": 22.803000000000001,
+        "InElev": 18.033000000000001,
+        "InNodeElev": 18.033000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37391119902271, 31.886495358749887],
+          [117.37392404314099, 31.886113856766702]
+        ]
+      },
+      "properties": {
+        "FID": 11,
+        "NAME": "WS_MA500_Conduits04_10",
+        "InNode": "WS54",
+        "OutNode": "WS57",
+        "InSurElev": 22.632000000000001,
+        "InElev": 18.212,
+        "InNodeElev": 18.212,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37388253685336, 31.887409030647945],
+          [117.37388600153562, 31.887311713462061]
+        ]
+      },
+      "properties": {
+        "FID": 12,
+        "NAME": "WS_MA500_Conduits04_07",
+        "InNode": "WS43",
+        "OutNode": "WS52",
+        "InSurElev": 22.388000000000002,
+        "InElev": 19.178000000000001,
+        "InNodeElev": 19.178000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37384089388019, 31.888733369285969],
+          [117.37384755075179, 31.888476518251977]
+        ]
+      },
+      "properties": {
+        "FID": 13,
+        "NAME": "WS_MA500_Conduits04_02",
+        "InNode": "WS29",
+        "OutNode": "WS33",
+        "InSurElev": 22.719000000000001,
+        "InElev": 19.989000000000001,
+        "InNodeElev": 19.989000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37379362610032, 31.888380443191277],
+          [117.3738529714264, 31.888379330736697]
+        ]
+      },
+      "properties": {
+        "FID": 14,
+        "NAME": "WS_BR400_Conduits14_02",
+        "InNode": "WS37",
+        "OutNode": "WS35",
+        "InSurElev": 22.603999999999999,
+        "InElev": 20.263999999999999,
+        "InNodeElev": 20.263999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37377237688118, 31.888730126166621],
+          [117.37384089388019, 31.888733369285969]
+        ]
+      },
+      "properties": {
+        "FID": 15,
+        "NAME": "WS_BR400_Conduits12_02",
+        "InNode": "WS31",
+        "OutNode": "WS29",
+        "InSurElev": 22.719000000000001,
+        "InElev": 20.088999999999999,
+        "InNodeElev": 20.088999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37604799877775, 31.88423043741625],
+          [117.37646462817938, 31.884236644523142]
+        ]
+      },
+      "properties": {
+        "FID": 16,
+        "NAME": "WS_MA600_Conduits07_09",
+        "InNode": "WS101",
+        "OutNode": "WS104",
+        "InSurElev": 21.780999999999999,
+        "InElev": 17.381,
+        "InNodeElev": 17.381,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36780850851174, 31.887140717612933],
+          [117.36820061703791, 31.887159873625468]
+        ]
+      },
+      "properties": {
+        "FID": 17,
+        "NAME": "WS_MA400_Conduits01_03",
+        "InNode": "WS3",
+        "OutNode": "WS4",
+        "InSurElev": 28.555,
+        "InElev": 24.875,
+        "InNodeElev": 24.805,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36820061703791, 31.887159873625468],
+          [117.36859502161661, 31.887166368989263]
+        ]
+      },
+      "properties": {
+        "FID": 18,
+        "NAME": "WS_MA400_Conduits01_04",
+        "InNode": "WS4",
+        "OutNode": "WS7",
+        "InSurElev": 29.183,
+        "InElev": 24.863,
+        "InNodeElev": 24.783000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36945695901601, 31.887117576060721],
+          [117.36946454778273, 31.887183702721352]
+        ]
+      },
+      "properties": {
+        "FID": 19,
+        "NAME": "WS_BR400_Conduits02_02",
+        "InNode": "WS12",
+        "OutNode": "WS9",
+        "InSurElev": 28.481000000000002,
+        "InElev": 25.361000000000001,
+        "InNodeElev": 25.361000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36946454778273, 31.887183702721352],
+          [117.37003018158337, 31.887200572393883]
+        ]
+      },
+      "properties": {
+        "FID": 20,
+        "NAME": "WS_MA400_Conduits01_07",
+        "InNode": "WS9",
+        "OutNode": "WS13",
+        "InSurElev": 28.481000000000002,
+        "InElev": 24.370999999999999,
+        "InNodeElev": 24.370999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37270930489179, 31.887223497754675],
+          [117.37271969982848, 31.88728228477904]
+        ]
+      },
+      "properties": {
+        "FID": 21,
+        "NAME": "WS_BR400_Conduits09_01",
+        "InNode": "WS26",
+        "OutNode": "WS24",
+        "InSurElev": 24.138999999999999,
+        "InElev": 21.539000000000001,
+        "InNodeElev": 21.539000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3726858949197, 31.887349984633595],
+          [117.37271969982848, 31.88728228477904]
+        ]
+      },
+      "properties": {
+        "FID": 22,
+        "NAME": "WS_BR500_Conduits08_01",
+        "InNode": "WS25",
+        "OutNode": "WS24",
+        "InSurElev": 24.138999999999999,
+        "InElev": 20.879000000000001,
+        "InNodeElev": 20.879000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37320717223834, 31.884164741662094],
+          [117.37357792940884, 31.884170876570103]
+        ]
+      },
+      "properties": {
+        "FID": 23,
+        "NAME": "WS_MA500_Conduits06_05",
+        "InNode": "WS87",
+        "OutNode": "WS88",
+        "InSurElev": 23.844000000000001,
+        "InElev": 20.504000000000001,
+        "InNodeElev": 20.504000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37396315311371, 31.884822342330679],
+          [117.37397680497932, 31.884394971460985]
+        ]
+      },
+      "properties": {
+        "FID": 24,
+        "NAME": "WS_MA500_Conduits04_15",
+        "InNode": "WS64",
+        "OutNode": "WS65",
+        "InSurElev": 23.216000000000001,
+        "InElev": 17.756,
+        "InNodeElev": 17.756,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37409350379147, 31.885229576322772],
+          [117.37396106009568, 31.885159623532733]
+        ]
+      },
+      "properties": {
+        "FID": 25,
+        "NAME": "WS_BR400_Conduits21_02",
+        "InNode": "WS63",
+        "OutNode": "WS61",
+        "InSurElev": 23.111999999999998,
+        "InElev": 18.161999999999999,
+        "InNodeElev": 18.161999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37388600153562, 31.887311713462061],
+          [117.37389920186962, 31.886924285082141]
+        ]
+      },
+      "properties": {
+        "FID": 26,
+        "NAME": "WS_MA500_Conduits04_08",
+        "InNode": "WS52",
+        "OutNode": "WS53",
+        "InSurElev": 22.390000000000001,
+        "InElev": 18.190000000000001,
+        "InNodeElev": 18.190000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37381639239793, 31.887404048910387],
+          [117.37388253685336, 31.887409030647945]
+        ]
+      },
+      "properties": {
+        "FID": 27,
+        "NAME": "WS_BR500_Conduits18_01",
+        "InNode": "WS44",
+        "OutNode": "WS43",
+        "InSurElev": 22.388000000000002,
+        "InElev": 19.988,
+        "InNodeElev": 19.988,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37400564789141, 31.888485198074338],
+          [117.37384755075179, 31.888476518251977]
+        ]
+      },
+      "properties": {
+        "FID": 28,
+        "NAME": "WS_BR300_Conduits13_01",
+        "InNode": "WS34",
+        "OutNode": "WS33",
+        "InSurElev": 22.634,
+        "InElev": 19.783999999999999,
+        "InNodeElev": 19.783999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37646462817938, 31.884236644523142],
+          [117.37646916155241, 31.884368964871573]
+        ]
+      },
+      "properties": {
+        "FID": 29,
+        "NAME": "WS_MA600_Conduits07_10",
+        "InNode": "WS104",
+        "OutNode": "WS106",
+        "InSurElev": 22.331,
+        "InElev": 18.181000000000001,
+        "InNodeElev": 17.381,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36744782624713, 31.887028806519591],
+          [117.36744615630099, 31.887124738995343]
+        ]
+      },
+      "properties": {
+        "FID": 30,
+        "NAME": "WS_MA400_Conduits01_01",
+        "InNode": "WS1",
+        "OutNode": "WS2",
+        "InSurElev": 28.940999999999999,
+        "InElev": 25.631,
+        "InNodeElev": 25.631,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36820469521767, 31.887063808119649],
+          [117.36820061703791, 31.887159873625468]
+        ]
+      },
+      "properties": {
+        "FID": 31,
+        "NAME": "WS_BR400_Conduits01_02",
+        "InNode": "WS6",
+        "OutNode": "WS4",
+        "InSurElev": 29.183,
+        "InElev": 24.582999999999998,
+        "InNodeElev": 24.582999999999998,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37003018158337, 31.887200572393883],
+          [117.37056601487795, 31.887213648078369]
+        ]
+      },
+      "properties": {
+        "FID": 32,
+        "NAME": "WS_MA400_Conduits01_08",
+        "InNode": "WS13",
+        "OutNode": "WS14",
+        "InSurElev": 27.736000000000001,
+        "InElev": 24.356000000000002,
+        "InNodeElev": 24.356000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37357792940884, 31.884170876570103],
+          [117.37391068181734, 31.884177563628803]
+        ]
+      },
+      "properties": {
+        "FID": 33,
+        "NAME": "WS_MA600_Conduits07_01",
+        "InNode": "WS88",
+        "OutNode": "WS89",
+        "InSurElev": 23.844000000000001,
+        "InElev": 20.193999999999999,
+        "InNodeElev": 20.193999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37397680497932, 31.884394971460985],
+          [117.37398108782475, 31.884181036169235]
+        ]
+      },
+      "properties": {
+        "FID": 34,
+        "NAME": "WS_MA500_Conduits04_16",
+        "InNode": "WS65",
+        "OutNode": "WS92",
+        "InSurElev": 23.384,
+        "InElev": 17.504000000000001,
+        "InNodeElev": 17.504000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37389387167241, 31.88516282376705],
+          [117.37396106009568, 31.885159623532733]
+        ]
+      },
+      "properties": {
+        "FID": 35,
+        "NAME": "WS_BR400_Conduits21_01",
+        "InNode": "WS62",
+        "OutNode": "WS61",
+        "InSurElev": 23.111999999999998,
+        "InElev": 19.202000000000002,
+        "InNodeElev": 19.202000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37387141184388, 31.887776512950367],
+          [117.37388253685336, 31.887409030647945]
+        ]
+      },
+      "properties": {
+        "FID": 36,
+        "NAME": "WS_MA500_Conduits04_06",
+        "InNode": "WS40",
+        "OutNode": "WS43",
+        "InSurElev": 22.43,
+        "InElev": 19.370000000000001,
+        "InNodeElev": 19.370000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37371267120349, 31.888728488586089],
+          [117.37377237688118, 31.888730126166621]
+        ]
+      },
+      "properties": {
+        "FID": 37,
+        "NAME": "WS_BR400_Conduits12_01",
+        "InNode": "WS30",
+        "OutNode": "WS31",
+        "InSurElev": 22.834,
+        "InElev": 20.434000000000001,
+        "InNodeElev": 20.434000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37481115772444, 31.88417874460934],
+          [117.37522185081512, 31.884188670545107]
+        ]
+      },
+      "properties": {
+        "FID": 38,
+        "NAME": "WS_MA600_Conduits07_06",
+        "InNode": "WS95",
+        "OutNode": "WS97",
+        "InSurElev": 22.414000000000001,
+        "InElev": 17.344000000000001,
+        "InNodeElev": 17.344000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37562646215908, 31.887353522274466],
+          [117.37509823262937, 31.887341816067828]
+        ]
+      },
+      "properties": {
+        "FID": 39,
+        "NAME": "WS_MA500_Conduits03_01",
+        "InNode": "WS45",
+        "OutNode": "WS48",
+        "InSurElev": 23.004799999999999,
+        "InElev": 19.604800000000001,
+        "InNodeElev": 19.604800000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36744615630099, 31.887124738995343],
+          [117.36780850851174, 31.887140717612933]
+        ]
+      },
+      "properties": {
+        "FID": 40,
+        "NAME": "WS_MA400_Conduits01_02",
+        "InNode": "WS2",
+        "OutNode": "WS3",
+        "InSurElev": 28.125,
+        "InElev": 24.914999999999999,
+        "InNodeElev": 24.914999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36820198135787, 31.887300906322324],
+          [117.36820061703791, 31.887159873625468]
+        ]
+      },
+      "properties": {
+        "FID": 41,
+        "NAME": "WS_BR400_Conduits01_01",
+        "InNode": "WS5",
+        "OutNode": "WS4",
+        "InSurElev": 29.183,
+        "InElev": 22.983000000000001,
+        "InNodeElev": 22.983000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36898915001733, 31.887169924073334],
+          [117.36946454778273, 31.887183702721352]
+        ]
+      },
+      "properties": {
+        "FID": 42,
+        "NAME": "WS_MA400_Conduits01_06",
+        "InNode": "WS8",
+        "OutNode": "WS9",
+        "InSurElev": 28.853000000000002,
+        "InElev": 24.263000000000002,
+        "InNodeElev": 24.263000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36982032240502, 31.884090895375788],
+          [117.37019595994843, 31.884096376442656]
+        ]
+      },
+      "properties": {
+        "FID": 43,
+        "NAME": "WS_MA500_Conduits06_02",
+        "InNode": "WS71",
+        "OutNode": "WS74",
+        "InSurElev": 27.178000000000001,
+        "InElev": 23.728000000000002,
+        "InNodeElev": 23.728000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36962155822948, 31.887256916659734],
+          [117.36949336901323, 31.887249190815222]
+        ]
+      },
+      "properties": {
+        "FID": 44,
+        "NAME": "WS_BR300_Conduits03_01",
+        "InNode": "WS10",
+        "OutNode": "WS11",
+        "InSurElev": 28.425000000000001,
+        "InElev": 26.875,
+        "InNodeElev": 26.875,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37056601487795, 31.887213648078369],
+          [117.37108990897418, 31.88722785667002]
+        ]
+      },
+      "properties": {
+        "FID": 45,
+        "NAME": "WS_MA400_Conduits01_09",
+        "InNode": "WS14",
+        "OutNode": "WS18",
+        "InSurElev": 27.138000000000002,
+        "InElev": 23.908000000000001,
+        "InNodeElev": 23.908000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37130549344336, 31.884120159721725],
+          [117.37169811444598, 31.884130519717257]
+        ]
+      },
+      "properties": {
+        "FID": 46,
+        "NAME": "WS_MA400_Conduits05_07",
+        "InNode": "WS79",
+        "OutNode": "WS80",
+        "InSurElev": 25.555,
+        "InElev": 23.024999999999999,
+        "InNodeElev": 23.024999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3739516237417, 31.883802589551841],
+          [117.37391068181734, 31.884177563628803]
+        ]
+      },
+      "properties": {
+        "FID": 47,
+        "NAME": "WS_BR300_Conduits28_02",
+        "InNode": "WS91",
+        "OutNode": "WS89",
+        "InSurElev": 23.251999999999999,
+        "InElev": 19.562000000000001,
+        "InNodeElev": 19.562000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37410591131552, 31.884183292816616],
+          [117.37443650308875, 31.884191671931159]
+        ]
+      },
+      "properties": {
+        "FID": 48,
+        "NAME": "WS_MA600_Conduits07_04",
+        "InNode": "WS93",
+        "OutNode": "WS94",
+        "InSurElev": 23.466999999999999,
+        "InElev": 19.747,
+        "InNodeElev": 19.747,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37388084855985, 31.885408366868464],
+          [117.37395195282303, 31.885406399097938]
+        ]
+      },
+      "properties": {
+        "FID": 49,
+        "NAME": "WS_BR400_Conduits20_01",
+        "InNode": "WS60",
+        "OutNode": "WS59",
+        "InSurElev": 23.045999999999999,
+        "InElev": 19.545999999999999,
+        "InNodeElev": 19.545999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37393352312344, 31.885702875260943],
+          [117.37395195282303, 31.885406399097938]
+        ]
+      },
+      "properties": {
+        "FID": 50,
+        "NAME": "WS_MA500_Conduits04_12",
+        "InNode": "WS58",
+        "OutNode": "WS59",
+        "InSurElev": 22.896000000000001,
+        "InElev": 17.946000000000002,
+        "InNodeElev": 17.946000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37604690401258, 31.884312200182539],
+          [117.37604589614956, 31.884261818263809]
+        ]
+      },
+      "properties": {
+        "FID": 51,
+        "NAME": "WS_BR500_Conduits32_01",
+        "InNode": "WS102",
+        "OutNode": "WS103",
+        "InSurElev": 21.943999999999999,
+        "InElev": 17.954000000000001,
+        "InNodeElev": 17.954000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37572492704946, 31.884200045002807],
+          [117.37604799877775, 31.88423043741625]
+        ]
+      },
+      "properties": {
+        "FID": 52,
+        "NAME": "WS_MA600_Conduits07_08",
+        "InNode": "WS99",
+        "OutNode": "WS101",
+        "InSurElev": 21.655999999999999,
+        "InElev": 17.326000000000001,
+        "InNodeElev": 17.326000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37646916155241, 31.884368964871573],
+          [117.37658499677566, 31.884409041666771]
+        ]
+      },
+      "properties": {
+        "FID": 53,
+        "NAME": "WS_MA600_Conduits07_11",
+        "InNode": "WS106",
+        "OutNode": "WS107",
+        "InSurElev": 22.850999999999999,
+        "InElev": 20.701000000000001,
+        "InNodeElev": 18.600999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36859502161661, 31.887166368989263],
+          [117.36898915001733, 31.887169924073334]
+        ]
+      },
+      "properties": {
+        "FID": 54,
+        "NAME": "WS_MA400_Conduits01_05",
+        "InNode": "WS7",
+        "OutNode": "WS8",
+        "InSurElev": 29.035,
+        "InElev": 24.925000000000001,
+        "InNodeElev": 24.885000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36949336901323, 31.887249190815222],
+          [117.36946454778273, 31.887183702721352]
+        ]
+      },
+      "properties": {
+        "FID": 55,
+        "NAME": "WS_BR400_Conduits02_01",
+        "InNode": "WS11",
+        "OutNode": "WS9",
+        "InSurElev": 28.481000000000002,
+        "InElev": 26.161000000000001,
+        "InNodeElev": 26.161000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37162547664504, 31.887182589482329],
+          [117.37162802597595, 31.887246314341823]
+        ]
+      },
+      "properties": {
+        "FID": 56,
+        "NAME": "WS_BR500_Conduits06_01",
+        "InNode": "WS20",
+        "OutNode": "WS19",
+        "InSurElev": 25.616,
+        "InElev": 23.616,
+        "InNodeElev": 23.616,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3719787668623, 31.887318426590415],
+          [117.37212170011534, 31.887323265988631]
+        ]
+      },
+      "properties": {
+        "FID": 57,
+        "NAME": "WS_BR300_Conduits07_01",
+        "InNode": "WS22",
+        "OutNode": "WS23",
+        "InSurElev": 24.981999999999999,
+        "InElev": 24.021999999999998,
+        "InNodeElev": 24.021999999999998,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37246771512987, 31.883962483657292],
+          [117.37246163809813, 31.88414631223571]
+        ]
+      },
+      "properties": {
+        "FID": 58,
+        "NAME": "WS_BR500_Conduits27_02",
+        "InNode": "WS85",
+        "OutNode": "WS83",
+        "InSurElev": 24.879000000000001,
+        "InElev": 21.779,
+        "InNodeElev": 21.779,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37209092795491, 31.884138839685889],
+          [117.37246163809813, 31.88414631223571]
+        ]
+      },
+      "properties": {
+        "FID": 59,
+        "NAME": "WS_MA400_Conduits05_09",
+        "InNode": "WS82",
+        "OutNode": "WS83",
+        "InSurElev": 24.905000000000001,
+        "InElev": 22.905000000000001,
+        "InNodeElev": 22.905000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37396106009568, 31.885159623532733],
+          [117.37396315311371, 31.884822342330679]
+        ]
+      },
+      "properties": {
+        "FID": 60,
+        "NAME": "WS_MA500_Conduits04_14",
+        "InNode": "WS61",
+        "OutNode": "WS64",
+        "InSurElev": 23.111999999999998,
+        "InElev": 17.692,
+        "InNodeElev": 17.692,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37395195282303, 31.885406399097938],
+          [117.37396106009568, 31.885159623532733]
+        ]
+      },
+      "properties": {
+        "FID": 61,
+        "NAME": "WS_MA500_Conduits04_13",
+        "InNode": "WS59",
+        "OutNode": "WS61",
+        "InSurElev": 23.045999999999999,
+        "InElev": 17.885999999999999,
+        "InNodeElev": 17.876000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37389920186962, 31.886924285082141],
+          [117.37391119902271, 31.886495358749887]
+        ]
+      },
+      "properties": {
+        "FID": 62,
+        "NAME": "WS_MA500_Conduits04_09",
+        "InNode": "WS53",
+        "OutNode": "WS54",
+        "InSurElev": 22.510000000000002,
+        "InElev": 18.210000000000001,
+        "InNodeElev": 18.210000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37386812879366, 31.887963345219649],
+          [117.37387141184388, 31.887776512950367]
+        ]
+      },
+      "properties": {
+        "FID": 63,
+        "NAME": "WS_MA500_Conduits04_05",
+        "InNode": "WS38",
+        "OutNode": "WS40",
+        "InSurElev": 22.481999999999999,
+        "InElev": 19.681999999999999,
+        "InNodeElev": 19.681999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37384755075179, 31.888476518251977],
+          [117.3738529714264, 31.888379330736697]
+        ]
+      },
+      "properties": {
+        "FID": 64,
+        "NAME": "WS_MA500_Conduits04_03",
+        "InNode": "WS33",
+        "OutNode": "WS35",
+        "InSurElev": 22.634,
+        "InElev": 19.693999999999999,
+        "InNodeElev": 19.693999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37456234343932, 31.887461400522408],
+          [117.37455526680276, 31.88732952909794]
+        ]
+      },
+      "properties": {
+        "FID": 65,
+        "NAME": "WS_BR500_Conduits11_01",
+        "InNode": "WS50",
+        "OutNode": "WS49",
+        "InSurElev": 22.977699999999999,
+        "InElev": 19.567699999999999,
+        "InNodeElev": 19.567699999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37509823262937, 31.887341816067828],
+          [117.37455526680276, 31.88732952909794]
+        ]
+      },
+      "properties": {
+        "FID": 66,
+        "NAME": "WS_MA500_Conduits03_02",
+        "InNode": "WS48",
+        "OutNode": "WS49",
+        "InSurElev": 22.893699999999999,
+        "InElev": 19.683700000000002,
+        "InNodeElev": 19.633700000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37563094200739, 31.887272326949319],
+          [117.37562646215908, 31.887353522274466]
+        ]
+      },
+      "properties": {
+        "FID": 67,
+        "NAME": "WS_BR500_Conduits10_02",
+        "InNode": "WS47",
+        "OutNode": "WS45",
+        "InSurElev": 23.601900000000001,
+        "InElev": 20.091899999999999,
+        "InNodeElev": 20.091899999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3756904844048, 31.884302278914586],
+          [117.37572492704946, 31.884200045002807]
+        ]
+      },
+      "properties": {
+        "FID": 68,
+        "NAME": "WS_BR500_Conduits31_01",
+        "InNode": "WS100",
+        "OutNode": "WS99",
+        "InSurElev": 21.655999999999999,
+        "InElev": 18.835999999999999,
+        "InNodeElev": 18.835999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36908383408854, 31.884074485040497],
+          [117.3694426928713, 31.884081388172099]
+        ]
+      },
+      "properties": {
+        "FID": 69,
+        "NAME": "WS_MA400_Conduits05_03",
+        "InNode": "WS69",
+        "OutNode": "WS70",
+        "InSurElev": 28.076000000000001,
+        "InElev": 24.975999999999999,
+        "InNodeElev": 24.975999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3709310864307, 31.884223925378429],
+          [117.37093561775744, 31.884114980520049]
+        ]
+      },
+      "properties": {
+        "FID": 70,
+        "NAME": "WS_BR600_Conduits24_01",
+        "InNode": "WS77",
+        "OutNode": "WS76",
+        "InSurElev": 26.414999999999999,
+        "InElev": 23.765000000000001,
+        "InNodeElev": 23.765000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37057006494119, 31.887150806114239],
+          [117.37056601487795, 31.887213648078369]
+        ]
+      },
+      "properties": {
+        "FID": 71,
+        "NAME": "WS_BR400_Conduits04_02",
+        "InNode": "WS16",
+        "OutNode": "WS14",
+        "InSurElev": 27.138000000000002,
+        "InElev": 24.128,
+        "InNodeElev": 24.128,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3724670758335, 31.884257915692299],
+          [117.37246163809813, 31.88414631223571]
+        ]
+      },
+      "properties": {
+        "FID": 72,
+        "NAME": "WS_BR500_Conduits27_01",
+        "InNode": "WS84",
+        "OutNode": "WS83",
+        "InSurElev": 24.800999999999998,
+        "InElev": 21.701000000000001,
+        "InNodeElev": 21.701000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37384807983703, 31.886498592680699],
+          [117.37391119902271, 31.886495358749887]
+        ]
+      },
+      "properties": {
+        "FID": 73,
+        "NAME": "WS_BR400_Conduits19_01",
+        "InNode": "WS55",
+        "OutNode": "WS54",
+        "InSurElev": 22.632000000000001,
+        "InElev": 18.821999999999999,
+        "InNodeElev": 18.821999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37380260836385, 31.887775479569004],
+          [117.37387141184388, 31.887776512950367]
+        ]
+      },
+      "properties": {
+        "FID": 74,
+        "NAME": "WS_BR500_Conduits16_01",
+        "InNode": "WS41",
+        "OutNode": "WS40",
+        "InSurElev": 22.43,
+        "InElev": 20.300000000000001,
+        "InNodeElev": 20.300000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37371393137501, 31.888354740612851],
+          [117.37379362610032, 31.888380443191277]
+        ]
+      },
+      "properties": {
+        "FID": 75,
+        "NAME": "WS_BR400_Conduits14_01",
+        "InNode": "WS36",
+        "OutNode": "WS37",
+        "InSurElev": 22.541,
+        "InElev": 21.341000000000001,
+        "InNodeElev": 21.341000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37395467589111, 31.888735235240723],
+          [117.37384089388019, 31.888733369285969]
+        ]
+      },
+      "properties": {
+        "FID": 76,
+        "NAME": "WS_MA500_Conduits04_01",
+        "InNode": "WS32",
+        "OutNode": "WS29",
+        "InSurElev": 22.611999999999998,
+        "InElev": 20.012,
+        "InNodeElev": 20.012,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37480910419526, 31.88428766466437],
+          [117.37481115772444, 31.88417874460934]
+        ]
+      },
+      "properties": {
+        "FID": 77,
+        "NAME": "WS_BR300_Conduits29_01",
+        "InNode": "WS96",
+        "OutNode": "WS95",
+        "InSurElev": 22.414000000000001,
+        "InElev": 19.154,
+        "InNodeElev": 19.154,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37562220125091, 31.887465136014789],
+          [117.37562646215908, 31.887353522274466]
+        ]
+      },
+      "properties": {
+        "FID": 78,
+        "NAME": "WS_BR500_Conduits10_01",
+        "InNode": "WS46",
+        "OutNode": "WS45",
+        "InSurElev": 23.585000000000001,
+        "InElev": 20.035,
+        "InNodeElev": 20.035,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36982481498899, 31.883913808247431],
+          [117.36982032240502, 31.884090895375788]
+        ]
+      },
+      "properties": {
+        "FID": 79,
+        "NAME": "WS_BR500_Conduits23_02",
+        "InNode": "WS73",
+        "OutNode": "WS71",
+        "InSurElev": 27.506,
+        "InElev": 24.306000000000001,
+        "InNodeElev": 24.306000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37108990897418, 31.88722785667002],
+          [117.37162802597595, 31.887246314341823]
+        ]
+      },
+      "properties": {
+        "FID": 80,
+        "NAME": "WS_MA500_Conduits02_01",
+        "InNode": "WS17",
+        "OutNode": "WS19",
+        "InSurElev": 26.324999999999999,
+        "InElev": 22.664999999999999,
+        "InNodeElev": 22.664999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37246163809813, 31.88414631223571],
+          [117.37283502073684, 31.884156130064842]
+        ]
+      },
+      "properties": {
+        "FID": 81,
+        "NAME": "WS_MA500_Conduits06_03",
+        "InNode": "WS83",
+        "OutNode": "WS86",
+        "InSurElev": 24.565999999999999,
+        "InElev": 20.716000000000001,
+        "InNodeElev": 20.716000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37271969982848, 31.88728228477904],
+          [117.37325558578405, 31.887295267503635]
+        ]
+      },
+      "properties": {
+        "FID": 82,
+        "NAME": "WS_MA500_Conduits02_04",
+        "InNode": "WS24",
+        "OutNode": "WS27",
+        "InSurElev": 24.138999999999999,
+        "InElev": 21.029,
+        "InNodeElev": 21.029,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37395982981567, 31.883479205772669],
+          [117.3739516237417, 31.883802589551841]
+        ]
+      },
+      "properties": {
+        "FID": 83,
+        "NAME": "WS_BR300_Conduits28_01",
+        "InNode": "WS90",
+        "OutNode": "WS91",
+        "InSurElev": 23.048999999999999,
+        "InElev": 19.609000000000002,
+        "InNodeElev": 19.609000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37407832727139, 31.886500737967499],
+          [117.37391119902271, 31.886495358749887]
+        ]
+      },
+      "properties": {
+        "FID": 84,
+        "NAME": "WS_BR400_Conduits19_02",
+        "InNode": "WS56",
+        "OutNode": "WS54",
+        "InSurElev": 22.632000000000001,
+        "InElev": 19.242000000000001,
+        "InNodeElev": 19.242000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37379730474413, 31.887967133506621],
+          [117.37386812879366, 31.887963345219649]
+        ]
+      },
+      "properties": {
+        "FID": 85,
+        "NAME": "WS_BR500_Conduits15_01",
+        "InNode": "WS39",
+        "OutNode": "WS38",
+        "InSurElev": 22.481999999999999,
+        "InElev": 20.032,
+        "InNodeElev": 20.032,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37521844344616, 31.884286709805643],
+          [117.37522185081512, 31.884188670545107]
+        ]
+      },
+      "properties": {
+        "FID": 86,
+        "NAME": "WS_BR500_Conduits30_01",
+        "InNode": "WS98",
+        "OutNode": "WS97",
+        "InSurElev": 22.149000000000001,
+        "InElev": 17.879000000000001,
+        "InNodeElev": 17.879000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37646373815143, 31.884007366332032],
+          [117.37646462817938, 31.884236644523142]
+        ]
+      },
+      "properties": {
+        "FID": 87,
+        "NAME": "WS_BR500_Conduits33_01",
+        "InNode": "WS105",
+        "OutNode": "WS104",
+        "InSurElev": 22.331,
+        "InElev": 16.331,
+        "InNodeElev": 16.331,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3694426928713, 31.884081388172099],
+          [117.36982032240502, 31.884090895375788]
+        ]
+      },
+      "properties": {
+        "FID": 88,
+        "NAME": "WS_MA500_Conduits06_01",
+        "InNode": "WS70",
+        "OutNode": "WS71",
+        "InSurElev": 27.635000000000002,
+        "InElev": 25.234999999999999,
+        "InNodeElev": 25.234999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.36980618230415, 31.884189209032016],
+          [117.36982032240502, 31.884090895375788]
+        ]
+      },
+      "properties": {
+        "FID": 89,
+        "NAME": "WS_BR500_Conduits23_01",
+        "InNode": "WS72",
+        "OutNode": "WS71",
+        "InSurElev": 27.782,
+        "InElev": 24.712,
+        "InNodeElev": 24.712,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37093561775744, 31.884114980520049],
+          [117.37130549344336, 31.884120159721725]
+        ]
+      },
+      "properties": {
+        "FID": 90,
+        "NAME": "WS_MA400_Conduits05_06",
+        "InNode": "WS76",
+        "OutNode": "WS79",
+        "InSurElev": 25.949000000000002,
+        "InElev": 23.248999999999999,
+        "InNodeElev": 23.248999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37057069866201, 31.887282642079981],
+          [117.37056601487795, 31.887213648078369]
+        ]
+      },
+      "properties": {
+        "FID": 91,
+        "NAME": "WS_BR400_Conduits04_01",
+        "InNode": "WS15",
+        "OutNode": "WS14",
+        "InSurElev": 27.138000000000002,
+        "InElev": 25.257999999999999,
+        "InNodeElev": 25.257999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3715115296494, 31.884206124254447],
+          [117.37169811444598, 31.884130519717257]
+        ]
+      },
+      "properties": {
+        "FID": 92,
+        "NAME": "WS_BR300_Conduits26_01",
+        "InNode": "WS81",
+        "OutNode": "WS80",
+        "InSurElev": 25.785,
+        "InElev": 24.395,
+        "InNodeElev": 24.395,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37109032398024, 31.887173204721275],
+          [117.37108990897418, 31.88722785667002]
+        ]
+      },
+      "properties": {
+        "FID": 93,
+        "NAME": "WS_BR500_Conduits05_01",
+        "InNode": "WS18",
+        "OutNode": "WS17",
+        "InSurElev": 26.324999999999999,
+        "InElev": 23.925000000000001,
+        "InNodeElev": 23.375,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37212170011534, 31.887323265988631],
+          [117.37216663653709, 31.887263929431356]
+        ]
+      },
+      "properties": {
+        "FID": 94,
+        "NAME": "WS_BR300_Conduits07_02",
+        "InNode": "WS23",
+        "OutNode": "WS21",
+        "InSurElev": 24.952999999999999,
+        "InElev": 23.952999999999999,
+        "InNodeElev": 23.952999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37216663653709, 31.887263929431356],
+          [117.37271969982848, 31.88728228477904]
+        ]
+      },
+      "properties": {
+        "FID": 95,
+        "NAME": "WS_MA500_Conduits02_03",
+        "InNode": "WS21",
+        "OutNode": "WS24",
+        "InSurElev": 24.952999999999999,
+        "InElev": 21.882999999999999,
+        "InNodeElev": 21.882999999999999,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37357886267652, 31.887305915482152],
+          [117.37388600153562, 31.887311713462061]
+        ]
+      },
+      "properties": {
+        "FID": 96,
+        "NAME": "WS_MA500_Conduits02_06",
+        "InNode": "WS28",
+        "OutNode": "WS52",
+        "InSurElev": 22.585999999999999,
+        "InElev": 19.936,
+        "InNodeElev": 19.936,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37391068181734, 31.884177563628803],
+          [117.37398108782475, 31.884181036169235]
+        ]
+      },
+      "properties": {
+        "FID": 97,
+        "NAME": "WS_MA600_Conduits07_02",
+        "InNode": "WS89",
+        "OutNode": "WS92",
+        "InSurElev": 23.539999999999999,
+        "InElev": 19.84,
+        "InNodeElev": 19.562000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37455526680276, 31.88732952909794],
+          [117.37388600153562, 31.887311713462061]
+        ]
+      },
+      "properties": {
+        "FID": 98,
+        "NAME": "WS_MA500_Conduits03_03",
+        "InNode": "WS49",
+        "OutNode": "WS52",
+        "InSurElev": 22.390000000000001,
+        "InElev": 19.18,
+        "InNodeElev": 19.18,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.3738529714264, 31.888379330736697],
+          [117.37386812879366, 31.887963345219649]
+        ]
+      },
+      "properties": {
+        "FID": 99,
+        "NAME": "WS_MA500_Conduits04_04",
+        "InNode": "WS35",
+        "OutNode": "WS38",
+        "InSurElev": 22.603999999999999,
+        "InElev": 19.734000000000002,
+        "InNodeElev": 19.734000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37399806868352, 31.887810265500644],
+          [117.37387141184388, 31.887776512950367]
+        ]
+      },
+      "properties": {
+        "FID": 100,
+        "NAME": "WS_BR400_Conduits17_01",
+        "InNode": "WS42",
+        "OutNode": "WS40",
+        "InSurElev": 22.43,
+        "InElev": 19.530000000000001,
+        "InNodeElev": 19.530000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37443650308875, 31.884191671931159],
+          [117.37481115772444, 31.88417874460934]
+        ]
+      },
+      "properties": {
+        "FID": 101,
+        "NAME": "WS_MA600_Conduits07_05",
+        "InNode": "WS94",
+        "OutNode": "WS95",
+        "InSurElev": 23.059000000000001,
+        "InElev": 17.699000000000002,
+        "InNodeElev": 17.699000000000002,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37455690244359, 31.887247981102863],
+          [117.37455526680276, 31.88732952909794]
+        ]
+      },
+      "properties": {
+        "FID": 102,
+        "NAME": "WS_BR500_Conduits11_02",
+        "InNode": "WS51",
+        "OutNode": "WS49",
+        "InSurElev": 23.0717,
+        "InElev": 19.721699999999998,
+        "InNodeElev": 19.721699999999998,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37522185081512, 31.884188670545107],
+          [117.37572492704946, 31.884200045002807]
+        ]
+      },
+      "properties": {
+        "FID": 103,
+        "NAME": "WS_MA600_Conduits07_07",
+        "InNode": "WS97",
+        "OutNode": "WS99",
+        "InSurElev": 22.149000000000001,
+        "InElev": 17.489000000000001,
+        "InNodeElev": 17.489000000000001,
+        "Level": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.37604589614956, 31.884261818263809],
+          [117.37604799877775, 31.88423043741625]
+        ]
+      },
+      "properties": {
+        "FID": 104,
+        "NAME": "WS_BR500_Conduits32_02",
+        "InNode": "WS103",
+        "OutNode": "WS101",
+        "InSurElev": 21.780999999999999,
+        "InElev": 17.571000000000002,
+        "InNodeElev": 17.571000000000002,
+        "Level": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,3456 @@
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37133106884893, 31.882510515869605, 27.303000000000338, null]
+      },
+      "properties": {
+        "FID": 0,
+        "OBJECTID": 1,
+        "SurElev": 27.303000000000001,
+        "Depth": 1.5,
+        "NAME": "WS397",
+        "BottomElev": 25.803000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37127967032274, 31.882510350037666, 27.288000000000238, null]
+      },
+      "properties": {
+        "FID": 1,
+        "OBJECTID": 2,
+        "SurElev": 27.288,
+        "Depth": 1.5,
+        "NAME": "WS399",
+        "BottomElev": 25.788,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37121863217038, 31.882507453015148, 27.289000000000215, null]
+      },
+      "properties": {
+        "FID": 2,
+        "OBJECTID": 3,
+        "SurElev": 27.289000000000001,
+        "Depth": 1.5,
+        "NAME": "WS404",
+        "BottomElev": 25.789000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37113784473384, 31.882508482608252, 27.428000000000338, null]
+      },
+      "properties": {
+        "FID": 3,
+        "OBJECTID": 4,
+        "SurElev": 27.428000000000001,
+        "Depth": 1.5,
+        "NAME": "WS409",
+        "BottomElev": 25.928000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": { "type": "Point", "coordinates": [117.37104987000643, 31.882512012825007, 27.2950000000003, null] },
+      "properties": {
+        "FID": 4,
+        "OBJECTID": 5,
+        "SurElev": 27.295000000000002,
+        "Depth": 1.51,
+        "NAME": "WS413",
+        "BottomElev": 25.785,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37100276400297, 31.882506874957215, 27.306000000000267, null]
+      },
+      "properties": {
+        "FID": 5,
+        "OBJECTID": 6,
+        "SurElev": 27.306000000000001,
+        "Depth": 1.55,
+        "NAME": "WS416",
+        "BottomElev": 25.756,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37016247875687, 31.881634676769561, 27.690000000000282, null]
+      },
+      "properties": {
+        "FID": 6,
+        "OBJECTID": 7,
+        "SurElev": 27.690000000000001,
+        "Depth": 1.5,
+        "NAME": "WS337",
+        "BottomElev": 26.190000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37020418965344, 31.881754877649666, 27.323000000000093, null]
+      },
+      "properties": {
+        "FID": 7,
+        "OBJECTID": 8,
+        "SurElev": 27.323,
+        "Depth": 1.4099999999999999,
+        "NAME": "WS282",
+        "BottomElev": 25.913,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": { "type": "Point", "coordinates": [117.37026249482291, 31.881753616347986, 27.1700000000003, null] },
+      "properties": {
+        "FID": 8,
+        "OBJECTID": 9,
+        "SurElev": 27.170000000000002,
+        "Depth": 1.1499999999999999,
+        "NAME": "WS284",
+        "BottomElev": 26.02,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": { "type": "Point", "coordinates": [117.37041081078947, 31.881758712300257, 27.12700000000018, null] },
+      "properties": {
+        "FID": 9,
+        "OBJECTID": 10,
+        "SurElev": 27.126999999999999,
+        "Depth": 1.1499999999999999,
+        "NAME": "WS287",
+        "BottomElev": 25.977,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37054396260997, 31.881761859712416, 27.150000000000091, null]
+      },
+      "properties": {
+        "FID": 10,
+        "OBJECTID": 11,
+        "SurElev": 27.149999999999999,
+        "Depth": 1.22,
+        "NAME": "WS290",
+        "BottomElev": 25.93,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37068961813198, 31.881767729845766, 27.188000000000102, null]
+      },
+      "properties": {
+        "FID": 11,
+        "OBJECTID": 12,
+        "SurElev": 27.187999999999999,
+        "Depth": 1.3600000000000001,
+        "NAME": "WS292",
+        "BottomElev": 25.827999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37074615658028, 31.881763452700376, 27.194000000000187, null]
+      },
+      "properties": {
+        "FID": 12,
+        "OBJECTID": 13,
+        "SurElev": 27.193999999999999,
+        "Depth": 1.4299999999999999,
+        "NAME": "WS295",
+        "BottomElev": 25.763999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": { "type": "Point", "coordinates": [117.3708294250376, 31.881764679500474, 27.381000000000313, null] },
+      "properties": {
+        "FID": 13,
+        "OBJECTID": 14,
+        "SurElev": 27.381,
+        "Depth": 1.45,
+        "NAME": "WS296",
+        "BottomElev": 25.931000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37095581163079, 31.881764879383368, 27.365999999999985, null]
+      },
+      "properties": {
+        "FID": 14,
+        "OBJECTID": 15,
+        "SurElev": 27.366,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS339",
+        "BottomElev": 25.765999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37103000027757, 31.881765898061026, 27.230999999999995, null]
+      },
+      "properties": {
+        "FID": 15,
+        "OBJECTID": 16,
+        "SurElev": 27.231000000000002,
+        "Depth": 1.6200000000000001,
+        "NAME": "WS342",
+        "BottomElev": 25.611000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37112786314029, 31.881769355357935, 27.191000000000031, null]
+      },
+      "properties": {
+        "FID": 16,
+        "OBJECTID": 17,
+        "SurElev": 27.190999999999999,
+        "Depth": 1.46,
+        "NAME": "WS345",
+        "BottomElev": 25.731000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": { "type": "Point", "coordinates": [117.3712228807247, 31.881769645993376, 27.310999999999922, null] },
+      "properties": {
+        "FID": 17,
+        "OBJECTID": 18,
+        "SurElev": 27.311,
+        "Depth": 1.6299999999999999,
+        "NAME": "WS349",
+        "BottomElev": 25.681000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37128202634752, 31.881756622331892, 27.260000000000446, null]
+      },
+      "properties": {
+        "FID": 18,
+        "OBJECTID": 19,
+        "SurElev": 27.260000000000002,
+        "Depth": 1.6599999999999999,
+        "NAME": "WS352",
+        "BottomElev": 25.600000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": { "type": "Point", "coordinates": [117.37132462094327, 31.881751645869251, 26.625, null] },
+      "properties": {
+        "FID": 19,
+        "OBJECTID": 20,
+        "SurElev": 26.625,
+        "Depth": 1.75,
+        "NAME": "WS355",
+        "BottomElev": 24.875,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": { "type": "Point", "coordinates": [117.37137282917811, 31.88174958404695, 27.347999999999956, null] },
+      "properties": {
+        "FID": 20,
+        "OBJECTID": 21,
+        "SurElev": 27.347999999999999,
+        "Depth": 1.73,
+        "NAME": "WS357",
+        "BottomElev": 25.617999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": { "type": "Point", "coordinates": [117.3702302367314, 31.881531427502026, 27.099999999999909, null] },
+      "properties": {
+        "FID": 21,
+        "OBJECTID": 22,
+        "SurElev": 27.100000000000001,
+        "Depth": 1.1499999999999999,
+        "NAME": "WS297",
+        "BottomElev": 25.949999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": { "type": "Point", "coordinates": [117.3703247852896, 31.881535959056148, 27.096000000000004, null] },
+      "properties": {
+        "FID": 22,
+        "OBJECTID": 23,
+        "SurElev": 27.096,
+        "Depth": 1.2,
+        "NAME": "WS303",
+        "BottomElev": 25.896000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": { "type": "Point", "coordinates": [117.37040900885765, 31.88153556012519, 27.188000000000102, null] },
+      "properties": {
+        "FID": 23,
+        "OBJECTID": 24,
+        "SurElev": 27.187999999999999,
+        "Depth": 1.2,
+        "NAME": "WS306",
+        "BottomElev": 25.988,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37042421231294, 31.881534280658066, 27.178000000000338, null]
+      },
+      "properties": {
+        "FID": 24,
+        "OBJECTID": 25,
+        "SurElev": 27.178000000000001,
+        "Depth": 1.2,
+        "NAME": "WS310",
+        "BottomElev": 25.978000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37052565403665, 31.881536816476164, 27.178000000000338, null]
+      },
+      "properties": {
+        "FID": 25,
+        "OBJECTID": 26,
+        "SurElev": 27.178000000000001,
+        "Depth": 1.21,
+        "NAME": "WS315",
+        "BottomElev": 25.968,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37055420442654, 31.881537491209727, 27.182000000000016, null]
+      },
+      "properties": {
+        "FID": 26,
+        "OBJECTID": 27,
+        "SurElev": 27.181999999999999,
+        "Depth": 1.21,
+        "NAME": "WS319",
+        "BottomElev": 25.972000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37057386110361, 31.881537064024766, 27.172000000000253, null]
+      },
+      "properties": {
+        "FID": 27,
+        "OBJECTID": 28,
+        "SurElev": 27.172000000000001,
+        "Depth": 1.23,
+        "NAME": "WS320",
+        "BottomElev": 25.942,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37068520031896, 31.881538128182161, 27.153999999999996, null]
+      },
+      "properties": {
+        "FID": 28,
+        "OBJECTID": 29,
+        "SurElev": 27.154,
+        "Depth": 1.24,
+        "NAME": "WS321",
+        "BottomElev": 25.914000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37070841415496, 31.881539187780984, 27.159000000000106, null]
+      },
+      "properties": {
+        "FID": 29,
+        "OBJECTID": 30,
+        "SurElev": 27.158999999999999,
+        "Depth": 1.25,
+        "NAME": "WS323",
+        "BottomElev": 25.908999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37075265687672, 31.881539202979724, 27.152000000000044, null]
+      },
+      "properties": {
+        "FID": 30,
+        "OBJECTID": 31,
+        "SurElev": 27.152000000000001,
+        "Depth": 1.26,
+        "NAME": "WS324",
+        "BottomElev": 25.891999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37082680789771, 31.881541502742881, 27.133000000000266, null]
+      },
+      "properties": {
+        "FID": 31,
+        "OBJECTID": 32,
+        "SurElev": 27.132999999999999,
+        "Depth": 1.28,
+        "NAME": "WS325",
+        "BottomElev": 25.853000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37105517474478, 31.881544119211821, 27.151000000000067, null]
+      },
+      "properties": {
+        "FID": 32,
+        "OBJECTID": 33,
+        "SurElev": 27.151,
+        "Depth": 1.2,
+        "NAME": "WS326",
+        "BottomElev": 25.951000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": { "type": "Point", "coordinates": [117.3711221566093, 31.881545375740568, 27.165000000000191, null] },
+      "properties": {
+        "FID": 33,
+        "OBJECTID": 34,
+        "SurElev": 27.164999999999999,
+        "Depth": 1.24,
+        "NAME": "WS330",
+        "BottomElev": 25.925000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37120522183764, 31.881546161441889, 27.162000000000262, null]
+      },
+      "properties": {
+        "FID": 34,
+        "OBJECTID": 35,
+        "SurElev": 27.161999999999999,
+        "Depth": 1.3,
+        "NAME": "WS333",
+        "BottomElev": 25.861999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37154110206865, 31.881547145890291, 27.142000000000053, null]
+      },
+      "properties": {
+        "FID": 35,
+        "OBJECTID": 36,
+        "SurElev": 27.141999999999999,
+        "Depth": 1.52,
+        "NAME": "WS335",
+        "BottomElev": 25.622,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": { "type": "Point", "coordinates": [117.371540170392, 31.88175747324383, 27.308999999999969, null] },
+      "properties": {
+        "FID": 36,
+        "OBJECTID": 37,
+        "SurElev": 27.309000000000001,
+        "Depth": 1.7,
+        "NAME": "WS363",
+        "BottomElev": 25.609000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37147334195858, 31.881752212642439, 27.385000000000218, null]
+      },
+      "properties": {
+        "FID": 37,
+        "OBJECTID": 38,
+        "SurElev": 27.385000000000002,
+        "Depth": 1.9299999999999999,
+        "NAME": "WS360",
+        "BottomElev": 25.454999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37116051591755, 31.881960230907548, 27.508000000000266, null]
+      },
+      "properties": {
+        "FID": 38,
+        "OBJECTID": 39,
+        "SurElev": 27.507999999999999,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS380",
+        "BottomElev": 26.108000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37118352026569, 31.881961786970205, 27.480999999999995, null]
+      },
+      "properties": {
+        "FID": 39,
+        "OBJECTID": 40,
+        "SurElev": 27.481000000000002,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS376",
+        "BottomElev": 26.081,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37125140545299, 31.881964303483883, 27.583000000000084, null]
+      },
+      "properties": {
+        "FID": 40,
+        "OBJECTID": 41,
+        "SurElev": 27.582999999999998,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS371",
+        "BottomElev": 25.983000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37131043867052, 31.881960054580148, 27.480999999999995, null]
+      },
+      "properties": {
+        "FID": 41,
+        "OBJECTID": 42,
+        "SurElev": 27.481000000000002,
+        "Depth": 1.5600000000000001,
+        "NAME": "WS366",
+        "BottomElev": 25.920999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37140186267843, 31.881965496064545, 27.161000000000286, null]
+      },
+      "properties": {
+        "FID": 42,
+        "OBJECTID": 43,
+        "SurElev": 27.161000000000001,
+        "Depth": 1.54,
+        "NAME": "WS365",
+        "BottomElev": 25.620999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37111913208966, 31.882219907013514, 27.414000000000215, null]
+      },
+      "properties": {
+        "FID": 43,
+        "OBJECTID": 44,
+        "SurElev": 27.414000000000001,
+        "Depth": 1.45,
+        "NAME": "WS394",
+        "BottomElev": 25.963999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": { "type": "Point", "coordinates": [117.3711666326036, 31.882223078093247, 27.581000000000131, null] },
+      "properties": {
+        "FID": 44,
+        "OBJECTID": 45,
+        "SurElev": 27.581,
+        "Depth": 1.5,
+        "NAME": "WS391",
+        "BottomElev": 26.081,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": { "type": "Point", "coordinates": [117.3713329416581, 31.882218534102737, 27.245000000000118, null] },
+      "properties": {
+        "FID": 45,
+        "OBJECTID": 46,
+        "SurElev": 27.245000000000001,
+        "Depth": 1.21,
+        "NAME": "WS388",
+        "BottomElev": 26.035,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37138750521848, 31.882217346512178, 27.188000000000102, null]
+      },
+      "properties": {
+        "FID": 46,
+        "OBJECTID": 47,
+        "SurElev": 27.187999999999999,
+        "Depth": 1.1399999999999999,
+        "NAME": "WS386",
+        "BottomElev": 26.047999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37147496175615, 31.882213844548293, 26.996000000000322, null]
+      },
+      "properties": {
+        "FID": 47,
+        "OBJECTID": 48,
+        "SurElev": 26.995999999999999,
+        "Depth": 1.55,
+        "NAME": "WS385",
+        "BottomElev": 25.446000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": { "type": "Point", "coordinates": [117.37147703091011, 31.88198938263514, 27.051999999999907, null] },
+      "properties": {
+        "FID": 48,
+        "OBJECTID": 49,
+        "SurElev": 27.052,
+        "Depth": 2,
+        "NAME": "WS364",
+        "BottomElev": 25.052,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37154659926063, 31.882010886192052, 27.125000000000227, null]
+      },
+      "properties": {
+        "FID": 49,
+        "OBJECTID": 50,
+        "SurElev": 27.125,
+        "Depth": 2.02,
+        "NAME": "WS381",
+        "BottomElev": 25.105,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": { "type": "Point", "coordinates": [117.3715445101311, 31.882056606257613, 27.08600000000024, null] },
+      "properties": {
+        "FID": 50,
+        "OBJECTID": 52,
+        "SurElev": 27.085999999999999,
+        "Depth": 2.5,
+        "NAME": "WS382",
+        "BottomElev": 24.585999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": { "type": "Point", "coordinates": [117.3715422012687, 31.882086959443349, 27.090999999999894, null] },
+      "properties": {
+        "FID": 51,
+        "OBJECTID": 53,
+        "SurElev": 27.091000000000001,
+        "Depth": 2.5,
+        "NAME": "WS383",
+        "BottomElev": 24.591000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37154864337047, 31.882209471817095, 27.048999999999978, null]
+      },
+      "properties": {
+        "FID": 52,
+        "OBJECTID": 55,
+        "SurElev": 27.048999999999999,
+        "Depth": 2.6000000000000001,
+        "NAME": "WS384",
+        "BottomElev": 24.449000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36986561928089, 31.883048597620796, 27.034000000000106, null]
+      },
+      "properties": {
+        "FID": 53,
+        "OBJECTID": 56,
+        "SurElev": 27.033999999999999,
+        "Depth": 1.1799999999999999,
+        "NAME": "WS158",
+        "BottomElev": 25.853999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36993395119509, 31.883048904098924, 27.029000000000224, null]
+      },
+      "properties": {
+        "FID": 54,
+        "OBJECTID": 57,
+        "SurElev": 27.029,
+        "Depth": 1.5529999999999999,
+        "NAME": "WS160",
+        "BottomElev": 25.475999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36995897716351, 31.883051013738335, 27.006000000000313, null]
+      },
+      "properties": {
+        "FID": 55,
+        "OBJECTID": 58,
+        "SurElev": 27.006,
+        "Depth": 1.53,
+        "NAME": "WS162",
+        "BottomElev": 25.475999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": { "type": "Point", "coordinates": [117.3700097941155, 31.88305101886753, 26.985000000000127, null] },
+      "properties": {
+        "FID": 56,
+        "OBJECTID": 59,
+        "SurElev": 26.984999999999999,
+        "Depth": 1.5,
+        "NAME": "WS164",
+        "BottomElev": 25.484999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37005386094506, 31.883049294350975, 26.978000000000065, null]
+      },
+      "properties": {
+        "FID": 57,
+        "OBJECTID": 60,
+        "SurElev": 26.978000000000002,
+        "Depth": 1.45,
+        "NAME": "WS166",
+        "BottomElev": 25.527999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": { "type": "Point", "coordinates": [117.3701549782744, 31.883052084599704, 27.202000000000226, null] },
+      "properties": {
+        "FID": 58,
+        "OBJECTID": 61,
+        "SurElev": 27.202000000000002,
+        "Depth": 1.4099999999999999,
+        "NAME": "WS168",
+        "BottomElev": 25.792000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37024822871454, 31.883051506465705, 27.036000000000286, null]
+      },
+      "properties": {
+        "FID": 59,
+        "OBJECTID": 62,
+        "SurElev": 27.036000000000001,
+        "Depth": 1.3600000000000001,
+        "NAME": "WS170",
+        "BottomElev": 25.675999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37030057843747, 31.883051516372038, 26.907000000000153, null]
+      },
+      "properties": {
+        "FID": 60,
+        "OBJECTID": 63,
+        "SurElev": 26.907,
+        "Depth": 1.3400000000000001,
+        "NAME": "WS172",
+        "BottomElev": 25.567,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": { "type": "Point", "coordinates": [117.37035314054728, 31.883051886171284, 26.94600000000014, null] },
+      "properties": {
+        "FID": 61,
+        "OBJECTID": 64,
+        "SurElev": 26.946000000000002,
+        "Depth": 1.3500000000000001,
+        "NAME": "WS174",
+        "BottomElev": 25.596,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37077929187403, 31.882246645630516, 26.932000000000016, null]
+      },
+      "properties": {
+        "FID": 62,
+        "OBJECTID": 65,
+        "SurElev": 26.931999999999999,
+        "Depth": 0.85999999999999999,
+        "NAME": "WS249",
+        "BottomElev": 26.071999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37071177732493, 31.882247004895081, 27.306000000000267, null]
+      },
+      "properties": {
+        "FID": 63,
+        "OBJECTID": 66,
+        "SurElev": 27.306000000000001,
+        "Depth": 1.3300000000000001,
+        "NAME": "WS247",
+        "BottomElev": 25.975999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": { "type": "Point", "coordinates": [117.3706111743206, 31.882245494992151, 27.328000000000202, null] },
+      "properties": {
+        "FID": 64,
+        "OBJECTID": 67,
+        "SurElev": 27.327999999999999,
+        "Depth": 1.3799999999999999,
+        "NAME": "WS245",
+        "BottomElev": 25.948,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37055350790614, 31.882245410437381, 27.306000000000267, null]
+      },
+      "properties": {
+        "FID": 65,
+        "OBJECTID": 68,
+        "SurElev": 27.306000000000001,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS243",
+        "BottomElev": 25.905999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37049217407268, 31.882245147195437, 27.294000000000324, null]
+      },
+      "properties": {
+        "FID": 66,
+        "OBJECTID": 69,
+        "SurElev": 27.294,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS240",
+        "BottomElev": 25.893999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": { "type": "Point", "coordinates": [117.37047221681966, 31.88224449309423, 27.283000000000129, null] },
+      "properties": {
+        "FID": 67,
+        "OBJECTID": 70,
+        "SurElev": 27.283000000000001,
+        "Depth": 1.4299999999999999,
+        "NAME": "WS237",
+        "BottomElev": 25.853000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37039048209445, 31.882243621576631, 27.250000000000227, null]
+      },
+      "properties": {
+        "FID": 68,
+        "OBJECTID": 71,
+        "SurElev": 27.25,
+        "Depth": 1.45,
+        "NAME": "WS234",
+        "BottomElev": 25.800000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37035844326155, 31.882242732393436, 27.248000000000275, null]
+      },
+      "properties": {
+        "FID": 69,
+        "OBJECTID": 72,
+        "SurElev": 27.248000000000001,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS232",
+        "BottomElev": 25.847999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37028671720637, 31.882241876787198, 27.228000000000065, null]
+      },
+      "properties": {
+        "FID": 70,
+        "OBJECTID": 73,
+        "SurElev": 27.228000000000002,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS229",
+        "BottomElev": 25.827999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37071806027616, 31.882018553825411, 27.442999999999984, null]
+      },
+      "properties": {
+        "FID": 71,
+        "OBJECTID": 74,
+        "SurElev": 27.443000000000001,
+        "Depth": 1.45,
+        "NAME": "WS277",
+        "BottomElev": 25.992999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": { "type": "Point", "coordinates": [117.37070002125233, 31.882016531845963, 27.37700000000018, null] },
+      "properties": {
+        "FID": 72,
+        "OBJECTID": 75,
+        "SurElev": 27.376999999999999,
+        "Depth": 1.5,
+        "NAME": "WS274",
+        "BottomElev": 25.876999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": { "type": "Point", "coordinates": [117.37063708813841, 31.88201556107693, 27.311999999999898, null] },
+      "properties": {
+        "FID": 73,
+        "OBJECTID": 76,
+        "SurElev": 27.312000000000001,
+        "Depth": 1.55,
+        "NAME": "WS271",
+        "BottomElev": 25.762,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37055135758089, 31.882017182109877, 27.405999999999949, null]
+      },
+      "properties": {
+        "FID": 74,
+        "OBJECTID": 77,
+        "SurElev": 27.405999999999999,
+        "Depth": 1.54,
+        "NAME": "WS268",
+        "BottomElev": 25.866,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37048020764495, 31.882014845920875, 27.303000000000338, null]
+      },
+      "properties": {
+        "FID": 75,
+        "OBJECTID": 78,
+        "SurElev": 27.303000000000001,
+        "Depth": 1.45,
+        "NAME": "WS266",
+        "BottomElev": 25.853000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37040783159742, 31.882015300654135, 27.325000000000045, null]
+      },
+      "properties": {
+        "FID": 76,
+        "OBJECTID": 79,
+        "SurElev": 27.324999999999999,
+        "Depth": 1.5,
+        "NAME": "WS263",
+        "BottomElev": 25.824999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37033736915279, 31.882013242001786, 27.261999999999944, null]
+      },
+      "properties": {
+        "FID": 77,
+        "OBJECTID": 80,
+        "SurElev": 27.262,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS258",
+        "BottomElev": 25.861999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37027769296816, 31.882012559351288, 27.253000000000156, null]
+      },
+      "properties": {
+        "FID": 78,
+        "OBJECTID": 81,
+        "SurElev": 27.253,
+        "Depth": 1.46,
+        "NAME": "WS255",
+        "BottomElev": 25.792999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37019937572259, 31.882015132270183, 27.311999999999898, null]
+      },
+      "properties": {
+        "FID": 79,
+        "OBJECTID": 82,
+        "SurElev": 27.312000000000001,
+        "Depth": 1.5,
+        "NAME": "WS254",
+        "BottomElev": 25.812000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": { "type": "Point", "coordinates": [117.3701708979237, 31.882016676039399, 27.074000000000069, null] },
+      "properties": {
+        "FID": 80,
+        "OBJECTID": 83,
+        "SurElev": 27.074000000000002,
+        "Depth": 1.3500000000000001,
+        "NAME": "WS253",
+        "BottomElev": 25.724,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37016621811892, 31.882241939269971, 27.164000000000215, null]
+      },
+      "properties": {
+        "FID": 81,
+        "OBJECTID": 84,
+        "SurElev": 27.164000000000001,
+        "Depth": 1.4199999999999999,
+        "NAME": "WS224",
+        "BottomElev": 25.744,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37019357659358, 31.882240678380544, 27.184999999999945, null]
+      },
+      "properties": {
+        "FID": 82,
+        "OBJECTID": 85,
+        "SurElev": 27.184999999999999,
+        "Depth": 1.5,
+        "NAME": "WS225",
+        "BottomElev": 25.684999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37058913713652, 31.882744432604454, 27.083000000000311, null]
+      },
+      "properties": {
+        "FID": 83,
+        "OBJECTID": 86,
+        "SurElev": 27.082999999999998,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS200",
+        "BottomElev": 25.683,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37052387195777, 31.882746958320872, 27.276000000000067, null]
+      },
+      "properties": {
+        "FID": 84,
+        "OBJECTID": 87,
+        "SurElev": 27.276,
+        "Depth": 1.4299999999999999,
+        "NAME": "WS198",
+        "BottomElev": 25.846,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37037527284811, 31.882745497288003, 27.253999999999905, null]
+      },
+      "properties": {
+        "FID": 85,
+        "OBJECTID": 88,
+        "SurElev": 27.254000000000001,
+        "Depth": 1.54,
+        "NAME": "WS196",
+        "BottomElev": 25.713999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": { "type": "Point", "coordinates": [117.37029427460878, 31.88274129675186, 27.382000000000289, null] },
+      "properties": {
+        "FID": 86,
+        "OBJECTID": 89,
+        "SurElev": 27.382000000000001,
+        "Depth": 1.55,
+        "NAME": "WS194",
+        "BottomElev": 25.832000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37028008398597, 31.882742311798811, 27.447000000000116, null]
+      },
+      "properties": {
+        "FID": 87,
+        "OBJECTID": 90,
+        "SurElev": 27.446999999999999,
+        "Depth": 1.55,
+        "NAME": "WS192",
+        "BottomElev": 25.896999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": { "type": "Point", "coordinates": [117.3701974025204, 31.88273742145779, 27.207000000000335, null] },
+      "properties": {
+        "FID": 88,
+        "OBJECTID": 91,
+        "SurElev": 27.207000000000001,
+        "Depth": 1.4299999999999999,
+        "NAME": "WS190",
+        "BottomElev": 25.777000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37013981264406, 31.882740582943999, 27.152000000000044, null]
+      },
+      "properties": {
+        "FID": 89,
+        "OBJECTID": 92,
+        "SurElev": 27.152000000000001,
+        "Depth": 1.3400000000000001,
+        "NAME": "WS189",
+        "BottomElev": 25.812000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37010215881263, 31.882739069341611, 27.173000000000229, null]
+      },
+      "properties": {
+        "FID": 90,
+        "OBJECTID": 93,
+        "SurElev": 27.172999999999998,
+        "Depth": 1.45,
+        "NAME": "WS186",
+        "BottomElev": 25.722999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37001103884386, 31.882738369667628, 27.269999999999982, null]
+      },
+      "properties": {
+        "FID": 91,
+        "OBJECTID": 94,
+        "SurElev": 27.27,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS183",
+        "BottomElev": 25.670000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36995577315125, 31.882984567163444, 26.990000000000236, null]
+      },
+      "properties": {
+        "FID": 92,
+        "OBJECTID": 96,
+        "SurElev": 26.989999999999998,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS178",
+        "BottomElev": 25.390000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36991832649765, 31.882963411276233, 26.992000000000189, null]
+      },
+      "properties": {
+        "FID": 93,
+        "OBJECTID": 97,
+        "SurElev": 26.992000000000001,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS179",
+        "BottomElev": 25.391999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36991728891599, 31.882917988764557, 27.213999999999714, null]
+      },
+      "properties": {
+        "FID": 94,
+        "OBJECTID": 98,
+        "SurElev": 27.213999999999999,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS180",
+        "BottomElev": 25.614000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36991407185864, 31.882887976443726, 27.167000000000144, null]
+      },
+      "properties": {
+        "FID": 95,
+        "OBJECTID": 99,
+        "SurElev": 27.167000000000002,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS181",
+        "BottomElev": 25.567,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36994348315486, 31.882739179449672, 27.184999999999945, null]
+      },
+      "properties": {
+        "FID": 96,
+        "OBJECTID": 101,
+        "SurElev": 27.184999999999999,
+        "Depth": 1.5,
+        "NAME": "WS182",
+        "BottomElev": 25.684999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37037979199076, 31.883050726378354, 26.962999999999965, null]
+      },
+      "properties": {
+        "FID": 97,
+        "OBJECTID": 102,
+        "SurElev": 26.963000000000001,
+        "Depth": 1.3,
+        "NAME": "WS176",
+        "BottomElev": 25.663,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36999852062445, 31.882512570301429, 27.334000000000287, null]
+      },
+      "properties": {
+        "FID": 98,
+        "OBJECTID": 103,
+        "SurElev": 27.334,
+        "Depth": 1.55,
+        "NAME": "WS202",
+        "BottomElev": 25.783999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37018303797512, 31.882327518862233, 27.249000000000251, null]
+      },
+      "properties": {
+        "FID": 99,
+        "OBJECTID": 105,
+        "SurElev": 27.248999999999999,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS222",
+        "BottomElev": 25.649000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": { "type": "Point", "coordinates": [117.3701286126668, 31.882331681721656, 27.449000000000069, null] },
+      "properties": {
+        "FID": 100,
+        "OBJECTID": 106,
+        "SurElev": 27.449000000000002,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS281",
+        "BottomElev": 25.849,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37022715370254, 31.882242952417023, 27.183999999999969, null]
+      },
+      "properties": {
+        "FID": 101,
+        "OBJECTID": 108,
+        "SurElev": 27.184000000000001,
+        "Depth": 1.8,
+        "NAME": "WS228",
+        "BottomElev": 25.384,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": { "type": "Point", "coordinates": [117.3705341565784, 31.882514878721892, 27.344000000000278, null] },
+      "properties": {
+        "FID": 102,
+        "OBJECTID": 110,
+        "SurElev": 27.344000000000001,
+        "Depth": 1.3500000000000001,
+        "NAME": "WS220",
+        "BottomElev": 25.994,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37050487802556, 31.882514477470593, 27.294000000000324, null]
+      },
+      "properties": {
+        "FID": 103,
+        "OBJECTID": 111,
+        "SurElev": 27.294,
+        "Depth": 1.373,
+        "NAME": "WS218",
+        "BottomElev": 25.920999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37045180265372, 31.882512639023375, 27.331000000000131, null]
+      },
+      "properties": {
+        "FID": 104,
+        "OBJECTID": 112,
+        "SurElev": 27.331,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS216",
+        "BottomElev": 25.931000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37039312102293, 31.882514893389885, 27.284000000000106, null]
+      },
+      "properties": {
+        "FID": 105,
+        "OBJECTID": 113,
+        "SurElev": 27.283999999999999,
+        "Depth": 1.4199999999999999,
+        "NAME": "WS214",
+        "BottomElev": 25.864000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37034191975759, 31.882513887745151, 27.296000000000276, null]
+      },
+      "properties": {
+        "FID": 106,
+        "OBJECTID": 114,
+        "SurElev": 27.295999999999999,
+        "Depth": 1.4199999999999999,
+        "NAME": "WS212",
+        "BottomElev": 25.876000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": { "type": "Point", "coordinates": [117.37029064813269, 31.88251641826233, 27.32100000000014, null] },
+      "properties": {
+        "FID": 107,
+        "OBJECTID": 115,
+        "SurElev": 27.321000000000002,
+        "Depth": 1.45,
+        "NAME": "WS210",
+        "BottomElev": 25.870999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37020457240185, 31.882519112861555, 27.324000000000069, null]
+      },
+      "properties": {
+        "FID": 108,
+        "OBJECTID": 116,
+        "SurElev": 27.324000000000002,
+        "Depth": 1.45,
+        "NAME": "WS208",
+        "BottomElev": 25.873999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": { "type": "Point", "coordinates": [117.37019386965719, 31.882517502637864, 27.31899999999996, null] },
+      "properties": {
+        "FID": 109,
+        "OBJECTID": 117,
+        "SurElev": 27.318999999999999,
+        "Depth": 1.47,
+        "NAME": "WS206",
+        "BottomElev": 25.849,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37008976124469, 31.882514459669036, 27.378000000000156, null]
+      },
+      "properties": {
+        "FID": 110,
+        "OBJECTID": 118,
+        "SurElev": 27.378,
+        "Depth": 1.47,
+        "NAME": "WS204",
+        "BottomElev": 25.908000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": { "type": "Point", "coordinates": [117.37135197804608, 31.88330956472544, 26.800999999999931, null] },
+      "properties": {
+        "FID": 111,
+        "OBJECTID": 119,
+        "SurElev": 26.800999999999998,
+        "Depth": 1.5,
+        "NAME": "WS64",
+        "BottomElev": 25.300999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37143180467278, 31.883308619264273, 26.777000000000271, null]
+      },
+      "properties": {
+        "FID": 112,
+        "OBJECTID": 120,
+        "SurElev": 26.777000000000001,
+        "Depth": 1.5,
+        "NAME": "WS68",
+        "BottomElev": 25.277000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": { "type": "Point", "coordinates": [117.37148882759993, 31.883309101609118, 26.84699999999998, null] },
+      "properties": {
+        "FID": 113,
+        "OBJECTID": 121,
+        "SurElev": 26.847000000000001,
+        "Depth": 1.8300000000000001,
+        "NAME": "WS70",
+        "BottomElev": 25.016999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": { "type": "Point", "coordinates": [117.37147345801007, 31.88358248182589, 27.223999999999933, null] },
+      "properties": {
+        "FID": 114,
+        "OBJECTID": 123,
+        "SurElev": 27.224,
+        "Depth": 2.5,
+        "NAME": "WS71",
+        "BottomElev": 24.724,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": { "type": "Point", "coordinates": [117.37147460860848, 31.883624206182454, 27.27800000000002, null] },
+      "properties": {
+        "FID": 115,
+        "OBJECTID": 124,
+        "SurElev": 27.277999999999999,
+        "Depth": 2.5,
+        "NAME": "WS72",
+        "BottomElev": 24.777999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37147497067855, 31.883651250613049, 27.260000000000446, null]
+      },
+      "properties": {
+        "FID": 116,
+        "OBJECTID": 125,
+        "SurElev": 27.260000000000002,
+        "Depth": 2.5,
+        "NAME": "WS73",
+        "BottomElev": 24.760000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": { "type": "Point", "coordinates": [117.3714979969276, 31.883716015989673, 26.952000000000226, null] },
+      "properties": {
+        "FID": 117,
+        "OBJECTID": 127,
+        "SurElev": 26.952000000000002,
+        "Depth": 2.5699999999999998,
+        "NAME": "WS74",
+        "BottomElev": 24.382000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37144411427327, 31.883844972376558, 26.977000000000089, null]
+      },
+      "properties": {
+        "FID": 118,
+        "OBJECTID": 128,
+        "SurElev": 26.977,
+        "Depth": 3.0299999999999998,
+        "NAME": "WS75",
+        "BottomElev": 23.946999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37150705181631, 31.883820538628235, 26.882000000000517, null]
+      },
+      "properties": {
+        "FID": 119,
+        "OBJECTID": 129,
+        "SurElev": 26.882000000000001,
+        "Depth": 3,
+        "NAME": "WS1646",
+        "BottomElev": 23.882000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36966376762452, 31.883853137898374, 27.279999999999973, null]
+      },
+      "properties": {
+        "FID": 120,
+        "OBJECTID": 130,
+        "SurElev": 27.280000000000001,
+        "Depth": 1.5,
+        "NAME": "WS1",
+        "BottomElev": 25.780000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36988107205306, 31.883857998050956, 27.229000000000042, null]
+      },
+      "properties": {
+        "FID": 121,
+        "OBJECTID": 131,
+        "SurElev": 27.228999999999999,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS6",
+        "BottomElev": 25.629000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36995746861815, 31.883858208392233, 27.069000000000187, null]
+      },
+      "properties": {
+        "FID": 122,
+        "OBJECTID": 132,
+        "SurElev": 27.068999999999999,
+        "Depth": 1.5,
+        "NAME": "WS9",
+        "BottomElev": 25.568999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37017092957596, 31.883864044141781, 26.993000000000166, null]
+      },
+      "properties": {
+        "FID": 123,
+        "OBJECTID": 133,
+        "SurElev": 26.992999999999999,
+        "Depth": 1.5700000000000001,
+        "NAME": "WS13",
+        "BottomElev": 25.422999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37023626695346, 31.883865982398696, 26.909000000000333, null]
+      },
+      "properties": {
+        "FID": 124,
+        "OBJECTID": 134,
+        "SurElev": 26.908999999999999,
+        "Depth": 1.5,
+        "NAME": "WS18",
+        "BottomElev": 25.408999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37024764850699, 31.883614573437168, 26.726000000000113, null]
+      },
+      "properties": {
+        "FID": 125,
+        "OBJECTID": 135,
+        "SurElev": 26.725999999999999,
+        "Depth": 1.5,
+        "NAME": "WS85",
+        "BottomElev": 25.225999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": { "type": "Point", "coordinates": [117.37018118994619, 31.88361226910985, 26.702000000000226, null] },
+      "properties": {
+        "FID": 126,
+        "OBJECTID": 136,
+        "SurElev": 26.702000000000002,
+        "Depth": 1.6299999999999999,
+        "NAME": "WS86",
+        "BottomElev": 25.071999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37013271088384, 31.883612996474508, 26.703000000000202, null]
+      },
+      "properties": {
+        "FID": 127,
+        "OBJECTID": 137,
+        "SurElev": 26.702999999999999,
+        "Depth": 1.6799999999999999,
+        "NAME": "WS88",
+        "BottomElev": 25.023,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37007359902155, 31.883610922799061, 26.700000000000273, null]
+      },
+      "properties": {
+        "FID": 128,
+        "OBJECTID": 138,
+        "SurElev": 26.699999999999999,
+        "Depth": 1.7,
+        "NAME": "WS91",
+        "BottomElev": 25,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37001925855721, 31.883610034600668, 26.733000000000175, null]
+      },
+      "properties": {
+        "FID": 129,
+        "OBJECTID": 139,
+        "SurElev": 26.733000000000001,
+        "Depth": 1.8500000000000001,
+        "NAME": "WS94",
+        "BottomElev": 24.882999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37118622344191, 31.883073228600374, 26.857000000000198, null]
+      },
+      "properties": {
+        "FID": 130,
+        "OBJECTID": 140,
+        "SurElev": 26.856999999999999,
+        "Depth": 1.51,
+        "NAME": "WS475",
+        "BottomElev": 25.347000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37120825240832, 31.883073912867896, 26.859000000000151, null]
+      },
+      "properties": {
+        "FID": 131,
+        "OBJECTID": 141,
+        "SurElev": 26.859000000000002,
+        "Depth": 1.74,
+        "NAME": "WS477",
+        "BottomElev": 25.119,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": { "type": "Point", "coordinates": [117.37124626780343, 31.88307594799673, 27.076000000000249, null] },
+      "properties": {
+        "FID": 132,
+        "OBJECTID": 142,
+        "SurElev": 27.076000000000001,
+        "Depth": 1.8,
+        "NAME": "WS481",
+        "BottomElev": 25.276,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37132811794656, 31.883084339730388, 26.869999999999891, null]
+      },
+      "properties": {
+        "FID": 133,
+        "OBJECTID": 143,
+        "SurElev": 26.870000000000001,
+        "Depth": 1.6499999999999999,
+        "NAME": "WS484",
+        "BottomElev": 25.219999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134,
+      "geometry": { "type": "Point", "coordinates": [117.3714264621026, 31.883080868744329, 25.246000000000322, null] },
+      "properties": {
+        "FID": 134,
+        "OBJECTID": 144,
+        "SurElev": 25.245999999999999,
+        "Depth": 1.75,
+        "NAME": "WS488",
+        "BottomElev": 23.495999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37143450124491, 31.883085192020662, 27.018000000000029, null]
+      },
+      "properties": {
+        "FID": 135,
+        "OBJECTID": 145,
+        "SurElev": 27.018000000000001,
+        "Depth": 1.75,
+        "NAME": "WS490",
+        "BottomElev": 25.268000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37087674070371, 31.883301933741492, 26.839999999999918, null]
+      },
+      "properties": {
+        "FID": 136,
+        "OBJECTID": 146,
+        "SurElev": 26.84,
+        "Depth": 1.3,
+        "NAME": "WS56",
+        "BottomElev": 25.539999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37096625427884, 31.883305045621047, 26.837999999999965, null]
+      },
+      "properties": {
+        "FID": 137,
+        "OBJECTID": 147,
+        "SurElev": 26.838000000000001,
+        "Depth": 1.3,
+        "NAME": "WS57",
+        "BottomElev": 25.538,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37116170766215, 31.883309028863135, 26.812000000000126, null]
+      },
+      "properties": {
+        "FID": 138,
+        "OBJECTID": 148,
+        "SurElev": 26.812000000000001,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS58",
+        "BottomElev": 25.411999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37117703503645, 31.883309624816462, 26.803000000000111, null]
+      },
+      "properties": {
+        "FID": 139,
+        "OBJECTID": 149,
+        "SurElev": 26.803000000000001,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS60",
+        "BottomElev": 25.402999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37126339169043, 31.883310851666323, 26.816000000000031, null]
+      },
+      "properties": {
+        "FID": 140,
+        "OBJECTID": 150,
+        "SurElev": 26.815999999999999,
+        "Depth": 1.4099999999999999,
+        "NAME": "WS62",
+        "BottomElev": 25.405999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 141,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36996020219668, 31.883608772598564, 26.855000000000018, null]
+      },
+      "properties": {
+        "FID": 141,
+        "OBJECTID": 151,
+        "SurElev": 26.855,
+        "Depth": 1.9299999999999999,
+        "NAME": "WS98",
+        "BottomElev": 24.925000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36991154943146, 31.883608166136483, 26.952000000000226, null]
+      },
+      "properties": {
+        "FID": 142,
+        "OBJECTID": 152,
+        "SurElev": 26.952000000000002,
+        "Depth": 1.8799999999999999,
+        "NAME": "WS102",
+        "BottomElev": 25.071999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36984219487542, 31.883605986750041, 27.027000000000044, null]
+      },
+      "properties": {
+        "FID": 143,
+        "OBJECTID": 153,
+        "SurElev": 27.027000000000001,
+        "Depth": 1.9299999999999999,
+        "NAME": "WS105",
+        "BottomElev": 25.097000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36979702656667, 31.883604476755558, 27.018000000000029, null]
+      },
+      "properties": {
+        "FID": 144,
+        "OBJECTID": 154,
+        "SurElev": 27.018000000000001,
+        "Depth": 1.8799999999999999,
+        "NAME": "WS109",
+        "BottomElev": 25.138000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 145,
+      "geometry": { "type": "Point", "coordinates": [117.36978097908124, 31.88360368512544, 27.019999999999982, null] },
+      "properties": {
+        "FID": 145,
+        "OBJECTID": 155,
+        "SurElev": 27.02,
+        "Depth": 1.8,
+        "NAME": "WS110",
+        "BottomElev": 25.219999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 146,
+      "geometry": { "type": "Point", "coordinates": [117.36973544438366, 31.883603312267041, 27.0300000000002, null] },
+      "properties": {
+        "FID": 146,
+        "OBJECTID": 156,
+        "SurElev": 27.030000000000001,
+        "Depth": 1.74,
+        "NAME": "WS115",
+        "BottomElev": 25.289999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 147,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37069609704372, 31.883076678775915, 26.692000000000235, null]
+      },
+      "properties": {
+        "FID": 147,
+        "OBJECTID": 157,
+        "SurElev": 26.692,
+        "Depth": 1.1799999999999999,
+        "NAME": "WS451",
+        "BottomElev": 25.512,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 148,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37079109256348, 31.883079016849912, 26.876999999999953, null]
+      },
+      "properties": {
+        "FID": 148,
+        "OBJECTID": 158,
+        "SurElev": 26.876999999999999,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS453",
+        "BottomElev": 25.477,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37084784151399, 31.883079582296453, 26.954000000000178, null]
+      },
+      "properties": {
+        "FID": 149,
+        "OBJECTID": 159,
+        "SurElev": 26.954000000000001,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS455",
+        "BottomElev": 25.553999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 150,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37089615482058, 31.883079900965331, 25.451000000000249, null]
+      },
+      "properties": {
+        "FID": 150,
+        "OBJECTID": 160,
+        "SurElev": 25.451000000000001,
+        "Depth": 1.4199999999999999,
+        "NAME": "WS458",
+        "BottomElev": 24.030999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 151,
+      "geometry": { "type": "Point", "coordinates": [117.37097776597919, 31.88308130423243, 26.967000000000326, null] },
+      "properties": {
+        "FID": 151,
+        "OBJECTID": 161,
+        "SurElev": 26.966999999999999,
+        "Depth": 1.45,
+        "NAME": "WS461",
+        "BottomElev": 25.516999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 152,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37101518935089, 31.883080165163513, 26.949000000000296, null]
+      },
+      "properties": {
+        "FID": 152,
+        "OBJECTID": 162,
+        "SurElev": 26.949000000000002,
+        "Depth": 0.94499999999999995,
+        "NAME": "WS465",
+        "BottomElev": 25.436,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 153,
+      "geometry": { "type": "Point", "coordinates": [117.3710640391692, 31.883072385893989, 26.894000000000005, null] },
+      "properties": {
+        "FID": 153,
+        "OBJECTID": 163,
+        "SurElev": 26.893999999999998,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS468",
+        "BottomElev": 25.294,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37112927405487, 31.883072709575877, 26.791999999999916, null]
+      },
+      "properties": {
+        "FID": 154,
+        "OBJECTID": 164,
+        "SurElev": 26.792000000000002,
+        "Depth": 1.53,
+        "NAME": "WS472",
+        "BottomElev": 25.262,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37112611345616, 31.882729960742129, 27.229000000000042, null]
+      },
+      "properties": {
+        "FID": 155,
+        "OBJECTID": 165,
+        "SurElev": 27.228999999999999,
+        "Depth": 1.5800000000000001,
+        "NAME": "WS433",
+        "BottomElev": 25.649000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37105411514365, 31.882729837339653, 27.246000000000095, null]
+      },
+      "properties": {
+        "FID": 156,
+        "OBJECTID": 166,
+        "SurElev": 27.245999999999999,
+        "Depth": 1.5700000000000001,
+        "NAME": "WS431",
+        "BottomElev": 25.675999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37092283961302, 31.882728416654711, 27.342000000000326, null]
+      },
+      "properties": {
+        "FID": 157,
+        "OBJECTID": 167,
+        "SurElev": 27.341999999999999,
+        "Depth": 1.53,
+        "NAME": "WS429",
+        "BottomElev": 25.812000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37085408992949, 31.882728758133279, 26.587999999999965, null]
+      },
+      "properties": {
+        "FID": 158,
+        "OBJECTID": 168,
+        "SurElev": 26.588000000000001,
+        "Depth": 1.1000000000000001,
+        "NAME": "WS427",
+        "BottomElev": 25.488,
+        "备注": "混接"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37154554851188, 31.882441602591882, 27.070000000000164, null]
+      },
+      "properties": {
+        "FID": 159,
+        "OBJECTID": 170,
+        "SurElev": 27.07,
+        "Depth": 2.6499999999999999,
+        "NAME": "WS396",
+        "BottomElev": 24.420000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37153688028621, 31.882512448752252, 27.093000000000302, null]
+      },
+      "properties": {
+        "FID": 160,
+        "OBJECTID": 171,
+        "SurElev": 27.093,
+        "Depth": 2.6499999999999999,
+        "NAME": "WS444",
+        "BottomElev": 24.443000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37082664721535, 31.883907278499283, 26.749999999999773, null]
+      },
+      "properties": {
+        "FID": 161,
+        "OBJECTID": 172,
+        "SurElev": 26.75,
+        "Depth": 2.52,
+        "NAME": "WS641",
+        "BottomElev": 24.23,
+        "备注": "混接"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37087958880643, 31.883909820628524, 26.697000000000344, null]
+      },
+      "properties": {
+        "FID": 162,
+        "OBJECTID": 173,
+        "SurElev": 26.696999999999999,
+        "Depth": 2.5,
+        "NAME": "WS642",
+        "BottomElev": 24.196999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37091052223488, 31.883911606254099, 26.688000000000102, null]
+      },
+      "properties": {
+        "FID": 163,
+        "OBJECTID": 174,
+        "SurElev": 26.687999999999999,
+        "Depth": 2.5,
+        "NAME": "WS643",
+        "BottomElev": 24.187999999999999,
+        "备注": "混接"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37098003967989, 31.883930702666358, 24.357000000000426, null]
+      },
+      "properties": {
+        "FID": 164,
+        "OBJECTID": 175,
+        "SurElev": 24.356999999999999,
+        "Depth": 2.5,
+        "NAME": "WS645",
+        "BottomElev": 21.856999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165,
+      "geometry": { "type": "Point", "coordinates": [117.37094105732497, 31.883959187895798, 23.96100000000024, null] },
+      "properties": {
+        "FID": 165,
+        "OBJECTID": 176,
+        "SurElev": 23.960999999999999,
+        "Depth": 2.5,
+        "NAME": "WS646",
+        "BottomElev": 21.460999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37058389920355, 31.883450353655814, 27.066000000000031, null]
+      },
+      "properties": {
+        "FID": 166,
+        "OBJECTID": 180,
+        "SurElev": 27.065999999999999,
+        "Depth": 1,
+        "NAME": "WS446",
+        "BottomElev": 26.065999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37058355149701, 31.883329194062913, 26.947000000000116, null]
+      },
+      "properties": {
+        "FID": 167,
+        "OBJECTID": 181,
+        "SurElev": 26.946999999999999,
+        "Depth": 0.90000000000000002,
+        "NAME": "WS448",
+        "BottomElev": 26.047000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37058019884671, 31.883281163755722, 25.858999999999924, null]
+      },
+      "properties": {
+        "FID": 168,
+        "OBJECTID": 182,
+        "SurElev": 25.859000000000002,
+        "Depth": 0.90000000000000002,
+        "NAME": "WS496",
+        "BottomElev": 24.959,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 169,
+      "geometry": { "type": "Point", "coordinates": [117.37054093381711, 31.88327848256025, 26.606000000000222, null] },
+      "properties": {
+        "FID": 169,
+        "OBJECTID": 183,
+        "SurElev": 26.606000000000002,
+        "Depth": 0.90000000000000002,
+        "NAME": "WS497",
+        "BottomElev": 25.706,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 170,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37037600117338, 31.883548158696666, 26.680000000000064, null]
+      },
+      "properties": {
+        "FID": 170,
+        "OBJECTID": 184,
+        "SurElev": 26.68,
+        "Depth": 1.1599999999999999,
+        "NAME": "WS84",
+        "BottomElev": 25.52,
+        "备注": "混接"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36966118905167, 31.883604538248242, 27.263999999999896, null]
+      },
+      "properties": {
+        "FID": 171,
+        "OBJECTID": 185,
+        "SurElev": 27.263999999999999,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS118",
+        "BottomElev": 25.664000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172,
+      "geometry": { "type": "Point", "coordinates": [117.37043116542324, 31.88325843920688, 25.965000000000146, null] },
+      "properties": {
+        "FID": 172,
+        "OBJECTID": 186,
+        "SurElev": 25.965,
+        "Depth": 1.1399999999999999,
+        "NAME": "WS121",
+        "BottomElev": 24.824999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37037937881291, 31.883275048017953, 25.999000000000024, null]
+      },
+      "properties": {
+        "FID": 173,
+        "OBJECTID": 187,
+        "SurElev": 25.998999999999999,
+        "Depth": 0.93000000000000005,
+        "NAME": "WS125",
+        "BottomElev": 25.068999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174,
+      "geometry": { "type": "Point", "coordinates": [117.3703445342661, 31.883275654825702, 26.883000000000038, null] },
+      "properties": {
+        "FID": 174,
+        "OBJECTID": 188,
+        "SurElev": 26.882999999999999,
+        "Depth": 0.93999999999999995,
+        "NAME": "WS129",
+        "BottomElev": 25.943000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37026938106335, 31.883274259315282, 26.855000000000018, null]
+      },
+      "properties": {
+        "FID": 175,
+        "OBJECTID": 189,
+        "SurElev": 26.855,
+        "Depth": 0.94999999999999996,
+        "NAME": "WS131",
+        "BottomElev": 25.905000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37025366881542, 31.883262112450367, 27.013999999999896, null]
+      },
+      "properties": {
+        "FID": 176,
+        "OBJECTID": 190,
+        "SurElev": 27.013999999999999,
+        "Depth": 0.95999999999999996,
+        "NAME": "WS130",
+        "BottomElev": 26.053999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 177,
+      "geometry": { "type": "Point", "coordinates": [117.37022422591164, 31.883265516752829, 26.98700000000008, null] },
+      "properties": {
+        "FID": 177,
+        "OBJECTID": 191,
+        "SurElev": 26.986999999999998,
+        "Depth": 0.96999999999999997,
+        "NAME": "WS133",
+        "BottomElev": 26.016999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37022025213568, 31.883276169833024, 26.963999999999942, null]
+      },
+      "properties": {
+        "FID": 178,
+        "OBJECTID": 192,
+        "SurElev": 26.963999999999999,
+        "Depth": 1.03,
+        "NAME": "WS136",
+        "BottomElev": 25.934000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37150615491979, 31.883091476101342, 26.848999999999933, null]
+      },
+      "properties": {
+        "FID": 179,
+        "OBJECTID": 193,
+        "SurElev": 26.849,
+        "Depth": 1.75,
+        "NAME": "WS499",
+        "BottomElev": 25.099,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 180,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37150073628233, 31.882747417248787, 26.980000000000018, null]
+      },
+      "properties": {
+        "FID": 180,
+        "OBJECTID": 194,
+        "SurElev": 26.98,
+        "Depth": 2.2000000000000002,
+        "NAME": "WS445",
+        "BottomElev": 24.780000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 181,
+      "geometry": { "type": "Point", "coordinates": [117.3714150872048, 31.882737837881564, 27.413000000000238, null] },
+      "properties": {
+        "FID": 181,
+        "OBJECTID": 195,
+        "SurElev": 27.413,
+        "Depth": 2.1800000000000002,
+        "NAME": "WS441",
+        "BottomElev": 25.233000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 182,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37122754735564, 31.882730215024715, 27.205000000000155, null]
+      },
+      "properties": {
+        "FID": 182,
+        "OBJECTID": 196,
+        "SurElev": 27.204999999999998,
+        "Depth": 1.6200000000000001,
+        "NAME": "WS438",
+        "BottomElev": 25.585000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37113997309625, 31.882730867025458, 27.228000000000065, null]
+      },
+      "properties": {
+        "FID": 183,
+        "OBJECTID": 197,
+        "SurElev": 27.228000000000002,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS435",
+        "BottomElev": 25.628,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 184,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37012224809952, 31.883274904078014, 27.009000000000015, null]
+      },
+      "properties": {
+        "FID": 184,
+        "OBJECTID": 198,
+        "SurElev": 27.009,
+        "Depth": 1.2,
+        "NAME": "WS137",
+        "BottomElev": 25.809000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 185,
+      "geometry": { "type": "Point", "coordinates": [117.37004945527558, 31.88327430464637, 26.884999999999991, null] },
+      "properties": {
+        "FID": 185,
+        "OBJECTID": 199,
+        "SurElev": 26.885000000000002,
+        "Depth": 1.0600000000000001,
+        "NAME": "WS140",
+        "BottomElev": 25.824999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 186,
+      "geometry": { "type": "Point", "coordinates": [117.3700167119209, 31.883274453893613, 26.980999999999995, null] },
+      "properties": {
+        "FID": 186,
+        "OBJECTID": 200,
+        "SurElev": 26.981000000000002,
+        "Depth": 1.1699999999999999,
+        "NAME": "WS143",
+        "BottomElev": 25.811,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187,
+      "geometry": { "type": "Point", "coordinates": [117.3699415134674, 31.883274970522937, 26.6400000000001, null] },
+      "properties": {
+        "FID": 187,
+        "OBJECTID": 201,
+        "SurElev": 26.640000000000001,
+        "Depth": 1.2,
+        "NAME": "WS146",
+        "BottomElev": 25.440000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36988508192876, 31.883274440077376, 27.167999999999893, null]
+      },
+      "properties": {
+        "FID": 188,
+        "OBJECTID": 202,
+        "SurElev": 27.167999999999999,
+        "Depth": 1.8999999999999999,
+        "NAME": "WS149",
+        "BottomElev": 25.268000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 189,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36988022662308, 31.883564446165014, 27.063000000000102, null]
+      },
+      "properties": {
+        "FID": 189,
+        "OBJECTID": 203,
+        "SurElev": 27.062999999999999,
+        "Depth": 1.9099999999999999,
+        "NAME": "WS153",
+        "BottomElev": 25.152999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36983650313326, 31.883551578213687, 27.150000000000091, null]
+      },
+      "properties": {
+        "FID": 190,
+        "OBJECTID": 206,
+        "SurElev": 27.149999999999999,
+        "Depth": 2,
+        "NAME": "WS154",
+        "BottomElev": 25.149999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36975980373224, 31.883549618855028, 27.164000000000215, null]
+      },
+      "properties": {
+        "FID": 191,
+        "OBJECTID": 207,
+        "SurElev": 27.164000000000001,
+        "Depth": 2,
+        "NAME": "WS155",
+        "BottomElev": 25.164000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 192,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36970068316545, 31.883550683596255, 27.169000000000324, null]
+      },
+      "properties": {
+        "FID": 192,
+        "OBJECTID": 208,
+        "SurElev": 27.169,
+        "Depth": 2,
+        "NAME": "WS156",
+        "BottomElev": 25.169,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 193,
+      "geometry": { "type": "Point", "coordinates": [117.36959210847131, 31.883644311328354, 26.6400000000001, null] },
+      "properties": {
+        "FID": 193,
+        "OBJECTID": 209,
+        "SurElev": 26.640000000000001,
+        "Depth": 2,
+        "NAME": "WS157",
+        "BottomElev": 24.640000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 194,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37075780234093, 31.883494036413012, 27.099999999999909, null]
+      },
+      "properties": {
+        "FID": 194,
+        "OBJECTID": 210,
+        "SurElev": 27.100000000000001,
+        "Depth": 1.6299999999999999,
+        "NAME": "WS53",
+        "BottomElev": 25.469999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37076088234653, 31.883674473991569, 26.837999999999965, null]
+      },
+      "properties": {
+        "FID": 195,
+        "OBJECTID": 211,
+        "SurElev": 26.838000000000001,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS51",
+        "BottomElev": 25.437999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 196,
+      "geometry": { "type": "Point", "coordinates": [117.37076111778788, 31.883696370050863, 26.84699999999998, null] },
+      "properties": {
+        "FID": 196,
+        "OBJECTID": 212,
+        "SurElev": 26.847000000000001,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS49",
+        "BottomElev": 25.446999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 197,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37075906788947, 31.883757140998711, 26.836000000000467, null]
+      },
+      "properties": {
+        "FID": 197,
+        "OBJECTID": 213,
+        "SurElev": 26.835999999999999,
+        "Depth": 1.3999999999999999,
+        "NAME": "WS46",
+        "BottomElev": 25.436,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 198,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37076184950143, 31.883868400564836, 26.779000000000224, null]
+      },
+      "properties": {
+        "FID": 198,
+        "OBJECTID": 214,
+        "SurElev": 26.779,
+        "Depth": 2.5099999999999998,
+        "NAME": "WS44",
+        "BottomElev": 24.268999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37068231707983, 31.883871572348983, 26.810000000000173, null]
+      },
+      "properties": {
+        "FID": 199,
+        "OBJECTID": 215,
+        "SurElev": 26.809999999999999,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS40",
+        "BottomElev": 25.210000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37064624518818, 31.883871984113046, 26.816000000000031, null]
+      },
+      "properties": {
+        "FID": 200,
+        "OBJECTID": 216,
+        "SurElev": 26.815999999999999,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS38",
+        "BottomElev": 25.216000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37061593064385, 31.883871540223982, 26.814000000000078, null]
+      },
+      "properties": {
+        "FID": 201,
+        "OBJECTID": 217,
+        "SurElev": 26.814,
+        "Depth": 1.6000000000000001,
+        "NAME": "WS35",
+        "BottomElev": 25.213999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "geometry": { "type": "Point", "coordinates": [117.37059032246131, 31.883871984766841, 26.82300000000032, null] },
+      "properties": {
+        "FID": 202,
+        "OBJECTID": 218,
+        "SurElev": 26.823,
+        "Depth": 1.55,
+        "NAME": "WS30",
+        "BottomElev": 25.273,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37050361224276, 31.883869586071981, 26.814000000000078, null]
+      },
+      "properties": {
+        "FID": 203,
+        "OBJECTID": 219,
+        "SurElev": 26.814,
+        "Depth": 1.5,
+        "NAME": "WS27",
+        "BottomElev": 25.314,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37048694045953, 31.883868525538041, 26.801999999999907, null]
+      },
+      "properties": {
+        "FID": 204,
+        "OBJECTID": 220,
+        "SurElev": 26.802,
+        "Depth": 1.5,
+        "NAME": "WS22",
+        "BottomElev": 25.302,
+        "备注": "混接"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37037141926565, 31.883863865871042, 26.785000000000309, null]
+      },
+      "properties": {
+        "FID": 205,
+        "OBJECTID": 221,
+        "SurElev": 26.785,
+        "Depth": 1.45,
+        "NAME": "WS19",
+        "BottomElev": 25.335000000000001,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "geometry": { "type": "Point", "coordinates": [117.37037279469833, 31.883742656128572, 26.86400000000026, null] },
+      "properties": {
+        "FID": 206,
+        "OBJECTID": 222,
+        "SurElev": 26.864000000000001,
+        "Depth": 1.47,
+        "NAME": "WS80",
+        "BottomElev": 25.393999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37037430496667, 31.883673680362968, 26.839999999999918, null]
+      },
+      "properties": {
+        "FID": 207,
+        "OBJECTID": 223,
+        "SurElev": 26.84,
+        "Depth": 1.1599999999999999,
+        "NAME": "WS81",
+        "BottomElev": 25.68,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.37146657397969, 31.883083844976095, 26.997000000000298, null]
+      },
+      "properties": {
+        "FID": 208,
+        "OBJECTID": 224,
+        "SurElev": 26.997,
+        "Depth": 1.77,
+        "NAME": "WS494",
+        "BottomElev": 25.227,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 209,
+      "geometry": { "type": "Point", "coordinates": [117.37001105291414, 31.88234007675301, 27.072000000000116, null] },
+      "properties": {
+        "FID": 209,
+        "OBJECTID": 225,
+        "SurElev": 27.071999999999999,
+        "Depth": 1.96,
+        "NAME": "WS223",
+        "BottomElev": 25.111999999999998,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36986996453928, 31.882876967327132, 26.952000000000226, null]
+      },
+      "properties": {
+        "FID": 210,
+        "OBJECTID": 226,
+        "SurElev": 26.952000000000002,
+        "Depth": 2,
+        "NAME": "WS3000",
+        "BottomElev": 24.952000000000002,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36979882731774, 31.883211391838294, 26.813000000000102, null]
+      },
+      "properties": {
+        "FID": 211,
+        "OBJECTID": 227,
+        "SurElev": 26.812999999999999,
+        "Depth": 2,
+        "NAME": "WS3001",
+        "BottomElev": 24.812999999999999,
+        "备注": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.36958557468584, 31.883852986545307, 27.281000000000176, null]
+      },
+      "properties": {
+        "FID": 212,
+        "OBJECTID": 228,
+        "SurElev": 27.280999999999999,
+        "Depth": 1.5,
+        "NAME": "WS3002",
+        "BottomElev": 25.780999999999999,
+        "备注": " "
+      }
+    }
+  ]
+}
