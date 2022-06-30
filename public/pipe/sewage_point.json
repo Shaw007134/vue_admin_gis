@@ -1,1 +1,1919 @@
-{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"EPSG:4326"}},"features":[{"type":"Feature","id":0,"geometry":{"type":"Point","coordinates":[117.36744782624713,31.887028806519591,28.941000000000031,null]},"properties":{"FID":0,"OBJECTID":1,"NAME":"WS1","Depth":3.3100000000000001,"SurElev":28.940999999999999,"BottomElev":25.631}},{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[117.3694426928713,31.884081388172099,28.076000000000249,null]},"properties":{"FID":1,"OBJECTID":2,"NAME":"WS70","Depth":2.8410000000000002,"SurElev":28.076000000000001,"BottomElev":25.234999999999999}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[117.36980618230415,31.884189209032016,27.781999999999925,null]},"properties":{"FID":2,"OBJECTID":3,"NAME":"WS72","Depth":3.0699999999999998,"SurElev":27.782,"BottomElev":24.712}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[117.37057006494119,31.887150806114239,27.349000000000387,null]},"properties":{"FID":3,"OBJECTID":5,"NAME":"WS16","Depth":3.2210000000000001,"SurElev":27.349,"BottomElev":24.128}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[117.37162547664504,31.887182589482329,25.721000000000231,null]},"properties":{"FID":4,"OBJECTID":7,"NAME":"WS20","Depth":2.105,"SurElev":25.721,"BottomElev":23.616}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[117.3726858949197,31.887349984633595,24.304000000000087,null]},"properties":{"FID":5,"OBJECTID":8,"NAME":"WS25","Depth":3.4249999999999998,"SurElev":24.303999999999998,"BottomElev":20.879000000000001}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[117.37325558578405,31.887295267503635,23.32100000000014,null]},"properties":{"FID":6,"OBJECTID":9,"NAME":"WS27","Depth":2.7200000000000002,"SurElev":23.321000000000002,"BottomElev":20.600999999999999}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[117.37391509363671,31.884395828915469,23.566000000000031,null]},"properties":{"FID":7,"OBJECTID":11,"NAME":"WS66","Depth":3.202,"SurElev":23.565999999999999,"BottomElev":20.364000000000001}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[117.37396106009568,31.885159623532733,23.11200000000008,null]},"properties":{"FID":8,"OBJECTID":12,"NAME":"WS61","Depth":5.4199999999999999,"SurElev":23.111999999999998,"BottomElev":17.692}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[117.3738529714264,31.888379330736697,22.604000000000269,null]},"properties":{"FID":9,"OBJECTID":14,"NAME":"WS35","Depth":2.8700000000000001,"SurElev":22.603999999999999,"BottomElev":19.734000000000002}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[117.37400564789141,31.888485198074338,22.7650000000001,null]},"properties":{"FID":10,"OBJECTID":15,"NAME":"WS34","Depth":2.9809999999999999,"SurElev":22.765000000000001,"BottomElev":19.783999999999999}},{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[117.37456234343932,31.887461400522408,22.977700000000141,null]},"properties":{"FID":11,"OBJECTID":16,"NAME":"WS50","Depth":3.4100000000000001,"SurElev":22.977699999999999,"BottomElev":19.567699999999999}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[117.37522185081512,31.884188670545107,22.149000000000342,null]},"properties":{"FID":12,"OBJECTID":17,"NAME":"WS97","Depth":4.6600000000000001,"SurElev":22.149000000000001,"BottomElev":17.489000000000001}},{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[117.37604690401258,31.884312200182539,21.860999999999876,null]},"properties":{"FID":13,"OBJECTID":18,"NAME":"WS102","Depth":3.907,"SurElev":21.861000000000001,"BottomElev":17.954000000000001}},{"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":[117.36820198135787,31.887300906322324,31.416999999999916,null]},"properties":{"FID":14,"OBJECTID":19,"NAME":"WS5","Depth":8.4339999999999993,"SurElev":31.417000000000002,"BottomElev":22.983000000000001}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[117.36945695901601,31.887117576060721,28.683999999999969,null]},"properties":{"FID":15,"OBJECTID":20,"NAME":"WS12","Depth":3.323,"SurElev":28.684000000000001,"BottomElev":25.361000000000001}},{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[117.37019595994843,31.884096376442656,27.178000000000338,null]},"properties":{"FID":16,"OBJECTID":21,"NAME":"WS74","Depth":4.2389999999999999,"SurElev":27.178000000000001,"BottomElev":22.939}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[117.37056842287782,31.884106185445265,26.638999999999896,null]},"properties":{"FID":17,"OBJECTID":22,"NAME":"WS75","Depth":3.1429999999999998,"SurElev":26.638999999999999,"BottomElev":23.495999999999999}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[117.37057069866201,31.887282642079981,27.092000000000326,null]},"properties":{"FID":18,"OBJECTID":23,"NAME":"WS15","Depth":1.8340000000000001,"SurElev":27.091999999999999,"BottomElev":25.257999999999999}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[117.37130549344336,31.884120159721725,25.949000000000296,null]},"properties":{"FID":19,"OBJECTID":24,"NAME":"WS79","Depth":2.9239999999999999,"SurElev":25.949000000000002,"BottomElev":23.024999999999999}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[117.37391068181734,31.884177563628803,23.540000000000191,null]},"properties":{"FID":20,"OBJECTID":25,"NAME":"WS89","Depth":3.7000000000000002,"SurElev":23.539999999999999,"BottomElev":19.84}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[117.37398108782475,31.884181036169235,23.538000000000238,null]},"properties":{"FID":21,"OBJECTID":26,"NAME":"WS92","Depth":5.9000000000000004,"SurElev":23.538,"BottomElev":17.638000000000002}},{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":[117.37399806868352,31.887810265500644,22.461000000000013,null]},"properties":{"FID":22,"OBJECTID":27,"NAME":"WS42","Depth":2.931,"SurElev":22.460999999999999,"BottomElev":19.530000000000001}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[117.37371267120349,31.888728488586089,22.809000000000196,null]},"properties":{"FID":23,"OBJECTID":28,"NAME":"WS30","Depth":2.375,"SurElev":22.809000000000001,"BottomElev":20.434000000000001}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[117.37480910419526,31.88428766466437,22.421000000000049,null]},"properties":{"FID":24,"OBJECTID":30,"NAME":"WS96","Depth":3.2669999999999999,"SurElev":22.420999999999999,"BottomElev":19.154}},{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":[117.36820469521767,31.887063808119649,29.357999999999947,null]},"properties":{"FID":25,"OBJECTID":33,"NAME":"WS6","Depth":4.7750000000000004,"SurElev":29.358000000000001,"BottomElev":24.582999999999998}},{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":[117.3715115296494,31.884206124254447,25.785000000000082,null]},"properties":{"FID":26,"OBJECTID":35,"NAME":"WS81","Depth":1.3899999999999999,"SurElev":25.785,"BottomElev":24.395}},{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":[117.37108990897418,31.88722785667002,26.325000000000273,null]},"properties":{"FID":27,"OBJECTID":36,"NAME":"WS17","Depth":3.6600000000000001,"SurElev":26.324999999999999,"BottomElev":22.664999999999999}},{"type":"Feature","id":28,"geometry":{"type":"Point","coordinates":[117.3724670758335,31.884257915692299,24.800999999999931,null]},"properties":{"FID":28,"OBJECTID":37,"NAME":"WS84","Depth":3.1000000000000001,"SurElev":24.800999999999998,"BottomElev":21.701000000000001}},{"type":"Feature","id":29,"geometry":{"type":"Point","coordinates":[117.37216663653709,31.887263929431356,24.953000000000202,null]},"properties":{"FID":29,"OBJECTID":39,"NAME":"WS21","Depth":3.0699999999999998,"SurElev":24.952999999999999,"BottomElev":21.882999999999999}},{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":[117.3739516237417,31.883802589551841,23.25200000000018,null]},"properties":{"FID":30,"OBJECTID":41,"NAME":"WS91","Depth":3.6899999999999999,"SurElev":23.251999999999999,"BottomElev":19.562000000000001}},{"type":"Feature","id":31,"geometry":{"type":"Point","coordinates":[117.37357792940884,31.884170876570103,23.844000000000278,null]},"properties":{"FID":31,"OBJECTID":42,"NAME":"WS88","Depth":3.6499999999999999,"SurElev":23.844000000000001,"BottomElev":20.193999999999999}},{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":[117.37397680497932,31.884394971460985,23.384000000000242,null]},"properties":{"FID":32,"OBJECTID":43,"NAME":"WS65","Depth":5.8799999999999999,"SurElev":23.384,"BottomElev":17.504000000000001}},{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":[117.37407832727139,31.886500737967499,22.468000000000075,null]},"properties":{"FID":33,"OBJECTID":44,"NAME":"WS56","Depth":3.226,"SurElev":22.468,"BottomElev":19.242000000000001}},{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":[117.37387141184388,31.887776512950367,22.430000000000064,null]},"properties":{"FID":34,"OBJECTID":45,"NAME":"WS40","Depth":3.0600000000000001,"SurElev":22.43,"BottomElev":19.370000000000001}},{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[117.37395467589111,31.888735235240723,22.612000000000307,null]},"properties":{"FID":35,"OBJECTID":48,"NAME":"WS32","Depth":2.6000000000000001,"SurElev":22.611999999999998,"BottomElev":20.012}},{"type":"Feature","id":36,"geometry":{"type":"Point","coordinates":[117.37509823262937,31.887341816067828,23.004799999999932,null]},"properties":{"FID":36,"OBJECTID":49,"NAME":"WS48","Depth":3.3711000000000002,"SurElev":23.004799999999999,"BottomElev":19.633700000000001}},{"type":"Feature","id":37,"geometry":{"type":"Point","coordinates":[117.37646916155241,31.884368964871573,22.851000000000113,null]},"properties":{"FID":37,"OBJECTID":50,"NAME":"WS106","Depth":4.25,"SurElev":22.850999999999999,"BottomElev":18.600999999999999}},{"type":"Feature","id":38,"geometry":{"type":"Point","coordinates":[117.36859502161661,31.887166368989263,29.035000000000082,null]},"properties":{"FID":38,"OBJECTID":51,"NAME":"WS7","Depth":4.1500000000000004,"SurElev":29.035,"BottomElev":24.885000000000002}},{"type":"Feature","id":39,"geometry":{"type":"Point","coordinates":[117.36982032240502,31.884090895375788,27.635000000000218,null]},"properties":{"FID":39,"OBJECTID":52,"NAME":"WS71","Depth":3.907,"SurElev":27.635000000000002,"BottomElev":23.728000000000002}},{"type":"Feature","id":40,"geometry":{"type":"Point","coordinates":[117.36946454778273,31.887183702721352,28.480999999999995,null]},"properties":{"FID":40,"OBJECTID":53,"NAME":"WS9","Depth":4.1100000000000003,"SurElev":28.481000000000002,"BottomElev":24.370999999999999}},{"type":"Feature","id":41,"geometry":{"type":"Point","coordinates":[117.37003018158337,31.887200572393883,27.736000000000331,null]},"properties":{"FID":41,"OBJECTID":55,"NAME":"WS13","Depth":3.3799999999999999,"SurElev":27.736000000000001,"BottomElev":24.356000000000002}},{"type":"Feature","id":42,"geometry":{"type":"Point","coordinates":[117.37169811444598,31.884130519717257,25.555000000000291,null]},"properties":{"FID":42,"OBJECTID":56,"NAME":"WS80","Depth":2.5830000000000002,"SurElev":25.555,"BottomElev":22.972000000000001}},{"type":"Feature","id":43,"geometry":{"type":"Point","coordinates":[117.37246771512987,31.883962483657292,24.878999999999905,null]},"properties":{"FID":43,"OBJECTID":57,"NAME":"WS85","Depth":3.1000000000000001,"SurElev":24.879000000000001,"BottomElev":21.779}},{"type":"Feature","id":44,"geometry":{"type":"Point","coordinates":[117.3719787668623,31.887318426590415,25.182999999999993,null]},"properties":{"FID":44,"OBJECTID":58,"NAME":"WS22","Depth":1.161,"SurElev":25.183,"BottomElev":24.021999999999998}},{"type":"Feature","id":45,"geometry":{"type":"Point","coordinates":[117.37212170011534,31.887323265988631,24.981999999999971,null]},"properties":{"FID":45,"OBJECTID":59,"NAME":"WS23","Depth":1.0289999999999999,"SurElev":24.981999999999999,"BottomElev":23.952999999999999}},{"type":"Feature","id":46,"geometry":{"type":"Point","coordinates":[117.37389387167241,31.88516282376705,22.991000000000213,null]},"properties":{"FID":46,"OBJECTID":61,"NAME":"WS62","Depth":3.7890000000000001,"SurElev":22.991,"BottomElev":19.202000000000002}},{"type":"Feature","id":47,"geometry":{"type":"Point","coordinates":[117.37392404314099,31.886113856766702,22.803000000000111,null]},"properties":{"FID":47,"OBJECTID":63,"NAME":"WS57","Depth":4.7699999999999996,"SurElev":22.803000000000001,"BottomElev":18.033000000000001}},{"type":"Feature","id":48,"geometry":{"type":"Point","coordinates":[117.37388253685336,31.887409030647945,22.388000000000147,null]},"properties":{"FID":48,"OBJECTID":64,"NAME":"WS43","Depth":3.21,"SurElev":22.388000000000002,"BottomElev":19.178000000000001}},{"type":"Feature","id":49,"geometry":{"type":"Point","coordinates":[117.37386812879366,31.887963345219649,22.482000000000198,null]},"properties":{"FID":49,"OBJECTID":65,"NAME":"WS38","Depth":2.7999999999999998,"SurElev":22.481999999999999,"BottomElev":19.681999999999999}},{"type":"Feature","id":50,"geometry":{"type":"Point","coordinates":[117.37455526680276,31.88732952909794,22.893700000000308,null]},"properties":{"FID":50,"OBJECTID":67,"NAME":"WS49","Depth":3.7136999999999998,"SurElev":22.893699999999999,"BottomElev":19.18}},{"type":"Feature","id":51,"geometry":{"type":"Point","coordinates":[117.37563094200739,31.887272326949319,23.601899999999887,null]},"properties":{"FID":51,"OBJECTID":68,"NAME":"WS47","Depth":3.5099999999999998,"SurElev":23.601900000000001,"BottomElev":20.091899999999999}},{"type":"Feature","id":52,"geometry":{"type":"Point","coordinates":[117.36780850851174,31.887140717612933,28.555000000000518,null]},"properties":{"FID":52,"OBJECTID":72,"NAME":"WS3","Depth":3.75,"SurElev":28.555,"BottomElev":24.805}},{"type":"Feature","id":53,"geometry":{"type":"Point","coordinates":[117.36982481498899,31.883913808247431,27.506000000000085,null]},"properties":{"FID":53,"OBJECTID":74,"NAME":"Ws73","Depth":3.2000000000000002,"SurElev":27.506,"BottomElev":24.306000000000001}},{"type":"Feature","id":54,"geometry":{"type":"Point","coordinates":[117.3709310864307,31.884223925378429,26.414999999999964,null]},"properties":{"FID":54,"OBJECTID":76,"NAME":"WS77","Depth":2.6499999999999999,"SurElev":26.414999999999999,"BottomElev":23.765000000000001}},{"type":"Feature","id":55,"geometry":{"type":"Point","coordinates":[117.37162802597595,31.887246314341823,25.615999999999985,null]},"properties":{"FID":55,"OBJECTID":77,"NAME":"WS19","Depth":3.3999999999999999,"SurElev":25.616,"BottomElev":22.216000000000001}},{"type":"Feature","id":56,"geometry":{"type":"Point","coordinates":[117.37246163809813,31.88414631223571,24.9050000000002,null]},"properties":{"FID":56,"OBJECTID":78,"NAME":"WS83","Depth":4.1890000000000001,"SurElev":24.905000000000001,"BottomElev":20.716000000000001}},{"type":"Feature","id":57,"geometry":{"type":"Point","coordinates":[117.37270930489179,31.887223497754675,24.207000000000562,null]},"properties":{"FID":57,"OBJECTID":79,"NAME":"WS26","Depth":2.6680000000000001,"SurElev":24.207000000000001,"BottomElev":21.539000000000001}},{"type":"Feature","id":58,"geometry":{"type":"Point","coordinates":[117.37395982981567,31.883479205772669,23.048999999999978,null]},"properties":{"FID":58,"OBJECTID":82,"NAME":"WS90","Depth":3.4399999999999999,"SurElev":23.048999999999999,"BottomElev":19.609000000000002}},{"type":"Feature","id":59,"geometry":{"type":"Point","coordinates":[117.37410591131552,31.884183292816616,23.467000000000326,null]},"properties":{"FID":59,"OBJECTID":83,"NAME":"WS93","Depth":3.7200000000000002,"SurElev":23.466999999999999,"BottomElev":19.747}},{"type":"Feature","id":60,"geometry":{"type":"Point","coordinates":[117.37384807983703,31.886498592680699,22.646000000000186,null]},"properties":{"FID":60,"OBJECTID":84,"NAME":"WS55","Depth":3.8239999999999998,"SurElev":22.646000000000001,"BottomElev":18.821999999999999}},{"type":"Feature","id":61,"geometry":{"type":"Point","coordinates":[117.37389920186962,31.886924285082141,22.509999999999991,null]},"properties":{"FID":61,"OBJECTID":87,"NAME":"WS53","Depth":4.2999999999999998,"SurElev":22.510000000000002,"BottomElev":18.210000000000001}},{"type":"Feature","id":62,"geometry":{"type":"Point","coordinates":[117.37380260836385,31.887775479569004,22.41800000000012,null]},"properties":{"FID":62,"OBJECTID":88,"NAME":"WS41","Depth":2.1179999999999999,"SurElev":22.417999999999999,"BottomElev":20.300000000000001}},{"type":"Feature","id":63,"geometry":{"type":"Point","coordinates":[117.37379362610032,31.888380443191277,22.54099999999994,null]},"properties":{"FID":63,"OBJECTID":90,"NAME":"WS37","Depth":2.2770000000000001,"SurElev":22.541,"BottomElev":20.263999999999999}},{"type":"Feature","id":64,"geometry":{"type":"Point","coordinates":[117.37443650308875,31.884191671931159,23.058999999999969,null]},"properties":{"FID":64,"OBJECTID":91,"NAME":"WS94","Depth":5.3600000000000003,"SurElev":23.059000000000001,"BottomElev":17.699000000000002}},{"type":"Feature","id":65,"geometry":{"type":"Point","coordinates":[117.3756904844048,31.884302278914586,21.686999999999898,null]},"properties":{"FID":65,"OBJECTID":92,"NAME":"WS100","Depth":2.851,"SurElev":21.687000000000001,"BottomElev":18.835999999999999}},{"type":"Feature","id":66,"geometry":{"type":"Point","coordinates":[117.37572492704946,31.884200045002807,21.656000000000176,null]},"properties":{"FID":66,"OBJECTID":93,"NAME":"WS99","Depth":4.3300000000000001,"SurElev":21.655999999999999,"BottomElev":17.326000000000001}},{"type":"Feature","id":67,"geometry":{"type":"Point","coordinates":[117.37604589614956,31.884261818263809,21.94399999999996,null]},"properties":{"FID":67,"OBJECTID":94,"NAME":"WS103","Depth":4.3730000000000002,"SurElev":21.943999999999999,"BottomElev":17.571000000000002}},{"type":"Feature","id":68,"geometry":{"type":"Point","coordinates":[117.37646462817938,31.884236644523142,22.330999999999904,null]},"properties":{"FID":68,"OBJECTID":95,"NAME":"WS104","Depth":4.9500000000000002,"SurElev":22.331,"BottomElev":17.381}},{"type":"Feature","id":69,"geometry":{"type":"Point","coordinates":[117.36962155822948,31.887256916659734,28.337999999999965,null]},"properties":{"FID":69,"OBJECTID":98,"NAME":"WS10","Depth":1.4630000000000001,"SurElev":28.338000000000001,"BottomElev":26.875}},{"type":"Feature","id":70,"geometry":{"type":"Point","coordinates":[117.37093561775744,31.884114980520049,26.296000000000049,null]},"properties":{"FID":70,"OBJECTID":99,"NAME":"WS76","Depth":3.0470000000000002,"SurElev":26.295999999999999,"BottomElev":23.248999999999999}},{"type":"Feature","id":71,"geometry":{"type":"Point","coordinates":[117.37283502073684,31.884156130064842,24.566000000000258,null]},"properties":{"FID":71,"OBJECTID":103,"NAME":"WS86","Depth":4.0190000000000001,"SurElev":24.565999999999999,"BottomElev":20.547000000000001}},{"type":"Feature","id":72,"geometry":{"type":"Point","coordinates":[117.37320717223834,31.884164741662094,24.166999999999916,null]},"properties":{"FID":72,"OBJECTID":104,"NAME":"WS87","Depth":3.6629999999999998,"SurElev":24.167000000000002,"BottomElev":20.504000000000001}},{"type":"Feature","id":73,"geometry":{"type":"Point","coordinates":[117.37388084855985,31.885408366868464,23.126000000000204,null]},"properties":{"FID":73,"OBJECTID":105,"NAME":"WS60","Depth":3.5800000000000001,"SurElev":23.126000000000001,"BottomElev":19.545999999999999}},{"type":"Feature","id":74,"geometry":{"type":"Point","coordinates":[117.37393352312344,31.885702875260943,22.896000000000186,null]},"properties":{"FID":74,"OBJECTID":107,"NAME":"WS58","Depth":4.9500000000000002,"SurElev":22.896000000000001,"BottomElev":17.946000000000002}},{"type":"Feature","id":75,"geometry":{"type":"Point","coordinates":[117.37381639239793,31.887404048910387,22.307000000000244,null]},"properties":{"FID":75,"OBJECTID":109,"NAME":"WS44","Depth":2.319,"SurElev":22.306999999999999,"BottomElev":19.988}},{"type":"Feature","id":76,"geometry":{"type":"Point","coordinates":[117.37379730474413,31.887967133506621,22.647000000000162,null]},"properties":{"FID":76,"OBJECTID":110,"NAME":"WS39","Depth":2.6150000000000002,"SurElev":22.646999999999998,"BottomElev":20.032}},{"type":"Feature","id":77,"geometry":{"type":"Point","coordinates":[117.37377237688118,31.888730126166621,22.834000000000287,null]},"properties":{"FID":77,"OBJECTID":111,"NAME":"WS31","Depth":2.7450000000000001,"SurElev":22.834,"BottomElev":20.088999999999999}},{"type":"Feature","id":78,"geometry":{"type":"Point","coordinates":[117.37384755075179,31.888476518251977,22.634000000000015,null]},"properties":{"FID":78,"OBJECTID":112,"NAME":"WS33","Depth":2.9399999999999999,"SurElev":22.634,"BottomElev":19.693999999999999}},{"type":"Feature","id":79,"geometry":{"type":"Point","coordinates":[117.37562220125091,31.887465136014789,23.585000000000264,null]},"properties":{"FID":79,"OBJECTID":114,"NAME":"WS46","Depth":3.5499999999999998,"SurElev":23.585000000000001,"BottomElev":20.035}},{"type":"Feature","id":80,"geometry":{"type":"Point","coordinates":[117.36833120366808,31.884049351572479,29.200000000000045,null]},"properties":{"FID":80,"OBJECTID":115,"NAME":"WS67","Depth":3.4039999999999999,"SurElev":29.199999999999999,"BottomElev":25.795999999999999}},{"type":"Feature","id":81,"geometry":{"type":"Point","coordinates":[117.37209092795491,31.884138839685889,25.22199999999998,null]},"properties":{"FID":81,"OBJECTID":117,"NAME":"WS82","Depth":2.3170000000000002,"SurElev":25.222000000000001,"BottomElev":22.905000000000001}},{"type":"Feature","id":82,"geometry":{"type":"Point","coordinates":[117.37388600153562,31.887311713462061,22.3900000000001,null]},"properties":{"FID":82,"OBJECTID":119,"NAME":"WS52","Depth":4.2000000000000002,"SurElev":22.390000000000001,"BottomElev":18.190000000000001}},{"type":"Feature","id":83,"geometry":{"type":"Point","coordinates":[117.37384089388019,31.888733369285969,22.719000000000051,null]},"properties":{"FID":83,"OBJECTID":120,"NAME":"WS29","Depth":2.73,"SurElev":22.719000000000001,"BottomElev":19.989000000000001}},{"type":"Feature","id":84,"geometry":{"type":"Point","coordinates":[117.37455690244359,31.887247981102863,23.071700000000419,null]},"properties":{"FID":84,"OBJECTID":121,"NAME":"WS51","Depth":3.3500000000000001,"SurElev":23.0717,"BottomElev":19.721699999999998}},{"type":"Feature","id":85,"geometry":{"type":"Point","coordinates":[117.37521844344616,31.884286709805643,22.25200000000018,null]},"properties":{"FID":85,"OBJECTID":122,"NAME":"WS98","Depth":4.3730000000000002,"SurElev":22.251999999999999,"BottomElev":17.879000000000001}},{"type":"Feature","id":86,"geometry":{"type":"Point","coordinates":[117.36744615630099,31.887124738995343,28.125,null]},"properties":{"FID":86,"OBJECTID":123,"NAME":"WS2","Depth":3.21,"SurElev":28.125,"BottomElev":24.914999999999999}},{"type":"Feature","id":87,"geometry":{"type":"Point","coordinates":[117.36820061703791,31.887159873625468,29.18300000000022,null]},"properties":{"FID":87,"OBJECTID":124,"NAME":"WS4","Depth":4.4000000000000004,"SurElev":29.183,"BottomElev":24.783000000000001}},{"type":"Feature","id":88,"geometry":{"type":"Point","coordinates":[117.3687209107496,31.884058079012735,29.026000000000067,null]},"properties":{"FID":88,"OBJECTID":125,"NAME":"WS68","Depth":3.8479999999999999,"SurElev":29.026,"BottomElev":25.178000000000001}},{"type":"Feature","id":89,"geometry":{"type":"Point","coordinates":[117.36908383408854,31.884074485040497,28.538000000000238,null]},"properties":{"FID":89,"OBJECTID":126,"NAME":"WS69","Depth":3.5619999999999998,"SurElev":28.538,"BottomElev":24.975999999999999}},{"type":"Feature","id":90,"geometry":{"type":"Point","coordinates":[117.36898915001733,31.887169924073334,28.85300000000052,null]},"properties":{"FID":90,"OBJECTID":127,"NAME":"WS8","Depth":4.5899999999999999,"SurElev":28.853000000000002,"BottomElev":24.263000000000002}},{"type":"Feature","id":91,"geometry":{"type":"Point","coordinates":[117.36949336901323,31.887249190815222,28.424999999999955,null]},"properties":{"FID":91,"OBJECTID":128,"NAME":"WS11","Depth":2.2639999999999998,"SurElev":28.425000000000001,"BottomElev":26.161000000000001}},{"type":"Feature","id":92,"geometry":{"type":"Point","coordinates":[117.37056601487795,31.887213648078369,27.13799999999992,null]},"properties":{"FID":92,"OBJECTID":130,"NAME":"WS14","Depth":3.23,"SurElev":27.138000000000002,"BottomElev":23.908000000000001}},{"type":"Feature","id":93,"geometry":{"type":"Point","coordinates":[117.37109032398024,31.887173204721275,26.485000000000127,null]},"properties":{"FID":93,"OBJECTID":132,"NAME":"WS18","Depth":3.1099999999999999,"SurElev":26.484999999999999,"BottomElev":23.375}},{"type":"Feature","id":94,"geometry":{"type":"Point","coordinates":[117.37271969982848,31.88728228477904,24.139000000000124,null]},"properties":{"FID":94,"OBJECTID":133,"NAME":"WS24","Depth":3.1099999999999999,"SurElev":24.138999999999999,"BottomElev":21.029}},{"type":"Feature","id":95,"geometry":{"type":"Point","coordinates":[117.37395195282303,31.885406399097938,23.046000000000276,null]},"properties":{"FID":95,"OBJECTID":134,"NAME":"WS59","Depth":5.1699999999999999,"SurElev":23.045999999999999,"BottomElev":17.876000000000001}},{"type":"Feature","id":96,"geometry":{"type":"Point","coordinates":[117.37396315311371,31.884822342330679,23.215999999999894,null]},"properties":{"FID":96,"OBJECTID":135,"NAME":"WS64","Depth":5.46,"SurElev":23.216000000000001,"BottomElev":17.756}},{"type":"Feature","id":97,"geometry":{"type":"Point","coordinates":[117.37409350379147,31.885229576322772,22.980000000000018,null]},"properties":{"FID":97,"OBJECTID":136,"NAME":"WS63","Depth":4.8179999999999996,"SurElev":22.98,"BottomElev":18.161999999999999}},{"type":"Feature","id":98,"geometry":{"type":"Point","coordinates":[117.37391119902271,31.886495358749887,22.632000000000062,null]},"properties":{"FID":98,"OBJECTID":137,"NAME":"WS54","Depth":4.4199999999999999,"SurElev":22.632000000000001,"BottomElev":18.212}},{"type":"Feature","id":99,"geometry":{"type":"Point","coordinates":[117.37357886267652,31.887305915482152,22.586000000000013,null]},"properties":{"FID":99,"OBJECTID":138,"NAME":"WS28","Depth":2.6499999999999999,"SurElev":22.585999999999999,"BottomElev":19.936}},{"type":"Feature","id":100,"geometry":{"type":"Point","coordinates":[117.37371393137501,31.888354740612851,23.130000000000337,null]},"properties":{"FID":100,"OBJECTID":140,"NAME":"WS36","Depth":1.7889999999999999,"SurElev":23.129999999999999,"BottomElev":21.341000000000001}},{"type":"Feature","id":101,"geometry":{"type":"Point","coordinates":[117.37481115772444,31.88417874460934,22.413999999999987,null]},"properties":{"FID":101,"OBJECTID":142,"NAME":"WS95","Depth":5.0700000000000003,"SurElev":22.414000000000001,"BottomElev":17.344000000000001}},{"type":"Feature","id":102,"geometry":{"type":"Point","coordinates":[117.37562646215908,31.887353522274466,23.332000000000107,null]},"properties":{"FID":102,"OBJECTID":144,"NAME":"WS45","Depth":3.7271999999999998,"SurElev":23.332000000000001,"BottomElev":19.604800000000001}},{"type":"Feature","id":103,"geometry":{"type":"Point","coordinates":[117.37646373815143,31.884007366332032,23.275000000000091,null]},"properties":{"FID":103,"OBJECTID":145,"NAME":"WS105","Depth":6.944,"SurElev":23.274999999999999,"BottomElev":16.331}},{"type":"Feature","id":104,"geometry":{"type":"Point","coordinates":[117.37604799877775,31.88423043741625,21.780999999999949,null]},"properties":{"FID":104,"OBJECTID":146,"NAME":"WS101","Depth":4.4000000000000004,"SurElev":21.780999999999999,"BottomElev":17.381}},{"type":"Feature","id":105,"geometry":{"type":"Point","coordinates":[117.37658499677566,31.884409041666771,21.282000000000153,null]},"properties":{"FID":105,"OBJECTID":147,"NAME":"WS107","Depth":1.9299999999999999,"SurElev":21.282,"BottomElev":19.352}}]}
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 0,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36744782624713,
+          31.887028806519591
+        ]
+      },
+      "properties" : {
+        "FID" : 0,
+        "OBJECTID" : 1,
+        "NAME" : "WS1",
+        "BottomElev" : 25.631,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3694426928713,
+          31.884081388172099
+        ]
+      },
+      "properties" : {
+        "FID" : 1,
+        "OBJECTID" : 2,
+        "NAME" : "WS70",
+        "BottomElev" : 25.234999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36980618230415,
+          31.884189209032016
+        ]
+      },
+      "properties" : {
+        "FID" : 2,
+        "OBJECTID" : 3,
+        "NAME" : "WS72",
+        "BottomElev" : 24.712,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37057006494119,
+          31.887150806114239
+        ]
+      },
+      "properties" : {
+        "FID" : 3,
+        "OBJECTID" : 5,
+        "NAME" : "WS16",
+        "BottomElev" : 24.128,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37162547664504,
+          31.887182589482329
+        ]
+      },
+      "properties" : {
+        "FID" : 4,
+        "OBJECTID" : 7,
+        "NAME" : "WS20",
+        "BottomElev" : 23.616,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3726858949197,
+          31.887349984633595
+        ]
+      },
+      "properties" : {
+        "FID" : 5,
+        "OBJECTID" : 8,
+        "NAME" : "WS25",
+        "BottomElev" : 20.879000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37325558578405,
+          31.887295267503635
+        ]
+      },
+      "properties" : {
+        "FID" : 6,
+        "OBJECTID" : 9,
+        "NAME" : "WS27",
+        "BottomElev" : 20.600999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37391509363671,
+          31.884395828915469
+        ]
+      },
+      "properties" : {
+        "FID" : 7,
+        "OBJECTID" : 11,
+        "NAME" : "WS66",
+        "BottomElev" : 20.364000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37396106009568,
+          31.885159623532733
+        ]
+      },
+      "properties" : {
+        "FID" : 8,
+        "OBJECTID" : 12,
+        "NAME" : "WS61",
+        "BottomElev" : 17.692,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3738529714264,
+          31.888379330736697
+        ]
+      },
+      "properties" : {
+        "FID" : 9,
+        "OBJECTID" : 14,
+        "NAME" : "WS35",
+        "BottomElev" : 19.734000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37400564789141,
+          31.888485198074338
+        ]
+      },
+      "properties" : {
+        "FID" : 10,
+        "OBJECTID" : 15,
+        "NAME" : "WS34",
+        "BottomElev" : 19.783999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37456234343932,
+          31.887461400522408
+        ]
+      },
+      "properties" : {
+        "FID" : 11,
+        "OBJECTID" : 16,
+        "NAME" : "WS50",
+        "BottomElev" : 19.567699999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37522185081512,
+          31.884188670545107
+        ]
+      },
+      "properties" : {
+        "FID" : 12,
+        "OBJECTID" : 17,
+        "NAME" : "WS97",
+        "BottomElev" : 17.489000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37604690401258,
+          31.884312200182539
+        ]
+      },
+      "properties" : {
+        "FID" : 13,
+        "OBJECTID" : 18,
+        "NAME" : "WS102",
+        "BottomElev" : 17.954000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36820198135787,
+          31.887300906322324
+        ]
+      },
+      "properties" : {
+        "FID" : 14,
+        "OBJECTID" : 19,
+        "NAME" : "WS5",
+        "BottomElev" : 22.983000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36945695901601,
+          31.887117576060721
+        ]
+      },
+      "properties" : {
+        "FID" : 15,
+        "OBJECTID" : 20,
+        "NAME" : "WS12",
+        "BottomElev" : 25.361000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37019595994843,
+          31.884096376442656
+        ]
+      },
+      "properties" : {
+        "FID" : 16,
+        "OBJECTID" : 21,
+        "NAME" : "WS74",
+        "BottomElev" : 22.939,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37056842287782,
+          31.884106185445265
+        ]
+      },
+      "properties" : {
+        "FID" : 17,
+        "OBJECTID" : 22,
+        "NAME" : "WS75",
+        "BottomElev" : 23.495999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37057069866201,
+          31.887282642079981
+        ]
+      },
+      "properties" : {
+        "FID" : 18,
+        "OBJECTID" : 23,
+        "NAME" : "WS15",
+        "BottomElev" : 25.257999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37130549344336,
+          31.884120159721725
+        ]
+      },
+      "properties" : {
+        "FID" : 19,
+        "OBJECTID" : 24,
+        "NAME" : "WS79",
+        "BottomElev" : 23.024999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37391068181734,
+          31.884177563628803
+        ]
+      },
+      "properties" : {
+        "FID" : 20,
+        "OBJECTID" : 25,
+        "NAME" : "WS89",
+        "BottomElev" : 19.84,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37398108782475,
+          31.884181036169235
+        ]
+      },
+      "properties" : {
+        "FID" : 21,
+        "OBJECTID" : 26,
+        "NAME" : "WS92",
+        "BottomElev" : 17.638000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37399806868352,
+          31.887810265500644
+        ]
+      },
+      "properties" : {
+        "FID" : 22,
+        "OBJECTID" : 27,
+        "NAME" : "WS42",
+        "BottomElev" : 19.530000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37371267120349,
+          31.888728488586089
+        ]
+      },
+      "properties" : {
+        "FID" : 23,
+        "OBJECTID" : 28,
+        "NAME" : "WS30",
+        "BottomElev" : 20.434000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37480910419526,
+          31.88428766466437
+        ]
+      },
+      "properties" : {
+        "FID" : 24,
+        "OBJECTID" : 30,
+        "NAME" : "WS96",
+        "BottomElev" : 19.154,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36820469521767,
+          31.887063808119649
+        ]
+      },
+      "properties" : {
+        "FID" : 25,
+        "OBJECTID" : 33,
+        "NAME" : "WS6",
+        "BottomElev" : 24.582999999999998,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3715115296494,
+          31.884206124254447
+        ]
+      },
+      "properties" : {
+        "FID" : 26,
+        "OBJECTID" : 35,
+        "NAME" : "WS81",
+        "BottomElev" : 24.395,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37108990897418,
+          31.88722785667002
+        ]
+      },
+      "properties" : {
+        "FID" : 27,
+        "OBJECTID" : 36,
+        "NAME" : "WS17",
+        "BottomElev" : 22.664999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3724670758335,
+          31.884257915692299
+        ]
+      },
+      "properties" : {
+        "FID" : 28,
+        "OBJECTID" : 37,
+        "NAME" : "WS84",
+        "BottomElev" : 21.701000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37216663653709,
+          31.887263929431356
+        ]
+      },
+      "properties" : {
+        "FID" : 29,
+        "OBJECTID" : 39,
+        "NAME" : "WS21",
+        "BottomElev" : 21.882999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3739516237417,
+          31.883802589551841
+        ]
+      },
+      "properties" : {
+        "FID" : 30,
+        "OBJECTID" : 41,
+        "NAME" : "WS91",
+        "BottomElev" : 19.562000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37357792940884,
+          31.884170876570103
+        ]
+      },
+      "properties" : {
+        "FID" : 31,
+        "OBJECTID" : 42,
+        "NAME" : "WS88",
+        "BottomElev" : 20.193999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37397680497932,
+          31.884394971460985
+        ]
+      },
+      "properties" : {
+        "FID" : 32,
+        "OBJECTID" : 43,
+        "NAME" : "WS65",
+        "BottomElev" : 17.504000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37407832727139,
+          31.886500737967499
+        ]
+      },
+      "properties" : {
+        "FID" : 33,
+        "OBJECTID" : 44,
+        "NAME" : "WS56",
+        "BottomElev" : 19.242000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37387141184388,
+          31.887776512950367
+        ]
+      },
+      "properties" : {
+        "FID" : 34,
+        "OBJECTID" : 45,
+        "NAME" : "WS40",
+        "BottomElev" : 19.370000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37395467589111,
+          31.888735235240723
+        ]
+      },
+      "properties" : {
+        "FID" : 35,
+        "OBJECTID" : 48,
+        "NAME" : "WS32",
+        "BottomElev" : 20.012,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37509823262937,
+          31.887341816067828
+        ]
+      },
+      "properties" : {
+        "FID" : 36,
+        "OBJECTID" : 49,
+        "NAME" : "WS48",
+        "BottomElev" : 19.633700000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37646916155241,
+          31.884368964871573
+        ]
+      },
+      "properties" : {
+        "FID" : 37,
+        "OBJECTID" : 50,
+        "NAME" : "WS106",
+        "BottomElev" : 18.600999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36859502161661,
+          31.887166368989263
+        ]
+      },
+      "properties" : {
+        "FID" : 38,
+        "OBJECTID" : 51,
+        "NAME" : "WS7",
+        "BottomElev" : 24.885000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36982032240502,
+          31.884090895375788
+        ]
+      },
+      "properties" : {
+        "FID" : 39,
+        "OBJECTID" : 52,
+        "NAME" : "WS71",
+        "BottomElev" : 23.728000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36946454778273,
+          31.887183702721352
+        ]
+      },
+      "properties" : {
+        "FID" : 40,
+        "OBJECTID" : 53,
+        "NAME" : "WS9",
+        "BottomElev" : 24.370999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37003018158337,
+          31.887200572393883
+        ]
+      },
+      "properties" : {
+        "FID" : 41,
+        "OBJECTID" : 55,
+        "NAME" : "WS13",
+        "BottomElev" : 24.356000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37169811444598,
+          31.884130519717257
+        ]
+      },
+      "properties" : {
+        "FID" : 42,
+        "OBJECTID" : 56,
+        "NAME" : "WS80",
+        "BottomElev" : 22.972000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37246771512987,
+          31.883962483657292
+        ]
+      },
+      "properties" : {
+        "FID" : 43,
+        "OBJECTID" : 57,
+        "NAME" : "WS85",
+        "BottomElev" : 21.779,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3719787668623,
+          31.887318426590415
+        ]
+      },
+      "properties" : {
+        "FID" : 44,
+        "OBJECTID" : 58,
+        "NAME" : "WS22",
+        "BottomElev" : 24.021999999999998,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37212170011534,
+          31.887323265988631
+        ]
+      },
+      "properties" : {
+        "FID" : 45,
+        "OBJECTID" : 59,
+        "NAME" : "WS23",
+        "BottomElev" : 23.952999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37389387167241,
+          31.88516282376705
+        ]
+      },
+      "properties" : {
+        "FID" : 46,
+        "OBJECTID" : 61,
+        "NAME" : "WS62",
+        "BottomElev" : 19.202000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 47,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37392404314099,
+          31.886113856766702
+        ]
+      },
+      "properties" : {
+        "FID" : 47,
+        "OBJECTID" : 63,
+        "NAME" : "WS57",
+        "BottomElev" : 18.033000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37388253685336,
+          31.887409030647945
+        ]
+      },
+      "properties" : {
+        "FID" : 48,
+        "OBJECTID" : 64,
+        "NAME" : "WS43",
+        "BottomElev" : 19.178000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37386812879366,
+          31.887963345219649
+        ]
+      },
+      "properties" : {
+        "FID" : 49,
+        "OBJECTID" : 65,
+        "NAME" : "WS38",
+        "BottomElev" : 19.681999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37455526680276,
+          31.88732952909794
+        ]
+      },
+      "properties" : {
+        "FID" : 50,
+        "OBJECTID" : 67,
+        "NAME" : "WS49",
+        "BottomElev" : 19.18,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37563094200739,
+          31.887272326949319
+        ]
+      },
+      "properties" : {
+        "FID" : 51,
+        "OBJECTID" : 68,
+        "NAME" : "WS47",
+        "BottomElev" : 20.091899999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 52,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36780850851174,
+          31.887140717612933
+        ]
+      },
+      "properties" : {
+        "FID" : 52,
+        "OBJECTID" : 72,
+        "NAME" : "WS3",
+        "BottomElev" : 24.805,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 53,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36982481498899,
+          31.883913808247431
+        ]
+      },
+      "properties" : {
+        "FID" : 53,
+        "OBJECTID" : 74,
+        "NAME" : "Ws73",
+        "BottomElev" : 24.306000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 54,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3709310864307,
+          31.884223925378429
+        ]
+      },
+      "properties" : {
+        "FID" : 54,
+        "OBJECTID" : 76,
+        "NAME" : "WS77",
+        "BottomElev" : 23.765000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 55,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37162802597595,
+          31.887246314341823
+        ]
+      },
+      "properties" : {
+        "FID" : 55,
+        "OBJECTID" : 77,
+        "NAME" : "WS19",
+        "BottomElev" : 22.216000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 56,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37246163809813,
+          31.88414631223571
+        ]
+      },
+      "properties" : {
+        "FID" : 56,
+        "OBJECTID" : 78,
+        "NAME" : "WS83",
+        "BottomElev" : 20.716000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 57,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37270930489179,
+          31.887223497754675
+        ]
+      },
+      "properties" : {
+        "FID" : 57,
+        "OBJECTID" : 79,
+        "NAME" : "WS26",
+        "BottomElev" : 21.539000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 58,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37395982981567,
+          31.883479205772669
+        ]
+      },
+      "properties" : {
+        "FID" : 58,
+        "OBJECTID" : 82,
+        "NAME" : "WS90",
+        "BottomElev" : 19.609000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 59,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37410591131552,
+          31.884183292816616
+        ]
+      },
+      "properties" : {
+        "FID" : 59,
+        "OBJECTID" : 83,
+        "NAME" : "WS93",
+        "BottomElev" : 19.747,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 60,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37384807983703,
+          31.886498592680699
+        ]
+      },
+      "properties" : {
+        "FID" : 60,
+        "OBJECTID" : 84,
+        "NAME" : "WS55",
+        "BottomElev" : 18.821999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 61,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37389920186962,
+          31.886924285082141
+        ]
+      },
+      "properties" : {
+        "FID" : 61,
+        "OBJECTID" : 87,
+        "NAME" : "WS53",
+        "BottomElev" : 18.210000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 62,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37380260836385,
+          31.887775479569004
+        ]
+      },
+      "properties" : {
+        "FID" : 62,
+        "OBJECTID" : 88,
+        "NAME" : "WS41",
+        "BottomElev" : 20.300000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 63,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37379362610032,
+          31.888380443191277
+        ]
+      },
+      "properties" : {
+        "FID" : 63,
+        "OBJECTID" : 90,
+        "NAME" : "WS37",
+        "BottomElev" : 20.263999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 64,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37443650308875,
+          31.884191671931159
+        ]
+      },
+      "properties" : {
+        "FID" : 64,
+        "OBJECTID" : 91,
+        "NAME" : "WS94",
+        "BottomElev" : 17.699000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 65,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3756904844048,
+          31.884302278914586
+        ]
+      },
+      "properties" : {
+        "FID" : 65,
+        "OBJECTID" : 92,
+        "NAME" : "WS100",
+        "BottomElev" : 18.835999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 66,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37572492704946,
+          31.884200045002807
+        ]
+      },
+      "properties" : {
+        "FID" : 66,
+        "OBJECTID" : 93,
+        "NAME" : "WS99",
+        "BottomElev" : 17.326000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 67,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37604589614956,
+          31.884261818263809
+        ]
+      },
+      "properties" : {
+        "FID" : 67,
+        "OBJECTID" : 94,
+        "NAME" : "WS103",
+        "BottomElev" : 17.571000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 68,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37646462817938,
+          31.884236644523142
+        ]
+      },
+      "properties" : {
+        "FID" : 68,
+        "OBJECTID" : 95,
+        "NAME" : "WS104",
+        "BottomElev" : 17.381,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 69,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36962155822948,
+          31.887256916659734
+        ]
+      },
+      "properties" : {
+        "FID" : 69,
+        "OBJECTID" : 98,
+        "NAME" : "WS10",
+        "BottomElev" : 26.875,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 70,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37093561775744,
+          31.884114980520049
+        ]
+      },
+      "properties" : {
+        "FID" : 70,
+        "OBJECTID" : 99,
+        "NAME" : "WS76",
+        "BottomElev" : 23.248999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 71,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37283502073684,
+          31.884156130064842
+        ]
+      },
+      "properties" : {
+        "FID" : 71,
+        "OBJECTID" : 103,
+        "NAME" : "WS86",
+        "BottomElev" : 20.547000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 72,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37320717223834,
+          31.884164741662094
+        ]
+      },
+      "properties" : {
+        "FID" : 72,
+        "OBJECTID" : 104,
+        "NAME" : "WS87",
+        "BottomElev" : 20.504000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 73,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37388084855985,
+          31.885408366868464
+        ]
+      },
+      "properties" : {
+        "FID" : 73,
+        "OBJECTID" : 105,
+        "NAME" : "WS60",
+        "BottomElev" : 19.545999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 74,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37393352312344,
+          31.885702875260943
+        ]
+      },
+      "properties" : {
+        "FID" : 74,
+        "OBJECTID" : 107,
+        "NAME" : "WS58",
+        "BottomElev" : 17.946000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 75,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37381639239793,
+          31.887404048910387
+        ]
+      },
+      "properties" : {
+        "FID" : 75,
+        "OBJECTID" : 109,
+        "NAME" : "WS44",
+        "BottomElev" : 19.988,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 76,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37379730474413,
+          31.887967133506621
+        ]
+      },
+      "properties" : {
+        "FID" : 76,
+        "OBJECTID" : 110,
+        "NAME" : "WS39",
+        "BottomElev" : 20.032,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 77,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37377237688118,
+          31.888730126166621
+        ]
+      },
+      "properties" : {
+        "FID" : 77,
+        "OBJECTID" : 111,
+        "NAME" : "WS31",
+        "BottomElev" : 20.088999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 78,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37384755075179,
+          31.888476518251977
+        ]
+      },
+      "properties" : {
+        "FID" : 78,
+        "OBJECTID" : 112,
+        "NAME" : "WS33",
+        "BottomElev" : 19.693999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 79,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37562220125091,
+          31.887465136014789
+        ]
+      },
+      "properties" : {
+        "FID" : 79,
+        "OBJECTID" : 114,
+        "NAME" : "WS46",
+        "BottomElev" : 20.035,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 80,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36833120366808,
+          31.884049351572479
+        ]
+      },
+      "properties" : {
+        "FID" : 80,
+        "OBJECTID" : 115,
+        "NAME" : "WS67",
+        "BottomElev" : 25.795999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 81,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37209092795491,
+          31.884138839685889
+        ]
+      },
+      "properties" : {
+        "FID" : 81,
+        "OBJECTID" : 117,
+        "NAME" : "WS82",
+        "BottomElev" : 22.905000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 82,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37388600153562,
+          31.887311713462061
+        ]
+      },
+      "properties" : {
+        "FID" : 82,
+        "OBJECTID" : 119,
+        "NAME" : "WS52",
+        "BottomElev" : 18.190000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 83,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37384089388019,
+          31.888733369285969
+        ]
+      },
+      "properties" : {
+        "FID" : 83,
+        "OBJECTID" : 120,
+        "NAME" : "WS29",
+        "BottomElev" : 19.989000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 84,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37455690244359,
+          31.887247981102863
+        ]
+      },
+      "properties" : {
+        "FID" : 84,
+        "OBJECTID" : 121,
+        "NAME" : "WS51",
+        "BottomElev" : 19.721699999999998,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 85,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37521844344616,
+          31.884286709805643
+        ]
+      },
+      "properties" : {
+        "FID" : 85,
+        "OBJECTID" : 122,
+        "NAME" : "WS98",
+        "BottomElev" : 17.879000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 86,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36744615630099,
+          31.887124738995343
+        ]
+      },
+      "properties" : {
+        "FID" : 86,
+        "OBJECTID" : 123,
+        "NAME" : "WS2",
+        "BottomElev" : 24.914999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 87,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36820061703791,
+          31.887159873625468
+        ]
+      },
+      "properties" : {
+        "FID" : 87,
+        "OBJECTID" : 124,
+        "NAME" : "WS4",
+        "BottomElev" : 24.783000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 88,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3687209107496,
+          31.884058079012735
+        ]
+      },
+      "properties" : {
+        "FID" : 88,
+        "OBJECTID" : 125,
+        "NAME" : "WS68",
+        "BottomElev" : 25.178000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 89,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36908383408854,
+          31.884074485040497
+        ]
+      },
+      "properties" : {
+        "FID" : 89,
+        "OBJECTID" : 126,
+        "NAME" : "WS69",
+        "BottomElev" : 24.975999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 90,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36898915001733,
+          31.887169924073334
+        ]
+      },
+      "properties" : {
+        "FID" : 90,
+        "OBJECTID" : 127,
+        "NAME" : "WS8",
+        "BottomElev" : 24.263000000000002,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 91,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36949336901323,
+          31.887249190815222
+        ]
+      },
+      "properties" : {
+        "FID" : 91,
+        "OBJECTID" : 128,
+        "NAME" : "WS11",
+        "BottomElev" : 26.161000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 92,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37056601487795,
+          31.887213648078369
+        ]
+      },
+      "properties" : {
+        "FID" : 92,
+        "OBJECTID" : 130,
+        "NAME" : "WS14",
+        "BottomElev" : 23.908000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 93,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37109032398024,
+          31.887173204721275
+        ]
+      },
+      "properties" : {
+        "FID" : 93,
+        "OBJECTID" : 132,
+        "NAME" : "WS18",
+        "BottomElev" : 23.375,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 94,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37271969982848,
+          31.88728228477904
+        ]
+      },
+      "properties" : {
+        "FID" : 94,
+        "OBJECTID" : 133,
+        "NAME" : "WS24",
+        "BottomElev" : 21.029,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 95,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37395195282303,
+          31.885406399097938
+        ]
+      },
+      "properties" : {
+        "FID" : 95,
+        "OBJECTID" : 134,
+        "NAME" : "WS59",
+        "BottomElev" : 17.876000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 96,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37396315311371,
+          31.884822342330679
+        ]
+      },
+      "properties" : {
+        "FID" : 96,
+        "OBJECTID" : 135,
+        "NAME" : "WS64",
+        "BottomElev" : 17.756,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 97,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37409350379147,
+          31.885229576322772
+        ]
+      },
+      "properties" : {
+        "FID" : 97,
+        "OBJECTID" : 136,
+        "NAME" : "WS63",
+        "BottomElev" : 18.161999999999999,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 98,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37391119902271,
+          31.886495358749887
+        ]
+      },
+      "properties" : {
+        "FID" : 98,
+        "OBJECTID" : 137,
+        "NAME" : "WS54",
+        "BottomElev" : 18.212,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 99,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37357886267652,
+          31.887305915482152
+        ]
+      },
+      "properties" : {
+        "FID" : 99,
+        "OBJECTID" : 138,
+        "NAME" : "WS28",
+        "BottomElev" : 19.936,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 100,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37371393137501,
+          31.888354740612851
+        ]
+      },
+      "properties" : {
+        "FID" : 100,
+        "OBJECTID" : 140,
+        "NAME" : "WS36",
+        "BottomElev" : 21.341000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 101,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37481115772444,
+          31.88417874460934
+        ]
+      },
+      "properties" : {
+        "FID" : 101,
+        "OBJECTID" : 142,
+        "NAME" : "WS95",
+        "BottomElev" : 17.344000000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 102,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37562646215908,
+          31.887353522274466
+        ]
+      },
+      "properties" : {
+        "FID" : 102,
+        "OBJECTID" : 144,
+        "NAME" : "WS45",
+        "BottomElev" : 19.604800000000001,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 103,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37646373815143,
+          31.884007366332032
+        ]
+      },
+      "properties" : {
+        "FID" : 103,
+        "OBJECTID" : 145,
+        "NAME" : "WS105",
+        "BottomElev" : 16.331,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 104,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37604799877775,
+          31.88423043741625
+        ]
+      },
+      "properties" : {
+        "FID" : 104,
+        "OBJECTID" : 146,
+        "NAME" : "WS101",
+        "BottomElev" : 17.381,
+        "Level" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 105,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37658499677566,
+          31.884409041666771
+        ]
+      },
+      "properties" : {
+        "FID" : 105,
+        "OBJECTID" : 147,
+        "NAME" : "WS107",
+        "BottomElev" : 19.352,
+        "Level" : 1
+      }
+    }
+  ]
+}

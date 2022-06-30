@@ -1,1 +1,3751 @@
-{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"EPSG:4326"}},"features":[{"type":"Feature","id":0,"geometry":{"type":"Point","coordinates":[117.37149121389002,31.88385257764207]},"properties":{"FID":0,"Name":" YS_BR300_Junction46_09","Level":0}},{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[117.37134252762884,31.883845589994575]},"properties":{"FID":1,"Name":" YS_BR600_Junction46_10","Level":0}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[117.37059443698486,31.883911315775414]},"properties":{"FID":2,"Name":"YS_BR300_Junction58_16","Level":0}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[117.37060332607608,31.883882341177184]},"properties":{"FID":3,"Name":"YS_BR300_Junction58_15","Level":0}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[117.37069518394557,31.883879557261189]},"properties":{"FID":4,"Name":"YS_BR300_Junction69_05","Level":0}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[117.37077382825659,31.883876315811634]},"properties":{"FID":5,"Name":"YS_BR300_Junction69_04","Level":0}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[117.37076853345781,31.883683827004319]},"properties":{"FID":6,"Name":"YS_BR300_Junction69_03","Level":0}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[117.37076893058367,31.883563972874139]},"properties":{"FID":7,"Name":"YS_BR300_Junction69_02","Level":0}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[117.37076609763484,31.883484728470069]},"properties":{"FID":8,"Name":"YS_BR300_Junction69_01","Level":0}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[117.37046778170692,31.883879029727087]},"properties":{"FID":9,"Name":"YS_BR300_Junction58_14","Level":0}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[117.37041405584858,31.8838786000906]},"properties":{"FID":10,"Name":"YS_BR300_Junction58_13","Level":0}},{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[117.37031142947951,31.883873884905714]},"properties":{"FID":11,"Name":"YS_BR300_Junction58_12","Level":0}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[117.36967493042087,31.883590570243364]},"properties":{"FID":12,"Name":"YS_BR300_Junction67_01","Level":0}},{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[117.3697251541553,31.883592768943323]},"properties":{"FID":13,"Name":"YS_BR300_Junction67_02","Level":0}},{"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":[117.36982881904525,31.883595605779352]},"properties":{"FID":14,"Name":"YS_BR300_Junction67_03","Level":0}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[117.36990055050222,31.883597579511548]},"properties":{"FID":15,"Name":"YS_BR300_Junction67_04","Level":0}},{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[117.36995366559759,31.88359861536815]},"properties":{"FID":16,"Name":"YS_BR300_Junction67_05","Level":0}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[117.37000986773579,31.883599849638252]},"properties":{"FID":17,"Name":"YS_BR300_Junction67_06","Level":0}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[117.37007995000363,31.883601728868033]},"properties":{"FID":18,"Name":"YS_BR300_Junction67_07","Level":0}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[117.37012468244758,31.88360247341528]},"properties":{"FID":19,"Name":"YS_BR300_Junction67_08","Level":0}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[117.37016192084504,31.883603122529696]},"properties":{"FID":20,"Name":"YS_BR300_Junction67_09","Level":0}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[117.37032417853037,31.883607682183257]},"properties":{"FID":21,"Name":"YS_BR300_Junction67_11","Level":0}},{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":[117.37032231587747,31.883686318014085]},"properties":{"FID":22,"Name":"YS_BR300_Junction67_12","Level":0}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[117.37038218039471,31.883504001364834]},"properties":{"FID":23,"Name":"YS_BR300_Junction68_05","Level":0}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[117.37053194391228,31.883241646965775]},"properties":{"FID":24,"Name":"YS_BR300_Junction68_04","Level":0}},{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":[117.37057500958572,31.883245868252256]},"properties":{"FID":25,"Name":"YS_BR300_Junction68_03","Level":0}},{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":[117.37057590887372,31.883378082675687]},"properties":{"FID":26,"Name":"YS_BR300_Junction68_02","Level":0}},{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":[117.37057612894196,31.883459444980652]},"properties":{"FID":27,"Name":"YS_BR300_Junction68_01","Level":0}},{"type":"Feature","id":28,"geometry":{"type":"Point","coordinates":[117.369917249838,31.883296049722382]},"properties":{"FID":28,"Name":"YS_BR300_Junction66_08","Level":0}},{"type":"Feature","id":29,"geometry":{"type":"Point","coordinates":[117.3700553313146,31.883299697073504]},"properties":{"FID":29,"Name":"YS_BR300_Junction66_07","Level":0}},{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":[117.37009263228387,31.883300165661019]},"properties":{"FID":30,"Name":"YS_BR300_Junction66_06","Level":0}},{"type":"Feature","id":31,"geometry":{"type":"Point","coordinates":[117.37018251452557,31.883303015277757]},"properties":{"FID":31,"Name":"YS_BR300_Junction66_05","Level":0}},{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":[117.3702554436509,31.883305878133402]},"properties":{"FID":32,"Name":"YS_BR300_Junction66_03","Level":0}},{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":[117.37034156842763,31.883307385838418]},"properties":{"FID":33,"Name":"YS_BR300_Junction66_02","Level":0}},{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":[117.37039116638223,31.883309072056807]},"properties":{"FID":34,"Name":"YS_BR300_Junction66_01","Level":0}},{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[117.37022015562225,31.883303960806444]},"properties":{"FID":35,"Name":"YS_BR300_Junction66_04","Level":0}},{"type":"Feature","id":36,"geometry":{"type":"Point","coordinates":[117.36973605195263,31.883288703873053]},"properties":{"FID":36,"Name":"YS_BR500_Junction57_03","Level":0}},{"type":"Feature","id":37,"geometry":{"type":"Point","coordinates":[117.36957988071255,31.883640961197109]},"properties":{"FID":37,"Name":"YS_BR300_Junction58_01","Level":0}},{"type":"Feature","id":38,"geometry":{"type":"Point","coordinates":[117.36957400288173,31.883720050587897]},"properties":{"FID":38,"Name":"YS_BR300_Junction58_02","Level":0}},{"type":"Feature","id":39,"geometry":{"type":"Point","coordinates":[117.36960517713872,31.883864279534727]},"properties":{"FID":39,"Name":"YS_BR300_Junction58_03","Level":0}},{"type":"Feature","id":40,"geometry":{"type":"Point","coordinates":[117.36967617235409,31.883864460894785]},"properties":{"FID":40,"Name":"YS_BR600_Junction58_04","Level":0}},{"type":"Feature","id":41,"geometry":{"type":"Point","coordinates":[117.36974926976966,31.883864365552569]},"properties":{"FID":41,"Name":"YS_BR600_Junction58_05","Level":0}},{"type":"Feature","id":42,"geometry":{"type":"Point","coordinates":[117.36981565570967,31.883864289692063]},"properties":{"FID":42,"Name":"YS_BR300_Junction58_06","Level":0}},{"type":"Feature","id":43,"geometry":{"type":"Point","coordinates":[117.36990486909787,31.883866257656354]},"properties":{"FID":43,"Name":"YS_BR300_Junction58_07","Level":0}},{"type":"Feature","id":44,"geometry":{"type":"Point","coordinates":[117.36997625613294,31.883866627092665]},"properties":{"FID":44,"Name":"YS_BR300_Junction58_08","Level":0}},{"type":"Feature","id":45,"geometry":{"type":"Point","coordinates":[117.37003542550448,31.883869773609387]},"properties":{"FID":45,"Name":"YS_BR300_Junction58_09","Level":0}},{"type":"Feature","id":46,"geometry":{"type":"Point","coordinates":[117.37010750163506,31.883870664026592]},"properties":{"FID":46,"Name":"YS_BR300_Junction58_10","Level":0}},{"type":"Feature","id":47,"geometry":{"type":"Point","coordinates":[117.37015704476985,31.883871782342609]},"properties":{"FID":47,"Name":"YS_BR300_Junction58_11","Level":0}},{"type":"Feature","id":48,"geometry":{"type":"Point","coordinates":[117.36981496956103,31.883036548583537]},"properties":{"FID":48,"Name":"YS_BR500_Junction57_02","Level":0}},{"type":"Feature","id":49,"geometry":{"type":"Point","coordinates":[117.36987034668002,31.883045649260207]},"properties":{"FID":49,"Name":"YS_BR300_Junction64_11","Level":0}},{"type":"Feature","id":50,"geometry":{"type":"Point","coordinates":[117.36994682035163,31.883044236333451]},"properties":{"FID":50,"Name":"YS_BR300_Junction64_10","Level":0}},{"type":"Feature","id":51,"geometry":{"type":"Point","coordinates":[117.36999893596887,31.883043859210645]},"properties":{"FID":51,"Name":"YS_BR300_Junction64_09","Level":0}},{"type":"Feature","id":52,"geometry":{"type":"Point","coordinates":[117.37001671350896,31.883043861579655]},"properties":{"FID":52,"Name":"YS_BR300_Junction64_08","Level":0}},{"type":"Feature","id":53,"geometry":{"type":"Point","coordinates":[117.37006580977169,31.883044349954215]},"properties":{"FID":53,"Name":"YS_BR300_Junction64_07","Level":0}},{"type":"Feature","id":54,"geometry":{"type":"Point","coordinates":[117.3701143787308,31.883045128430027]},"properties":{"FID":54,"Name":"YS_BR300_Junction64_06","Level":0}},{"type":"Feature","id":55,"geometry":{"type":"Point","coordinates":[117.37025798444081,31.883045350568999]},"properties":{"FID":55,"Name":"YS_BR300_Junction64_05","Level":0}},{"type":"Feature","id":56,"geometry":{"type":"Point","coordinates":[117.37029517961635,31.883045819405698]},"properties":{"FID":56,"Name":"YS_BR300_Junction64_04","Level":0}},{"type":"Feature","id":57,"geometry":{"type":"Point","coordinates":[117.37031002011864,31.883043485534728]},"properties":{"FID":57,"Name":"YS_BR300_Junction64_03","Level":0}},{"type":"Feature","id":58,"geometry":{"type":"Point","coordinates":[117.37034245336658,31.883045158641583]},"properties":{"FID":58,"Name":"YS_BR300_Junction64_02","Level":0}},{"type":"Feature","id":59,"geometry":{"type":"Point","coordinates":[117.37040053882281,31.883044331085756]},"properties":{"FID":59,"Name":"YS_BR300_Junction64_01","Level":0}},{"type":"Feature","id":60,"geometry":{"type":"Point","coordinates":[117.36999544076438,31.88299443115271]},"properties":{"FID":60,"Name":"YS_BR300_Junction65_01","Level":0}},{"type":"Feature","id":61,"geometry":{"type":"Point","coordinates":[117.3698938588844,31.882737750754853]},"properties":{"FID":61,"Name":"YS_BR500_Junction57_01","Level":0}},{"type":"Feature","id":62,"geometry":{"type":"Point","coordinates":[117.37006018822946,31.882743317972444]},"properties":{"FID":62,"Name":"YS_BR300_Junction63_11","Level":0}},{"type":"Feature","id":63,"geometry":{"type":"Point","coordinates":[117.370084897322,31.882745509634834]},"properties":{"FID":63,"Name":"YS_BR300_Junction63_10","Level":0}},{"type":"Feature","id":64,"geometry":{"type":"Point","coordinates":[117.37021306930215,31.882745190565608]},"properties":{"FID":64,"Name":"YS_BR300_Junction63_07","Level":0}},{"type":"Feature","id":65,"geometry":{"type":"Point","coordinates":[117.37024309477607,31.882747393770391]},"properties":{"FID":65,"Name":"YS_BR300_Junction63_06","Level":0}},{"type":"Feature","id":66,"geometry":{"type":"Point","coordinates":[117.37034977659597,31.882751637270651]},"properties":{"FID":66,"Name":"YS_BR300_Junction63_05","Level":0}},{"type":"Feature","id":67,"geometry":{"type":"Point","coordinates":[117.37038452347825,31.882753078170296]},"properties":{"FID":67,"Name":"YS_BR300_Junction63_04","Level":0}},{"type":"Feature","id":68,"geometry":{"type":"Point","coordinates":[117.37012235981435,31.882746780371768]},"properties":{"FID":68,"Name":"YS_BR300_Junction63_09","Level":0}},{"type":"Feature","id":69,"geometry":{"type":"Point","coordinates":[117.37017033350058,31.882746748914453]},"properties":{"FID":69,"Name":"YS_BR300_Junction63_08","Level":0}},{"type":"Feature","id":70,"geometry":{"type":"Point","coordinates":[117.3704200996921,31.882753109791771]},"properties":{"FID":70,"Name":"YS_BR300_Junction63_03","Level":0}},{"type":"Feature","id":71,"geometry":{"type":"Point","coordinates":[117.37047114968134,31.882753240604913]},"properties":{"FID":71,"Name":"YS_BR300_Junction63_02","Level":0}},{"type":"Feature","id":72,"geometry":{"type":"Point","coordinates":[117.3705710282922,31.882750406355125]},"properties":{"FID":72,"Name":"YS_BR300_Junction63_01","Level":0}},{"type":"Feature","id":73,"geometry":{"type":"Point","coordinates":[117.36994847209012,31.882513460429024]},"properties":{"FID":73,"Name":"YS_BR400_Junction56_03","Level":0}},{"type":"Feature","id":74,"geometry":{"type":"Point","coordinates":[117.37010090553737,31.882506568689259]},"properties":{"FID":74,"Name":"YS_BR300_Junction61_13","Level":0}},{"type":"Feature","id":75,"geometry":{"type":"Point","coordinates":[117.37004284198528,31.882507504262357]},"properties":{"FID":75,"Name":"YS_BR300_Junction61_14","Level":0}},{"type":"Feature","id":76,"geometry":{"type":"Point","coordinates":[117.37014857915911,31.882508179441984]},"properties":{"FID":76,"Name":"YS_BR300_Junction61_12","Level":0}},{"type":"Feature","id":77,"geometry":{"type":"Point","coordinates":[117.37018216655675,31.882510426400597]},"properties":{"FID":77,"Name":"YS_BR300_Junction61_11","Level":0}},{"type":"Feature","id":78,"geometry":{"type":"Point","coordinates":[117.3702137216597,31.882509279375359]},"properties":{"FID":78,"Name":"YS_BR300_Junction61_10","Level":0}},{"type":"Feature","id":79,"geometry":{"type":"Point","coordinates":[117.37025881786681,31.882508615966373]},"properties":{"FID":79,"Name":"YS_BR300_Junction61_09","Level":0}},{"type":"Feature","id":80,"geometry":{"type":"Point","coordinates":[117.37031156202191,31.882506911198458]},"properties":{"FID":80,"Name":"YS_BR300_Junction61_08","Level":0}},{"type":"Feature","id":81,"geometry":{"type":"Point","coordinates":[117.37021364616747,31.88246398075378]},"properties":{"FID":81,"Name":"YS_BR300_Junction62_01","Level":0}},{"type":"Feature","id":82,"geometry":{"type":"Point","coordinates":[117.3703798860011,31.882508046870996]},"properties":{"FID":82,"Name":"YS_BR300_Junction61_07","Level":0}},{"type":"Feature","id":83,"geometry":{"type":"Point","coordinates":[117.37040482997075,31.882508199655064]},"properties":{"FID":83,"Name":"YS_BR300_Junction61_06","Level":0}},{"type":"Feature","id":84,"geometry":{"type":"Point","coordinates":[117.37044372349352,31.882510539304185]},"properties":{"FID":84,"Name":"YS_BR300_Junction61_05","Level":0}},{"type":"Feature","id":85,"geometry":{"type":"Point","coordinates":[117.37046122169434,31.882509433176526]},"properties":{"FID":85,"Name":"YS_BR300_Junction61_04","Level":0}},{"type":"Feature","id":86,"geometry":{"type":"Point","coordinates":[117.37049427879572,31.882508579308215]},"properties":{"FID":86,"Name":"YS_BR300_Junction61_03","Level":0}},{"type":"Feature","id":87,"geometry":{"type":"Point","coordinates":[117.37052164118359,31.882510889409613]},"properties":{"FID":87,"Name":"YS_BR300_Junction61_02","Level":0}},{"type":"Feature","id":88,"geometry":{"type":"Point","coordinates":[117.37055938626996,31.882508849484388]},"properties":{"FID":88,"Name":"YS_BR300_Junction61_01","Level":0}},{"type":"Feature","id":89,"geometry":{"type":"Point","coordinates":[117.37003953193012,31.88223208647242]},"properties":{"FID":89,"Name":"YS_BR400_Junction56_02","Level":0}},{"type":"Feature","id":90,"geometry":{"type":"Point","coordinates":[117.3702419321266,31.882248000653416]},"properties":{"FID":90,"Name":"YS_BR300_Junction60_11","Level":0}},{"type":"Feature","id":91,"geometry":{"type":"Point","coordinates":[117.37027244498647,31.882247902770249]},"properties":{"FID":91,"Name":"YS_BR300_Junction60_10","Level":0}},{"type":"Feature","id":92,"geometry":{"type":"Point","coordinates":[117.37030288022082,31.882249536616477]},"properties":{"FID":92,"Name":"YS_BR300_Junction60_09","Level":0}},{"type":"Feature","id":93,"geometry":{"type":"Point","coordinates":[117.37032187099398,31.882249021367471]},"properties":{"FID":93,"Name":"YS_BR300_Junction60_08","Level":0}},{"type":"Feature","id":94,"geometry":{"type":"Point","coordinates":[117.37040463959369,31.882249339378863]},"properties":{"FID":94,"Name":"YS_BR300_Junction60_07","Level":0}},{"type":"Feature","id":95,"geometry":{"type":"Point","coordinates":[117.37043760368286,31.882249035912025]},"properties":{"FID":95,"Name":"YS_BR300_Junction60_06","Level":0}},{"type":"Feature","id":96,"geometry":{"type":"Point","coordinates":[117.37053202502548,31.882250726738615]},"properties":{"FID":96,"Name":"YS_BR300_Junction60_05","Level":0}},{"type":"Feature","id":97,"geometry":{"type":"Point","coordinates":[117.37057415109699,31.882252687177324]},"properties":{"FID":97,"Name":"YS_BR300_Junction60_04","Level":0}},{"type":"Feature","id":98,"geometry":{"type":"Point","coordinates":[117.37064977663496,31.882253431672773]},"properties":{"FID":98,"Name":"YS_BR300_Junction60_03","Level":0}},{"type":"Feature","id":99,"geometry":{"type":"Point","coordinates":[117.37070060519214,31.882253761442893]},"properties":{"FID":99,"Name":"YS_BR300_Junction60_02","Level":0}},{"type":"Feature","id":100,"geometry":{"type":"Point","coordinates":[117.37075116919769,31.882254010799628]},"properties":{"FID":100,"Name":"YS_BR300_Junction60_01","Level":0}},{"type":"Feature","id":101,"geometry":{"type":"Point","coordinates":[117.37010917518536,31.88200813108265]},"properties":{"FID":101,"Name":"YS_BR400_Junction56_01","Level":0}},{"type":"Feature","id":102,"geometry":{"type":"Point","coordinates":[117.3701297509574,31.881928241322477]},"properties":{"FID":102,"Name":"YS_BR300_Junction55_01","Level":0}},{"type":"Feature","id":103,"geometry":{"type":"Point","coordinates":[117.37022153395959,31.882004990229415]},"properties":{"FID":103,"Name":"YS_BR300_Junction59_14","Level":0}},{"type":"Feature","id":104,"geometry":{"type":"Point","coordinates":[117.37029276199524,31.882002961094038]},"properties":{"FID":104,"Name":"YS_BR300_Junction59_13","Level":0}},{"type":"Feature","id":105,"geometry":{"type":"Point","coordinates":[117.37033172722971,31.882004786527503]},"properties":{"FID":105,"Name":"YS_BR300_Junction59_12","Level":0}},{"type":"Feature","id":106,"geometry":{"type":"Point","coordinates":[117.37034889488514,31.882005620309741]},"properties":{"FID":106,"Name":"YS_BR300_Junction59_11","Level":0}},{"type":"Feature","id":107,"geometry":{"type":"Point","coordinates":[117.37041903809089,31.882001898826278]},"properties":{"FID":107,"Name":"YS_BR300_Junction59_10","Level":0}},{"type":"Feature","id":108,"geometry":{"type":"Point","coordinates":[117.3704445264372,31.882006063153799]},"properties":{"FID":108,"Name":"YS_BR300_Junction59_09","Level":0}},{"type":"Feature","id":109,"geometry":{"type":"Point","coordinates":[117.37051763164916,31.88200564269561]},"properties":{"FID":109,"Name":"YS_BR300_Junction59_08","Level":0}},{"type":"Feature","id":110,"geometry":{"type":"Point","coordinates":[117.3705740271737,31.882005261884508]},"properties":{"FID":110,"Name":"YS_BR300_Junction59_07","Level":0}},{"type":"Feature","id":111,"geometry":{"type":"Point","coordinates":[117.37058829375121,31.882004814475895]},"properties":{"FID":111,"Name":"YS_BR300_Junction59_06","Level":0}},{"type":"Feature","id":112,"geometry":{"type":"Point","coordinates":[117.37059996637501,31.882005880680772]},"properties":{"FID":112,"Name":"YS_BR300_Junction59_05","Level":0}},{"type":"Feature","id":113,"geometry":{"type":"Point","coordinates":[117.37064746494701,31.882008709226408]},"properties":{"FID":113,"Name":"YS_BR300_Junction59_04","Level":0}},{"type":"Feature","id":114,"geometry":{"type":"Point","coordinates":[117.37068765521019,31.882007645128155]},"properties":{"FID":114,"Name":"YS_BR300_Junction59_03","Level":0}},{"type":"Feature","id":115,"geometry":{"type":"Point","coordinates":[117.37073686051549,31.882009106902977]},"properties":{"FID":115,"Name":"YS_BR300_Junction59_01","Level":0}},{"type":"Feature","id":116,"geometry":{"type":"Point","coordinates":[117.37070896120062,31.882007285400057]},"properties":{"FID":116,"Name":"YS_BR300_Junction59_02","Level":0}},{"type":"Feature","id":117,"geometry":{"type":"Point","coordinates":[117.3702277405813,31.881522061019606]},"properties":{"FID":117,"Name":" YS_BR300_Junction45_01","Level":0}},{"type":"Feature","id":118,"geometry":{"type":"Point","coordinates":[117.37033841473169,31.8815286015917]},"properties":{"FID":118,"Name":" YS_BR300_Junction45_02","Level":0}},{"type":"Feature","id":119,"geometry":{"type":"Point","coordinates":[117.37043056131024,31.881529875264174]},"properties":{"FID":119,"Name":" YS_BR300_Junction45_03","Level":0}},{"type":"Feature","id":120,"geometry":{"type":"Point","coordinates":[117.37054013120047,31.881529862584564]},"properties":{"FID":120,"Name":" YS_BR300_Junction45_04","Level":0}},{"type":"Feature","id":121,"geometry":{"type":"Point","coordinates":[117.37058520016645,31.881530434646418]},"properties":{"FID":121,"Name":" YS_BR300_Junction45_05","Level":0}},{"type":"Feature","id":122,"geometry":{"type":"Point","coordinates":[117.37067534668226,31.88153108269147]},"properties":{"FID":122,"Name":" YS_BR300_Junction45_06","Level":0}},{"type":"Feature","id":123,"geometry":{"type":"Point","coordinates":[117.3707635620366,31.881532475803876]},"properties":{"FID":123,"Name":"  YS_BR300_Junction45_07","Level":0}},{"type":"Feature","id":124,"geometry":{"type":"Point","coordinates":[117.37092217093011,31.881532049223424]},"properties":{"FID":124,"Name":"  YS_BR300_Junction45_08","Level":0}},{"type":"Feature","id":125,"geometry":{"type":"Point","coordinates":[117.37094787461173,31.881534589531245]},"properties":{"FID":125,"Name":"YS_BR300_Junction45_09","Level":0}},{"type":"Feature","id":126,"geometry":{"type":"Point","coordinates":[117.37101206836844,31.881536476417867]},"properties":{"FID":126,"Name":"YS_BR300_Junction45_10","Level":0}},{"type":"Feature","id":127,"geometry":{"type":"Point","coordinates":[117.37104346110875,31.881537097245801]},"properties":{"FID":127,"Name":"YS_BR300_Junction45_11","Level":0}},{"type":"Feature","id":128,"geometry":{"type":"Point","coordinates":[117.37109641084264,31.881539359600108]},"properties":{"FID":128,"Name":"YS_BR300_Junction45_12","Level":0}},{"type":"Feature","id":129,"geometry":{"type":"Point","coordinates":[117.37113348365962,31.881538457772248]},"properties":{"FID":129,"Name":"YS_BR300_Junction45_13","Level":0}},{"type":"Feature","id":130,"geometry":{"type":"Point","coordinates":[117.37116134531151,31.881538827348816]},"properties":{"FID":130,"Name":"YS_BR300_Junction45_14","Level":0}},{"type":"Feature","id":131,"geometry":{"type":"Point","coordinates":[117.37121708801769,31.881539133549289]},"properties":{"FID":131,"Name":"YS_BR300_Junction45_15","Level":0}},{"type":"Feature","id":132,"geometry":{"type":"Point","coordinates":[117.3712387472311,31.881539909005433]},"properties":{"FID":132,"Name":"YS_BR300_Junction45_16","Level":0}},{"type":"Feature","id":133,"geometry":{"type":"Point","coordinates":[117.3715949540116,31.88154420718574]},"properties":{"FID":133,"Name":"YS_BR300_Junction45_17","Level":0}},{"type":"Feature","id":134,"geometry":{"type":"Point","coordinates":[117.370236656117,31.881758674864201]},"properties":{"FID":134,"Name":" YS_BR300_Junction47_01","Level":0}},{"type":"Feature","id":135,"geometry":{"type":"Point","coordinates":[117.37027902519206,31.881763313124967]},"properties":{"FID":135,"Name":" YS_BR300_Junction47_02","Level":0}},{"type":"Feature","id":136,"geometry":{"type":"Point","coordinates":[117.37031490597565,31.881762956104332]},"properties":{"FID":136,"Name":" YS_BR300_Junction47_03","Level":0}},{"type":"Feature","id":137,"geometry":{"type":"Point","coordinates":[117.37049169853401,31.881768898111325]},"properties":{"FID":137,"Name":" YS_BR300_Junction47_04","Level":0}},{"type":"Feature","id":138,"geometry":{"type":"Point","coordinates":[117.37059574865984,31.881770786289582]},"properties":{"FID":138,"Name":" YS_BR300_Junction47_05","Level":0}},{"type":"Feature","id":139,"geometry":{"type":"Point","coordinates":[117.37063273145141,31.881765853696372]},"properties":{"FID":139,"Name":" YS_BR300_Junction47_06","Level":0}},{"type":"Feature","id":140,"geometry":{"type":"Point","coordinates":[117.37076095127297,31.881772541148955]},"properties":{"FID":140,"Name":" YS_BR300_Junction47_07","Level":0}},{"type":"Feature","id":141,"geometry":{"type":"Point","coordinates":[117.37098837342477,31.881771417778669]},"properties":{"FID":141,"Name":" YS_BR300_Junction47_08","Level":0}},{"type":"Feature","id":142,"geometry":{"type":"Point","coordinates":[117.37101726341321,31.881772550939889]},"properties":{"FID":142,"Name":" YS_BR300_Junction47_09","Level":0}},{"type":"Feature","id":143,"geometry":{"type":"Point","coordinates":[117.37105455554972,31.881773605462399]},"properties":{"FID":143,"Name":" YS_BR300_Junction47_10","Level":0}},{"type":"Feature","id":144,"geometry":{"type":"Point","coordinates":[117.37108847788325,31.881772460330328]},"properties":{"FID":144,"Name":" YS_BR300_Junction47_11","Level":0}},{"type":"Feature","id":145,"geometry":{"type":"Point","coordinates":[117.37114110560971,31.881776094384488]},"properties":{"FID":145,"Name":" YS_BR300_Junction47_12","Level":0}},{"type":"Feature","id":146,"geometry":{"type":"Point","coordinates":[117.37117702544991,31.881774934379155]},"properties":{"FID":146,"Name":" YS_BR300_Junction47_13","Level":0}},{"type":"Feature","id":147,"geometry":{"type":"Point","coordinates":[117.37129284088998,31.881761474588945]},"properties":{"FID":147,"Name":" YS_BR300_Junction47_14","Level":0}},{"type":"Feature","id":148,"geometry":{"type":"Point","coordinates":[117.37140964966821,31.881753251414807]},"properties":{"FID":148,"Name":" YS_BR300_Junction47_15","Level":0}},{"type":"Feature","id":149,"geometry":{"type":"Point","coordinates":[117.37145511692803,31.88175559860619]},"properties":{"FID":149,"Name":" YS_BR300_Junction47_16","Level":0}},{"type":"Feature","id":150,"geometry":{"type":"Point","coordinates":[117.37158686470664,31.881769642856128]},"properties":{"FID":150,"Name":"YS_BR400_Junction46_01","Level":0}},{"type":"Feature","id":151,"geometry":{"type":"Point","coordinates":[117.37140538310159,31.881804136022772]},"properties":{"FID":151,"Name":" YS_BR300_Junction49_04","Level":0}},{"type":"Feature","id":152,"geometry":{"type":"Point","coordinates":[117.37106659259371,31.881976310387547]},"properties":{"FID":152,"Name":" YS_BR200_Junction48_01","Level":0}},{"type":"Feature","id":153,"geometry":{"type":"Point","coordinates":[117.37114736389363,31.881960941931055]},"properties":{"FID":153,"Name":" YS_BR200_Junction48_02","Level":0}},{"type":"Feature","id":154,"geometry":{"type":"Point","coordinates":[117.37117035008581,31.881952605057066]},"properties":{"FID":154,"Name":" YS_BR200_Junction48_03","Level":0}},{"type":"Feature","id":155,"geometry":{"type":"Point","coordinates":[117.37120715133831,31.881955103893112]},"properties":{"FID":155,"Name":" YS_BR200_Junction48_04","Level":0}},{"type":"Feature","id":156,"geometry":{"type":"Point","coordinates":[117.37124233350522,31.88195710242249]},"properties":{"FID":156,"Name":" YS_BR200_Junction48_05","Level":0}},{"type":"Feature","id":157,"geometry":{"type":"Point","coordinates":[117.37126278487233,31.881957114846887]},"properties":{"FID":157,"Name":" YS_BR200_Junction48_06","Level":0}},{"type":"Feature","id":158,"geometry":{"type":"Point","coordinates":[117.37133539803668,31.881955243411738]},"properties":{"FID":158,"Name":" YS_BR300_Junction49_01","Level":0}},{"type":"Feature","id":159,"geometry":{"type":"Point","coordinates":[117.37140000609546,31.881954946466024]},"properties":{"FID":159,"Name":" YS_BR300_Junction49_03","Level":0}},{"type":"Feature","id":160,"geometry":{"type":"Point","coordinates":[117.37158236139057,31.881961619220817]},"properties":{"FID":160,"Name":" YS_BR500_Junction46_02","Level":0}},{"type":"Feature","id":161,"geometry":{"type":"Point","coordinates":[117.37156278399917,31.882229348130672]},"properties":{"FID":161,"Name":" YS_BR300_Junction46_03","Level":0}},{"type":"Feature","id":162,"geometry":{"type":"Point","coordinates":[117.37143900105029,31.882227554473999]},"properties":{"FID":162,"Name":"YS_BR300_Junction50_06","Level":0}},{"type":"Feature","id":163,"geometry":{"type":"Point","coordinates":[117.37134898900678,31.882228980786255]},"properties":{"FID":163,"Name":"YS_BR300_Junction50_05","Level":0}},{"type":"Feature","id":164,"geometry":{"type":"Point","coordinates":[117.37131886120169,31.882230214106933]},"properties":{"FID":164,"Name":"YS_BR300_Junction50_04","Level":0}},{"type":"Feature","id":165,"geometry":{"type":"Point","coordinates":[117.37123217153572,31.882229917158728]},"properties":{"FID":165,"Name":"YS_BR300_Junction50_03","Level":0}},{"type":"Feature","id":166,"geometry":{"type":"Point","coordinates":[117.37118076078936,31.882229363843781]},"properties":{"FID":166,"Name":"YS_BR300_Junction50_02","Level":0}},{"type":"Feature","id":167,"geometry":{"type":"Point","coordinates":[117.37115326934324,31.88223175278662]},"properties":{"FID":167,"Name":"YS_BR300_Junction50_01","Level":0}},{"type":"Feature","id":168,"geometry":{"type":"Point","coordinates":[117.37155591323734,31.882505607260356]},"properties":{"FID":168,"Name":" YS_BR300_Junction46_04","Level":0}},{"type":"Feature","id":169,"geometry":{"type":"Point","coordinates":[117.37143344417983,31.882502096286199]},"properties":{"FID":169,"Name":"YS_BR300_Junction51_12","Level":0}},{"type":"Feature","id":170,"geometry":{"type":"Point","coordinates":[117.37139043552808,31.882504106756002]},"properties":{"FID":170,"Name":"YS_BR300_Junction51_11","Level":0}},{"type":"Feature","id":171,"geometry":{"type":"Point","coordinates":[117.3713233268775,31.882505574360902]},"properties":{"FID":171,"Name":"YS_BR300_Junction51_10","Level":0}},{"type":"Feature","id":172,"geometry":{"type":"Point","coordinates":[117.37128680320218,31.882503823266617]},"properties":{"FID":172,"Name":"YS_BR300_Junction51_09","Level":0}},{"type":"Feature","id":173,"geometry":{"type":"Point","coordinates":[117.37124439453181,31.882502585352665]},"properties":{"FID":173,"Name":"YS_BR300_Junction51_08","Level":0}},{"type":"Feature","id":174,"geometry":{"type":"Point","coordinates":[117.37120799634172,31.882503133531639]},"properties":{"FID":174,"Name":"YS_BR300_Junction51_07","Level":0}},{"type":"Feature","id":175,"geometry":{"type":"Point","coordinates":[117.37117043519822,31.882500961573836]},"properties":{"FID":175,"Name":"YS_BR300_Junction51_06","Level":0}},{"type":"Feature","id":176,"geometry":{"type":"Point","coordinates":[117.37110412936254,31.88250231849975]},"properties":{"FID":176,"Name":"YS_BR300_Junction51_05","Level":0}},{"type":"Feature","id":177,"geometry":{"type":"Point","coordinates":[117.37106852209398,31.882499789095288]},"properties":{"FID":177,"Name":"YS_BR300_Junction51_04","Level":0}},{"type":"Feature","id":178,"geometry":{"type":"Point","coordinates":[117.37103750205431,31.882499942759832]},"properties":{"FID":178,"Name":"YS_BR300_Junction51_03","Level":0}},{"type":"Feature","id":179,"geometry":{"type":"Point","coordinates":[117.37098908174212,31.882499263402696]},"properties":{"FID":179,"Name":"YS_BR300_Junction51_02","Level":0}},{"type":"Feature","id":180,"geometry":{"type":"Point","coordinates":[117.37089233438113,31.882500077767407]},"properties":{"FID":180,"Name":"YS_BR300_Junction51_01","Level":0}},{"type":"Feature","id":181,"geometry":{"type":"Point","coordinates":[117.37152012291727,31.882757655638954]},"properties":{"FID":181,"Name":" YS_BR300_Junction46_05","Level":0}},{"type":"Feature","id":182,"geometry":{"type":"Point","coordinates":[117.37137219361856,31.882736056185738]},"properties":{"FID":182,"Name":"YS_BR300_Junction52_11","Level":0}},{"type":"Feature","id":183,"geometry":{"type":"Point","coordinates":[117.37134347408754,31.882740604127356]},"properties":{"FID":183,"Name":"YS_BR300_Junction52_10","Level":0}},{"type":"Feature","id":184,"geometry":{"type":"Point","coordinates":[117.37130031182542,31.882738601879726]},"properties":{"FID":184,"Name":"YS_BR300_Junction52_09","Level":0}},{"type":"Feature","id":185,"geometry":{"type":"Point","coordinates":[117.37126120919284,31.882736858310661]},"properties":{"FID":185,"Name":"YS_BR300_Junction52_08","Level":0}},{"type":"Feature","id":186,"geometry":{"type":"Point","coordinates":[117.37121925300735,31.882735150116737]},"properties":{"FID":186,"Name":"YS_BR300_Junction52_07","Level":0}},{"type":"Feature","id":187,"geometry":{"type":"Point","coordinates":[117.37116072942239,31.882737368140525]},"properties":{"FID":187,"Name":"YS_BR300_Junction52_06","Level":0}},{"type":"Feature","id":188,"geometry":{"type":"Point","coordinates":[117.37109105072172,31.882735812983586]},"properties":{"FID":188,"Name":"YS_BR300_Junction52_05","Level":0}},{"type":"Feature","id":189,"geometry":{"type":"Point","coordinates":[117.37104910049182,31.882738226071634]},"properties":{"FID":189,"Name":"YS_BR300_Junction52_04","Level":0}},{"type":"Feature","id":190,"geometry":{"type":"Point","coordinates":[117.37102692460753,31.882735188503354]},"properties":{"FID":190,"Name":"YS_BR300_Junction52_03","Level":0}},{"type":"Feature","id":191,"geometry":{"type":"Point","coordinates":[117.37096042508307,31.88273309191775]},"properties":{"FID":191,"Name":"YS_BR300_Junction52_02","Level":0}},{"type":"Feature","id":192,"geometry":{"type":"Point","coordinates":[117.37089234581337,31.882735040097121]},"properties":{"FID":192,"Name":"YS_BR300_Junction52_01","Level":0}},{"type":"Feature","id":193,"geometry":{"type":"Point","coordinates":[117.37145176697345,31.883088339378205]},"properties":{"FID":193,"Name":"YS_BR300_Junction53_14","Level":0}},{"type":"Feature","id":194,"geometry":{"type":"Point","coordinates":[117.37139272224334,31.883089801496613]},"properties":{"FID":194,"Name":"YS_BR300_Junction53_13","Level":0}},{"type":"Feature","id":195,"geometry":{"type":"Point","coordinates":[117.37136100138152,31.883078657379983]},"properties":{"FID":195,"Name":"YS_BR300_Junction53_12","Level":0}},{"type":"Feature","id":196,"geometry":{"type":"Point","coordinates":[117.37126570562218,31.883083156268988]},"properties":{"FID":196,"Name":"YS_BR300_Junction53_11","Level":0}},{"type":"Feature","id":197,"geometry":{"type":"Point","coordinates":[117.37124244253708,31.883083134020364]},"properties":{"FID":197,"Name":"YS_BR300_Junction53_10","Level":0}},{"type":"Feature","id":198,"geometry":{"type":"Point","coordinates":[117.37119346486392,31.883083231942482]},"properties":{"FID":198,"Name":"YS_BR300_Junction53_09","Level":0}},{"type":"Feature","id":199,"geometry":{"type":"Point","coordinates":[117.37117457936431,31.883083683887058]},"properties":{"FID":199,"Name":"YS_BR300_Junction53_08","Level":0}},{"type":"Feature","id":200,"geometry":{"type":"Point","coordinates":[117.37109979379851,31.883081719786979]},"properties":{"FID":200,"Name":"YS_BR300_Junction53_07","Level":0}},{"type":"Feature","id":201,"geometry":{"type":"Point","coordinates":[117.3710787258333,31.883083512793881]},"properties":{"FID":201,"Name":"YS_BR300_Junction53_06","Level":0}},{"type":"Feature","id":202,"geometry":{"type":"Point","coordinates":[117.37103550415844,31.883082547733132]},"properties":{"FID":202,"Name":"YS_BR300_Junction53_05","Level":0}},{"type":"Feature","id":203,"geometry":{"type":"Point","coordinates":[117.3710065732741,31.883071314220604]},"properties":{"FID":203,"Name":"YS_BR300_Junction53_04","Level":0}},{"type":"Feature","id":204,"geometry":{"type":"Point","coordinates":[117.37095798440889,31.883073485122388]},"properties":{"FID":204,"Name":"YS_BR300_Junction53_03","Level":0}},{"type":"Feature","id":205,"geometry":{"type":"Point","coordinates":[117.37088371860364,31.883069345972295]},"properties":{"FID":205,"Name":"YS_BR300_Junction53_02","Level":0}},{"type":"Feature","id":206,"geometry":{"type":"Point","coordinates":[117.37075038810873,31.883069599599072]},"properties":{"FID":206,"Name":"YS_BR300_Junction53_01","Level":0}},{"type":"Feature","id":207,"geometry":{"type":"Point","coordinates":[117.37150065571262,31.883321508513543]},"properties":{"FID":207,"Name":" YS_BR300_Junction46_07","Level":0}},{"type":"Feature","id":208,"geometry":{"type":"Point","coordinates":[117.37144858125113,31.883321642638805]},"properties":{"FID":208,"Name":"YS_BR300_Junction54_08","Level":0}},{"type":"Feature","id":209,"geometry":{"type":"Point","coordinates":[117.37136418114628,31.883320608614905]},"properties":{"FID":209,"Name":"YS_BR300_Junction54_07","Level":0}},{"type":"Feature","id":210,"geometry":{"type":"Point","coordinates":[117.37127410354385,31.883319131183399]},"properties":{"FID":210,"Name":"YS_BR300_Junction54_06","Level":0}},{"type":"Feature","id":211,"geometry":{"type":"Point","coordinates":[117.37118881027757,31.883316764945636]},"properties":{"FID":211,"Name":"YS_BR300_Junction54_05","Level":0}},{"type":"Feature","id":212,"geometry":{"type":"Point","coordinates":[117.37108374090801,31.883314167792179]},"properties":{"FID":212,"Name":"YS_BR300_Junction54_03","Level":0}},{"type":"Feature","id":213,"geometry":{"type":"Point","coordinates":[117.37097859524577,31.88331099360439]},"properties":{"FID":213,"Name":"YS_BR300_Junction54_02","Level":0}},{"type":"Feature","id":214,"geometry":{"type":"Point","coordinates":[117.37114703535067,31.883315516132424]},"properties":{"FID":214,"Name":"YS_BR300_Junction54_04","Level":0}},{"type":"Feature","id":215,"geometry":{"type":"Point","coordinates":[117.37150958011853,31.883567365899321]},"properties":{"FID":215,"Name":" YS_BR300_Junction46_08","Level":0}},{"type":"Feature","id":216,"geometry":{"type":"Point","coordinates":[117.37136684395256,31.881952575186283]},"properties":{"FID":216,"Name":" YS_BR300_Junction49_02","Level":0}},{"type":"Feature","id":217,"geometry":{"type":"Point","coordinates":[117.37148970177589,31.883092337256777]},"properties":{"FID":217,"Name":" YS_BR300_Junction46_06","Level":0}},{"type":"Feature","id":218,"geometry":{"type":"Point","coordinates":[117.37086858608025,31.883308004214861]},"properties":{"FID":218,"Name":"YS_BR300_Junction54_01","Level":0}},{"type":"Feature","id":219,"geometry":{"type":"Point","coordinates":[117.37021110970714,31.883602010016407]},"properties":{"FID":219,"Name":"YS_BR300_Junction67_10","Level":0}}]}
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 0,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37149121389002,
+          31.88385257764207
+        ]
+      },
+      "properties" : {
+        "FID" : 0,
+        "Name" : " YS_BR300_Junction46_09",
+        "Level" : 0,
+        "BottomElev" : 24.459
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37134252762884,
+          31.883845589994575
+        ]
+      },
+      "properties" : {
+        "FID" : 1,
+        "Name" : " YS_BR600_Junction46_10",
+        "Level" : 0,
+        "BottomElev" : 24.923999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37059443698486,
+          31.883911315775414
+        ]
+      },
+      "properties" : {
+        "FID" : 2,
+        "Name" : "YS_BR300_Junction58_16",
+        "Level" : 0,
+        "BottomElev" : 24.358000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37060332607608,
+          31.883882341177184
+        ]
+      },
+      "properties" : {
+        "FID" : 3,
+        "Name" : "YS_BR300_Junction58_15",
+        "Level" : 0,
+        "BottomElev" : 24.295000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37069518394557,
+          31.883879557261189
+        ]
+      },
+      "properties" : {
+        "FID" : 4,
+        "Name" : "YS_BR300_Junction69_05",
+        "Level" : 0,
+        "BottomElev" : 25.213000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37077382825659,
+          31.883876315811634
+        ]
+      },
+      "properties" : {
+        "FID" : 5,
+        "Name" : "YS_BR300_Junction69_04",
+        "Level" : 0,
+        "BottomElev" : 25.289999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37076853345781,
+          31.883683827004319
+        ]
+      },
+      "properties" : {
+        "FID" : 6,
+        "Name" : "YS_BR300_Junction69_03",
+        "Level" : 0,
+        "BottomElev" : 25.423999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37076893058367,
+          31.883563972874139
+        ]
+      },
+      "properties" : {
+        "FID" : 7,
+        "Name" : "YS_BR300_Junction69_02",
+        "Level" : 0,
+        "BottomElev" : 25.489999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37076609763484,
+          31.883484728470069
+        ]
+      },
+      "properties" : {
+        "FID" : 8,
+        "Name" : "YS_BR300_Junction69_01",
+        "Level" : 0,
+        "BottomElev" : 25.503
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37046778170692,
+          31.883879029727087
+        ]
+      },
+      "properties" : {
+        "FID" : 9,
+        "Name" : "YS_BR300_Junction58_14",
+        "Level" : 0,
+        "BottomElev" : 24.271999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37041405584858,
+          31.8838786000906
+        ]
+      },
+      "properties" : {
+        "FID" : 10,
+        "Name" : "YS_BR300_Junction58_13",
+        "Level" : 0,
+        "BottomElev" : 24.292999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37031142947951,
+          31.883873884905714
+        ]
+      },
+      "properties" : {
+        "FID" : 11,
+        "Name" : "YS_BR300_Junction58_12",
+        "Level" : 0,
+        "BottomElev" : 24.687999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36967493042087,
+          31.883590570243364
+        ]
+      },
+      "properties" : {
+        "FID" : 12,
+        "Name" : "YS_BR300_Junction67_01",
+        "Level" : 0,
+        "BottomElev" : 25.637
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3697251541553,
+          31.883592768943323
+        ]
+      },
+      "properties" : {
+        "FID" : 13,
+        "Name" : "YS_BR300_Junction67_02",
+        "Level" : 0,
+        "BottomElev" : 25.652999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36982881904525,
+          31.883595605779352
+        ]
+      },
+      "properties" : {
+        "FID" : 14,
+        "Name" : "YS_BR300_Junction67_03",
+        "Level" : 0,
+        "BottomElev" : 25.504999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36990055050222,
+          31.883597579511548
+        ]
+      },
+      "properties" : {
+        "FID" : 15,
+        "Name" : "YS_BR300_Junction67_04",
+        "Level" : 0,
+        "BottomElev" : 25.443000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36995366559759,
+          31.88359861536815
+        ]
+      },
+      "properties" : {
+        "FID" : 16,
+        "Name" : "YS_BR300_Junction67_05",
+        "Level" : 0,
+        "BottomElev" : 25.407
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37000986773579,
+          31.883599849638252
+        ]
+      },
+      "properties" : {
+        "FID" : 17,
+        "Name" : "YS_BR300_Junction67_06",
+        "Level" : 0,
+        "BottomElev" : 25.355
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37007995000363,
+          31.883601728868033
+        ]
+      },
+      "properties" : {
+        "FID" : 18,
+        "Name" : "YS_BR300_Junction67_07",
+        "Level" : 0,
+        "BottomElev" : 25.285
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37012468244758,
+          31.88360247341528
+        ]
+      },
+      "properties" : {
+        "FID" : 19,
+        "Name" : "YS_BR300_Junction67_08",
+        "Level" : 0,
+        "BottomElev" : 25.446000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37016192084504,
+          31.883603122529696
+        ]
+      },
+      "properties" : {
+        "FID" : 20,
+        "Name" : "YS_BR300_Junction67_09",
+        "Level" : 0,
+        "BottomElev" : 25.359999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37032417853037,
+          31.883607682183257
+        ]
+      },
+      "properties" : {
+        "FID" : 21,
+        "Name" : "YS_BR300_Junction67_11",
+        "Level" : 0,
+        "BottomElev" : 25.298999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37032231587747,
+          31.883686318014085
+        ]
+      },
+      "properties" : {
+        "FID" : 22,
+        "Name" : "YS_BR300_Junction67_12",
+        "Level" : 0,
+        "BottomElev" : 25.343
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37038218039471,
+          31.883504001364834
+        ]
+      },
+      "properties" : {
+        "FID" : 23,
+        "Name" : "YS_BR300_Junction68_05",
+        "Level" : 0,
+        "BottomElev" : 25.667000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37053194391228,
+          31.883241646965775
+        ]
+      },
+      "properties" : {
+        "FID" : 24,
+        "Name" : "YS_BR300_Junction68_04",
+        "Level" : 0,
+        "BottomElev" : 25.652000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37057500958572,
+          31.883245868252256
+        ]
+      },
+      "properties" : {
+        "FID" : 25,
+        "Name" : "YS_BR300_Junction68_03",
+        "Level" : 0,
+        "BottomElev" : 25.794
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37057590887372,
+          31.883378082675687
+        ]
+      },
+      "properties" : {
+        "FID" : 26,
+        "Name" : "YS_BR300_Junction68_02",
+        "Level" : 0,
+        "BottomElev" : 25.969999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37057612894196,
+          31.883459444980652
+        ]
+      },
+      "properties" : {
+        "FID" : 27,
+        "Name" : "YS_BR300_Junction68_01",
+        "Level" : 0,
+        "BottomElev" : 26.097000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.369917249838,
+          31.883296049722382
+        ]
+      },
+      "properties" : {
+        "FID" : 28,
+        "Name" : "YS_BR300_Junction66_08",
+        "Level" : 0,
+        "BottomElev" : 25.440000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3700553313146,
+          31.883299697073504
+        ]
+      },
+      "properties" : {
+        "FID" : 29,
+        "Name" : "YS_BR300_Junction66_07",
+        "Level" : 0,
+        "BottomElev" : 25.922000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37009263228387,
+          31.883300165661019
+        ]
+      },
+      "properties" : {
+        "FID" : 30,
+        "Name" : "YS_BR300_Junction66_06",
+        "Level" : 0,
+        "BottomElev" : 25.968
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37018251452557,
+          31.883303015277757
+        ]
+      },
+      "properties" : {
+        "FID" : 31,
+        "Name" : "YS_BR300_Junction66_05",
+        "Level" : 0,
+        "BottomElev" : 25.978999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3702554436509,
+          31.883305878133402
+        ]
+      },
+      "properties" : {
+        "FID" : 32,
+        "Name" : "YS_BR300_Junction66_03",
+        "Level" : 0,
+        "BottomElev" : 25.969999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37034156842763,
+          31.883307385838418
+        ]
+      },
+      "properties" : {
+        "FID" : 33,
+        "Name" : "YS_BR300_Junction66_02",
+        "Level" : 0,
+        "BottomElev" : 26.117000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37039116638223,
+          31.883309072056807
+        ]
+      },
+      "properties" : {
+        "FID" : 34,
+        "Name" : "YS_BR300_Junction66_01",
+        "Level" : 0,
+        "BottomElev" : 26.158000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37022015562225,
+          31.883303960806444
+        ]
+      },
+      "properties" : {
+        "FID" : 35,
+        "Name" : "YS_BR300_Junction66_04",
+        "Level" : 0,
+        "BottomElev" : 26.027000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36973605195263,
+          31.883288703873053
+        ]
+      },
+      "properties" : {
+        "FID" : 36,
+        "Name" : "YS_BR500_Junction57_03",
+        "Level" : 0,
+        "BottomElev" : 24.838999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36957988071255,
+          31.883640961197109
+        ]
+      },
+      "properties" : {
+        "FID" : 37,
+        "Name" : "YS_BR300_Junction58_01",
+        "Level" : 0,
+        "BottomElev" : 23.978000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36957400288173,
+          31.883720050587897
+        ]
+      },
+      "properties" : {
+        "FID" : 38,
+        "Name" : "YS_BR300_Junction58_02",
+        "Level" : 0,
+        "BottomElev" : 24.838999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36960517713872,
+          31.883864279534727
+        ]
+      },
+      "properties" : {
+        "FID" : 39,
+        "Name" : "YS_BR300_Junction58_03",
+        "Level" : 0,
+        "BottomElev" : 24.824999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36967617235409,
+          31.883864460894785
+        ]
+      },
+      "properties" : {
+        "FID" : 40,
+        "Name" : "YS_BR600_Junction58_04",
+        "Level" : 0,
+        "BottomElev" : 24.617999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36974926976966,
+          31.883864365552569
+        ]
+      },
+      "properties" : {
+        "FID" : 41,
+        "Name" : "YS_BR600_Junction58_05",
+        "Level" : 0,
+        "BottomElev" : 24.629999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36981565570967,
+          31.883864289692063
+        ]
+      },
+      "properties" : {
+        "FID" : 42,
+        "Name" : "YS_BR300_Junction58_06",
+        "Level" : 0,
+        "BottomElev" : 24.587
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36990486909787,
+          31.883866257656354
+        ]
+      },
+      "properties" : {
+        "FID" : 43,
+        "Name" : "YS_BR300_Junction58_07",
+        "Level" : 0,
+        "BottomElev" : 24.513999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36997625613294,
+          31.883866627092665
+        ]
+      },
+      "properties" : {
+        "FID" : 44,
+        "Name" : "YS_BR300_Junction58_08",
+        "Level" : 0,
+        "BottomElev" : 24.372
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37003542550448,
+          31.883869773609387
+        ]
+      },
+      "properties" : {
+        "FID" : 45,
+        "Name" : "YS_BR300_Junction58_09",
+        "Level" : 0,
+        "BottomElev" : 24.306000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37010750163506,
+          31.883870664026592
+        ]
+      },
+      "properties" : {
+        "FID" : 46,
+        "Name" : "YS_BR300_Junction58_10",
+        "Level" : 0,
+        "BottomElev" : 24.276
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 47,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37015704476985,
+          31.883871782342609
+        ]
+      },
+      "properties" : {
+        "FID" : 47,
+        "Name" : "YS_BR300_Junction58_11",
+        "Level" : 0,
+        "BottomElev" : 24.335999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36981496956103,
+          31.883036548583537
+        ]
+      },
+      "properties" : {
+        "FID" : 48,
+        "Name" : "YS_BR500_Junction57_02",
+        "Level" : 0,
+        "BottomElev" : 24.808
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36987034668002,
+          31.883045649260207
+        ]
+      },
+      "properties" : {
+        "FID" : 49,
+        "Name" : "YS_BR300_Junction64_11",
+        "Level" : 0,
+        "BottomElev" : 25.178000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36994682035163,
+          31.883044236333451
+        ]
+      },
+      "properties" : {
+        "FID" : 50,
+        "Name" : "YS_BR300_Junction64_10",
+        "Level" : 0,
+        "BottomElev" : 25.212
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36999893596887,
+          31.883043859210645
+        ]
+      },
+      "properties" : {
+        "FID" : 51,
+        "Name" : "YS_BR300_Junction64_09",
+        "Level" : 0,
+        "BottomElev" : 25.273
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 52,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37001671350896,
+          31.883043861579655
+        ]
+      },
+      "properties" : {
+        "FID" : 52,
+        "Name" : "YS_BR300_Junction64_08",
+        "Level" : 0,
+        "BottomElev" : 25.239999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 53,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37006580977169,
+          31.883044349954215
+        ]
+      },
+      "properties" : {
+        "FID" : 53,
+        "Name" : "YS_BR300_Junction64_07",
+        "Level" : 0,
+        "BottomElev" : 25.291
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 54,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3701143787308,
+          31.883045128430027
+        ]
+      },
+      "properties" : {
+        "FID" : 54,
+        "Name" : "YS_BR300_Junction64_06",
+        "Level" : 0,
+        "BottomElev" : 25.294
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 55,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37025798444081,
+          31.883045350568999
+        ]
+      },
+      "properties" : {
+        "FID" : 55,
+        "Name" : "YS_BR300_Junction64_05",
+        "Level" : 0,
+        "BottomElev" : 25.463999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 56,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37029517961635,
+          31.883045819405698
+        ]
+      },
+      "properties" : {
+        "FID" : 56,
+        "Name" : "YS_BR300_Junction64_04",
+        "Level" : 0,
+        "BottomElev" : 25.375
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 57,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37031002011864,
+          31.883043485534728
+        ]
+      },
+      "properties" : {
+        "FID" : 57,
+        "Name" : "YS_BR300_Junction64_03",
+        "Level" : 0,
+        "BottomElev" : 25.449000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 58,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37034245336658,
+          31.883045158641583
+        ]
+      },
+      "properties" : {
+        "FID" : 58,
+        "Name" : "YS_BR300_Junction64_02",
+        "Level" : 0,
+        "BottomElev" : 25.446999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 59,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37040053882281,
+          31.883044331085756
+        ]
+      },
+      "properties" : {
+        "FID" : 59,
+        "Name" : "YS_BR300_Junction64_01",
+        "Level" : 0,
+        "BottomElev" : 25.449999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 60,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36999544076438,
+          31.88299443115271
+        ]
+      },
+      "properties" : {
+        "FID" : 60,
+        "Name" : "YS_BR300_Junction65_01",
+        "Level" : 0,
+        "BottomElev" : 26.315999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 61,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3698938588844,
+          31.882737750754853
+        ]
+      },
+      "properties" : {
+        "FID" : 61,
+        "Name" : "YS_BR500_Junction57_01",
+        "Level" : 0,
+        "BottomElev" : 24.84
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 62,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37006018822946,
+          31.882743317972444
+        ]
+      },
+      "properties" : {
+        "FID" : 62,
+        "Name" : "YS_BR300_Junction63_11",
+        "Level" : 0,
+        "BottomElev" : 25.716999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 63,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.370084897322,
+          31.882745509634834
+        ]
+      },
+      "properties" : {
+        "FID" : 63,
+        "Name" : "YS_BR300_Junction63_10",
+        "Level" : 0,
+        "BottomElev" : 25.713999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 64,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37021306930215,
+          31.882745190565608
+        ]
+      },
+      "properties" : {
+        "FID" : 64,
+        "Name" : "YS_BR300_Junction63_07",
+        "Level" : 0,
+        "BottomElev" : 25.786999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 65,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37024309477607,
+          31.882747393770391
+        ]
+      },
+      "properties" : {
+        "FID" : 65,
+        "Name" : "YS_BR300_Junction63_06",
+        "Level" : 0,
+        "BottomElev" : 25.914000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 66,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37034977659597,
+          31.882751637270651
+        ]
+      },
+      "properties" : {
+        "FID" : 66,
+        "Name" : "YS_BR300_Junction63_05",
+        "Level" : 0,
+        "BottomElev" : 25.817
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 67,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37038452347825,
+          31.882753078170296
+        ]
+      },
+      "properties" : {
+        "FID" : 67,
+        "Name" : "YS_BR300_Junction63_04",
+        "Level" : 0,
+        "BottomElev" : 25.838999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 68,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37012235981435,
+          31.882746780371768
+        ]
+      },
+      "properties" : {
+        "FID" : 68,
+        "Name" : "YS_BR300_Junction63_09",
+        "Level" : 0,
+        "BottomElev" : 25.789999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 69,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37017033350058,
+          31.882746748914453
+        ]
+      },
+      "properties" : {
+        "FID" : 69,
+        "Name" : "YS_BR300_Junction63_08",
+        "Level" : 0,
+        "BottomElev" : 25.843
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 70,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3704200996921,
+          31.882753109791771
+        ]
+      },
+      "properties" : {
+        "FID" : 70,
+        "Name" : "YS_BR300_Junction63_03",
+        "Level" : 0,
+        "BottomElev" : 25.82
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 71,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37047114968134,
+          31.882753240604913
+        ]
+      },
+      "properties" : {
+        "FID" : 71,
+        "Name" : "YS_BR300_Junction63_02",
+        "Level" : 0,
+        "BottomElev" : 25.815999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 72,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3705710282922,
+          31.882750406355125
+        ]
+      },
+      "properties" : {
+        "FID" : 72,
+        "Name" : "YS_BR300_Junction63_01",
+        "Level" : 0,
+        "BottomElev" : 25.879999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 73,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.36994847209012,
+          31.882513460429024
+        ]
+      },
+      "properties" : {
+        "FID" : 73,
+        "Name" : "YS_BR400_Junction56_03",
+        "Level" : 0,
+        "BottomElev" : 25.067
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 74,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37010090553737,
+          31.882506568689259
+        ]
+      },
+      "properties" : {
+        "FID" : 74,
+        "Name" : "YS_BR300_Junction61_13",
+        "Level" : 0,
+        "BottomElev" : 25.478000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 75,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37004284198528,
+          31.882507504262357
+        ]
+      },
+      "properties" : {
+        "FID" : 75,
+        "Name" : "YS_BR300_Junction61_14",
+        "Level" : 0,
+        "BottomElev" : 25.446000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 76,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37014857915911,
+          31.882508179441984
+        ]
+      },
+      "properties" : {
+        "FID" : 76,
+        "Name" : "YS_BR300_Junction61_12",
+        "Level" : 0,
+        "BottomElev" : 25.550000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 77,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37018216655675,
+          31.882510426400597
+        ]
+      },
+      "properties" : {
+        "FID" : 77,
+        "Name" : "YS_BR300_Junction61_11",
+        "Level" : 0,
+        "BottomElev" : 25.513000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 78,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3702137216597,
+          31.882509279375359
+        ]
+      },
+      "properties" : {
+        "FID" : 78,
+        "Name" : "YS_BR300_Junction61_10",
+        "Level" : 0,
+        "BottomElev" : 25.646000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 79,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37025881786681,
+          31.882508615966373
+        ]
+      },
+      "properties" : {
+        "FID" : 79,
+        "Name" : "YS_BR300_Junction61_09",
+        "Level" : 0,
+        "BottomElev" : 25.672000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 80,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37031156202191,
+          31.882506911198458
+        ]
+      },
+      "properties" : {
+        "FID" : 80,
+        "Name" : "YS_BR300_Junction61_08",
+        "Level" : 0,
+        "BottomElev" : 25.709
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 81,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37021364616747,
+          31.88246398075378
+        ]
+      },
+      "properties" : {
+        "FID" : 81,
+        "Name" : "YS_BR300_Junction62_01",
+        "Level" : 0,
+        "BottomElev" : 26.613
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 82,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3703798860011,
+          31.882508046870996
+        ]
+      },
+      "properties" : {
+        "FID" : 82,
+        "Name" : "YS_BR300_Junction61_07",
+        "Level" : 0,
+        "BottomElev" : 25.678999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 83,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37040482997075,
+          31.882508199655064
+        ]
+      },
+      "properties" : {
+        "FID" : 83,
+        "Name" : "YS_BR300_Junction61_06",
+        "Level" : 0,
+        "BottomElev" : 25.675999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 84,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37044372349352,
+          31.882510539304185
+        ]
+      },
+      "properties" : {
+        "FID" : 84,
+        "Name" : "YS_BR300_Junction61_05",
+        "Level" : 0,
+        "BottomElev" : 25.774999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 85,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37046122169434,
+          31.882509433176526
+        ]
+      },
+      "properties" : {
+        "FID" : 85,
+        "Name" : "YS_BR300_Junction61_04",
+        "Level" : 0,
+        "BottomElev" : 25.759
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 86,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37049427879572,
+          31.882508579308215
+        ]
+      },
+      "properties" : {
+        "FID" : 86,
+        "Name" : "YS_BR300_Junction61_03",
+        "Level" : 0,
+        "BottomElev" : 25.731000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 87,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37052164118359,
+          31.882510889409613
+        ]
+      },
+      "properties" : {
+        "FID" : 87,
+        "Name" : "YS_BR300_Junction61_02",
+        "Level" : 0,
+        "BottomElev" : 25.800000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 88,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37055938626996,
+          31.882508849484388
+        ]
+      },
+      "properties" : {
+        "FID" : 88,
+        "Name" : "YS_BR300_Junction61_01",
+        "Level" : 0,
+        "BottomElev" : 25.914000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 89,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37003953193012,
+          31.88223208647242
+        ]
+      },
+      "properties" : {
+        "FID" : 89,
+        "Name" : "YS_BR400_Junction56_02",
+        "Level" : 0,
+        "BottomElev" : 25.117000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 90,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3702419321266,
+          31.882248000653416
+        ]
+      },
+      "properties" : {
+        "FID" : 90,
+        "Name" : "YS_BR300_Junction60_11",
+        "Level" : 0,
+        "BottomElev" : 25.635999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 91,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37027244498647,
+          31.882247902770249
+        ]
+      },
+      "properties" : {
+        "FID" : 91,
+        "Name" : "YS_BR300_Junction60_10",
+        "Level" : 0,
+        "BottomElev" : 25.776
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 92,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37030288022082,
+          31.882249536616477
+        ]
+      },
+      "properties" : {
+        "FID" : 92,
+        "Name" : "YS_BR300_Junction60_09",
+        "Level" : 0,
+        "BottomElev" : 25.774999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 93,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37032187099398,
+          31.882249021367471
+        ]
+      },
+      "properties" : {
+        "FID" : 93,
+        "Name" : "YS_BR300_Junction60_08",
+        "Level" : 0,
+        "BottomElev" : 25.766999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 94,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37040463959369,
+          31.882249339378863
+        ]
+      },
+      "properties" : {
+        "FID" : 94,
+        "Name" : "YS_BR300_Junction60_07",
+        "Level" : 0,
+        "BottomElev" : 25.835999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 95,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37043760368286,
+          31.882249035912025
+        ]
+      },
+      "properties" : {
+        "FID" : 95,
+        "Name" : "YS_BR300_Junction60_06",
+        "Level" : 0,
+        "BottomElev" : 25.852
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 96,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37053202502548,
+          31.882250726738615
+        ]
+      },
+      "properties" : {
+        "FID" : 96,
+        "Name" : "YS_BR300_Junction60_05",
+        "Level" : 0,
+        "BottomElev" : 25.899999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 97,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37057415109699,
+          31.882252687177324
+        ]
+      },
+      "properties" : {
+        "FID" : 97,
+        "Name" : "YS_BR300_Junction60_04",
+        "Level" : 0,
+        "BottomElev" : 25.922999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 98,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37064977663496,
+          31.882253431672773
+        ]
+      },
+      "properties" : {
+        "FID" : 98,
+        "Name" : "YS_BR300_Junction60_03",
+        "Level" : 0,
+        "BottomElev" : 25.951000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 99,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37070060519214,
+          31.882253761442893
+        ]
+      },
+      "properties" : {
+        "FID" : 99,
+        "Name" : "YS_BR300_Junction60_02",
+        "Level" : 0,
+        "BottomElev" : 25.925999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 100,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37075116919769,
+          31.882254010799628
+        ]
+      },
+      "properties" : {
+        "FID" : 100,
+        "Name" : "YS_BR300_Junction60_01",
+        "Level" : 0,
+        "BottomElev" : 25.914000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 101,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37010917518536,
+          31.88200813108265
+        ]
+      },
+      "properties" : {
+        "FID" : 101,
+        "Name" : "YS_BR400_Junction56_01",
+        "Level" : 0,
+        "BottomElev" : 25.155000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 102,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3701297509574,
+          31.881928241322477
+        ]
+      },
+      "properties" : {
+        "FID" : 102,
+        "Name" : "YS_BR300_Junction55_01",
+        "Level" : 0,
+        "BottomElev" : 25.274999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 103,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37022153395959,
+          31.882004990229415
+        ]
+      },
+      "properties" : {
+        "FID" : 103,
+        "Name" : "YS_BR300_Junction59_14",
+        "Level" : 0,
+        "BottomElev" : 25.783999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 104,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37029276199524,
+          31.882002961094038
+        ]
+      },
+      "properties" : {
+        "FID" : 104,
+        "Name" : "YS_BR300_Junction59_13",
+        "Level" : 0,
+        "BottomElev" : 25.814
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 105,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37033172722971,
+          31.882004786527503
+        ]
+      },
+      "properties" : {
+        "FID" : 105,
+        "Name" : "YS_BR300_Junction59_12",
+        "Level" : 0,
+        "BottomElev" : 25.861999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 106,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37034889488514,
+          31.882005620309741
+        ]
+      },
+      "properties" : {
+        "FID" : 106,
+        "Name" : "YS_BR300_Junction59_11",
+        "Level" : 0,
+        "BottomElev" : 25.811
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 107,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37041903809089,
+          31.882001898826278
+        ]
+      },
+      "properties" : {
+        "FID" : 107,
+        "Name" : "YS_BR300_Junction59_10",
+        "Level" : 0,
+        "BottomElev" : 25.850000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 108,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3704445264372,
+          31.882006063153799
+        ]
+      },
+      "properties" : {
+        "FID" : 108,
+        "Name" : "YS_BR300_Junction59_09",
+        "Level" : 0,
+        "BottomElev" : 25.777999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 109,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37051763164916,
+          31.88200564269561
+        ]
+      },
+      "properties" : {
+        "FID" : 109,
+        "Name" : "YS_BR300_Junction59_08",
+        "Level" : 0,
+        "BottomElev" : 25.890000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 110,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3705740271737,
+          31.882005261884508
+        ]
+      },
+      "properties" : {
+        "FID" : 110,
+        "Name" : "YS_BR300_Junction59_07",
+        "Level" : 0,
+        "BottomElev" : 25.856000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 111,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37058829375121,
+          31.882004814475895
+        ]
+      },
+      "properties" : {
+        "FID" : 111,
+        "Name" : "YS_BR300_Junction59_06",
+        "Level" : 0,
+        "BottomElev" : 25.866
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 112,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37059996637501,
+          31.882005880680772
+        ]
+      },
+      "properties" : {
+        "FID" : 112,
+        "Name" : "YS_BR300_Junction59_05",
+        "Level" : 0,
+        "BottomElev" : 25.901
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 113,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37064746494701,
+          31.882008709226408
+        ]
+      },
+      "properties" : {
+        "FID" : 113,
+        "Name" : "YS_BR300_Junction59_04",
+        "Level" : 0,
+        "BottomElev" : 25.832999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 114,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37068765521019,
+          31.882007645128155
+        ]
+      },
+      "properties" : {
+        "FID" : 114,
+        "Name" : "YS_BR300_Junction59_03",
+        "Level" : 0,
+        "BottomElev" : 25.890000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 115,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37073686051549,
+          31.882009106902977
+        ]
+      },
+      "properties" : {
+        "FID" : 115,
+        "Name" : "YS_BR300_Junction59_01",
+        "Level" : 0,
+        "BottomElev" : 25.946999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 116,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37070896120062,
+          31.882007285400057
+        ]
+      },
+      "properties" : {
+        "FID" : 116,
+        "Name" : "YS_BR300_Junction59_02",
+        "Level" : 0,
+        "BottomElev" : 25.893000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 117,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3702277405813,
+          31.881522061019606
+        ]
+      },
+      "properties" : {
+        "FID" : 117,
+        "Name" : " YS_BR300_Junction45_01",
+        "Level" : 0,
+        "BottomElev" : 25.962
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 118,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37033841473169,
+          31.8815286015917
+        ]
+      },
+      "properties" : {
+        "FID" : 118,
+        "Name" : " YS_BR300_Junction45_02",
+        "Level" : 0,
+        "BottomElev" : 26.013000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 119,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37043056131024,
+          31.881529875264174
+        ]
+      },
+      "properties" : {
+        "FID" : 119,
+        "Name" : " YS_BR300_Junction45_03",
+        "Level" : 0,
+        "BottomElev" : 25.989999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 120,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37054013120047,
+          31.881529862584564
+        ]
+      },
+      "properties" : {
+        "FID" : 120,
+        "Name" : " YS_BR300_Junction45_04",
+        "Level" : 0,
+        "BottomElev" : 25.978000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 121,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37058520016645,
+          31.881530434646418
+        ]
+      },
+      "properties" : {
+        "FID" : 121,
+        "Name" : " YS_BR300_Junction45_05",
+        "Level" : 0,
+        "BottomElev" : 25.945
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 122,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37067534668226,
+          31.88153108269147
+        ]
+      },
+      "properties" : {
+        "FID" : 122,
+        "Name" : " YS_BR300_Junction45_06",
+        "Level" : 0,
+        "BottomElev" : 25.908000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 123,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3707635620366,
+          31.881532475803876
+        ]
+      },
+      "properties" : {
+        "FID" : 123,
+        "Name" : "  YS_BR300_Junction45_07",
+        "Level" : 0,
+        "BottomElev" : 25.91
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 124,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37092217093011,
+          31.881532049223424
+        ]
+      },
+      "properties" : {
+        "FID" : 124,
+        "Name" : "  YS_BR300_Junction45_08",
+        "Level" : 0,
+        "BottomElev" : 25.643000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 125,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37094787461173,
+          31.881534589531245
+        ]
+      },
+      "properties" : {
+        "FID" : 125,
+        "Name" : "YS_BR300_Junction45_09",
+        "Level" : 0,
+        "BottomElev" : 25.738
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 126,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37101206836844,
+          31.881536476417867
+        ]
+      },
+      "properties" : {
+        "FID" : 126,
+        "Name" : "YS_BR300_Junction45_10",
+        "Level" : 0,
+        "BottomElev" : 25.724
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 127,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37104346110875,
+          31.881537097245801
+        ]
+      },
+      "properties" : {
+        "FID" : 127,
+        "Name" : "YS_BR300_Junction45_11",
+        "Level" : 0,
+        "BottomElev" : 25.734000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 128,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37109641084264,
+          31.881539359600108
+        ]
+      },
+      "properties" : {
+        "FID" : 128,
+        "Name" : "YS_BR300_Junction45_12",
+        "Level" : 0,
+        "BottomElev" : 25.745000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 129,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37113348365962,
+          31.881538457772248
+        ]
+      },
+      "properties" : {
+        "FID" : 129,
+        "Name" : "YS_BR300_Junction45_13",
+        "Level" : 0,
+        "BottomElev" : 25.745999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 130,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37116134531151,
+          31.881538827348816
+        ]
+      },
+      "properties" : {
+        "FID" : 130,
+        "Name" : "YS_BR300_Junction45_14",
+        "Level" : 0,
+        "BottomElev" : 25.745999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 131,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37121708801769,
+          31.881539133549289
+        ]
+      },
+      "properties" : {
+        "FID" : 131,
+        "Name" : "YS_BR300_Junction45_15",
+        "Level" : 0,
+        "BottomElev" : 25.760000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 132,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3712387472311,
+          31.881539909005433
+        ]
+      },
+      "properties" : {
+        "FID" : 132,
+        "Name" : "YS_BR300_Junction45_16",
+        "Level" : 0,
+        "BottomElev" : 25.748000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 133,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3715949540116,
+          31.88154420718574
+        ]
+      },
+      "properties" : {
+        "FID" : 133,
+        "Name" : "YS_BR300_Junction45_17",
+        "Level" : 0,
+        "BottomElev" : 25.099
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 134,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.370236656117,
+          31.881758674864201
+        ]
+      },
+      "properties" : {
+        "FID" : 134,
+        "Name" : " YS_BR300_Junction47_01",
+        "Level" : 0,
+        "BottomElev" : 26.071000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 135,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37027902519206,
+          31.881763313124967
+        ]
+      },
+      "properties" : {
+        "FID" : 135,
+        "Name" : " YS_BR300_Junction47_02",
+        "Level" : 0,
+        "BottomElev" : 25.992000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 136,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37031490597565,
+          31.881762956104332
+        ]
+      },
+      "properties" : {
+        "FID" : 136,
+        "Name" : " YS_BR300_Junction47_03",
+        "Level" : 0,
+        "BottomElev" : 25.972999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 137,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37049169853401,
+          31.881768898111325
+        ]
+      },
+      "properties" : {
+        "FID" : 137,
+        "Name" : " YS_BR300_Junction47_04",
+        "Level" : 0,
+        "BottomElev" : 25.843
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 138,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37059574865984,
+          31.881770786289582
+        ]
+      },
+      "properties" : {
+        "FID" : 138,
+        "Name" : " YS_BR300_Junction47_05",
+        "Level" : 0,
+        "BottomElev" : 25.849
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 139,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37063273145141,
+          31.881765853696372
+        ]
+      },
+      "properties" : {
+        "FID" : 139,
+        "Name" : " YS_BR300_Junction47_06",
+        "Level" : 0,
+        "BottomElev" : 25.829999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 140,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37076095127297,
+          31.881772541148955
+        ]
+      },
+      "properties" : {
+        "FID" : 140,
+        "Name" : " YS_BR300_Junction47_07",
+        "Level" : 0,
+        "BottomElev" : 25.771999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 141,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37098837342477,
+          31.881771417778669
+        ]
+      },
+      "properties" : {
+        "FID" : 141,
+        "Name" : " YS_BR300_Junction47_08",
+        "Level" : 0,
+        "BottomElev" : 25.744
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 142,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37101726341321,
+          31.881772550939889
+        ]
+      },
+      "properties" : {
+        "FID" : 142,
+        "Name" : " YS_BR300_Junction47_09",
+        "Level" : 0,
+        "BottomElev" : 25.710999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 143,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37105455554972,
+          31.881773605462399
+        ]
+      },
+      "properties" : {
+        "FID" : 143,
+        "Name" : " YS_BR300_Junction47_10",
+        "Level" : 0,
+        "BottomElev" : 25.704999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 144,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37108847788325,
+          31.881772460330328
+        ]
+      },
+      "properties" : {
+        "FID" : 144,
+        "Name" : " YS_BR300_Junction47_11",
+        "Level" : 0,
+        "BottomElev" : 25.760999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 145,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37114110560971,
+          31.881776094384488
+        ]
+      },
+      "properties" : {
+        "FID" : 145,
+        "Name" : " YS_BR300_Junction47_12",
+        "Level" : 0,
+        "BottomElev" : 25.716999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 146,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37117702544991,
+          31.881774934379155
+        ]
+      },
+      "properties" : {
+        "FID" : 146,
+        "Name" : " YS_BR300_Junction47_13",
+        "Level" : 0,
+        "BottomElev" : 25.744
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 147,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37129284088998,
+          31.881761474588945
+        ]
+      },
+      "properties" : {
+        "FID" : 147,
+        "Name" : " YS_BR300_Junction47_14",
+        "Level" : 0,
+        "BottomElev" : 25.606000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 148,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37140964966821,
+          31.881753251414807
+        ]
+      },
+      "properties" : {
+        "FID" : 148,
+        "Name" : " YS_BR300_Junction47_15",
+        "Level" : 0,
+        "BottomElev" : 25.643999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 149,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37145511692803,
+          31.88175559860619
+        ]
+      },
+      "properties" : {
+        "FID" : 149,
+        "Name" : " YS_BR300_Junction47_16",
+        "Level" : 0,
+        "BottomElev" : 25.568000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 150,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37158686470664,
+          31.881769642856128
+        ]
+      },
+      "properties" : {
+        "FID" : 150,
+        "Name" : "YS_BR400_Junction46_01",
+        "Level" : 0,
+        "BottomElev" : 25.163
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 151,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37140538310159,
+          31.881804136022772
+        ]
+      },
+      "properties" : {
+        "FID" : 151,
+        "Name" : " YS_BR300_Junction49_04",
+        "Level" : 0,
+        "BottomElev" : 25.803000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 152,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37106659259371,
+          31.881976310387547
+        ]
+      },
+      "properties" : {
+        "FID" : 152,
+        "Name" : " YS_BR200_Junction48_01",
+        "Level" : 0,
+        "BottomElev" : 26.747
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 153,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37114736389363,
+          31.881960941931055
+        ]
+      },
+      "properties" : {
+        "FID" : 153,
+        "Name" : " YS_BR200_Junction48_02",
+        "Level" : 0,
+        "BottomElev" : 26.166
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 154,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37117035008581,
+          31.881952605057066
+        ]
+      },
+      "properties" : {
+        "FID" : 154,
+        "Name" : " YS_BR200_Junction48_03",
+        "Level" : 0,
+        "BottomElev" : 26.109999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 155,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37120715133831,
+          31.881955103893112
+        ]
+      },
+      "properties" : {
+        "FID" : 155,
+        "Name" : " YS_BR200_Junction48_04",
+        "Level" : 0,
+        "BottomElev" : 24.68
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 156,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37124233350522,
+          31.88195710242249
+        ]
+      },
+      "properties" : {
+        "FID" : 156,
+        "Name" : " YS_BR200_Junction48_05",
+        "Level" : 0,
+        "BottomElev" : 25.937000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 157,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37126278487233,
+          31.881957114846887
+        ]
+      },
+      "properties" : {
+        "FID" : 157,
+        "Name" : " YS_BR200_Junction48_06",
+        "Level" : 0,
+        "BottomElev" : 26.161000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 158,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37133539803668,
+          31.881955243411738
+        ]
+      },
+      "properties" : {
+        "FID" : 158,
+        "Name" : " YS_BR300_Junction49_01",
+        "Level" : 0,
+        "BottomElev" : 26.007999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 159,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37140000609546,
+          31.881954946466024
+        ]
+      },
+      "properties" : {
+        "FID" : 159,
+        "Name" : " YS_BR300_Junction49_03",
+        "Level" : 0,
+        "BottomElev" : 25.704999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 160,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37158236139057,
+          31.881961619220817
+        ]
+      },
+      "properties" : {
+        "FID" : 160,
+        "Name" : " YS_BR500_Junction46_02",
+        "Level" : 0,
+        "BottomElev" : 24.925999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 161,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37156278399917,
+          31.882229348130672
+        ]
+      },
+      "properties" : {
+        "FID" : 161,
+        "Name" : " YS_BR300_Junction46_03",
+        "Level" : 0,
+        "BottomElev" : 24.904
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 162,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37143900105029,
+          31.882227554473999
+        ]
+      },
+      "properties" : {
+        "FID" : 162,
+        "Name" : "YS_BR300_Junction50_06",
+        "Level" : 0,
+        "BottomElev" : 26.006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 163,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37134898900678,
+          31.882228980786255
+        ]
+      },
+      "properties" : {
+        "FID" : 163,
+        "Name" : "YS_BR300_Junction50_05",
+        "Level" : 0,
+        "BottomElev" : 25.986999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 164,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37131886120169,
+          31.882230214106933
+        ]
+      },
+      "properties" : {
+        "FID" : 164,
+        "Name" : "YS_BR300_Junction50_04",
+        "Level" : 0,
+        "BottomElev" : 26.02
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 165,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37123217153572,
+          31.882229917158728
+        ]
+      },
+      "properties" : {
+        "FID" : 165,
+        "Name" : "YS_BR300_Junction50_03",
+        "Level" : 0,
+        "BottomElev" : 26.074999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 166,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37118076078936,
+          31.882229363843781
+        ]
+      },
+      "properties" : {
+        "FID" : 166,
+        "Name" : "YS_BR300_Junction50_02",
+        "Level" : 0,
+        "BottomElev" : 26.126999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 167,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37115326934324,
+          31.88223175278662
+        ]
+      },
+      "properties" : {
+        "FID" : 167,
+        "Name" : "YS_BR300_Junction50_01",
+        "Level" : 0,
+        "BottomElev" : 26.245000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 168,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37155591323734,
+          31.882505607260356
+        ]
+      },
+      "properties" : {
+        "FID" : 168,
+        "Name" : " YS_BR300_Junction46_04",
+        "Level" : 0,
+        "BottomElev" : 24.879999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 169,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37143344417983,
+          31.882502096286199
+        ]
+      },
+      "properties" : {
+        "FID" : 169,
+        "Name" : "YS_BR300_Junction51_12",
+        "Level" : 0,
+        "BottomElev" : 25.027000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 170,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37139043552808,
+          31.882504106756002
+        ]
+      },
+      "properties" : {
+        "FID" : 170,
+        "Name" : "YS_BR300_Junction51_11",
+        "Level" : 0,
+        "BottomElev" : 25.306000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 171,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3713233268775,
+          31.882505574360902
+        ]
+      },
+      "properties" : {
+        "FID" : 171,
+        "Name" : "YS_BR300_Junction51_10",
+        "Level" : 0,
+        "BottomElev" : 25.387
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 172,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37128680320218,
+          31.882503823266617
+        ]
+      },
+      "properties" : {
+        "FID" : 172,
+        "Name" : "YS_BR300_Junction51_09",
+        "Level" : 0,
+        "BottomElev" : 25.427
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 173,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37124439453181,
+          31.882502585352665
+        ]
+      },
+      "properties" : {
+        "FID" : 173,
+        "Name" : "YS_BR300_Junction51_08",
+        "Level" : 0,
+        "BottomElev" : 25.387
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 174,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37120799634172,
+          31.882503133531639
+        ]
+      },
+      "properties" : {
+        "FID" : 174,
+        "Name" : "YS_BR300_Junction51_07",
+        "Level" : 0,
+        "BottomElev" : 25.510000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 175,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37117043519822,
+          31.882500961573836
+        ]
+      },
+      "properties" : {
+        "FID" : 175,
+        "Name" : "YS_BR300_Junction51_06",
+        "Level" : 0,
+        "BottomElev" : 25.510000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 176,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37110412936254,
+          31.88250231849975
+        ]
+      },
+      "properties" : {
+        "FID" : 176,
+        "Name" : "YS_BR300_Junction51_05",
+        "Level" : 0,
+        "BottomElev" : 25.524999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 177,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37106852209398,
+          31.882499789095288
+        ]
+      },
+      "properties" : {
+        "FID" : 177,
+        "Name" : "YS_BR300_Junction51_04",
+        "Level" : 0,
+        "BottomElev" : 25.582000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 178,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37103750205431,
+          31.882499942759832
+        ]
+      },
+      "properties" : {
+        "FID" : 178,
+        "Name" : "YS_BR300_Junction51_03",
+        "Level" : 0,
+        "BottomElev" : 25.545000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 179,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37098908174212,
+          31.882499263402696
+        ]
+      },
+      "properties" : {
+        "FID" : 179,
+        "Name" : "YS_BR300_Junction51_02",
+        "Level" : 0,
+        "BottomElev" : 25.571999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 180,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37089233438113,
+          31.882500077767407
+        ]
+      },
+      "properties" : {
+        "FID" : 180,
+        "Name" : "YS_BR300_Junction51_01",
+        "Level" : 0,
+        "BottomElev" : 25.465
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 181,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37152012291727,
+          31.882757655638954
+        ]
+      },
+      "properties" : {
+        "FID" : 181,
+        "Name" : " YS_BR300_Junction46_05",
+        "Level" : 0,
+        "BottomElev" : 24.812000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 182,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37137219361856,
+          31.882736056185738
+        ]
+      },
+      "properties" : {
+        "FID" : 182,
+        "Name" : "YS_BR300_Junction52_11",
+        "Level" : 0,
+        "BottomElev" : 25.562999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 183,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37134347408754,
+          31.882740604127356
+        ]
+      },
+      "properties" : {
+        "FID" : 183,
+        "Name" : "YS_BR300_Junction52_10",
+        "Level" : 0,
+        "BottomElev" : 25.541
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 184,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37130031182542,
+          31.882738601879726
+        ]
+      },
+      "properties" : {
+        "FID" : 184,
+        "Name" : "YS_BR300_Junction52_09",
+        "Level" : 0,
+        "BottomElev" : 25.564
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 185,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37126120919284,
+          31.882736858310661
+        ]
+      },
+      "properties" : {
+        "FID" : 185,
+        "Name" : "YS_BR300_Junction52_08",
+        "Level" : 0,
+        "BottomElev" : 25.550999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 186,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37121925300735,
+          31.882735150116737
+        ]
+      },
+      "properties" : {
+        "FID" : 186,
+        "Name" : "YS_BR300_Junction52_07",
+        "Level" : 0,
+        "BottomElev" : 25.555
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 187,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37116072942239,
+          31.882737368140525
+        ]
+      },
+      "properties" : {
+        "FID" : 187,
+        "Name" : "YS_BR300_Junction52_06",
+        "Level" : 0,
+        "BottomElev" : 25.600999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 188,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37109105072172,
+          31.882735812983586
+        ]
+      },
+      "properties" : {
+        "FID" : 188,
+        "Name" : "YS_BR300_Junction52_05",
+        "Level" : 0,
+        "BottomElev" : 25.648
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 189,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37104910049182,
+          31.882738226071634
+        ]
+      },
+      "properties" : {
+        "FID" : 189,
+        "Name" : "YS_BR300_Junction52_04",
+        "Level" : 0,
+        "BottomElev" : 25.652999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 190,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37102692460753,
+          31.882735188503354
+        ]
+      },
+      "properties" : {
+        "FID" : 190,
+        "Name" : "YS_BR300_Junction52_03",
+        "Level" : 0,
+        "BottomElev" : 25.594000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 191,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37096042508307,
+          31.88273309191775
+        ]
+      },
+      "properties" : {
+        "FID" : 191,
+        "Name" : "YS_BR300_Junction52_02",
+        "Level" : 0,
+        "BottomElev" : 25.760000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 192,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37089234581337,
+          31.882735040097121
+        ]
+      },
+      "properties" : {
+        "FID" : 192,
+        "Name" : "YS_BR300_Junction52_01",
+        "Level" : 0,
+        "BottomElev" : 25.834
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 193,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37145176697345,
+          31.883088339378205
+        ]
+      },
+      "properties" : {
+        "FID" : 193,
+        "Name" : "YS_BR300_Junction53_14",
+        "Level" : 0,
+        "BottomElev" : 25.218
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 194,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37139272224334,
+          31.883089801496613
+        ]
+      },
+      "properties" : {
+        "FID" : 194,
+        "Name" : "YS_BR300_Junction53_13",
+        "Level" : 0,
+        "BottomElev" : 25.131
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 195,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37136100138152,
+          31.883078657379983
+        ]
+      },
+      "properties" : {
+        "FID" : 195,
+        "Name" : "YS_BR300_Junction53_12",
+        "Level" : 0,
+        "BottomElev" : 25.195
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 196,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37126570562218,
+          31.883083156268988
+        ]
+      },
+      "properties" : {
+        "FID" : 196,
+        "Name" : "YS_BR300_Junction53_11",
+        "Level" : 0,
+        "BottomElev" : 25.413
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 197,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37124244253708,
+          31.883083134020364
+        ]
+      },
+      "properties" : {
+        "FID" : 197,
+        "Name" : "YS_BR300_Junction53_10",
+        "Level" : 0,
+        "BottomElev" : 25.475999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 198,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37119346486392,
+          31.883083231942482
+        ]
+      },
+      "properties" : {
+        "FID" : 198,
+        "Name" : "YS_BR300_Junction53_09",
+        "Level" : 0,
+        "BottomElev" : 25.289999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 199,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37117457936431,
+          31.883083683887058
+        ]
+      },
+      "properties" : {
+        "FID" : 199,
+        "Name" : "YS_BR300_Junction53_08",
+        "Level" : 0,
+        "BottomElev" : 25.292999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 200,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37109979379851,
+          31.883081719786979
+        ]
+      },
+      "properties" : {
+        "FID" : 200,
+        "Name" : "YS_BR300_Junction53_07",
+        "Level" : 0,
+        "BottomElev" : 25.263999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 201,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3710787258333,
+          31.883083512793881
+        ]
+      },
+      "properties" : {
+        "FID" : 201,
+        "Name" : "YS_BR300_Junction53_06",
+        "Level" : 0,
+        "BottomElev" : 25.321000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 202,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37103550415844,
+          31.883082547733132
+        ]
+      },
+      "properties" : {
+        "FID" : 202,
+        "Name" : "YS_BR300_Junction53_05",
+        "Level" : 0,
+        "BottomElev" : 25.318000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 203,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.3710065732741,
+          31.883071314220604
+        ]
+      },
+      "properties" : {
+        "FID" : 203,
+        "Name" : "YS_BR300_Junction53_04",
+        "Level" : 0,
+        "BottomElev" : 25.408999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 204,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37095798440889,
+          31.883073485122388
+        ]
+      },
+      "properties" : {
+        "FID" : 204,
+        "Name" : "YS_BR300_Junction53_03",
+        "Level" : 0,
+        "BottomElev" : 25.443999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 205,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37088371860364,
+          31.883069345972295
+        ]
+      },
+      "properties" : {
+        "FID" : 205,
+        "Name" : "YS_BR300_Junction53_02",
+        "Level" : 0,
+        "BottomElev" : 25.484000000000002
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 206,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37075038810873,
+          31.883069599599072
+        ]
+      },
+      "properties" : {
+        "FID" : 206,
+        "Name" : "YS_BR300_Junction53_01",
+        "Level" : 0,
+        "BottomElev" : 25.498000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 207,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37150065571262,
+          31.883321508513543
+        ]
+      },
+      "properties" : {
+        "FID" : 207,
+        "Name" : " YS_BR300_Junction46_07",
+        "Level" : 0,
+        "BottomElev" : 24.475999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 208,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37144858125113,
+          31.883321642638805
+        ]
+      },
+      "properties" : {
+        "FID" : 208,
+        "Name" : "YS_BR300_Junction54_08",
+        "Level" : 0,
+        "BottomElev" : 25.149999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 209,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37136418114628,
+          31.883320608614905
+        ]
+      },
+      "properties" : {
+        "FID" : 209,
+        "Name" : "YS_BR300_Junction54_07",
+        "Level" : 0,
+        "BottomElev" : 25.297000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 210,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37127410354385,
+          31.883319131183399
+        ]
+      },
+      "properties" : {
+        "FID" : 210,
+        "Name" : "YS_BR300_Junction54_06",
+        "Level" : 0,
+        "BottomElev" : 25.349
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 211,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37118881027757,
+          31.883316764945636
+        ]
+      },
+      "properties" : {
+        "FID" : 211,
+        "Name" : "YS_BR300_Junction54_05",
+        "Level" : 0,
+        "BottomElev" : 25.390999999999998
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 212,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37108374090801,
+          31.883314167792179
+        ]
+      },
+      "properties" : {
+        "FID" : 212,
+        "Name" : "YS_BR300_Junction54_03",
+        "Level" : 0,
+        "BottomElev" : 25.451000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 213,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37097859524577,
+          31.88331099360439
+        ]
+      },
+      "properties" : {
+        "FID" : 213,
+        "Name" : "YS_BR300_Junction54_02",
+        "Level" : 0,
+        "BottomElev" : 25.48
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 214,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37114703535067,
+          31.883315516132424
+        ]
+      },
+      "properties" : {
+        "FID" : 214,
+        "Name" : "YS_BR300_Junction54_04",
+        "Level" : 0,
+        "BottomElev" : 25.427
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 215,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37150958011853,
+          31.883567365899321
+        ]
+      },
+      "properties" : {
+        "FID" : 215,
+        "Name" : " YS_BR300_Junction46_08",
+        "Level" : 0,
+        "BottomElev" : 24.507999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 216,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37136684395256,
+          31.881952575186283
+        ]
+      },
+      "properties" : {
+        "FID" : 216,
+        "Name" : " YS_BR300_Junction49_02",
+        "Level" : 0,
+        "BottomElev" : 25.881
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 217,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37148970177589,
+          31.883092337256777
+        ]
+      },
+      "properties" : {
+        "FID" : 217,
+        "Name" : " YS_BR300_Junction46_06",
+        "Level" : 0,
+        "BottomElev" : 24.581
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 218,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37086858608025,
+          31.883308004214861
+        ]
+      },
+      "properties" : {
+        "FID" : 218,
+        "Name" : "YS_BR300_Junction54_01",
+        "Level" : 0,
+        "BottomElev" : 25.5
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 219,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.37021110970714,
+          31.883602010016407
+        ]
+      },
+      "properties" : {
+        "FID" : 219,
+        "Name" : "YS_BR300_Junction67_10",
+        "Level" : 0,
+        "BottomElev" : 25.367999999999999
+      }
+    }
+  ]
+}

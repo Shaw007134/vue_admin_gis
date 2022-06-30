@@ -33,52 +33,29 @@ export default {
       const url_sewage_line = '/pipe/sewage_line.json';
       const url_sewage_point = '/pipe/sewage_point.json';
 
-      const template_RainPipeline_2D = {
-        title: '<b>所选管段相关信息：</b>',
-        content:
-          '<b>模型编号: </b> {Name} <br>\
-                <b>上游井模型编号: </b> {FromNode} <br>\
-                <b>上游井底高程: </b> {FromNodeElev} m <br>\
-                <b>下游井模型编号: </b> {ToNode} <br>\
-                <b>下游井底高程: </b> {ToNodeElev} m <br>\
-                <b>长度: </b> {Length} m <br>\
-                <b>粗糙度: </b> {Roughness} <br>\
-                <b>上游管接入偏离井底距离: </b> {InOffset} m <br>\
-                <b>下游管接入偏离井底距离: </b> {OutOffset} m <br>\
-                <b>初始流量: </b> {InitFlow} m^3/s <br>\
-                <b>最大流量: </b> {MaxFlow} m^3/s <br>\
-                <b>形状: </b> {ShapeO} <br>\
-                <b>形状参数1: </b> {Geom1} m <br>\
-                <b>形状参数2: </b> {Geom2} m <br>\
-                <b>形状参数3: </b> {Geom3} m <br>\
-                <b>形状参数4: </b> {Geom4} m <br>\
-                <b>并行管数: </b> {Barrels} <br>\
-                <b>Culvert: </b> {Culvert} <br>\
-                <b>管道类型: </b> {Type} <br>\
-                <b>埋设方式: </b> {BuryType} <br>\
-                <b>权属单位: </b> {Belong} <br>\
-                <b>埋设日期: </b> {BuryDate} <br>\
-                <b>材质: </b> {Material} <br>\
-                <b>使用单位: </b> {Owner} <br>\
-                <b>淤积程度: </b> {Silt} <br>\
-                <b>连通状况: </b> {Connectivity} <br>\
+      const template_RainManhole_2D = {
+        title: '<b>所选管井相关信息：</b>',
+        content: '<b>编号: </b> {Name} <br>\
+                <b>井底高程: </b> {BottomElev} m <br>\
               ',
         actions: [],
         overwriteActions: true,
         opacity: 0.6
       };
 
-      const template_RainManhole_2D = {
-        title: '<b>所选管井相关信息：</b>',
+      const template_RainPipeline_2D = {
+        title: '<b>所选管段相关信息：</b>',
         content:
-          '<b>模型编号: </b> {MSName} <br>\
-                <b>物探编号: </b> {GPName} <br>\
-                <b>井底高程: </b> {Elevation} m <br>\
-                <b>井深: </b> {DepthMax} m <br>\
-                <b>初始水深: </b> {DepthInit} m <br>\
-                <b>容许淹没水深: </b> {DepthSur} m <br>\
-                <b>淹没时受水面积: </b> {Aponded} m^2 <br>\
-                <b>使用状态: </b> {State} <br>\
+          '<b>编号: </b> {Name} <br>\
+          <b>上游管井编号: </b> {InNode} <br>\
+          <b>上游井底高程: </b> {InNodeElev} m <br>\
+          <b>下游管井编号: </b> {OutNode} <br>\
+          <b>下游井底高程: </b> {OutNodeEle} m <br>\
+          <b>管始端高程: </b> {InElev} m <br>\
+          <b>管末端高程: </b> {OutElev} m <br>\
+          <b>管径: </b> {DN} m <br>\
+          <b>长度: </b> {Length} m <br>\
+          <b>使用状态: </b> {State} <br>\
               ',
         actions: [],
         overwriteActions: true,
@@ -87,34 +64,19 @@ export default {
 
       const template_DistinctPipeline_2D = {
         title: '<b>所选管段相关信息：</b>',
-        content:
-          '<b>模型编号: </b> {Name} <br>\
-                <b>上游井模型编号: </b> {FromNode} <br>\
-                <b>上游井底高程: </b> {FromNodeElev} m <br>\
-                <b>下游井模型编号: </b> {ToNode} <br>\
-                <b>下游井底高程: </b> {ToNodeElev} m <br>\
-                <b>长度: </b> {Length} m <br>\
-                <b>粗糙度: </b> {Roughness} <br>\
-                <b>上游管接入偏离井底距离: </b> {InOffset} m <br>\
-                <b>下游管接入偏离井底距离: </b> {OutOffset} m <br>\
-                <b>初始流量: </b> {InitFlow} m^3/s <br>\
-                <b>最大流量: </b> {MaxFlow} m^3/s <br>\
-                <b>形状: </b> {ShapeO} <br>\
-                <b>形状参数1: </b> {Geom1} m <br>\
-                <b>形状参数2: </b> {Geom2} m <br>\
-                <b>形状参数3: </b> {Geom3} m <br>\
-                <b>形状参数4: </b> {Geom4} m <br>\
-                <b>并行管数: </b> {Barrels} <br>\
-                <b>Culvert: </b> {Culvert} <br>\
-                <b>管道类型: </b> {Type} <br>\
-                <b>埋设方式: </b> {BuryType} <br>\
-                <b>权属单位: </b> {Belong} <br>\
-                <b>埋设日期: </b> {BuryDate} <br>\
-                <b>材质: </b> {Material} <br>\
-                <b>使用单位: </b> {Owner} <br>\
-                <b>淤积程度: </b> {Silt} <br>\
-                <b>连通状况: </b> {Connectivity} <br>\
+                content:
+          '<b>编号: </b> {Name} <br>\
+          <b>上游管井编号: </b> {InNode} <br>\
+          <b>上游井底高程: </b> {InNodeElev} m <br>\
+          <b>下游管井编号: </b> {OutNode} <br>\
+          <b>下游井底高程: </b> {OutNodeEle} m <br>\
+          <b>管始端高程: </b> {InElev} m <br>\
+          <b>管末端高程: </b> {OutElev} m <br>\
+          <b>管径: </b> {DN} m <br>\
+          <b>长度: </b> {Length} m <br>\
+          <b>使用状态: </b> {State} <br>\
               ',
+
         actions: [],
         overwriteActions: true,
         opacity: 0.6
@@ -122,15 +84,8 @@ export default {
 
       const template_DistinctManhole_2D = {
         title: '<b>所选管井相关信息：</b>',
-        content:
-          '<b>模型编号: </b> {MSName} <br>\
-                <b>物探编号: </b> {GPName} <br>\
-                <b>井底高程: </b> {Elevation} m <br>\
-                <b>井深: </b> {DepthMax} m <br>\
-                <b>初始水深: </b> {DepthInit} m <br>\
-                <b>容许淹没水深: </b> {DepthSur} m <br>\
-                <b>淹没时受水面积: </b> {Aponded} m^2 <br>\
-                <b>使用状态: </b> {State} <br>\
+        content: '<b>编号: </b> {Name} <br>\
+                <b>井底高程: </b> {BottomElev} m <br>\
               ',
         actions: [],
         overwriteActions: true,
@@ -139,34 +94,19 @@ export default {
 
       const template_DistinctRainPipeline_2D = {
         title: '<b>所选管段相关信息：</b>',
-        content:
-          '<b>模型编号: </b> {Name} <br>\
-                <b>上游井模型编号: </b> {FromNode} <br>\
-                <b>上游井底高程: </b> {FromNodeElev} m <br>\
-                <b>下游井模型编号: </b> {ToNode} <br>\
-                <b>下游井底高程: </b> {ToNodeElev} m <br>\
-                <b>长度: </b> {Length} m <br>\
-                <b>粗糙度: </b> {Roughness} <br>\
-                <b>上游管接入偏离井底距离: </b> {InOffset} m <br>\
-                <b>下游管接入偏离井底距离: </b> {OutOffset} m <br>\
-                <b>初始流量: </b> {InitFlow} m^3/s <br>\
-                <b>最大流量: </b> {MaxFlow} m^3/s <br>\
-                <b>形状: </b> {ShapeO} <br>\
-                <b>形状参数1: </b> {Geom1} m <br>\
-                <b>形状参数2: </b> {Geom2} m <br>\
-                <b>形状参数3: </b> {Geom3} m <br>\
-                <b>形状参数4: </b> {Geom4} m <br>\
-                <b>并行管数: </b> {Barrels} <br>\
-                <b>Culvert: </b> {Culvert} <br>\
-                <b>管道类型: </b> {Type} <br>\
-                <b>埋设方式: </b> {BuryType} <br>\
-                <b>权属单位: </b> {Belong} <br>\
-                <b>埋设日期: </b> {BuryDate} <br>\
-                <b>材质: </b> {Material} <br>\
-                <b>使用单位: </b> {Owner} <br>\
-                <b>淤积程度: </b> {Silt} <br>\
-                <b>连通状况: </b> {Connectivity} <br>\
+                content:
+          '<b>编号: </b> {Name} <br>\
+          <b>上游管井编号: </b> {InNode} <br>\
+          <b>上游井底高程: </b> {InNodeElev} m <br>\
+          <b>下游管井编号: </b> {OutNode} <br>\
+          <b>下游井底高程: </b> {OutNodeEle} m <br>\
+          <b>管始端高程: </b> {InElev} m <br>\
+          <b>管末端高程: </b> {OutElev} m <br>\
+          <b>管径: </b> {DN} m <br>\
+          <b>长度: </b> {Length} m <br>\
+          <b>使用状态: </b> {State} <br>\
               ',
+
         actions: [],
         overwriteActions: true,
         opacity: 0.6
@@ -174,15 +114,8 @@ export default {
 
       const template_DistinctRainManhole_2D = {
         title: '<b>所选管井相关信息：</b>',
-        content:
-          '<b>模型编号: </b> {MSName} <br>\
-                <b>物探编号: </b> {GPName} <br>\
-                <b>井底高程: </b> {Elevation} m <br>\
-                <b>井深: </b> {DepthMax} m <br>\
-                <b>初始水深: </b> {DepthInit} m <br>\
-                <b>容许淹没水深: </b> {DepthSur} m <br>\
-                <b>淹没时受水面积: </b> {Aponded} m^2 <br>\
-                <b>使用状态: </b> {State} <br>\
+        content: '<b>编号: </b> {Name} <br>\
+                <b>井底高程: </b> {BottomElev} m <br>\
               ',
         actions: [],
         overwriteActions: true,
@@ -191,34 +124,19 @@ export default {
 
       const template_SewagePipeline_2D = {
         title: '<b>所选管段相关信息：</b>',
-        content:
-          '<b>模型编号: </b> {Name} <br>\
-                <b>上游井模型编号: </b> {FromNode} <br>\
-                <b>上游井底高程: </b> {FromNodeElev} m <br>\
-                <b>下游井模型编号: </b> {ToNode} <br>\
-                <b>下游井底高程: </b> {ToNodeElev} m <br>\
-                <b>长度: </b> {Length} m <br>\
-                <b>粗糙度: </b> {Roughness} <br>\
-                <b>上游管接入偏离井底距离: </b> {InOffset} m <br>\
-                <b>下游管接入偏离井底距离: </b> {OutOffset} m <br>\
-                <b>初始流量: </b> {InitFlow} m^3/s <br>\
-                <b>最大流量: </b> {MaxFlow} m^3/s <br>\
-                <b>形状: </b> {ShapeO} <br>\
-                <b>形状参数1: </b> {Geom1} m <br>\
-                <b>形状参数2: </b> {Geom2} m <br>\
-                <b>形状参数3: </b> {Geom3} m <br>\
-                <b>形状参数4: </b> {Geom4} m <br>\
-                <b>并行管数: </b> {Barrels} <br>\
-                <b>Culvert: </b> {Culvert} <br>\
-                <b>管道类型: </b> {Type} <br>\
-                <b>埋设方式: </b> {BuryType} <br>\
-                <b>权属单位: </b> {Belong} <br>\
-                <b>埋设日期: </b> {BuryDate} <br>\
-                <b>材质: </b> {Material} <br>\
-                <b>使用单位: </b> {Owner} <br>\
-                <b>淤积程度: </b> {Silt} <br>\
-                <b>连通状况: </b> {Connectivity} <br>\
+                content:
+          '<b>编号: </b> {Name} <br>\
+          <b>上游管井编号: </b> {InNode} <br>\
+          <b>上游井底高程: </b> {InNodeElev} m <br>\
+          <b>下游管井编号: </b> {OutNode} <br>\
+          <b>下游井底高程: </b> {OutNodeEle} m <br>\
+          <b>管始端高程: </b> {InElev} m <br>\
+          <b>管末端高程: </b> {OutElev} m <br>\
+          <b>管径: </b> {DN} m <br>\
+          <b>长度: </b> {Length} m <br>\
+          <b>使用状态: </b> {State} <br>\
               ',
+
         actions: [],
         overwriteActions: true,
         opacity: 0.6
@@ -226,15 +144,8 @@ export default {
 
       const template_SewageManhole_2D = {
         title: '<b>所选管井相关信息：</b>',
-        content:
-          '<b>模型编号: </b> {MSName} <br>\
-                <b>物探编号: </b> {GPName} <br>\
-                <b>井底高程: </b> {Elevation} m <br>\
-                <b>井深: </b> {DepthMax} m <br>\
-                <b>初始水深: </b> {DepthInit} m <br>\
-                <b>容许淹没水深: </b> {DepthSur} m <br>\
-                <b>淹没时受水面积: </b> {Aponded} m^2 <br>\
-                <b>使用状态: </b> {State} <br>\
+        content: '<b>编号: </b> {Name} <br>\
+                <b>井底高程: </b> {BottomElev} m <br>\
               ',
         actions: [],
         overwriteActions: true,
@@ -243,8 +154,7 @@ export default {
 
       const template_building = {
         title: '<b>所选建筑物信息：</b>',
-        content: '<b>名称: </b> {Name} <br>\
-              ',
+        content: '<b>名称: </b> {Name} <br><b>Level: </b> {Level}',
         actions: [],
         overwriteActions: true,
         opacity: 0.6
@@ -294,108 +204,505 @@ export default {
           }
         }
       };
+
       const renderer_RainPipeline_2D = {
-        type: 'simple',
-        symbol: {
+        type: 'unique-value',
+        field: 'Level',
+        defalutSymbol: {
           type: 'simple-line',
           color: '#33CC33', // Orange
           width: 2
-        }
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-line',
+              color: '#33CC33', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-line',
+              color: 'yellow', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-line',
+              color: 'red', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 4,
+            symbol: {
+              type: 'simple-line',
+              color: 'grey', // Orange
+              width: 2
+            }
+          }
+        ]
       };
 
       const renderer_RainManhole_2D = {
-        type: 'simple',
-        symbol: {
+        type: 'unique-value',
+        field: 'Level',
+        defaultSymbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 4,
+          size: 6,
           color: 'blue',
           outline: {
             // autocasts as new SimpleLineSymbol()
             width: 0.5,
             color: 'white'
           }
-        }
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'lime',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'yellow',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'red',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 4,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'grey',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          }
+        ]
       };
 
       const renderer_SewagePipeline_2D = {
-        type: 'simple',
-        symbol: {
-          type: 'simple-line',
-          color: [226, 119, 40], // Orange
-          width: 2
-        }
-      };
-
-      const renderer_SewageManhole_2D = {
-        type: 'simple',
-        symbol: {
-          type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 4,
-          color: 'black',
-          outline: {
-            // autocasts as new SimpleLineSymbol()
-            width: 0.5,
-            color: 'white'
-          }
-        }
-      };
-
-      const renderer_DistinctPipeline_2D = {
-        type: 'simple',
-        symbol: {
-          type: 'simple-line',
-          color: [226, 119, 40], // Orange
-          width: 2
-        }
-      };
-
-      const renderer_DistinctManhole_2D = {
-        type: 'simple',
-        symbol: {
-          type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 4,
-          color: 'black',
-          outline: {
-            // autocasts as new SimpleLineSymbol()
-            width: 0.5,
-            color: 'white'
-          }
-        }
-      };
-
-      const renderer_DistinctRainPipeline_2D = {
-        type: 'simple',
-        symbol: {
+        type: 'unique-value',
+        field: 'Level',
+        defalutSymbol: {
           type: 'simple-line',
           color: '#33CC33', // Orange
           width: 2
-        }
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-line',
+              color: 'orange', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-line',
+              color: 'yellow', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-line',
+              color: 'red', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 4,
+            symbol: {
+              type: 'simple-line',
+              color: 'grey', // Orange
+              width: 2
+            }
+          }
+        ]
       };
 
-      const renderer_DistinctRainManhole_2D = {
-        type: 'simple',
-        symbol: {
+      const renderer_SewageManhole_2D = {
+        type: 'unique-value',
+        field: 'Level',
+        defaultSymbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 4,
-          color: 'black',
+          size: 6,
+          color: 'blue',
           outline: {
             // autocasts as new SimpleLineSymbol()
             width: 0.5,
             color: 'white'
           }
-        }
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'lime',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'yellow',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'red',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 4,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'grey',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          }
+        ]
+      };
+
+      const renderer_DistinctPipeline_2D = {
+        type: 'unique-value',
+        field: 'Level',
+        defalutSymbol: {
+          type: 'simple-line',
+          color: '#33CC33', // Orange
+          width: 2
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-line',
+              color: 'orange', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-line',
+              color: 'yellow', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-line',
+              color: 'red', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 4,
+            symbol: {
+              type: 'simple-line',
+              color: 'grey', // Orange
+              width: 2
+            }
+          }
+        ]
+      };
+
+      const renderer_DistinctManhole_2D = {
+        type: 'unique-value',
+        field: 'Level',
+        defaultSymbol: {
+          type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+          size: 6,
+          color: 'blue',
+          outline: {
+            // autocasts as new SimpleLineSymbol()
+            width: 0.5,
+            color: 'white'
+          }
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'lime',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'yellow',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'red',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 4,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'grey',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          }
+        ]
+      };
+
+      const renderer_DistinctRainPipeline_2D = {
+        type: 'unique-value',
+        field: 'Level',
+        defalutSymbol: {
+          type: 'simple-line',
+          color: '#33CC33', // Orange
+          width: 2
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-line',
+              color: 'orange', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-line',
+              color: 'yellow', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-line',
+              color: 'red', // Orange
+              width: 2
+            }
+          },
+          {
+            value: 4,
+            symbol: {
+              type: 'simple-line',
+              color: 'grey', // Orange
+              width: 2
+            }
+          }
+        ]
+      };
+
+      const renderer_DistinctRainManhole_2D = {
+        type: 'unique-value',
+        field: 'Level',
+        defaultSymbol: {
+          type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+          size: 6,
+          color: 'blue',
+          outline: {
+            // autocasts as new SimpleLineSymbol()
+            width: 0.5,
+            color: 'white'
+          }
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'lime',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'yellow',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'red',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          },
+          {
+            value: 4,
+            symbol: {
+              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+              size: 6,
+              color: 'grey',
+              outline: {
+                // autocasts as new SimpleLineSymbol()
+                width: 0.5,
+                color: 'white'
+              }
+            }
+          }
+        ]
       };
 
       const renderer_building = {
-        type: 'simple',
-        symbol: {
+        type: 'unique-value',
+        field: 'Level',
+        defaultSymbol: {
           type: 'simple-fill',
           color: [0, 225, 225, 0.3],
           outline: {
             color: [0, 225, 225, 0.6],
             width: '1px'
           }
-        }
+        },
+        uniqueValueInfos: [
+          {
+            value: 1,
+            symbol: {
+              type: 'simple-fill',
+              color: [0, 255, 0, 0.6],
+              outline: {
+                color: 'grey',
+                width: '1px'
+              }
+            }
+          },
+          {
+            value: 2,
+            symbol: {
+              type: 'simple-fill',
+              color: [255, 225, 0, 0.6],
+              outline: {
+                color: 'grey',
+                width: '1px'
+              }
+            }
+          },
+          {
+            value: 3,
+            symbol: {
+              type: 'simple-fill',
+              color: [255, 0, 0, 0.6],
+              outline: {
+                color: 'grey',
+                width: '1px'
+              }
+            }
+          }
+        ]
       };
 
       const renderer_outfall = {
@@ -606,5 +913,8 @@ export default {
 }
 .esri-component.esri-widget--panel {
   width: 180px !important;
+}
+.esri-popup__main-container {
+  max-width: 250px !important;
 }
 </style>
