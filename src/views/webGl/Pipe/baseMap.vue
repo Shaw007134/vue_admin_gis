@@ -22,6 +22,7 @@ export default {
   methods: {
     handleMounted() {
       const url_building = '/pipe/building.json';
+      const url_zone = '/pipe/zone.json';
       const url_distinct_line = '/pipe/distinct_line.json';
       const url_distinct_point = '/pipe/distinct_point.json';
       const url_distinct_rain_line = '/pipe/distinct_rain_line.json';
@@ -257,6 +258,14 @@ export default {
         opacity: 0.6
       };
 
+      const template_zone = {
+        title: '<b>所选分区相关信息：</b>',
+        content: '<b>索引号: </b> {FID} <br><b>名称: </b> {Name} <br>',
+        actions: [],
+        overwriteActions: true,
+        opacity: 0.6
+      };
+
       function createFillSymbol(value, color) {
         return {
           value: value,
@@ -272,7 +281,19 @@ export default {
           label: value
         };
       }
-
+      const renderer_Zone = {
+        type: 'simple',
+        symbol: {
+          color: [0, 225, 225, 0],
+          type: 'simple-fill',
+          style: 'solid',
+          outline: {
+            style: 'solid',
+            width: '2px',
+            color: '#63AFF8'
+          }
+        }
+      };
       const renderer_RainPipeline_2D = {
         type: 'simple',
         symbol: {
@@ -391,6 +412,14 @@ export default {
           }
         }
       };
+      const geojsonLayer_Zone = new GeoJSONLayer({
+        url: url_zone,
+        visible: false,
+        title: '分区',
+        popupTemplate: template_zone,
+        renderer: renderer_Zone,
+        opacity: 0.8
+      });
       const geojsonLayer_Building = new GeoJSONLayer({
         url: url_building,
         visible: true,
@@ -483,7 +512,7 @@ export default {
         title: '雨水管网及管井',
         visible: true,
         visibilityMode: 'independent',
-        layers: [geojsonLayer_RainOut,  geojsonLayer_RainManhole_2D, geojsonLayer_RainPipeline_2D],
+        layers: [geojsonLayer_RainOut, geojsonLayer_RainManhole_2D, geojsonLayer_RainPipeline_2D],
         opacity: 0.75
       });
 
@@ -491,7 +520,7 @@ export default {
         title: '污水管网及管井',
         visible: false,
         visibilityMode: 'independent',
-        layers: [ geojsonLayer_SewageManhole_2D, geojsonLayer_SewagePipeline_2D],
+        layers: [geojsonLayer_SewageManhole_2D, geojsonLayer_SewagePipeline_2D],
         opacity: 0.75
       });
 
@@ -512,7 +541,7 @@ export default {
       });
 
       const generalGroup = new GroupLayer({
-        title: '图层管理',
+        title: '雨污管网',
         visible: true,
         visibilityMode: 'exclusive',
         layers: [SewagePipeNetworkGroupLayer, RainPipeNetworkGroupLayer],
@@ -532,7 +561,7 @@ export default {
       });
       let map = new Map({
         basemap: 'hybrid', // streets，hybrid
-        layers: [osmLayer, geojsonLayer_Building]
+        layers: [osmLayer, geojsonLayer_Zone, geojsonLayer_Building]
       });
 
       map.layers.addMany([generalGroup]);
@@ -544,10 +573,10 @@ export default {
         zoom: 15
       });
 
-      const basemapToggle = new BasemapToggle({
-        view: view,
-        nextBasemap: 'satellite'
-      });
+      // const basemapToggle = new BasemapToggle({
+      //   view: view,
+      //   nextBasemap: 'satellite'
+      // });
       let layerList = new LayerList({
         view: view
       });
@@ -556,21 +585,13 @@ export default {
         position: 'top-right'
       });
 
-      view.ui.add(basemapToggle, 'top-right');
-
-      view.popup.on('trigger-action', event => {
-        // Execute the measureThis() function if the measure-this action is clicked
-        if (event.action.id === 'ZoneDetails') {
-          console.log(event);
-          window.location.replace('http://stackoverflow.com');
-        }
-      });
+      // view.ui.add(basemapToggle, 'top-right');
     }
   }
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .MapView {
   width: 100%;
   height: 80%;
@@ -582,5 +603,8 @@ export default {
     height: 100%;
     width: 100%;
   }
+}
+.esri-component.esri-widget--panel {
+  width: 180px !important;
 }
 </style>
