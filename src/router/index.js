@@ -110,7 +110,7 @@ export const asyncRoutes = [
       },
       {
         name: 'drag',
-        path: '/error/404',
+        path: '/error/404/1',
         component: Layout,
         meta: {
           title: '模型模拟',
@@ -120,7 +120,7 @@ export const asyncRoutes = [
       },
       {
         name: 'drag1',
-        path: '/error/404',
+        path: '/error/404/2',
         component: Layout,
         meta: {
           title: '总量溯源',
@@ -130,7 +130,7 @@ export const asyncRoutes = [
       },
       {
         name: 'drag2',
-        path: '/error/404',
+        path: '/error/404/3',
         component: Layout,
         meta: {
           title: '管控措施',
@@ -140,7 +140,7 @@ export const asyncRoutes = [
       },
       {
         name: 'drag3',
-        path: '/error/404',
+        path: '/error/404/4',
         component: Layout,
         meta: {
           title: '设备管理',
