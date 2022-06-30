@@ -307,7 +307,7 @@ export default {
         type: 'simple',
         symbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 6,
+          size: 4,
           color: 'blue',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -330,7 +330,7 @@ export default {
         type: 'simple',
         symbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 6,
+          size: 4,
           color: 'black',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -353,7 +353,7 @@ export default {
         type: 'simple',
         symbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 6,
+          size: 4,
           color: 'black',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -376,7 +376,7 @@ export default {
         type: 'simple',
         symbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 6,
+          size: 4,
           color: 'black',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -390,7 +390,7 @@ export default {
         type: 'simple',
         symbol: {
           type: 'simple-fill',
-          color: [0, 225, 225, 0.6],
+          color: [0, 225, 225, 0.3],
           outline: {
             color: [0, 225, 225, 0.6],
             width: '1px'
@@ -426,7 +426,7 @@ export default {
         title: '建筑',
         popupTemplate: template_building,
         renderer: renderer_building,
-        opacity: 0.9
+        opacity: 0.7
       });
       const geojsonLayer_RainPipeline_2D = new GeoJSONLayer({
         url: url_rain_line,

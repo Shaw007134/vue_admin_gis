@@ -65,7 +65,7 @@ export const asyncRoutes = [
 
       {
         name: 'vue3',
-        path: 'https://gist006.gitee.io/vue3-bigdata/#/homepage',
+        path: 'http://localhost:8998/#/homepage',
         component: Layout,
         meta: {
           title: '大屏',
@@ -90,36 +90,67 @@ export const asyncRoutes = [
         redirect: '/webGl/ArcGis',
         meta: {
           role: 4,
-          title: '地图',
+          title: '区域监测',
           icon: 'webGl'
         },
         children: [
           {
-            name: 'ArcGis',
+            name: '管网',
             path: '/webGl/ArcGis',
             component: () => import('@/views/webGl/Pipe/baseMap'),
-            meta: { title: 'ArcGis', role: 5 }
-          },
-          {
-            name: 'OpenLayers',
-            path: '/webGl/OpenLayers',
-            component: () => import('@/views/webGl/OpenLayers/index'),
-            meta: { title: '插值分析图', role: 6 }
+            meta: { title: '管网', role: 5 }
           }
+          // {
+          //   name: 'OpenLayers',
+          //   path: '/webGl/OpenLayers',
+          //   component: () => import('@/views/webGl/OpenLayers/index'),
+          //   meta: { title: '插值分析图', role: 6 }
+          // }
         ]
       },
-      echartRouter,
       {
         name: 'drag',
-        path: 'http://gist006.gitee.io/vue-visual-drag/#/',
+        path: '/error/404',
         component: Layout,
         meta: {
-          title: '可视化拖拽',
-          icon: 'drag',
+          title: '模型模拟',
+          icon: 'system',
           role: 3
         }
       },
-      componentsRouter,
+      {
+        name: 'drag1',
+        path: '/error/404',
+        component: Layout,
+        meta: {
+          title: '总量溯源',
+          icon: 'mapServer',
+          role: 3
+        }
+      },
+      {
+        name: 'drag2',
+        path: '/error/404',
+        component: Layout,
+        meta: {
+          title: '管控措施',
+          icon: 'location',
+          role: 3
+        }
+      },
+      {
+        name: 'drag3',
+        path: '/error/404',
+        component: Layout,
+        meta: {
+          title: '设备管理',
+          icon: 'phone',
+          role: 3
+        }
+      },
+      // echartRouter,
+
+      // componentsRouter,
       // nestRouter,
       // {
       //   name: 'error',
