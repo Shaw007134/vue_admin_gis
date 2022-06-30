@@ -23,6 +23,7 @@ export default {
     handleMounted() {
       const url_building = '/pipe/building.json';
       const url_zone = '/pipe/zone.json';
+      const url_stream = '/pipe/stream.json';
       const url_distinct_line = '/pipe/distinct_line.json';
       const url_distinct_point = '/pipe/distinct_point.json';
       const url_distinct_rain_line = '/pipe/distinct_rain_line.json';
@@ -32,6 +33,14 @@ export default {
       const url_rain_out = '/pipe/rain_out.json';
       const url_sewage_line = '/pipe/sewage_line.json';
       const url_sewage_point = '/pipe/sewage_point.json';
+
+      const template_Stream = {
+        title: '<b>所选河道相关信息：</b>',
+        content: '<b>索引号: </b> {FID}  <br><b>名称: </b> {CNName}  <br>',
+        actions: [],
+        overwriteActions: true,
+        opacity: 0.6
+      };
 
       const template_RainManhole_2D = {
         title: '<b>所选管井相关信息：</b>',
@@ -64,7 +73,7 @@ export default {
 
       const template_DistinctPipeline_2D = {
         title: '<b>所选管段相关信息：</b>',
-                content:
+        content:
           '<b>编号: </b> {Name} <br>\
           <b>上游管井编号: </b> {InNode} <br>\
           <b>上游井底高程: </b> {InNodeElev} m <br>\
@@ -94,7 +103,7 @@ export default {
 
       const template_DistinctRainPipeline_2D = {
         title: '<b>所选管段相关信息：</b>',
-                content:
+        content:
           '<b>编号: </b> {Name} <br>\
           <b>上游管井编号: </b> {InNode} <br>\
           <b>上游井底高程: </b> {InNodeElev} m <br>\
@@ -124,7 +133,7 @@ export default {
 
       const template_SewagePipeline_2D = {
         title: '<b>所选管段相关信息：</b>',
-                content:
+        content:
           '<b>编号: </b> {Name} <br>\
           <b>上游管井编号: </b> {InNode} <br>\
           <b>上游井底高程: </b> {InNodeElev} m <br>\
@@ -191,6 +200,18 @@ export default {
           label: value
         };
       }
+
+      const renderer_Stream = {
+        type: 'simple',
+        symbol: {
+          type: 'simple-fill',
+          color: [0, 225, 225, 0.9],
+          outline: {
+            color: [0, 225, 225, 0.9],
+            width: '1px'
+          }
+        }
+      };
       const renderer_Zone = {
         type: 'simple',
         symbol: {
@@ -719,6 +740,13 @@ export default {
           }
         }
       };
+        const geojsonLayer_Stream = new GeoJSONLayer({
+    url: url_stream,
+    title: '河道',
+    popupTemplate: template_Stream,
+    renderer: renderer_Stream,
+    opacity: 0.9,
+  })
       const geojsonLayer_Zone = new GeoJSONLayer({
         url: url_zone,
         visible: false,
@@ -868,7 +896,7 @@ export default {
       });
       let map = new Map({
         basemap: 'hybrid', // streets，hybrid
-        layers: [osmLayer, geojsonLayer_Zone, geojsonLayer_Building]
+        layers: [osmLayer, geojsonLayer_Stream, geojsonLayer_Zone, geojsonLayer_Building]
       });
 
       map.layers.addMany([generalGroup]);
