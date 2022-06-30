@@ -24,12 +24,11 @@ Vue.use(config);
 import scrollBar from '@/components/scrollBar';
 import '@/components/scrollBar/index.scss';
 Vue.component('scroll-bar', scrollBar);
-import esriConfig from '@arcgis/core/config.js'
+// import esriConfig from '@arcgis/core/config.js'
 
-// esriConfig.applicationUrl = 'http://localhost:81'
-esriConfig.assetsPath = '/assets'
-esriConfig.apiKey =
-  'AAPK693e54004a2e498d8ee7f5dec424fadbimrhpS3whlfKgZO_376pDdaZpFs0GzutnG4Nvv1IpWuk36yPcYv17W89eZGHR5nO'
+// esriConfig.assetsPath = '/assets'
+// esriConfig.apiKey =
+//   'AAPK693e54004a2e498d8ee7f5dec424fadbimrhpS3whlfKgZO_376pDdaZpFs0GzutnG4Nvv1IpWuk36yPcYv17W89eZGHR5nO'
 
 import { mockXHR } from '../mock';
 if (process.env.NODE_ENV === 'production') {
