@@ -13,15 +13,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36417154503032,
-          31.887364138109618
+          117.36746495474767,
+          31.887200294757985
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 0,
-        "Name" : " YS_MA600_Junction01_01",
+        "Name" : "YS_MA750_Junction02_01",
+        "BottomElev" : 26.062999999999999,
+        "Depth" : 2.1299999999999999,
         "Level" : 1,
-        "BottomElev" : 28.277999999999999
+        "SurElev" : 28.193000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -30,15 +36,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36410277036397,
-          31.887321886069412
+          117.36729982457797,
+          31.887181941818994
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 1,
-        "Name" : " YS_MA600_Junction01_02",
+        "Name" : "YS_BR750_Junction01_03",
+        "BottomElev" : 26.167999999999999,
+        "Depth" : 1.8799999999999999,
         "Level" : 1,
-        "BottomElev" : 27.166
+        "SurElev" : 28.047999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_T",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -47,15 +59,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3642110401158,
-          31.887255652288349
+          117.3671996635113,
+          31.88703224818245
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 2,
-        "Name" : " YS_MA600_Junction01_03",
+        "Name" : "YS_BR750_Junction01_01",
+        "BottomElev" : 26.364000000000001,
+        "Depth" : 2.0800000000000001,
         "Level" : 1,
-        "BottomElev" : 27.096
+        "SurElev" : 28.443999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -64,15 +82,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3645783582738,
-          31.886957257653133
+          117.36722205800012,
+          31.887066173386472
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 3,
-        "Name" : " YS_MA600_Junction01_04",
+        "Name" : "YS_BR750_Junction01_02",
+        "BottomElev" : 26.367999999999999,
+        "Depth" : 1.77,
         "Level" : 1,
-        "BottomElev" : 26.722999999999999
+        "SurElev" : 28.138000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -81,15 +105,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36524189959081,
-          31.886972000672483
+          117.36786493050015,
+          31.887217652462425
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 4,
-        "Name" : " YS_MA600_Junction01_05",
+        "Name" : "YS_MA1000_Junction03_01",
+        "BottomElev" : 25.943000000000001,
+        "Depth" : 2.6000000000000001,
         "Level" : 1,
-        "BottomElev" : 25.852
+        "SurElev" : 28.542999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -98,15 +128,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36554756386059,
-          31.88699562475027
+          117.36830521098712,
+          31.887227569298368
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 5,
-        "Name" : " YS_MA600_Junction01_06",
+        "Name" : "YS_MA1000_Junction03_02",
+        "BottomElev" : 25.972999999999999,
+        "Depth" : 3.2200000000000002,
         "Level" : 1,
-        "BottomElev" : 25.756
+        "SurElev" : 29.193000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -115,15 +151,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36597663814501,
-          31.887088135213247
+          117.36874543748277,
+          31.887237178144048
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 6,
-        "Name" : " YS_MA600_Junction01_07",
+        "Name" : "YS_MA1000_Junction03_03",
+        "BottomElev" : 24.475999999999999,
+        "Depth" : 4.6200000000000001,
         "Level" : 1,
-        "BottomElev" : 25.997
+        "SurElev" : 29.096,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -132,15 +174,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36639507126065,
-          31.887173072484032
+          117.36918630032437,
+          31.887236710200202
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 7,
-        "Name" : " YS_MA600_Junction01_08",
+        "Name" : "YS_MA1000_Junction03_04",
+        "BottomElev" : 24.350000000000001,
+        "Depth" : 4.3300000000000001,
         "Level" : 1,
-        "BottomElev" : 26.026
+        "SurElev" : 28.68,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -149,15 +197,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36701247466488,
-          31.887224445217374
+          117.369750159166,
+          31.88724310667688
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 8,
-        "Name" : " YS_MA600_Junction01_09",
+        "Name" : "YS_MA1000_Junction03_05",
+        "BottomElev" : 24.053999999999998,
+        "Depth" : 4.0599999999999996,
         "Level" : 1,
-        "BottomElev" : 26.186
+        "SurElev" : 28.114000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -166,15 +220,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.367440632404,
-          31.887258523942638
+          117.36996427544352,
+          31.887249554040089
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 9,
-        "Name" : " YS_MA600_Junction01_10",
+        "Name" : "YS_MA1000_Junction03_06",
+        "BottomElev" : 23.954999999999998,
+        "Depth" : 3.8900000000000001,
         "Level" : 1,
-        "BottomElev" : 26.251000000000001
+        "SurElev" : 27.844999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -183,15 +243,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36746495474767,
-          31.887200294757985
+          117.37027562588987,
+          31.887251443195503
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 10,
-        "Name" : " YS_MA750_Junction02_01",
+        "Name" : "YS_MA1000_Junction03_07",
+        "BottomElev" : 23.545000000000002,
+        "Depth" : 3.9300000000000002,
         "Level" : 1,
-        "BottomElev" : 26.062999999999999
+        "SurElev" : 27.475000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -200,15 +266,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36729982457797,
-          31.887181941818994
+          117.37058948832617,
+          31.887265625195393
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 11,
-        "Name" : " YS_BR750_Junction01_03",
+        "Name" : "YS_MA1200_Junction04_01",
+        "BottomElev" : 23.702999999999999,
+        "Depth" : 3.2999999999999998,
         "Level" : 1,
-        "BottomElev" : 26.167999999999999
+        "SurElev" : 27.003,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -217,15 +289,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3671996635113,
-          31.88703224818245
+          117.37058678729458,
+          31.8873222588321
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 12,
-        "Name" : " YS_BR750_Junction01_01",
+        "Name" : "YS_BR300_Junction07_01",
+        "BottomElev" : 26.074000000000002,
+        "Depth" : 1,
         "Level" : 1,
-        "BottomElev" : 26.364000000000001
+        "SurElev" : 27.074000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -234,15 +312,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36722205800012,
-          31.887066173386472
+          117.3708360296994,
+          31.887273951561319
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 13,
-        "Name" : " YS_BR750_Junction01_02",
+        "Name" : "YS_MA1200_Junction04_02",
+        "BottomElev" : 23.655999999999999,
+        "Depth" : 3.0099999999999998,
         "Level" : 1,
-        "BottomElev" : 26.367999999999999
+        "SurElev" : 26.666,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " ",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -251,15 +335,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36786493050015,
-          31.887217652462425
+          117.37123334702378,
+          31.887287103900285
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 14,
-        "Name" : " YS_MA1000_Junction03_01",
+        "Name" : "YS_MA1200_Junction04_03",
+        "BottomElev" : 23.148,
+        "Depth" : 2.9500000000000002,
         "Level" : 1,
-        "BottomElev" : 25.943000000000001
+        "SurElev" : 26.097999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -268,15 +358,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36830521098712,
-          31.887227569298368
+          117.37159971092291,
+          31.887298947650379
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 15,
-        "Name" : " YS_MA1000_Junction03_02",
+        "Name" : "YS_MA1200_Junction04_04",
+        "BottomElev" : 22.890000000000001,
+        "Depth" : 2.77,
         "Level" : 1,
-        "BottomElev" : 25.972999999999999
+        "SurElev" : 25.66,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -285,15 +381,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36874543748277,
-          31.887237178144048
+          117.37159387209549,
+          31.887205742790869
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 16,
-        "Name" : " YS_MA1000_Junction03_03",
-        "Level" : 1,
-        "BottomElev" : 24.475999999999999
+        "Name" : "YS_BR500_Junction08_01",
+        "BottomElev" : 23.623000000000001,
+        "Depth" : 2.1299999999999999,
+        "Level" : 2,
+        "SurElev" : 25.753,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -302,15 +404,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36918630032437,
-          31.887236710200202
+          117.37194606280876,
+          31.887304653343083
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 17,
-        "Name" : "YS_MA1000_Junction03_04",
+        "Name" : "YS_MA1200_Junction04_05",
+        "BottomElev" : 22.326000000000001,
+        "Depth" : 2.8599999999999999,
         "Level" : 1,
-        "BottomElev" : 24.350000000000001
+        "SurElev" : 25.186,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -319,15 +427,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.369750159166,
-          31.88724310667688
+          117.37193670131605,
+          31.887350186957093
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 18,
-        "Name" : "YS_MA1000_Junction03_05",
+        "Name" : "YS_BR500_Junction09_01",
+        "BottomElev" : 22.914999999999999,
+        "Depth" : 2.46,
         "Level" : 1,
-        "BottomElev" : 24.053999999999998
+        "SurElev" : 25.375,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -336,15 +450,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36996427544352,
-          31.887249554040089
+          117.3724922822632,
+          31.887327060630778
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 19,
-        "Name" : "YS_MA1000_Junction03_06",
+        "Name" : "YS_MA1200_Junction04_06",
+        "BottomElev" : 21.873999999999999,
+        "Depth" : 2.5899999999999999,
         "Level" : 1,
-        "BottomElev" : 23.954999999999998
+        "SurElev" : 24.463999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -353,15 +473,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37027562588987,
-          31.887251443195503
+          117.37290485983915,
+          31.887339486655545
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 20,
-        "Name" : "YS_MA1000_Junction03_07",
+        "Name" : "YS_MA1200_Junction04_07",
+        "BottomElev" : 21.143999999999998,
+        "Depth" : 2.6899999999999999,
         "Level" : 1,
-        "BottomElev" : 23.545000000000002
+        "SurElev" : 23.834,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -370,15 +496,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37058948832617,
-          31.887265625195393
+          117.37332462568872,
+          31.887354712950991
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 21,
-        "Name" : "YS_MA1200_Junction04_01",
+        "Name" : "YS_MA1200_Junction04_08",
+        "BottomElev" : 20.757999999999999,
+        "Depth" : 2.3999999999999999,
         "Level" : 1,
-        "BottomElev" : 23.702999999999999
+        "SurElev" : 23.158000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -387,15 +519,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37058678729458,
-          31.8873222588321
+          117.37367539393973,
+          31.887372990473242
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 22,
-        "Name" : " YS_BR300_Junction07_01",
+        "Name" : "YS_MA1200_Junction04_09",
+        "BottomElev" : 20.055,
+        "Depth" : 2.3500000000000001,
         "Level" : 1,
-        "BottomElev" : 26.074000000000002
+        "SurElev" : 22.405000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -404,15 +542,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3708360296994,
-          31.887273951561319
+          117.37393789008023,
+          31.887379802959291
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 23,
-        "Name" : "YS_MA1200_Junction04_02",
+        "Name" : "YS_MA1800_Junction05_08",
+        "BottomElev" : 19.259,
+        "Depth" : 3.1200000000000001,
         "Level" : 1,
-        "BottomElev" : 23.655999999999999
+        "SurElev" : 22.379000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -421,15 +565,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37123334702378,
-          31.887287103900285
+          117.37376292183816,
+          31.888783425783679
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 24,
-        "Name" : "YS_MA1200_Junction04_03",
+        "Name" : "YS_BR500_Junction12_01",
+        "BottomElev" : 20.891999999999999,
+        "Depth" : 1.8,
         "Level" : 1,
-        "BottomElev" : 23.148
+        "SurElev" : 22.692,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -438,15 +588,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37159971092291,
-          31.887298947650379
+          117.37388727354106,
+          31.888769460537493
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 25,
-        "Name" : "YS_MA1200_Junction04_04",
+        "Name" : "YS_BR500_Junction13_02",
+        "BottomElev" : 20.774999999999999,
+        "Depth" : 1.9299999999999999,
         "Level" : 1,
-        "BottomElev" : 22.890000000000001
+        "SurElev" : 22.704999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -455,15 +611,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37159387209549,
-          31.887205742790869
+          117.37396272698236,
+          31.888775993274038
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 26,
-        "Name" : " YS_BR500_Junction08_01",
+        "Name" : "YS_BR300_Junction14_01",
+        "BottomElev" : 20.841999999999999,
+        "Depth" : 1.8100000000000001,
         "Level" : 2,
-        "BottomElev" : 23.623000000000001
+        "SurElev" : 22.652000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -472,15 +634,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37194606280876,
-          31.887304653343083
+          117.37389398300286,
+          31.888559576554353
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 27,
-        "Name" : "YS_MA1200_Junction04_05",
+        "Name" : "YS_MA800_Junction06_01",
+        "BottomElev" : 20.640999999999998,
+        "Depth" : 2,
         "Level" : 1,
-        "BottomElev" : 22.326000000000001
+        "SurElev" : 22.640999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -489,15 +657,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37193670131605,
-          31.887350186957093
+          117.37390663195912,
+          31.888341657848105
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 28,
-        "Name" : "YS_BR500_Junction09_01",
+        "Name" : "YS_MA1000_Junction07_01",
+        "BottomElev" : 20.486000000000001,
+        "Depth" : 2.1299999999999999,
         "Level" : 1,
-        "BottomElev" : 22.914999999999999
+        "SurElev" : 22.616,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -506,15 +680,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3724922822632,
-          31.887327060630778
+          117.36929782358142,
+          31.887310062268682
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 29,
-        "Name" : "YS_MA1200_Junction04_06",
+        "Name" : "YS_BR400_Junction03_01",
+        "BottomElev" : 27.064,
+        "Depth" : 1.72,
         "Level" : 1,
-        "BottomElev" : 21.873999999999999
+        "SurElev" : 28.783999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -523,15 +703,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37290485983915,
-          31.887339486655545
+          117.36975616942225,
+          31.887284447016285
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 30,
-        "Name" : "YS_MA1200_Junction04_07",
+        "Name" : "YS_BR300_Junction04_02",
+        "BottomElev" : 26.439,
+        "Depth" : 1.8400000000000001,
         "Level" : 1,
-        "BottomElev" : 21.143999999999998
+        "SurElev" : 28.279,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_T",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -540,15 +726,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37332462568872,
-          31.887354712950991
+          117.36964041243,
+          31.887290510270425
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 31,
-        "Name" : "YS_MA1200_Junction04_08",
-        "Level" : 1,
-        "BottomElev" : 20.757999999999999
+        "Name" : "YS_BR300_Junction04_01",
+        "BottomElev" : 26.638000000000002,
+        "Depth" : 1.72,
+        "Level" : 2,
+        "SurElev" : 28.358000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -557,15 +749,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37367539393973,
-          31.887372990473242
+          117.36975326513034,
+          31.8871474858623
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 32,
-        "Name" : "YS_MA1200_Junction04_09",
+        "Name" : "YS_BR500_Junction05_01",
+        "BottomElev" : 25.806000000000001,
+        "Depth" : 2.5600000000000001,
         "Level" : 1,
-        "BottomElev" : 20.055
+        "SurElev" : 28.366,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -574,15 +772,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37393789008023,
-          31.887379802959291
+          117.3702796940625,
+          31.887298696137496
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 33,
-        "Name" : "YS_MA1800_Junction05_08",
+        "Name" : "YS_BR500_Junction06_01",
+        "BottomElev" : 24.934999999999999,
+        "Depth" : 2.6499999999999999,
         "Level" : 1,
-        "BottomElev" : 19.259
+        "SurElev" : 27.585000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -591,15 +795,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37376292183816,
-          31.888783425783679
+          117.37027973111323,
+          31.887170591398686
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 34,
-        "Name" : " YS_BR500_Junction12_01",
+        "Name" : "YS_BR500_Junction07_01",
+        "BottomElev" : 24.974,
+        "Depth" : 2.73,
         "Level" : 1,
-        "BottomElev" : 20.891999999999999
+        "SurElev" : 27.704000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -608,15 +818,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37388727354106,
-          31.888769460537493
+          117.37251290776622,
+          31.887236123021271
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 35,
-        "Name" : " YS_BR500_Junction13_02",
+        "Name" : "YS_BR500_Junction10_01",
+        "BottomElev" : 22.390000000000001,
+        "Depth" : 1.9299999999999999,
         "Level" : 1,
-        "BottomElev" : 20.774999999999999
+        "SurElev" : 24.32,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -625,15 +841,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37396272698236,
-          31.888775993274038
+          117.37388549027472,
+          31.888893169440539
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 36,
-        "Name" : " YS_BR300_Junction14_01",
-        "Level" : 2,
-        "BottomElev" : 20.841999999999999
+        "Name" : "YS_BR500_Junction13_01",
+        "BottomElev" : 21.038,
+        "Depth" : 1.8500000000000001,
+        "Level" : 1,
+        "SurElev" : 22.888000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -642,15 +864,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37389398300286,
-          31.888559576554353
+          117.37397227896498,
+          31.888552880136011
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 37,
-        "Name" : "YS_MA800_Junction06_01",
+        "Name" : "YS_BR500_Junction15_01",
+        "BottomElev" : 20.875,
+        "Depth" : 1.78,
         "Level" : 1,
-        "BottomElev" : 20.640999999999998
+        "SurElev" : 22.655000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -659,15 +887,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37390663195912,
-          31.888341657848105
+          117.37379752055011,
+          31.88834726344896
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 38,
-        "Name" : "YS_MA1000_Junction07_01",
+        "Name" : "YS_BR500_Junction16_03",
+        "BottomElev" : 20.812000000000001,
+        "Depth" : 1.6799999999999999,
         "Level" : 1,
-        "BottomElev" : 20.486000000000001
+        "SurElev" : 22.492000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -676,15 +910,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36929782358142,
-          31.887310062268682
+          117.37370526158158,
+          31.888343404336105
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 39,
-        "Name" : " YS_BR400_Junction03_01",
+        "Name" : "YS_BR500_Junction16_02",
+        "BottomElev" : 21.251999999999999,
+        "Depth" : 1.8200000000000001,
         "Level" : 1,
-        "BottomElev" : 27.064
+        "SurElev" : 23.071999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_T",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -693,15 +933,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36975616942225,
-          31.887284447016285
+          117.37368569552942,
+          31.888280288843085
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 40,
-        "Name" : "YS_BR300_Junction04_02",
+        "Name" : "YS_BR300_Junction17_01",
+        "BottomElev" : 22.105,
+        "Depth" : 1.3999999999999999,
         "Level" : 1,
-        "BottomElev" : 26.439
+        "SurElev" : 23.504999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -710,15 +956,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36964041243,
-          31.887290510270425
+          117.37391113645067,
+          31.888077878108998
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 41,
-        "Name" : "YS_BR300_Junction04_01",
-        "Level" : 2,
-        "BottomElev" : 26.638000000000002
+        "Name" : "YS_MA1000_Junction07_02",
+        "BottomElev" : 20.387,
+        "Depth" : 2.1200000000000001,
+        "Level" : 1,
+        "SurElev" : 22.507000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -727,15 +979,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36975326513034,
-          31.8871474858623
+          117.37380073207412,
+          31.888074703715038
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 42,
-        "Name" : " YS_BR500_Junction05_01",
+        "Name" : "YS_BR500_Junction17_02",
+        "BottomElev" : 20.420999999999999,
+        "Depth" : 2.2000000000000002,
         "Level" : 1,
-        "BottomElev" : 25.806000000000001
+        "SurElev" : 22.620999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -744,15 +1002,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3702796940625,
-          31.887298696137496
+          117.37371174882749,
+          31.88807054638821
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 43,
-        "Name" : " YS_BR500_Junction06_01",
+        "Name" : "YS_BR500_Junction17_01",
+        "BottomElev" : 20.895,
+        "Depth" : 1.8700000000000001,
         "Level" : 1,
-        "BottomElev" : 24.934999999999999
+        "SurElev" : 22.765000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -761,15 +1025,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37027973111323,
-          31.887170591398686
+          117.37372692892166,
+          31.887725516671356
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 44,
-        "Name" : "YS_BR500_Junction07_01",
+        "Name" : "YS_BR500_Junction18_01",
+        "BottomElev" : 21.058,
+        "Depth" : 1.8899999999999999,
         "Level" : 1,
-        "BottomElev" : 24.974
+        "SurElev" : 22.948,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -778,15 +1048,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37251290776622,
-          31.887236123021271
+          117.37380904566663,
+          31.887725482646598
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 45,
-        "Name" : " YS_BR500_Junction10_01",
+        "Name" : "YS_BR500_Junction18_02",
+        "BottomElev" : 20.463999999999999,
+        "Depth" : 1.8799999999999999,
         "Level" : 1,
-        "BottomElev" : 22.390000000000001
+        "SurElev" : 22.344000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -795,15 +1071,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37388549027472,
-          31.888893169440539
+          117.37392286331692,
+          31.887718104631855
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 46,
-        "Name" : " YS_BR500_Junction13_01",
+        "Name" : "YS_MA1800_Junction05_06",
+        "BottomElev" : 20.166,
+        "Depth" : 2.2400000000000002,
         "Level" : 1,
-        "BottomElev" : 21.038
+        "SurElev" : 22.405999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -812,15 +1094,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37397227896498,
-          31.888552880136011
+          117.3740170434956,
+          31.887734574504201
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 47,
-        "Name" : " YS_BR500_Junction15_01",
+        "Name" : "YS_BR600_Junction19_01",
+        "BottomElev" : 20.265999999999998,
+        "Depth" : 2.1299999999999999,
         "Level" : 1,
-        "BottomElev" : 20.875
+        "SurElev" : 22.396000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -829,15 +1117,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37379752055011,
-          31.88834726344896
+          117.3739309198405,
+          31.887509416081166
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 48,
-        "Name" : " YS_BR500_Junction16_03",
+        "Name" : "YS_MA1800_Junction05_07",
+        "BottomElev" : 19.626000000000001,
+        "Depth" : 2.7599999999999998,
         "Level" : 1,
-        "BottomElev" : 20.812000000000001
+        "SurElev" : 22.385999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -846,15 +1140,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37370526158158,
-          31.888343404336105
+          117.37381920868343,
+          31.887501799533933
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 49,
-        "Name" : " YS_BR500_Junction16_02",
+        "Name" : "YS_BR500_Junction11_02",
+        "BottomElev" : 19.949000000000002,
+        "Depth" : 2.5099999999999998,
         "Level" : 1,
-        "BottomElev" : 21.251999999999999
+        "SurElev" : 22.459,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -863,15 +1163,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37368569552942,
-          31.888280288843085
+          117.37373418798519,
+          31.887505079662851
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 50,
-        "Name" : " YS_BR300_Junction17_01",
+        "Name" : "YS_BR500_Junction11_01",
+        "BottomElev" : 20.974,
+        "Depth" : 1.6299999999999999,
         "Level" : 1,
-        "BottomElev" : 22.105
+        "SurElev" : 22.603999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -880,15 +1186,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37391113645067,
-          31.888077878108998
+          117.37394276494571,
+          31.887223402701014
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 51,
-        "Name" : "YS_MA1000_Junction07_02",
+        "Name" : "YS_MA1800_Junction05_09",
+        "BottomElev" : 19.193000000000001,
+        "Depth" : 3.2200000000000002,
         "Level" : 1,
-        "BottomElev" : 20.387
+        "SurElev" : 22.413,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -897,15 +1209,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37380073207412,
-          31.888074703715038
+          117.37405407156724,
+          31.887209466652873
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 52,
-        "Name" : " YS_BR500_Junction17_02",
+        "Name" : "YS_BR400_Junction20_01",
+        "BottomElev" : 20.632000000000001,
+        "Depth" : 1.77,
         "Level" : 1,
-        "BottomElev" : 20.420999999999999
+        "SurElev" : 22.402000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -914,15 +1232,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37371174882749,
-          31.88807054638821
+          117.37395815068443,
+          31.886887652116741
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 53,
-        "Name" : " YS_BR500_Junction17_01",
+        "Name" : "YS_MA1800_Junction05_10",
+        "BottomElev" : 19.082999999999998,
+        "Depth" : 3.4199999999999999,
         "Level" : 1,
-        "BottomElev" : 20.895
+        "SurElev" : 22.503,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -931,15 +1255,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37372692892166,
-          31.887725516671356
+          117.37375561520712,
+          31.886848756725868
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 54,
-        "Name" : " YS_BR500_Junction18_01",
+        "Name" : "YS_BR400_Junction21_01",
+        "BottomElev" : 22.113,
+        "Depth" : 0.46000000000000002,
         "Level" : 1,
-        "BottomElev" : 21.058
+        "SurElev" : 22.573,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -948,15 +1278,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37380904566663,
-          31.887725482646598
+          117.37376547953663,
+          31.886579892898308
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 55,
-        "Name" : " YS_BR500_Junction18_02",
+        "Name" : "YS_BR500_Junction22_01",
+        "BottomElev" : 22.030000000000001,
+        "Depth" : 0.70999999999999996,
         "Level" : 1,
-        "BottomElev" : 20.463999999999999
+        "SurElev" : 22.739999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_T",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -965,15 +1301,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37392286331692,
-          31.887718104631855
+          117.37378280450453,
+          31.886577587389255
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 56,
-        "Name" : "YS_MA1800_Junction05_06",
+        "Name" : "YS_BR500_Junction22_02",
+        "BottomElev" : 20.716000000000001,
+        "Depth" : 1.96,
         "Level" : 1,
-        "BottomElev" : 20.166
+        "SurElev" : 22.675999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -982,15 +1324,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3740170434956,
-          31.887734574504201
+          117.37385385017939,
+          31.886581896628662
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 57,
-        "Name" : " YS_BR600_Junction19_01",
+        "Name" : "YS_BR500_Junction22_03",
+        "BottomElev" : 19.981000000000002,
+        "Depth" : 2.5099999999999998,
         "Level" : 1,
-        "BottomElev" : 20.265999999999998
+        "SurElev" : 22.491,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -999,15 +1347,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3739309198405,
-          31.887509416081166
+          117.37396027159946,
+          31.886565035073325
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 58,
-        "Name" : "YS_MA1800_Junction05_07",
+        "Name" : "YS_MA1800_Junction05_11",
+        "BottomElev" : 19.056999999999999,
+        "Depth" : 3.52,
         "Level" : 1,
-        "BottomElev" : 19.626000000000001
+        "SurElev" : 22.577000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1016,15 +1370,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37381920868343,
-          31.887501799533933
+          117.37406658313867,
+          31.886500079282662
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 59,
-        "Name" : " YS_BR500_Junction11_02",
-        "Level" : 1,
-        "BottomElev" : 19.949000000000002
+        "Name" : "YS_BR500_Junction23_01",
+        "BottomElev" : 20.265999999999998,
+        "Depth" : 2.2000000000000002,
+        "Level" : 2,
+        "SurElev" : 22.466000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1033,15 +1393,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37373418798519,
-          31.887505079662851
+          117.37396268539378,
+          31.886500610421802
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 60,
-        "Name" : " YS_BR500_Junction11_01",
+        "Name" : "YS_MA1800_Junction05_12",
+        "BottomElev" : 18.859999999999999,
+        "Depth" : 3.75,
         "Level" : 1,
-        "BottomElev" : 20.974
+        "SurElev" : 22.609999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1050,15 +1416,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37394276494571,
-          31.887223402701014
+          117.37378971879106,
+          31.886318940912609
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 61,
-        "Name" : "YS_MA1800_Junction05_09",
+        "Name" : "YS_BR600_Junction24_01",
+        "BottomElev" : 21.039999999999999,
+        "Depth" : 1.9299999999999999,
         "Level" : 1,
-        "BottomElev" : 19.193000000000001
+        "SurElev" : 22.969999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1067,15 +1439,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37405407156724,
-          31.887209466652873
+          117.3738569252337,
+          31.886322693288637
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 62,
-        "Name" : " YS_BR400_Junction20_01",
+        "Name" : "YS_BR600_Junction24_02",
+        "BottomElev" : 20.349,
+        "Depth" : 1.72,
         "Level" : 1,
-        "BottomElev" : 20.632000000000001
+        "SurElev" : 22.068999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1084,15 +1462,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37395815068443,
-          31.886887652116741
+          117.3739717537203,
+          31.886306943302735
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 63,
-        "Name" : "YS_MA1800_Junction05_10",
+        "Name" : "YS_MA1800_Junction05_13",
+        "BottomElev" : 18.823,
+        "Depth" : 3.8700000000000001,
         "Level" : 1,
-        "BottomElev" : 19.082999999999998
+        "SurElev" : 22.693000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1101,15 +1485,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37375561520712,
-          31.886848756725868
+          117.373980370222,
+          31.886025015625684
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 64,
-        "Name" : " YS_BR400_Junction21_01",
+        "Name" : "YS_MA1800_Junction05_14",
+        "BottomElev" : 18.914000000000001,
+        "Depth" : 3.8700000000000001,
         "Level" : 1,
-        "BottomElev" : 22.113
+        "SurElev" : 22.783999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1118,15 +1508,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37376547953663,
-          31.886579892898308
+          117.3739931416075,
+          31.88574597057967
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 65,
-        "Name" : " YS_BR500_Junction22_01",
+        "Name" : "YS_MA1800_Junction05_15",
+        "BottomElev" : 18.829999999999998,
+        "Depth" : 4.0499999999999998,
         "Level" : 1,
-        "BottomElev" : 22.030000000000001
+        "SurElev" : 22.879999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1135,15 +1531,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37378280450453,
-          31.886577587389255
+          117.37399669644751,
+          31.885490508378211
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 66,
-        "Name" : " YS_BR500_Junction22_02",
+        "Name" : "YS_MA1800_Junction05_16",
+        "BottomElev" : 18.931999999999999,
+        "Depth" : 4.0499999999999998,
         "Level" : 1,
-        "BottomElev" : 20.716000000000001
+        "SurElev" : 22.981999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1152,15 +1554,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37385385017939,
-          31.886581896628662
+          117.37389164316865,
+          31.885495137151896
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 67,
-        "Name" : " YS_BR500_Junction22_03",
+        "Name" : "YS_BR500_Junction25_03",
+        "BottomElev" : 20.754999999999999,
+        "Depth" : 2.1200000000000001,
         "Level" : 1,
-        "BottomElev" : 19.981000000000002
+        "SurElev" : 22.875,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1169,15 +1577,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37396027159946,
-          31.886565035073325
+          117.37381667013479,
+          31.885494356606106
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 68,
-        "Name" : "YS_MA1800_Junction05_11",
+        "Name" : "YS_BR500_Junction25_02",
+        "BottomElev" : 21.271000000000001,
+        "Depth" : 1.6799999999999999,
         "Level" : 1,
-        "BottomElev" : 19.056999999999999
+        "SurElev" : 22.951000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_T",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1186,15 +1600,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37406658313867,
-          31.886500079282662
+          117.37378159414976,
+          31.885456186170291
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 69,
-        "Name" : " YS_BR500_Junction23_01",
-        "Level" : 2,
-        "BottomElev" : 20.265999999999998
+        "Name" : "YS_BR400_Junction26_01",
+        "BottomElev" : 22.030999999999999,
+        "Depth" : 1.3799999999999999,
+        "Level" : 1,
+        "SurElev" : 23.411000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1203,15 +1623,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37396268539378,
-          31.886500610421802
+          117.37409797511542,
+          31.885485565967542
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 70,
-        "Name" : "YS_MA1800_Junction05_12",
-        "Level" : 1,
-        "BottomElev" : 18.859999999999999
+        "Name" : "YS_BR600_Junction27_01",
+        "BottomElev" : 20.373000000000001,
+        "Depth" : 2.5499999999999998,
+        "Level" : 2,
+        "SurElev" : 22.922999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1220,15 +1646,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37378971879106,
-          31.886318940912609
+          117.37399840140274,
+          31.88526115050691
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 71,
-        "Name" : " YS_BR600_Junction24_01",
+        "Name" : "YS_MA1800_Junction05_17",
+        "BottomElev" : 18.901,
+        "Depth" : 4.1600000000000001,
         "Level" : 1,
-        "BottomElev" : 21.039999999999999
+        "SurElev" : 23.061,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1237,15 +1669,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3738569252337,
-          31.886322693288637
+          117.37389898438849,
+          31.885269000265851
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 72,
-        "Name" : " YS_BR600_Junction24_02",
+        "Name" : "YS_BR500_Junction28_02",
+        "BottomElev" : 20.939,
+        "Depth" : 2.0099999999999998,
         "Level" : 1,
-        "BottomElev" : 20.349
+        "SurElev" : 22.949000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1254,15 +1692,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3739717537203,
-          31.886306943302735
+          117.3738222804366,
+          31.885258322743489
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 73,
-        "Name" : "YS_MA1800_Junction05_13",
+        "Name" : "YS_BR500_Junction28_01",
+        "BottomElev" : 21.379999999999999,
+        "Depth" : 1.7,
         "Level" : 1,
-        "BottomElev" : 18.823
+        "SurElev" : 23.079999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1271,15 +1715,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.373980370222,
-          31.886025015625684
+          117.37400437692101,
+          31.885071144850546
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 74,
-        "Name" : "YS_MA1800_Junction05_14",
+        "Name" : "YS_MA1800_Junction05_18",
+        "BottomElev" : 18.789000000000001,
+        "Depth" : 4.3600000000000003,
         "Level" : 1,
-        "BottomElev" : 18.914000000000001
+        "SurElev" : 23.149000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1288,15 +1738,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3739931416075,
-          31.88574597057967
+          117.37389696166551,
+          31.885084889037209
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 75,
-        "Name" : "YS_MA1800_Junction05_15",
-        "Level" : 1,
-        "BottomElev" : 18.829999999999998
+        "Name" : "YS_BR500_Junction29_02",
+        "BottomElev" : 19.983000000000001,
+        "Depth" : 3.1000000000000001,
+        "Level" : 2,
+        "SurElev" : 23.082999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1305,15 +1761,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37399669644751,
-          31.885490508378211
+          117.37383661651577,
+          31.88508656354119
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 76,
-        "Name" : "YS_MA1800_Junction05_16",
-        "Level" : 1,
-        "BottomElev" : 18.931999999999999
+        "Name" : "YS_BR500_Junction29_01",
+        "BottomElev" : 21.350999999999999,
+        "Depth" : 1.97,
+        "Level" : 2,
+        "SurElev" : 23.321000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1322,15 +1784,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37389164316865,
-          31.885495137151896
+          117.37401305130989,
+          31.884772199454488
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 77,
-        "Name" : " YS_BR500_Junction25_03",
+        "Name" : "YS_MA1800_Junction05_19",
+        "BottomElev" : 18.629999999999999,
+        "Depth" : 4.5999999999999996,
         "Level" : 1,
-        "BottomElev" : 20.754999999999999
+        "SurElev" : 23.23,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1339,15 +1807,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37381667013479,
-          31.885494356606106
+          117.37412735590917,
+          31.884797285642662
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 78,
-        "Name" : " YS_BR500_Junction25_02",
-        "Level" : 1,
-        "BottomElev" : 21.271000000000001
+        "Name" : "YS_BR400_Junction30_01",
+        "BottomElev" : 20.190999999999999,
+        "Depth" : 3.04,
+        "Level" : 2,
+        "SurElev" : 23.231000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1356,15 +1830,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37378159414976,
-          31.885456186170291
+          117.37402643020296,
+          31.884457845999535
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 79,
-        "Name" : " YS_BR400_Junction26_01",
+        "Name" : "YS_MA1800_Junction05_20",
+        "BottomElev" : 18.669,
+        "Depth" : 4.6399999999999997,
         "Level" : 1,
-        "BottomElev" : 22.030999999999999
+        "SurElev" : 23.309000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1373,15 +1853,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37409797511542,
-          31.885485565967542
+          117.37392372930123,
+          31.884458427684642
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 80,
-        "Name" : " YS_BR600_Junction27_01",
-        "Level" : 2,
-        "BottomElev" : 20.373000000000001
+        "Name" : "YS_BR500_Junction31_02",
+        "BottomElev" : 20.515000000000001,
+        "Depth" : 2.7999999999999998,
+        "Level" : 4,
+        "SurElev" : 23.315000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1390,15 +1876,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37399840140274,
-          31.88526115050691
+          117.37383949121444,
+          31.884471598623342
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 81,
-        "Name" : "YS_MA1800_Junction05_17",
-        "Level" : 1,
-        "BottomElev" : 18.901
+        "Name" : "YS_BR500_Junction31_01",
+        "BottomElev" : 21.265000000000001,
+        "Depth" : 2.2000000000000002,
+        "Level" : 2,
+        "SurElev" : 23.465,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1407,15 +1899,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37389898438849,
-          31.885269000265851
+          117.37407241942346,
+          31.884118280666961
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 82,
-        "Name" : " YS_BR500_Junction28_02",
+        "Name" : "YS_MA1800_Junction05_21",
+        "BottomElev" : 18.960999999999999,
+        "Depth" : 4.6399999999999997,
         "Level" : 1,
-        "BottomElev" : 20.939
+        "SurElev" : 23.600999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1424,15 +1922,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3738222804366,
-          31.885258322743489
+          117.36779964262666,
+          31.883938794443338
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 83,
-        "Name" : " YS_BR500_Junction28_01",
+        "Name" : "YS_MA500_Junction06_01",
+        "BottomElev" : 27.765000000000001,
+        "Depth" : 1.45,
         "Level" : 1,
-        "BottomElev" : 21.379999999999999
+        "SurElev" : 29.215,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1441,15 +1945,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37400437692101,
-          31.885071144850546
+          117.36806700617474,
+          31.883957500136855
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 84,
-        "Name" : "YS_MA1800_Junction05_18",
+        "Name" : "YS_MA500_Junction06_02",
+        "BottomElev" : 27.622,
+        "Depth" : 1.6499999999999999,
         "Level" : 1,
-        "BottomElev" : 18.789000000000001
+        "SurElev" : 29.271999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1458,15 +1968,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37389696166551,
-          31.885084889037209
+          117.36842495706892,
+          31.883975455786025
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 85,
-        "Name" : " YS_BR500_Junction29_02",
-        "Level" : 2,
-        "BottomElev" : 19.983000000000001
+        "Name" : "YS_MA500_Junction06_03",
+        "BottomElev" : 27.277000000000001,
+        "Depth" : 1.9099999999999999,
+        "Level" : 1,
+        "SurElev" : 29.187000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1475,15 +1991,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37383661651577,
-          31.88508656354119
+          117.36880446620167,
+          31.884172910911168
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 86,
-        "Name" : " YS_BR500_Junction29_01",
-        "Level" : 2,
-        "BottomElev" : 21.350999999999999
+        "Name" : "YS_BR600_Junction32_01",
+        "BottomElev" : 26.940999999999999,
+        "Depth" : 2.25,
+        "Level" : 1,
+        "SurElev" : 29.190999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1492,15 +2014,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37401305130989,
-          31.884772199454488
+          117.36879915350961,
+          31.883850243151606
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 87,
-        "Name" : "YS_MA1800_Junction05_19",
+        "Name" : "YS_BR600_Junction33_01",
+        "BottomElev" : 26.891999999999999,
+        "Depth" : 2,
         "Level" : 1,
-        "BottomElev" : 18.629999999999999
+        "SurElev" : 28.891999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1509,15 +2037,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37412735590917,
-          31.884797285642662
+          117.36880376334567,
+          31.883991221611513
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 88,
-        "Name" : " YS_BR400_Junction30_01",
-        "Level" : 2,
-        "BottomElev" : 20.190999999999999
+        "Name" : "YS_MA700_Junction07_01",
+        "BottomElev" : 26.736999999999998,
+        "Depth" : 2.1499999999999999,
+        "Level" : 1,
+        "SurElev" : 28.887,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1526,15 +2060,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37402643020296,
-          31.884457845999535
+          117.36917129882174,
+          31.88400069722157
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 89,
-        "Name" : "YS_MA1800_Junction05_20",
+        "Name" : "YS_MA700_Junction07_02",
+        "BottomElev" : 26.344000000000001,
+        "Depth" : 2.1499999999999999,
         "Level" : 1,
-        "BottomElev" : 18.669
+        "SurElev" : 28.494,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1543,15 +2083,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37392372930123,
-          31.884458427684642
+          117.3694346349268,
+          31.884011223131328
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 90,
-        "Name" : " YS_BR500_Junction31_02",
-        "Level" : 4,
-        "BottomElev" : 20.515000000000001
+        "Name" : "YS_MA700_Junction07_03",
+        "BottomElev" : 25.585999999999999,
+        "Depth" : 2.4700000000000002,
+        "Level" : 1,
+        "SurElev" : 28.056000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1560,15 +2106,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37383949121444,
-          31.884471598623342
+          117.36943060037365,
+          31.883906045609166
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 91,
-        "Name" : " YS_BR500_Junction31_01",
-        "Level" : 2,
-        "BottomElev" : 21.265000000000001
+        "Name" : "YS_BR500_Junction34_04",
+        "BottomElev" : 25.536000000000001,
+        "Depth" : 2.25,
+        "Level" : 1,
+        "SurElev" : 27.786000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1577,15 +2129,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37407241942346,
-          31.884118280666961
+          117.3694698432963,
+          31.883633038330494
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 92,
-        "Name" : "YS_MA1800_Junction05_21",
+        "Name" : "YS_BR500_Junction34_03",
+        "BottomElev" : 26.077999999999999,
+        "Depth" : 2,
         "Level" : 1,
-        "BottomElev" : 18.960999999999999
+        "SurElev" : 28.077999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1594,15 +2152,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36779964262666,
-          31.883938794443338
+          117.36956421849582,
+          31.883297238795297
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 93,
-        "Name" : "YS_MA500_Junction06_01",
+        "Name" : "YS_BR500_Junction34_02",
+        "BottomElev" : 26.227,
+        "Depth" : 1.97,
         "Level" : 1,
-        "BottomElev" : 27.765000000000001
+        "SurElev" : 28.196999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1611,15 +2175,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36806700617474,
-          31.883957500136855
+          117.36964082541104,
+          31.883014202707535
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 94,
-        "Name" : "YS_MA500_Junction06_02",
+        "Name" : "YS_BR500_Junction34_01",
+        "BottomElev" : 26.349,
+        "Depth" : 1.8799999999999999,
         "Level" : 1,
-        "BottomElev" : 27.622
+        "SurElev" : 28.228999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1628,15 +2198,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36842495706892,
-          31.883975455786025
+          117.36992873168808,
+          31.884222482510783
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 95,
-        "Name" : "YS_MA500_Junction06_03",
-        "Level" : 1,
-        "BottomElev" : 27.277000000000001
+        "Name" : "YS_BR600_Junction36_01",
+        "BottomElev" : 25.702000000000002,
+        "Depth" : 2.1400000000000001,
+        "Level" : 2,
+        "SurElev" : 27.841999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1645,15 +2221,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36880446620167,
-          31.884172910911168
+          117.36991879849047,
+          31.884019374612908
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 96,
-        "Name" : "YS_BR600_Junction32_01",
+        "Name" : "YS_MA800_Junction08_01",
+        "BottomElev" : 25.097000000000001,
+        "Depth" : 2.3999999999999999,
         "Level" : 1,
-        "BottomElev" : 26.940999999999999
+        "SurElev" : 27.497,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1662,15 +2244,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36879915350961,
-          31.883850243151606
+          117.36991486288628,
+          31.883944381011638
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 97,
-        "Name" : "YS_BR600_Junction33_01",
+        "Name" : "YS_BR600_Junction37_01",
+        "BottomElev" : 25.221,
+        "Depth" : 2.1499999999999999,
         "Level" : 1,
-        "BottomElev" : 26.891999999999999
+        "SurElev" : 27.370999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1679,15 +2267,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36880376334567,
-          31.883991221611513
+          117.37031472066272,
+          31.884033408728396
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 98,
-        "Name" : "YS_MA700_Junction07_01",
+        "Name" : "YS_MA800_Junction08_02",
+        "BottomElev" : 24.873999999999999,
+        "Depth" : 2.1000000000000001,
         "Level" : 1,
-        "BottomElev" : 26.736999999999998
+        "SurElev" : 26.974,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1696,15 +2290,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36917129882174,
-          31.88400069722157
+          117.37070228130581,
+          31.884039214264597
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 99,
-        "Name" : "YS_MA700_Junction07_02",
+        "Name" : "YS_MA800_Junction08_03",
+        "BottomElev" : 24.401,
+        "Depth" : 2.1299999999999999,
         "Level" : 1,
-        "BottomElev" : 26.344000000000001
+        "SurElev" : 26.530999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1713,15 +2313,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3694346349268,
-          31.884011223131328
+          117.37104127713289,
+          31.884251038718354
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 100,
-        "Name" : "YS_MA700_Junction07_03",
+        "Name" : "YS_BR600_Junction38_01",
+        "BottomElev" : 24.081,
+        "Depth" : 2.5299999999999998,
         "Level" : 1,
-        "BottomElev" : 25.585999999999999
+        "SurElev" : 26.611000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1730,15 +2336,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36943060037365,
-          31.883906045609166
+          117.37103849135956,
+          31.883962164237381
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 101,
-        "Name" : "YS_BR500_Junction34_04",
+        "Name" : "YS_BR600_Junction39_01",
+        "BottomElev" : 24.164000000000001,
+        "Depth" : 2.0499999999999998,
         "Level" : 1,
-        "BottomElev" : 25.536000000000001
+        "SurElev" : 26.213999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1747,15 +2359,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3694698432963,
-          31.883633038330494
+          117.37103522248687,
+          31.884045800303692
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 102,
-        "Name" : "YS_BR500_Junction34_03",
+        "Name" : "YS_MA800_Junction08_04",
+        "BottomElev" : 23.635999999999999,
+        "Depth" : 2.3500000000000001,
         "Level" : 1,
-        "BottomElev" : 26.077999999999999
+        "SurElev" : 25.986000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1764,15 +2382,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36956421849582,
-          31.883297238795297
+          117.37140743028498,
+          31.884055336974384
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 103,
-        "Name" : "YS_BR500_Junction34_02",
+        "Name" : "YS_MA800_Junction08_05",
+        "BottomElev" : 23.114999999999998,
+        "Depth" : 2.6000000000000001,
         "Level" : 1,
-        "BottomElev" : 26.227
+        "SurElev" : 25.715,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1781,15 +2405,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36964082541104,
-          31.883014202707535
+          117.37140739757993,
+          31.883894423872615
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 104,
-        "Name" : "YS_BR500_Junction34_01",
+        "Name" : "YS_BR600_Junction46_12",
+        "BottomElev" : 25.841999999999999,
+        "Depth" : 2.77,
         "Level" : 1,
-        "BottomElev" : 26.349
+        "SurElev" : 28.611999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1798,15 +2428,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36992873168808,
-          31.884222482510783
+          117.37173637898535,
+          31.884065215494996
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 105,
-        "Name" : "YS_BR600_Junction36_01",
-        "Level" : 2,
-        "BottomElev" : 25.702000000000002
+        "Name" : "YS_MA800_Junction08_06",
+        "BottomElev" : 22.766999999999999,
+        "Depth" : 2.7000000000000002,
+        "Level" : 1,
+        "SurElev" : 25.466999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1815,15 +2451,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36991879849047,
-          31.884019374612908
+          117.37213049725098,
+          31.884072115767434
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 106,
-        "Name" : "YS_MA800_Junction08_01",
+        "Name" : "YS_MA800_Junction08_07",
+        "BottomElev" : 22.297000000000001,
+        "Depth" : 2.8999999999999999,
         "Level" : 1,
-        "BottomElev" : 25.097000000000001
+        "SurElev" : 25.196999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1832,15 +2474,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.36991486288628,
-          31.883944381011638
+          117.37252372642385,
+          31.884083941404374
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 107,
-        "Name" : "YS_BR600_Junction37_01",
+        "Name" : "YS_MA800_Junction08_08",
+        "BottomElev" : 21.928000000000001,
+        "Depth" : 2.8999999999999999,
         "Level" : 1,
-        "BottomElev" : 25.221
+        "SurElev" : 24.827999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1849,15 +2497,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37031472066272,
-          31.884033408728396
+          117.37289243235125,
+          31.884095188442078
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 108,
-        "Name" : "YS_MA800_Junction08_02",
+        "Name" : "YS_MA800_Junction08_09",
+        "BottomElev" : 20.882000000000001,
+        "Depth" : 3,
         "Level" : 1,
-        "BottomElev" : 24.873999999999999
+        "SurElev" : 23.882000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 4",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1866,15 +2520,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37070228130581,
-          31.884039214264597
+          117.37287957031344,
+          31.884313161935708
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 109,
-        "Name" : "YS_MA800_Junction08_03",
+        "Name" : "YS_BR700_Junction40_01",
+        "BottomElev" : 21.949000000000002,
+        "Depth" : 2.7999999999999998,
         "Level" : 1,
-        "BottomElev" : 24.401
+        "SurElev" : 24.748999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1883,15 +2543,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37104127713289,
-          31.884251038718354
+          117.37281508891539,
+          31.883998955750762
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 110,
-        "Name" : "YS_BR600_Junction38_01",
+        "Name" : "YS_BR600_Junction41_01",
+        "BottomElev" : 22.488,
+        "Depth" : 2.2200000000000002,
         "Level" : 1,
-        "BottomElev" : 24.081
+        "SurElev" : 24.707999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1900,15 +2566,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37103849135956,
-          31.883962164237381
+          117.37326581256649,
+          31.884101821362663
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 111,
-        "Name" : "YS_BR600_Junction39_01",
+        "Name" : "YS_MA800_Junction08_10",
+        "BottomElev" : 21.186,
+        "Depth" : 2.98,
         "Level" : 1,
-        "BottomElev" : 24.164000000000001
+        "SurElev" : 24.166,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1917,15 +2589,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37103522248687,
-          31.884045800303692
+          117.3736419110935,
+          31.884108932184102
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 112,
-        "Name" : "YS_MA800_Junction08_04",
+        "Name" : "YS_MA900_Junction09_01",
+        "BottomElev" : 20.84,
+        "Depth" : 2.8999999999999999,
         "Level" : 1,
-        "BottomElev" : 23.635999999999999
+        "SurElev" : 23.739999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1934,15 +2612,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37140743028498,
-          31.884055336974384
+          117.37462688139691,
+          31.884152657956111
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 113,
-        "Name" : "YS_MA800_Junction08_05",
+        "Name" : "YS_MA1800_Junction05_22",
+        "BottomElev" : 18.483000000000001,
+        "Depth" : 4.3200000000000003,
         "Level" : 1,
-        "BottomElev" : 23.114999999999998
+        "SurElev" : 22.803000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1951,15 +2635,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37140739757993,
-          31.883894423872615
+          117.3748714276239,
+          31.884153127494496
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 114,
-        "Name" : " YS_BR600_Junction46_12",
+        "Name" : "YS_MA1800_Junction05_23",
+        "BottomElev" : 18.334,
+        "Depth" : 4.2199999999999998,
         "Level" : 1,
-        "BottomElev" : 25.841999999999999
+        "SurElev" : 22.553999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1968,15 +2658,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37173637898535,
-          31.884065215494996
+          117.3748831108137,
+          31.88430285059373
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 115,
-        "Name" : "YS_MA800_Junction08_06",
+        "Name" : "YS_BR500_Junction42_01",
+        "BottomElev" : 20.225000000000001,
+        "Depth" : 2.1400000000000001,
         "Level" : 1,
-        "BottomElev" : 22.766999999999999
+        "SurElev" : 22.364999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1985,15 +2681,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37213049725098,
-          31.884072115767434
+          117.375125882947,
+          31.884162793023368
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 116,
-        "Name" : "YS_MA800_Junction08_07",
+        "Name" : "YS_MA1800_Junction05_24",
+        "BottomElev" : 18.300000000000001,
+        "Depth" : 3.96,
         "Level" : 1,
-        "BottomElev" : 22.297000000000001
+        "SurElev" : 22.260000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2002,15 +2704,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37252372642385,
-          31.884083941404374
+          117.37515014478356,
+          31.884033660829992
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 117,
-        "Name" : "YS_MA800_Junction08_08",
+        "Name" : "YS_BR600_Junction43_01",
+        "BottomElev" : 20.062999999999999,
+        "Depth" : 2.1000000000000001,
         "Level" : 1,
-        "BottomElev" : 21.928000000000001
+        "SurElev" : 22.163,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2019,15 +2727,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37289243235125,
-          31.884095188442078
+          117.37559844297661,
+          31.884168468060686
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 118,
-        "Name" : "YS_MA800_Junction08_09",
-        "Level" : 1,
-        "BottomElev" : 20.882000000000001
+        "Name" : "YS_MA1800_Junction05_25",
+        "BottomElev" : 18.109000000000002,
+        "Depth" : 3.6000000000000001,
+        "Level" : 4,
+        "SurElev" : 21.709,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2036,15 +2750,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37287957031344,
-          31.884313161935708
+          117.37580215882237,
+          31.884168740794866
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 119,
-        "Name" : "YS_BR700_Junction40_01",
+        "Name" : "YS_MA1800_Junction05_26",
+        "BottomElev" : 18.103999999999999,
+        "Depth" : 3.5099999999999998,
         "Level" : 1,
-        "BottomElev" : 21.949000000000002
+        "SurElev" : 21.614000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2053,15 +2773,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37281508891539,
-          31.883998955750762
+          117.37600942270197,
+          31.884170806364377
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 120,
-        "Name" : "YS_BR600_Junction41_01",
+        "Name" : "YS_MA1800_Junction05_27",
+        "BottomElev" : 18.007000000000001,
+        "Depth" : 3.7000000000000002,
         "Level" : 1,
-        "BottomElev" : 22.488
+        "SurElev" : 21.707000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2070,15 +2796,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37326581256649,
-          31.884101821362663
+          117.37599158848577,
+          31.884227151209959
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 121,
-        "Name" : "YS_MA800_Junction08_10",
+        "Name" : "YS_BR500_Junction44_03",
+        "BottomElev" : 19.373999999999999,
+        "Depth" : 2.3799999999999999,
         "Level" : 1,
-        "BottomElev" : 21.186
+        "SurElev" : 21.754000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 3",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2087,15 +2819,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3736419110935,
-          31.884108932184102
+          117.3759922598701,
+          31.884283143718825
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 122,
-        "Name" : "YS_MA900_Junction09_01",
+        "Name" : "YS_BR500_Junction44_02",
+        "BottomElev" : 19.733000000000001,
+        "Depth" : 2.1000000000000001,
         "Level" : 1,
-        "BottomElev" : 20.84
+        "SurElev" : 21.832999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2104,15 +2842,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37462688139691,
-          31.884152657956111
+          117.37599820518911,
+          31.88433908455578
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 123,
-        "Name" : "YS_MA1800_Junction05_22",
+        "Name" : "YS_BR500_Junction44_01",
+        "BottomElev" : 20.032,
+        "Depth" : 1.8700000000000001,
         "Level" : 1,
-        "BottomElev" : 18.483000000000001
+        "SurElev" : 21.902000000000001,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2121,15 +2865,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3748714276239,
-          31.884153127494496
+          117.37636974706626,
+          31.884226059267373
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 124,
-        "Name" : "YS_MA1800_Junction05_23",
+        "Name" : "YS_BR500_Junction44_04",
+        "BottomElev" : 19.657,
+        "Depth" : 2.5800000000000001,
         "Level" : 1,
-        "BottomElev" : 18.334
+        "SurElev" : 22.236999999999998,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2138,15 +2888,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.3748831108137,
-          31.88430285059373
+          117.37597938718315,
+          31.883986750952609
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 125,
-        "Name" : " YS_BR500_Junction42_01",
+        "Name" : "YS_MA1800_Junction05_28",
+        "BottomElev" : 18.585000000000001,
+        "Depth" : 4.7999999999999998,
         "Level" : 1,
-        "BottomElev" : 20.225000000000001
+        "SurElev" : 23.385000000000002,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_T",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2155,15 +2911,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.375125882947,
-          31.884162793023368
+          117.37643197725039,
+          31.883996756618952
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 126,
-        "Name" : "YS_MA1800_Junction05_24",
+        "Name" : "YS_MA1800_Junction05_29",
+        "BottomElev" : 17.954999999999998,
+        "Depth" : 5.5499999999999998,
         "Level" : 1,
-        "BottomElev" : 18.300000000000001
+        "SurElev" : 23.504999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : "2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2172,15 +2934,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37515014478356,
-          31.884033660829992
+          117.37659101559994,
+          31.884007342011635
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "rain_point",
         "FID" : 127,
-        "Name" : "YS_BR600_Junction43_01",
+        "Name" : "YS_MA2000_Junction11_01",
+        "BottomElev" : 18.111999999999998,
+        "Depth" : 3.5099999999999998,
         "Level" : 1,
-        "BottomElev" : 20.062999999999999
+        "SurElev" : 21.622,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2189,185 +2957,21 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          117.37559844297661,
-          31.884168468060686
-        ]
-      },
-      "properties" : {
-        "FID" : 128,
-        "Name" : "YS_MA1800_Junction05_25",
-        "Level" : 4,
-        "BottomElev" : 18.109000000000002
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 129,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.37580215882237,
-          31.884168740794866
-        ]
-      },
-      "properties" : {
-        "FID" : 129,
-        "Name" : "YS_MA1800_Junction05_26",
-        "Level" : 1,
-        "BottomElev" : 18.103999999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 130,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.37600942270197,
-          31.884170806364377
-        ]
-      },
-      "properties" : {
-        "FID" : 130,
-        "Name" : "YS_MA1800_Junction05_27",
-        "Level" : 1,
-        "BottomElev" : 18.007000000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 131,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.37599158848577,
-          31.884227151209959
-        ]
-      },
-      "properties" : {
-        "FID" : 131,
-        "Name" : " YS_BR500_Junction44_03",
-        "Level" : 1,
-        "BottomElev" : 19.373999999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 132,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.3759922598701,
-          31.884283143718825
-        ]
-      },
-      "properties" : {
-        "FID" : 132,
-        "Name" : " YS_BR500_Junction44_02",
-        "Level" : 1,
-        "BottomElev" : 19.733000000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 133,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.37599820518911,
-          31.88433908455578
-        ]
-      },
-      "properties" : {
-        "FID" : 133,
-        "Name" : " YS_BR500_Junction44_01",
-        "Level" : 1,
-        "BottomElev" : 20.032
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 134,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.37636974706626,
-          31.884226059267373
-        ]
-      },
-      "properties" : {
-        "FID" : 134,
-        "Name" : " YS_BR500_Junction44_04",
-        "Level" : 1,
-        "BottomElev" : 19.657
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 135,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.37597938718315,
-          31.883986750952609
-        ]
-      },
-      "properties" : {
-        "FID" : 135,
-        "Name" : "YS_MA1800_Junction05_28",
-        "Level" : 1,
-        "BottomElev" : 18.585000000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 136,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.37643197725039,
-          31.883996756618952
-        ]
-      },
-      "properties" : {
-        "FID" : 136,
-        "Name" : "YS_MA1800_Junction05_29",
-        "Level" : 1,
-        "BottomElev" : 17.954999999999998
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 137,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          117.37659101559994,
-          31.884007342011635
-        ]
-      },
-      "properties" : {
-        "FID" : 137,
-        "Name" : "YS_MA2000_Junction11_01",
-        "Level" : 1,
-        "BottomElev" : 18.111999999999998
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 138,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
           117.36873144448765,
           31.887389840591705
         ]
       },
-      "properties" : {
-        "FID" : 138,
+      "properties" : { "Layer": "rain_point",
+        "FID" : 128,
         "Name" : "YS_BR500_Junction02_01",
+        "BottomElev" : 26.152999999999999,
+        "Depth" : 4.2300000000000004,
         "Level" : 1,
-        "BottomElev" : 26.152999999999999
+        "SurElev" : 30.382999999999999,
+        "Category" : "YS",
+        "Type" : "JCJ",
+        "Form" : " 2_S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     }
   ]

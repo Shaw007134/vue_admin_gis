@@ -17,14 +17,17 @@
           31.882510515869605
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 0,
-        "OBJECTID" : 1,
+        "Name" : "WS397",
         "SurElev" : 27.303000000000001,
         "Depth" : 1.5,
-        "NAME" : "WS397",
         "BottomElev" : 25.803000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -37,14 +40,17 @@
           31.882510350037666
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 1,
-        "OBJECTID" : 2,
+        "Name" : "WS399",
         "SurElev" : 27.288,
         "Depth" : 1.5,
-        "NAME" : "WS399",
         "BottomElev" : 25.788,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -57,14 +63,17 @@
           31.882507453015148
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 2,
-        "OBJECTID" : 3,
+        "Name" : "WS404",
         "SurElev" : 27.289000000000001,
         "Depth" : 1.5,
-        "NAME" : "WS404",
         "BottomElev" : 25.789000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -77,14 +86,17 @@
           31.882508482608252
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 3,
-        "OBJECTID" : 4,
+        "Name" : "WS409",
         "SurElev" : 27.428000000000001,
         "Depth" : 1.5,
-        "NAME" : "WS409",
         "BottomElev" : 25.928000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -97,14 +109,17 @@
           31.882512012825007
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 4,
-        "OBJECTID" : 5,
+        "Name" : "WS413",
         "SurElev" : 27.295000000000002,
         "Depth" : 1.51,
-        "NAME" : "WS413",
         "BottomElev" : 25.785,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -117,14 +132,17 @@
           31.882506874957215
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 5,
-        "OBJECTID" : 6,
+        "Name" : "WS416",
         "SurElev" : 27.306000000000001,
         "Depth" : 1.55,
-        "NAME" : "WS416",
         "BottomElev" : 25.756,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -137,14 +155,17 @@
           31.881634676769561
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 6,
-        "OBJECTID" : 7,
+        "Name" : "WS337",
         "SurElev" : 27.690000000000001,
         "Depth" : 1.5,
-        "NAME" : "WS337",
         "BottomElev" : 26.190000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -157,14 +178,17 @@
           31.881754877649666
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 7,
-        "OBJECTID" : 8,
+        "Name" : "WS282",
         "SurElev" : 27.323,
         "Depth" : 1.4099999999999999,
-        "NAME" : "WS282",
         "BottomElev" : 25.913,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -177,14 +201,17 @@
           31.881753616347986
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 8,
-        "OBJECTID" : 9,
+        "Name" : "WS284",
         "SurElev" : 27.170000000000002,
         "Depth" : 1.1499999999999999,
-        "NAME" : "WS284",
         "BottomElev" : 26.02,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -197,14 +224,17 @@
           31.881758712300257
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 9,
-        "OBJECTID" : 10,
+        "Name" : "WS287",
         "SurElev" : 27.126999999999999,
         "Depth" : 1.1499999999999999,
-        "NAME" : "WS287",
         "BottomElev" : 25.977,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -217,14 +247,17 @@
           31.881761859712416
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 10,
-        "OBJECTID" : 11,
+        "Name" : "WS290",
         "SurElev" : 27.149999999999999,
         "Depth" : 1.22,
-        "NAME" : "WS290",
         "BottomElev" : 25.93,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -237,14 +270,17 @@
           31.881767729845766
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 11,
-        "OBJECTID" : 12,
+        "Name" : "WS292",
         "SurElev" : 27.187999999999999,
         "Depth" : 1.3600000000000001,
-        "NAME" : "WS292",
         "BottomElev" : 25.827999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -257,14 +293,17 @@
           31.881763452700376
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 12,
-        "OBJECTID" : 13,
+        "Name" : "WS295",
         "SurElev" : 27.193999999999999,
         "Depth" : 1.4299999999999999,
-        "NAME" : "WS295",
         "BottomElev" : 25.763999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -277,14 +316,17 @@
           31.881764679500474
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 13,
-        "OBJECTID" : 14,
+        "Name" : "WS296",
         "SurElev" : 27.381,
         "Depth" : 1.45,
-        "NAME" : "WS296",
         "BottomElev" : 25.931000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -297,14 +339,17 @@
           31.881764879383368
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 14,
-        "OBJECTID" : 15,
+        "Name" : "WS339",
         "SurElev" : 27.366,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS339",
         "BottomElev" : 25.765999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -317,14 +362,17 @@
           31.881765898061026
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 15,
-        "OBJECTID" : 16,
+        "Name" : "WS342",
         "SurElev" : 27.231000000000002,
         "Depth" : 1.6200000000000001,
-        "NAME" : "WS342",
         "BottomElev" : 25.611000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -337,14 +385,17 @@
           31.881769355357935
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 16,
-        "OBJECTID" : 17,
+        "Name" : "WS345",
         "SurElev" : 27.190999999999999,
         "Depth" : 1.46,
-        "NAME" : "WS345",
         "BottomElev" : 25.731000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -357,14 +408,17 @@
           31.881769645993376
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 17,
-        "OBJECTID" : 18,
+        "Name" : "WS349",
         "SurElev" : 27.311,
         "Depth" : 1.6299999999999999,
-        "NAME" : "WS349",
         "BottomElev" : 25.681000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -377,14 +431,17 @@
           31.881756622331892
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 18,
-        "OBJECTID" : 19,
+        "Name" : "WS352",
         "SurElev" : 27.260000000000002,
         "Depth" : 1.6599999999999999,
-        "NAME" : "WS352",
         "BottomElev" : 25.600000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -397,14 +454,17 @@
           31.881751645869251
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 19,
-        "OBJECTID" : 20,
+        "Name" : "WS355",
         "SurElev" : 26.625,
         "Depth" : 1.75,
-        "NAME" : "WS355",
         "BottomElev" : 24.875,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -417,14 +477,17 @@
           31.88174958404695
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 20,
-        "OBJECTID" : 21,
+        "Name" : "WS357",
         "SurElev" : 27.347999999999999,
         "Depth" : 1.73,
-        "NAME" : "WS357",
         "BottomElev" : 25.617999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -437,14 +500,17 @@
           31.881531427502026
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 21,
-        "OBJECTID" : 22,
+        "Name" : "WS297",
         "SurElev" : 27.100000000000001,
         "Depth" : 1.1499999999999999,
-        "NAME" : "WS297",
         "BottomElev" : 25.949999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -457,14 +523,17 @@
           31.881535959056148
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 22,
-        "OBJECTID" : 23,
+        "Name" : "WS303",
         "SurElev" : 27.096,
         "Depth" : 1.2,
-        "NAME" : "WS303",
         "BottomElev" : 25.896000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -477,14 +546,17 @@
           31.88153556012519
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 23,
-        "OBJECTID" : 24,
+        "Name" : "WS306",
         "SurElev" : 27.187999999999999,
         "Depth" : 1.2,
-        "NAME" : "WS306",
         "BottomElev" : 25.988,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -497,14 +569,17 @@
           31.881534280658066
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 24,
-        "OBJECTID" : 25,
+        "Name" : "WS310",
         "SurElev" : 27.178000000000001,
         "Depth" : 1.2,
-        "NAME" : "WS310",
         "BottomElev" : 25.978000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -517,14 +592,17 @@
           31.881536816476164
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 25,
-        "OBJECTID" : 26,
+        "Name" : "WS315",
         "SurElev" : 27.178000000000001,
         "Depth" : 1.21,
-        "NAME" : "WS315",
         "BottomElev" : 25.968,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -537,14 +615,17 @@
           31.881537491209727
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 26,
-        "OBJECTID" : 27,
+        "Name" : "WS319",
         "SurElev" : 27.181999999999999,
         "Depth" : 1.21,
-        "NAME" : "WS319",
         "BottomElev" : 25.972000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -557,14 +638,17 @@
           31.881537064024766
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 27,
-        "OBJECTID" : 28,
+        "Name" : "WS320",
         "SurElev" : 27.172000000000001,
         "Depth" : 1.23,
-        "NAME" : "WS320",
         "BottomElev" : 25.942,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -577,14 +661,17 @@
           31.881538128182161
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 28,
-        "OBJECTID" : 29,
+        "Name" : "WS321",
         "SurElev" : 27.154,
         "Depth" : 1.24,
-        "NAME" : "WS321",
         "BottomElev" : 25.914000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -597,14 +684,17 @@
           31.881539187780984
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 29,
-        "OBJECTID" : 30,
+        "Name" : "WS323",
         "SurElev" : 27.158999999999999,
         "Depth" : 1.25,
-        "NAME" : "WS323",
         "BottomElev" : 25.908999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -617,14 +707,17 @@
           31.881539202979724
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 30,
-        "OBJECTID" : 31,
+        "Name" : "WS324",
         "SurElev" : 27.152000000000001,
         "Depth" : 1.26,
-        "NAME" : "WS324",
         "BottomElev" : 25.891999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -637,14 +730,17 @@
           31.881541502742881
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 31,
-        "OBJECTID" : 32,
+        "Name" : "WS325",
         "SurElev" : 27.132999999999999,
         "Depth" : 1.28,
-        "NAME" : "WS325",
         "BottomElev" : 25.853000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -657,14 +753,17 @@
           31.881544119211821
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 32,
-        "OBJECTID" : 33,
+        "Name" : "WS326",
         "SurElev" : 27.151,
         "Depth" : 1.2,
-        "NAME" : "WS326",
         "BottomElev" : 25.951000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -677,14 +776,17 @@
           31.881545375740568
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 33,
-        "OBJECTID" : 34,
+        "Name" : "WS330",
         "SurElev" : 27.164999999999999,
         "Depth" : 1.24,
-        "NAME" : "WS330",
         "BottomElev" : 25.925000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -697,14 +799,17 @@
           31.881546161441889
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 34,
-        "OBJECTID" : 35,
+        "Name" : "WS333",
         "SurElev" : 27.161999999999999,
         "Depth" : 1.3,
-        "NAME" : "WS333",
         "BottomElev" : 25.861999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -717,14 +822,17 @@
           31.881547145890291
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 35,
-        "OBJECTID" : 36,
+        "Name" : "WS335",
         "SurElev" : 27.141999999999999,
         "Depth" : 1.52,
-        "NAME" : "WS335",
         "BottomElev" : 25.622,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -737,14 +845,17 @@
           31.88175747324383
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 36,
-        "OBJECTID" : 37,
+        "Name" : "WS363",
         "SurElev" : 27.309000000000001,
         "Depth" : 1.7,
-        "NAME" : "WS363",
         "BottomElev" : 25.609000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -757,14 +868,17 @@
           31.881752212642439
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 37,
-        "OBJECTID" : 38,
+        "Name" : "WS360",
         "SurElev" : 27.385000000000002,
         "Depth" : 1.9299999999999999,
-        "NAME" : "WS360",
         "BottomElev" : 25.454999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -777,14 +891,17 @@
           31.881960230907548
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 38,
-        "OBJECTID" : 39,
+        "Name" : "WS380",
         "SurElev" : 27.507999999999999,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS380",
         "BottomElev" : 26.108000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -797,14 +914,17 @@
           31.881961786970205
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 39,
-        "OBJECTID" : 40,
+        "Name" : "WS376",
         "SurElev" : 27.481000000000002,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS376",
         "BottomElev" : 26.081,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -817,14 +937,17 @@
           31.881964303483883
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 40,
-        "OBJECTID" : 41,
+        "Name" : "WS371",
         "SurElev" : 27.582999999999998,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS371",
         "BottomElev" : 25.983000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -837,14 +960,17 @@
           31.881960054580148
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 41,
-        "OBJECTID" : 42,
+        "Name" : "WS366",
         "SurElev" : 27.481000000000002,
         "Depth" : 1.5600000000000001,
-        "NAME" : "WS366",
         "BottomElev" : 25.920999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -857,14 +983,17 @@
           31.881965496064545
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 42,
-        "OBJECTID" : 43,
+        "Name" : "WS365",
         "SurElev" : 27.161000000000001,
         "Depth" : 1.54,
-        "NAME" : "WS365",
         "BottomElev" : 25.620999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -877,14 +1006,17 @@
           31.882219907013514
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 43,
-        "OBJECTID" : 44,
+        "Name" : "WS394",
         "SurElev" : 27.414000000000001,
         "Depth" : 1.45,
-        "NAME" : "WS394",
         "BottomElev" : 25.963999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -897,14 +1029,17 @@
           31.882223078093247
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 44,
-        "OBJECTID" : 45,
+        "Name" : "WS391",
         "SurElev" : 27.581,
         "Depth" : 1.5,
-        "NAME" : "WS391",
         "BottomElev" : 26.081,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -917,14 +1052,17 @@
           31.882218534102737
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 45,
-        "OBJECTID" : 46,
+        "Name" : "WS388",
         "SurElev" : 27.245000000000001,
         "Depth" : 1.21,
-        "NAME" : "WS388",
         "BottomElev" : 26.035,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -937,14 +1075,17 @@
           31.882217346512178
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 46,
-        "OBJECTID" : 47,
+        "Name" : "WS386",
         "SurElev" : 27.187999999999999,
         "Depth" : 1.1399999999999999,
-        "NAME" : "WS386",
         "BottomElev" : 26.047999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -957,14 +1098,17 @@
           31.882213844548293
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 47,
-        "OBJECTID" : 48,
+        "Name" : "WS385",
         "SurElev" : 26.995999999999999,
         "Depth" : 1.55,
-        "NAME" : "WS385",
         "BottomElev" : 25.446000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -977,14 +1121,17 @@
           31.88198938263514
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 48,
-        "OBJECTID" : 49,
+        "Name" : "WS364",
         "SurElev" : 27.052,
         "Depth" : 2,
-        "NAME" : "WS364",
         "BottomElev" : 25.052,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -997,14 +1144,17 @@
           31.882010886192052
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 49,
-        "OBJECTID" : 50,
+        "Name" : "WS381",
         "SurElev" : 27.125,
         "Depth" : 2.02,
-        "NAME" : "WS381",
         "BottomElev" : 25.105,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1017,14 +1167,17 @@
           31.882056606257613
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 50,
-        "OBJECTID" : 52,
+        "Name" : "WS382",
         "SurElev" : 27.085999999999999,
         "Depth" : 2.5,
-        "NAME" : "WS382",
         "BottomElev" : 24.585999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1037,14 +1190,17 @@
           31.882086959443349
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 51,
-        "OBJECTID" : 53,
+        "Name" : "WS383",
         "SurElev" : 27.091000000000001,
         "Depth" : 2.5,
-        "NAME" : "WS383",
         "BottomElev" : 24.591000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1057,14 +1213,17 @@
           31.882209471817095
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 52,
-        "OBJECTID" : 55,
+        "Name" : "WS384",
         "SurElev" : 27.048999999999999,
         "Depth" : 2.6000000000000001,
-        "NAME" : "WS384",
         "BottomElev" : 24.449000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1077,14 +1236,17 @@
           31.883048597620796
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 53,
-        "OBJECTID" : 56,
+        "Name" : "WS158",
         "SurElev" : 27.033999999999999,
         "Depth" : 1.1799999999999999,
-        "NAME" : "WS158",
         "BottomElev" : 25.853999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1097,14 +1259,17 @@
           31.883048904098924
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 54,
-        "OBJECTID" : 57,
+        "Name" : "WS160",
         "SurElev" : 27.029,
         "Depth" : 1.5529999999999999,
-        "NAME" : "WS160",
         "BottomElev" : 25.475999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1117,14 +1282,17 @@
           31.883051013738335
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 55,
-        "OBJECTID" : 58,
+        "Name" : "WS162",
         "SurElev" : 27.006,
         "Depth" : 1.53,
-        "NAME" : "WS162",
         "BottomElev" : 25.475999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1137,14 +1305,17 @@
           31.88305101886753
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 56,
-        "OBJECTID" : 59,
+        "Name" : "WS164",
         "SurElev" : 26.984999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS164",
         "BottomElev" : 25.484999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1157,14 +1328,17 @@
           31.883049294350975
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 57,
-        "OBJECTID" : 60,
+        "Name" : "WS166",
         "SurElev" : 26.978000000000002,
         "Depth" : 1.45,
-        "NAME" : "WS166",
         "BottomElev" : 25.527999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1177,14 +1351,17 @@
           31.883052084599704
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 58,
-        "OBJECTID" : 61,
+        "Name" : "WS168",
         "SurElev" : 27.202000000000002,
         "Depth" : 1.4099999999999999,
-        "NAME" : "WS168",
         "BottomElev" : 25.792000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1197,14 +1374,17 @@
           31.883051506465705
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 59,
-        "OBJECTID" : 62,
+        "Name" : "WS170",
         "SurElev" : 27.036000000000001,
         "Depth" : 1.3600000000000001,
-        "NAME" : "WS170",
         "BottomElev" : 25.675999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1217,14 +1397,17 @@
           31.883051516372038
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 60,
-        "OBJECTID" : 63,
+        "Name" : "WS172",
         "SurElev" : 26.907,
         "Depth" : 1.3400000000000001,
-        "NAME" : "WS172",
         "BottomElev" : 25.567,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1237,14 +1420,17 @@
           31.883051886171284
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 61,
-        "OBJECTID" : 64,
+        "Name" : "WS174",
         "SurElev" : 26.946000000000002,
         "Depth" : 1.3500000000000001,
-        "NAME" : "WS174",
         "BottomElev" : 25.596,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1257,14 +1443,17 @@
           31.882246645630516
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 62,
-        "OBJECTID" : 65,
+        "Name" : "WS249",
         "SurElev" : 26.931999999999999,
         "Depth" : 0.85999999999999999,
-        "NAME" : "WS249",
         "BottomElev" : 26.071999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1277,14 +1466,17 @@
           31.882247004895081
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 63,
-        "OBJECTID" : 66,
+        "Name" : "WS247",
         "SurElev" : 27.306000000000001,
         "Depth" : 1.3300000000000001,
-        "NAME" : "WS247",
         "BottomElev" : 25.975999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1297,14 +1489,17 @@
           31.882245494992151
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 64,
-        "OBJECTID" : 67,
+        "Name" : "WS245",
         "SurElev" : 27.327999999999999,
         "Depth" : 1.3799999999999999,
-        "NAME" : "WS245",
         "BottomElev" : 25.948,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1317,14 +1512,17 @@
           31.882245410437381
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 65,
-        "OBJECTID" : 68,
+        "Name" : "WS243",
         "SurElev" : 27.306000000000001,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS243",
         "BottomElev" : 25.905999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1337,14 +1535,17 @@
           31.882245147195437
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 66,
-        "OBJECTID" : 69,
+        "Name" : "WS240",
         "SurElev" : 27.294,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS240",
         "BottomElev" : 25.893999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1357,14 +1558,17 @@
           31.88224449309423
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 67,
-        "OBJECTID" : 70,
+        "Name" : "WS237",
         "SurElev" : 27.283000000000001,
         "Depth" : 1.4299999999999999,
-        "NAME" : "WS237",
         "BottomElev" : 25.853000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1377,14 +1581,17 @@
           31.882243621576631
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 68,
-        "OBJECTID" : 71,
+        "Name" : "WS234",
         "SurElev" : 27.25,
         "Depth" : 1.45,
-        "NAME" : "WS234",
         "BottomElev" : 25.800000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1397,14 +1604,17 @@
           31.882242732393436
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 69,
-        "OBJECTID" : 72,
+        "Name" : "WS232",
         "SurElev" : 27.248000000000001,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS232",
         "BottomElev" : 25.847999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1417,14 +1627,17 @@
           31.882241876787198
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 70,
-        "OBJECTID" : 73,
+        "Name" : "WS229",
         "SurElev" : 27.228000000000002,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS229",
         "BottomElev" : 25.827999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1437,14 +1650,17 @@
           31.882018553825411
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 71,
-        "OBJECTID" : 74,
+        "Name" : "WS277",
         "SurElev" : 27.443000000000001,
         "Depth" : 1.45,
-        "NAME" : "WS277",
         "BottomElev" : 25.992999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1457,14 +1673,17 @@
           31.882016531845963
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 72,
-        "OBJECTID" : 75,
+        "Name" : "WS274",
         "SurElev" : 27.376999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS274",
         "BottomElev" : 25.876999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1477,14 +1696,17 @@
           31.88201556107693
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 73,
-        "OBJECTID" : 76,
+        "Name" : "WS271",
         "SurElev" : 27.312000000000001,
         "Depth" : 1.55,
-        "NAME" : "WS271",
         "BottomElev" : 25.762,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1497,14 +1719,17 @@
           31.882017182109877
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 74,
-        "OBJECTID" : 77,
+        "Name" : "WS268",
         "SurElev" : 27.405999999999999,
         "Depth" : 1.54,
-        "NAME" : "WS268",
         "BottomElev" : 25.866,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1517,14 +1742,17 @@
           31.882014845920875
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 75,
-        "OBJECTID" : 78,
+        "Name" : "WS266",
         "SurElev" : 27.303000000000001,
         "Depth" : 1.45,
-        "NAME" : "WS266",
         "BottomElev" : 25.853000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1537,14 +1765,17 @@
           31.882015300654135
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 76,
-        "OBJECTID" : 79,
+        "Name" : "WS263",
         "SurElev" : 27.324999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS263",
         "BottomElev" : 25.824999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1557,14 +1788,17 @@
           31.882013242001786
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 77,
-        "OBJECTID" : 80,
+        "Name" : "WS258",
         "SurElev" : 27.262,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS258",
         "BottomElev" : 25.861999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1577,14 +1811,17 @@
           31.882012559351288
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 78,
-        "OBJECTID" : 81,
+        "Name" : "WS255",
         "SurElev" : 27.253,
         "Depth" : 1.46,
-        "NAME" : "WS255",
         "BottomElev" : 25.792999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1597,14 +1834,17 @@
           31.882015132270183
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 79,
-        "OBJECTID" : 82,
+        "Name" : "WS254",
         "SurElev" : 27.312000000000001,
         "Depth" : 1.5,
-        "NAME" : "WS254",
         "BottomElev" : 25.812000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1617,14 +1857,17 @@
           31.882016676039399
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 80,
-        "OBJECTID" : 83,
+        "Name" : "WS253",
         "SurElev" : 27.074000000000002,
         "Depth" : 1.3500000000000001,
-        "NAME" : "WS253",
         "BottomElev" : 25.724,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1637,14 +1880,17 @@
           31.882241939269971
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 81,
-        "OBJECTID" : 84,
+        "Name" : "WS224",
         "SurElev" : 27.164000000000001,
         "Depth" : 1.4199999999999999,
-        "NAME" : "WS224",
         "BottomElev" : 25.744,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1657,14 +1903,17 @@
           31.882240678380544
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 82,
-        "OBJECTID" : 85,
+        "Name" : "WS225",
         "SurElev" : 27.184999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS225",
         "BottomElev" : 25.684999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1677,14 +1926,17 @@
           31.882744432604454
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 83,
-        "OBJECTID" : 86,
+        "Name" : "WS200",
         "SurElev" : 27.082999999999998,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS200",
         "BottomElev" : 25.683,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1697,14 +1949,17 @@
           31.882746958320872
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 84,
-        "OBJECTID" : 87,
+        "Name" : "WS198",
         "SurElev" : 27.276,
         "Depth" : 1.4299999999999999,
-        "NAME" : "WS198",
         "BottomElev" : 25.846,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1717,14 +1972,17 @@
           31.882745497288003
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 85,
-        "OBJECTID" : 88,
+        "Name" : "WS196",
         "SurElev" : 27.254000000000001,
         "Depth" : 1.54,
-        "NAME" : "WS196",
         "BottomElev" : 25.713999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1737,14 +1995,17 @@
           31.88274129675186
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 86,
-        "OBJECTID" : 89,
+        "Name" : "WS194",
         "SurElev" : 27.382000000000001,
         "Depth" : 1.55,
-        "NAME" : "WS194",
         "BottomElev" : 25.832000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1757,14 +2018,17 @@
           31.882742311798811
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 87,
-        "OBJECTID" : 90,
+        "Name" : "WS192",
         "SurElev" : 27.446999999999999,
         "Depth" : 1.55,
-        "NAME" : "WS192",
         "BottomElev" : 25.896999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1777,14 +2041,17 @@
           31.88273742145779
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 88,
-        "OBJECTID" : 91,
+        "Name" : "WS190",
         "SurElev" : 27.207000000000001,
         "Depth" : 1.4299999999999999,
-        "NAME" : "WS190",
         "BottomElev" : 25.777000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1797,14 +2064,17 @@
           31.882740582943999
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 89,
-        "OBJECTID" : 92,
+        "Name" : "WS189",
         "SurElev" : 27.152000000000001,
         "Depth" : 1.3400000000000001,
-        "NAME" : "WS189",
         "BottomElev" : 25.812000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1817,14 +2087,17 @@
           31.882739069341611
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 90,
-        "OBJECTID" : 93,
+        "Name" : "WS186",
         "SurElev" : 27.172999999999998,
         "Depth" : 1.45,
-        "NAME" : "WS186",
         "BottomElev" : 25.722999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1837,14 +2110,17 @@
           31.882738369667628
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 91,
-        "OBJECTID" : 94,
+        "Name" : "WS183",
         "SurElev" : 27.27,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS183",
         "BottomElev" : 25.670000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1857,14 +2133,17 @@
           31.882984567163444
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 92,
-        "OBJECTID" : 96,
+        "Name" : "WS178",
         "SurElev" : 26.989999999999998,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS178",
         "BottomElev" : 25.390000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1877,14 +2156,17 @@
           31.882963411276233
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 93,
-        "OBJECTID" : 97,
+        "Name" : "WS179",
         "SurElev" : 26.992000000000001,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS179",
         "BottomElev" : 25.391999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1897,14 +2179,17 @@
           31.882917988764557
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 94,
-        "OBJECTID" : 98,
+        "Name" : "WS180",
         "SurElev" : 27.213999999999999,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS180",
         "BottomElev" : 25.614000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1917,14 +2202,17 @@
           31.882887976443726
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 95,
-        "OBJECTID" : 99,
+        "Name" : "WS181",
         "SurElev" : 27.167000000000002,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS181",
         "BottomElev" : 25.567,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1937,14 +2225,17 @@
           31.882739179449672
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 96,
-        "OBJECTID" : 101,
+        "Name" : "WS182",
         "SurElev" : 27.184999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS182",
         "BottomElev" : 25.684999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1957,14 +2248,17 @@
           31.883050726378354
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 97,
-        "OBJECTID" : 102,
+        "Name" : "WS176",
         "SurElev" : 26.963000000000001,
         "Depth" : 1.3,
-        "NAME" : "WS176",
         "BottomElev" : 25.663,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1977,14 +2271,17 @@
           31.882512570301429
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 98,
-        "OBJECTID" : 103,
+        "Name" : "WS202",
         "SurElev" : 27.334,
         "Depth" : 1.55,
-        "NAME" : "WS202",
         "BottomElev" : 25.783999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1997,14 +2294,17 @@
           31.882327518862233
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 99,
-        "OBJECTID" : 105,
+        "Name" : "WS222",
         "SurElev" : 27.248999999999999,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS222",
         "BottomElev" : 25.649000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2017,14 +2317,17 @@
           31.882331681721656
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 100,
-        "OBJECTID" : 106,
+        "Name" : "WS281",
         "SurElev" : 27.449000000000002,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS281",
         "BottomElev" : 25.849,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2037,14 +2340,17 @@
           31.882242952417023
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 101,
-        "OBJECTID" : 108,
+        "Name" : "WS228",
         "SurElev" : 27.184000000000001,
         "Depth" : 1.8,
-        "NAME" : "WS228",
         "BottomElev" : 25.384,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2057,14 +2363,17 @@
           31.882514878721892
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 102,
-        "OBJECTID" : 110,
+        "Name" : "WS220",
         "SurElev" : 27.344000000000001,
         "Depth" : 1.3500000000000001,
-        "NAME" : "WS220",
         "BottomElev" : 25.994,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2077,14 +2386,17 @@
           31.882514477470593
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 103,
-        "OBJECTID" : 111,
+        "Name" : "WS218",
         "SurElev" : 27.294,
         "Depth" : 1.373,
-        "NAME" : "WS218",
         "BottomElev" : 25.920999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2097,14 +2409,17 @@
           31.882512639023375
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 104,
-        "OBJECTID" : 112,
+        "Name" : "WS216",
         "SurElev" : 27.331,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS216",
         "BottomElev" : 25.931000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2117,14 +2432,17 @@
           31.882514893389885
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 105,
-        "OBJECTID" : 113,
+        "Name" : "WS214",
         "SurElev" : 27.283999999999999,
         "Depth" : 1.4199999999999999,
-        "NAME" : "WS214",
         "BottomElev" : 25.864000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2137,14 +2455,17 @@
           31.882513887745151
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 106,
-        "OBJECTID" : 114,
+        "Name" : "WS212",
         "SurElev" : 27.295999999999999,
         "Depth" : 1.4199999999999999,
-        "NAME" : "WS212",
         "BottomElev" : 25.876000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2157,14 +2478,17 @@
           31.88251641826233
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 107,
-        "OBJECTID" : 115,
+        "Name" : "WS210",
         "SurElev" : 27.321000000000002,
         "Depth" : 1.45,
-        "NAME" : "WS210",
         "BottomElev" : 25.870999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2177,14 +2501,17 @@
           31.882519112861555
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 108,
-        "OBJECTID" : 116,
+        "Name" : "WS208",
         "SurElev" : 27.324000000000002,
         "Depth" : 1.45,
-        "NAME" : "WS208",
         "BottomElev" : 25.873999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2197,14 +2524,17 @@
           31.882517502637864
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 109,
-        "OBJECTID" : 117,
+        "Name" : "WS206",
         "SurElev" : 27.318999999999999,
         "Depth" : 1.47,
-        "NAME" : "WS206",
         "BottomElev" : 25.849,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2217,14 +2547,17 @@
           31.882514459669036
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 110,
-        "OBJECTID" : 118,
+        "Name" : "WS204",
         "SurElev" : 27.378,
         "Depth" : 1.47,
-        "NAME" : "WS204",
         "BottomElev" : 25.908000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2237,14 +2570,17 @@
           31.88330956472544
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 111,
-        "OBJECTID" : 119,
+        "Name" : "WS64",
         "SurElev" : 26.800999999999998,
         "Depth" : 1.5,
-        "NAME" : "WS64",
         "BottomElev" : 25.300999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2257,14 +2593,17 @@
           31.883308619264273
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 112,
-        "OBJECTID" : 120,
+        "Name" : "WS68",
         "SurElev" : 26.777000000000001,
         "Depth" : 1.5,
-        "NAME" : "WS68",
         "BottomElev" : 25.277000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2277,14 +2616,17 @@
           31.883309101609118
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 113,
-        "OBJECTID" : 121,
+        "Name" : "WS70",
         "SurElev" : 26.847000000000001,
         "Depth" : 1.8300000000000001,
-        "NAME" : "WS70",
         "BottomElev" : 25.016999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2297,14 +2639,17 @@
           31.88358248182589
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 114,
-        "OBJECTID" : 123,
+        "Name" : "WS71",
         "SurElev" : 27.224,
         "Depth" : 2.5,
-        "NAME" : "WS71",
         "BottomElev" : 24.724,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2317,14 +2662,17 @@
           31.883624206182454
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 115,
-        "OBJECTID" : 124,
+        "Name" : "WS72",
         "SurElev" : 27.277999999999999,
         "Depth" : 2.5,
-        "NAME" : "WS72",
         "BottomElev" : 24.777999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2337,14 +2685,17 @@
           31.883651250613049
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 116,
-        "OBJECTID" : 125,
+        "Name" : "WS73",
         "SurElev" : 27.260000000000002,
         "Depth" : 2.5,
-        "NAME" : "WS73",
         "BottomElev" : 24.760000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2357,14 +2708,17 @@
           31.883716015989673
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 117,
-        "OBJECTID" : 127,
+        "Name" : "WS74",
         "SurElev" : 26.952000000000002,
         "Depth" : 2.5699999999999998,
-        "NAME" : "WS74",
         "BottomElev" : 24.382000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2377,14 +2731,17 @@
           31.883844972376558
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 118,
-        "OBJECTID" : 128,
+        "Name" : "WS75",
         "SurElev" : 26.977,
         "Depth" : 3.0299999999999998,
-        "NAME" : "WS75",
         "BottomElev" : 23.946999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2397,14 +2754,17 @@
           31.883820538628235
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 119,
-        "OBJECTID" : 129,
+        "Name" : "WS1646",
         "SurElev" : 26.882000000000001,
         "Depth" : 3,
-        "NAME" : "WS1646",
         "BottomElev" : 23.882000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2417,14 +2777,17 @@
           31.883853137898374
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 120,
-        "OBJECTID" : 130,
+        "Name" : "WS1",
         "SurElev" : 27.280000000000001,
         "Depth" : 1.5,
-        "NAME" : "WS1",
         "BottomElev" : 25.780000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2437,14 +2800,17 @@
           31.883857998050956
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 121,
-        "OBJECTID" : 131,
+        "Name" : "WS6",
         "SurElev" : 27.228999999999999,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS6",
         "BottomElev" : 25.629000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2457,14 +2823,17 @@
           31.883858208392233
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 122,
-        "OBJECTID" : 132,
+        "Name" : "WS9",
         "SurElev" : 27.068999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS9",
         "BottomElev" : 25.568999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2477,14 +2846,17 @@
           31.883864044141781
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 123,
-        "OBJECTID" : 133,
+        "Name" : "WS13",
         "SurElev" : 26.992999999999999,
         "Depth" : 1.5700000000000001,
-        "NAME" : "WS13",
         "BottomElev" : 25.422999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2497,14 +2869,17 @@
           31.883865982398696
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 124,
-        "OBJECTID" : 134,
+        "Name" : "WS18",
         "SurElev" : 26.908999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS18",
         "BottomElev" : 25.408999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2517,14 +2892,17 @@
           31.883614573437168
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 125,
-        "OBJECTID" : 135,
+        "Name" : "WS85",
         "SurElev" : 26.725999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS85",
         "BottomElev" : 25.225999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2537,14 +2915,17 @@
           31.88361226910985
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 126,
-        "OBJECTID" : 136,
+        "Name" : "WS86",
         "SurElev" : 26.702000000000002,
         "Depth" : 1.6299999999999999,
-        "NAME" : "WS86",
         "BottomElev" : 25.071999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2557,14 +2938,17 @@
           31.883612996474508
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 127,
-        "OBJECTID" : 137,
+        "Name" : "WS88",
         "SurElev" : 26.702999999999999,
         "Depth" : 1.6799999999999999,
-        "NAME" : "WS88",
         "BottomElev" : 25.023,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2577,14 +2961,17 @@
           31.883610922799061
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 128,
-        "OBJECTID" : 138,
+        "Name" : "WS91",
         "SurElev" : 26.699999999999999,
         "Depth" : 1.7,
-        "NAME" : "WS91",
         "BottomElev" : 25,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2597,14 +2984,17 @@
           31.883610034600668
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 129,
-        "OBJECTID" : 139,
+        "Name" : "WS94",
         "SurElev" : 26.733000000000001,
         "Depth" : 1.8500000000000001,
-        "NAME" : "WS94",
         "BottomElev" : 24.882999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2617,14 +3007,17 @@
           31.883073228600374
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 130,
-        "OBJECTID" : 140,
+        "Name" : "WS475",
         "SurElev" : 26.856999999999999,
         "Depth" : 1.51,
-        "NAME" : "WS475",
         "BottomElev" : 25.347000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2637,14 +3030,17 @@
           31.883073912867896
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 131,
-        "OBJECTID" : 141,
+        "Name" : "WS477",
         "SurElev" : 26.859000000000002,
         "Depth" : 1.74,
-        "NAME" : "WS477",
         "BottomElev" : 25.119,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2657,14 +3053,17 @@
           31.88307594799673
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 132,
-        "OBJECTID" : 142,
+        "Name" : "WS481",
         "SurElev" : 27.076000000000001,
         "Depth" : 1.8,
-        "NAME" : "WS481",
         "BottomElev" : 25.276,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2677,14 +3076,17 @@
           31.883084339730388
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 133,
-        "OBJECTID" : 143,
+        "Name" : "WS484",
         "SurElev" : 26.870000000000001,
         "Depth" : 1.6499999999999999,
-        "NAME" : "WS484",
         "BottomElev" : 25.219999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2697,14 +3099,17 @@
           31.883080868744329
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 134,
-        "OBJECTID" : 144,
+        "Name" : "WS488",
         "SurElev" : 25.245999999999999,
         "Depth" : 1.75,
-        "NAME" : "WS488",
         "BottomElev" : 23.495999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2717,14 +3122,17 @@
           31.883085192020662
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 135,
-        "OBJECTID" : 145,
+        "Name" : "WS490",
         "SurElev" : 27.018000000000001,
         "Depth" : 1.75,
-        "NAME" : "WS490",
         "BottomElev" : 25.268000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2737,14 +3145,17 @@
           31.883301933741492
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 136,
-        "OBJECTID" : 146,
+        "Name" : "WS56",
         "SurElev" : 26.84,
         "Depth" : 1.3,
-        "NAME" : "WS56",
         "BottomElev" : 25.539999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2757,14 +3168,17 @@
           31.883305045621047
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 137,
-        "OBJECTID" : 147,
+        "Name" : "WS57",
         "SurElev" : 26.838000000000001,
         "Depth" : 1.3,
-        "NAME" : "WS57",
         "BottomElev" : 25.538,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2777,14 +3191,17 @@
           31.883309028863135
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 138,
-        "OBJECTID" : 148,
+        "Name" : "WS58",
         "SurElev" : 26.812000000000001,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS58",
         "BottomElev" : 25.411999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2797,14 +3214,17 @@
           31.883309624816462
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 139,
-        "OBJECTID" : 149,
+        "Name" : "WS60",
         "SurElev" : 26.803000000000001,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS60",
         "BottomElev" : 25.402999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2817,14 +3237,17 @@
           31.883310851666323
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 140,
-        "OBJECTID" : 150,
+        "Name" : "WS62",
         "SurElev" : 26.815999999999999,
         "Depth" : 1.4099999999999999,
-        "NAME" : "WS62",
         "BottomElev" : 25.405999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2837,14 +3260,17 @@
           31.883608772598564
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 141,
-        "OBJECTID" : 151,
+        "Name" : "WS98",
         "SurElev" : 26.855,
         "Depth" : 1.9299999999999999,
-        "NAME" : "WS98",
         "BottomElev" : 24.925000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2857,14 +3283,17 @@
           31.883608166136483
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 142,
-        "OBJECTID" : 152,
+        "Name" : "WS102",
         "SurElev" : 26.952000000000002,
         "Depth" : 1.8799999999999999,
-        "NAME" : "WS102",
         "BottomElev" : 25.071999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2877,14 +3306,17 @@
           31.883605986750041
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 143,
-        "OBJECTID" : 153,
+        "Name" : "WS105",
         "SurElev" : 27.027000000000001,
         "Depth" : 1.9299999999999999,
-        "NAME" : "WS105",
         "BottomElev" : 25.097000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2897,14 +3329,17 @@
           31.883604476755558
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 144,
-        "OBJECTID" : 154,
+        "Name" : "WS109",
         "SurElev" : 27.018000000000001,
         "Depth" : 1.8799999999999999,
-        "NAME" : "WS109",
         "BottomElev" : 25.138000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2917,14 +3352,17 @@
           31.88360368512544
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 145,
-        "OBJECTID" : 155,
+        "Name" : "WS110",
         "SurElev" : 27.02,
         "Depth" : 1.8,
-        "NAME" : "WS110",
         "BottomElev" : 25.219999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2937,14 +3375,17 @@
           31.883603312267041
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 146,
-        "OBJECTID" : 156,
+        "Name" : "WS115",
         "SurElev" : 27.030000000000001,
         "Depth" : 1.74,
-        "NAME" : "WS115",
         "BottomElev" : 25.289999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2957,14 +3398,17 @@
           31.883076678775915
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 147,
-        "OBJECTID" : 157,
+        "Name" : "WS451",
         "SurElev" : 26.692,
         "Depth" : 1.1799999999999999,
-        "NAME" : "WS451",
         "BottomElev" : 25.512,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2977,14 +3421,17 @@
           31.883079016849912
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 148,
-        "OBJECTID" : 158,
+        "Name" : "WS453",
         "SurElev" : 26.876999999999999,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS453",
         "BottomElev" : 25.477,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2997,14 +3444,17 @@
           31.883079582296453
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 149,
-        "OBJECTID" : 159,
+        "Name" : "WS455",
         "SurElev" : 26.954000000000001,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS455",
         "BottomElev" : 25.553999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3017,14 +3467,17 @@
           31.883079900965331
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 150,
-        "OBJECTID" : 160,
+        "Name" : "WS458",
         "SurElev" : 25.451000000000001,
         "Depth" : 1.4199999999999999,
-        "NAME" : "WS458",
         "BottomElev" : 24.030999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3037,14 +3490,17 @@
           31.88308130423243
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 151,
-        "OBJECTID" : 161,
+        "Name" : "WS461",
         "SurElev" : 26.966999999999999,
         "Depth" : 1.45,
-        "NAME" : "WS461",
         "BottomElev" : 25.516999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3057,14 +3513,17 @@
           31.883080165163513
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 152,
-        "OBJECTID" : 162,
+        "Name" : "WS465",
         "SurElev" : 26.949000000000002,
         "Depth" : 0.94499999999999995,
-        "NAME" : "WS465",
         "BottomElev" : 25.436,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3077,14 +3536,17 @@
           31.883072385893989
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 153,
-        "OBJECTID" : 163,
+        "Name" : "WS468",
         "SurElev" : 26.893999999999998,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS468",
         "BottomElev" : 25.294,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3097,14 +3559,17 @@
           31.883072709575877
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 154,
-        "OBJECTID" : 164,
+        "Name" : "WS472",
         "SurElev" : 26.792000000000002,
         "Depth" : 1.53,
-        "NAME" : "WS472",
         "BottomElev" : 25.262,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3117,14 +3582,17 @@
           31.882729960742129
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 155,
-        "OBJECTID" : 165,
+        "Name" : "WS433",
         "SurElev" : 27.228999999999999,
         "Depth" : 1.5800000000000001,
-        "NAME" : "WS433",
         "BottomElev" : 25.649000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3137,14 +3605,17 @@
           31.882729837339653
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 156,
-        "OBJECTID" : 166,
+        "Name" : "WS431",
         "SurElev" : 27.245999999999999,
         "Depth" : 1.5700000000000001,
-        "NAME" : "WS431",
         "BottomElev" : 25.675999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3157,14 +3628,17 @@
           31.882728416654711
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 157,
-        "OBJECTID" : 167,
+        "Name" : "WS429",
         "SurElev" : 27.341999999999999,
         "Depth" : 1.53,
-        "NAME" : "WS429",
         "BottomElev" : 25.812000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3177,14 +3651,17 @@
           31.882728758133279
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 158,
-        "OBJECTID" : 168,
+        "Name" : "WS427",
         "SurElev" : 26.588000000000001,
         "Depth" : 1.1000000000000001,
-        "NAME" : "WS427",
         "BottomElev" : 25.488,
-        "Level" : 1
+        "Level" : 2,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3197,14 +3674,17 @@
           31.882441602591882
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 159,
-        "OBJECTID" : 170,
+        "Name" : "WS396",
         "SurElev" : 27.07,
         "Depth" : 2.6499999999999999,
-        "NAME" : "WS396",
         "BottomElev" : 24.420000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3217,14 +3697,17 @@
           31.882512448752252
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 160,
-        "OBJECTID" : 171,
+        "Name" : "WS444",
         "SurElev" : 27.093,
         "Depth" : 2.6499999999999999,
-        "NAME" : "WS444",
         "BottomElev" : 24.443000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3237,14 +3720,17 @@
           31.883907278499283
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 161,
-        "OBJECTID" : 172,
+        "Name" : "WS641",
         "SurElev" : 26.75,
         "Depth" : 2.52,
-        "NAME" : "WS641",
         "BottomElev" : 24.23,
-        "Level" : 1
+        "Level" : 2,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3257,14 +3743,17 @@
           31.883909820628524
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 162,
-        "OBJECTID" : 173,
+        "Name" : "WS642",
         "SurElev" : 26.696999999999999,
         "Depth" : 2.5,
-        "NAME" : "WS642",
         "BottomElev" : 24.196999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3277,14 +3766,17 @@
           31.883911606254099
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 163,
-        "OBJECTID" : 174,
+        "Name" : "WS643",
         "SurElev" : 26.687999999999999,
         "Depth" : 2.5,
-        "NAME" : "WS643",
         "BottomElev" : 24.187999999999999,
-        "Level" : 1
+        "Level" : 2,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3297,14 +3789,17 @@
           31.883930702666358
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 164,
-        "OBJECTID" : 175,
+        "Name" : "WS645",
         "SurElev" : 24.356999999999999,
         "Depth" : 2.5,
-        "NAME" : "WS645",
         "BottomElev" : 21.856999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3317,14 +3812,17 @@
           31.883959187895798
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 165,
-        "OBJECTID" : 176,
+        "Name" : "WS646",
         "SurElev" : 23.960999999999999,
         "Depth" : 2.5,
-        "NAME" : "WS646",
         "BottomElev" : 21.460999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3337,14 +3835,17 @@
           31.883450353655814
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 166,
-        "OBJECTID" : 180,
+        "Name" : "WS446",
         "SurElev" : 27.065999999999999,
         "Depth" : 1,
-        "NAME" : "WS446",
         "BottomElev" : 26.065999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3357,14 +3858,17 @@
           31.883329194062913
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 167,
-        "OBJECTID" : 181,
+        "Name" : "WS448",
         "SurElev" : 26.946999999999999,
         "Depth" : 0.90000000000000002,
-        "NAME" : "WS448",
         "BottomElev" : 26.047000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3377,14 +3881,17 @@
           31.883281163755722
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 168,
-        "OBJECTID" : 182,
+        "Name" : "WS496",
         "SurElev" : 25.859000000000002,
         "Depth" : 0.90000000000000002,
-        "NAME" : "WS496",
         "BottomElev" : 24.959,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3397,14 +3904,17 @@
           31.88327848256025
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 169,
-        "OBJECTID" : 183,
+        "Name" : "WS497",
         "SurElev" : 26.606000000000002,
         "Depth" : 0.90000000000000002,
-        "NAME" : "WS497",
         "BottomElev" : 25.706,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3417,14 +3927,17 @@
           31.883548158696666
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 170,
-        "OBJECTID" : 184,
+        "Name" : "WS84",
         "SurElev" : 26.68,
         "Depth" : 1.1599999999999999,
-        "NAME" : "WS84",
         "BottomElev" : 25.52,
-        "Level" : 1
+        "Level" : 2,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3437,14 +3950,17 @@
           31.883604538248242
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 171,
-        "OBJECTID" : 185,
+        "Name" : "WS118",
         "SurElev" : 27.263999999999999,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS118",
         "BottomElev" : 25.664000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3457,14 +3973,17 @@
           31.88325843920688
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 172,
-        "OBJECTID" : 186,
+        "Name" : "WS121",
         "SurElev" : 25.965,
         "Depth" : 1.1399999999999999,
-        "NAME" : "WS121",
         "BottomElev" : 24.824999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3477,14 +3996,17 @@
           31.883275048017953
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 173,
-        "OBJECTID" : 187,
+        "Name" : "WS125",
         "SurElev" : 25.998999999999999,
         "Depth" : 0.93000000000000005,
-        "NAME" : "WS125",
         "BottomElev" : 25.068999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3497,14 +4019,17 @@
           31.883275654825702
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 174,
-        "OBJECTID" : 188,
+        "Name" : "WS129",
         "SurElev" : 26.882999999999999,
         "Depth" : 0.93999999999999995,
-        "NAME" : "WS129",
         "BottomElev" : 25.943000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3517,14 +4042,17 @@
           31.883274259315282
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 175,
-        "OBJECTID" : 189,
+        "Name" : "WS131",
         "SurElev" : 26.855,
         "Depth" : 0.94999999999999996,
-        "NAME" : "WS131",
         "BottomElev" : 25.905000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3537,14 +4065,17 @@
           31.883262112450367
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 176,
-        "OBJECTID" : 190,
+        "Name" : "WS130",
         "SurElev" : 27.013999999999999,
         "Depth" : 0.95999999999999996,
-        "NAME" : "WS130",
         "BottomElev" : 26.053999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3557,14 +4088,17 @@
           31.883265516752829
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 177,
-        "OBJECTID" : 191,
+        "Name" : "WS133",
         "SurElev" : 26.986999999999998,
         "Depth" : 0.96999999999999997,
-        "NAME" : "WS133",
         "BottomElev" : 26.016999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3577,14 +4111,17 @@
           31.883276169833024
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 178,
-        "OBJECTID" : 192,
+        "Name" : "WS136",
         "SurElev" : 26.963999999999999,
         "Depth" : 1.03,
-        "NAME" : "WS136",
         "BottomElev" : 25.934000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3597,14 +4134,17 @@
           31.883091476101342
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 179,
-        "OBJECTID" : 193,
+        "Name" : "WS499",
         "SurElev" : 26.849,
         "Depth" : 1.75,
-        "NAME" : "WS499",
         "BottomElev" : 25.099,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3617,14 +4157,17 @@
           31.882747417248787
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 180,
-        "OBJECTID" : 194,
+        "Name" : "WS445",
         "SurElev" : 26.98,
         "Depth" : 2.2000000000000002,
-        "NAME" : "WS445",
         "BottomElev" : 24.780000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3637,14 +4180,17 @@
           31.882737837881564
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 181,
-        "OBJECTID" : 195,
+        "Name" : "WS441",
         "SurElev" : 27.413,
         "Depth" : 2.1800000000000002,
-        "NAME" : "WS441",
         "BottomElev" : 25.233000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3657,14 +4203,17 @@
           31.882730215024715
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 182,
-        "OBJECTID" : 196,
+        "Name" : "WS438",
         "SurElev" : 27.204999999999998,
         "Depth" : 1.6200000000000001,
-        "NAME" : "WS438",
         "BottomElev" : 25.585000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3677,14 +4226,17 @@
           31.882730867025458
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 183,
-        "OBJECTID" : 197,
+        "Name" : "WS435",
         "SurElev" : 27.228000000000002,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS435",
         "BottomElev" : 25.628,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3697,14 +4249,17 @@
           31.883274904078014
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 184,
-        "OBJECTID" : 198,
+        "Name" : "WS137",
         "SurElev" : 27.009,
         "Depth" : 1.2,
-        "NAME" : "WS137",
         "BottomElev" : 25.809000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3717,14 +4272,17 @@
           31.88327430464637
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 185,
-        "OBJECTID" : 199,
+        "Name" : "WS140",
         "SurElev" : 26.885000000000002,
         "Depth" : 1.0600000000000001,
-        "NAME" : "WS140",
         "BottomElev" : 25.824999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3737,14 +4295,17 @@
           31.883274453893613
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 186,
-        "OBJECTID" : 200,
+        "Name" : "WS143",
         "SurElev" : 26.981000000000002,
         "Depth" : 1.1699999999999999,
-        "NAME" : "WS143",
         "BottomElev" : 25.811,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3757,14 +4318,17 @@
           31.883274970522937
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 187,
-        "OBJECTID" : 201,
+        "Name" : "WS146",
         "SurElev" : 26.640000000000001,
         "Depth" : 1.2,
-        "NAME" : "WS146",
         "BottomElev" : 25.440000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3777,14 +4341,17 @@
           31.883274440077376
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 188,
-        "OBJECTID" : 202,
+        "Name" : "WS149",
         "SurElev" : 27.167999999999999,
         "Depth" : 1.8999999999999999,
-        "NAME" : "WS149",
         "BottomElev" : 25.268000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3797,14 +4364,17 @@
           31.883564446165014
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 189,
-        "OBJECTID" : 203,
+        "Name" : "WS153",
         "SurElev" : 27.062999999999999,
         "Depth" : 1.9099999999999999,
-        "NAME" : "WS153",
         "BottomElev" : 25.152999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3817,14 +4387,17 @@
           31.883551578213687
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 190,
-        "OBJECTID" : 206,
+        "Name" : "WS154",
         "SurElev" : 27.149999999999999,
         "Depth" : 2,
-        "NAME" : "WS154",
         "BottomElev" : 25.149999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3837,14 +4410,17 @@
           31.883549618855028
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 191,
-        "OBJECTID" : 207,
+        "Name" : "WS155",
         "SurElev" : 27.164000000000001,
         "Depth" : 2,
-        "NAME" : "WS155",
         "BottomElev" : 25.164000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3857,14 +4433,17 @@
           31.883550683596255
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 192,
-        "OBJECTID" : 208,
+        "Name" : "WS156",
         "SurElev" : 27.169,
         "Depth" : 2,
-        "NAME" : "WS156",
         "BottomElev" : 25.169,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3877,14 +4456,17 @@
           31.883644311328354
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 193,
-        "OBJECTID" : 209,
+        "Name" : "WS157",
         "SurElev" : 26.640000000000001,
         "Depth" : 2,
-        "NAME" : "WS157",
         "BottomElev" : 24.640000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3897,14 +4479,17 @@
           31.883494036413012
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 194,
-        "OBJECTID" : 210,
+        "Name" : "WS53",
         "SurElev" : 27.100000000000001,
         "Depth" : 1.6299999999999999,
-        "NAME" : "WS53",
         "BottomElev" : 25.469999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3917,14 +4502,17 @@
           31.883674473991569
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 195,
-        "OBJECTID" : 211,
+        "Name" : "WS51",
         "SurElev" : 26.838000000000001,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS51",
         "BottomElev" : 25.437999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3937,14 +4525,17 @@
           31.883696370050863
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 196,
-        "OBJECTID" : 212,
+        "Name" : "WS49",
         "SurElev" : 26.847000000000001,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS49",
         "BottomElev" : 25.446999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3957,14 +4548,17 @@
           31.883757140998711
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 197,
-        "OBJECTID" : 213,
+        "Name" : "WS46",
         "SurElev" : 26.835999999999999,
         "Depth" : 1.3999999999999999,
-        "NAME" : "WS46",
         "BottomElev" : 25.436,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3977,14 +4571,17 @@
           31.883868400564836
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 198,
-        "OBJECTID" : 214,
+        "Name" : "WS44",
         "SurElev" : 26.779,
         "Depth" : 2.5099999999999998,
-        "NAME" : "WS44",
         "BottomElev" : 24.268999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3997,14 +4594,17 @@
           31.883871572348983
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 199,
-        "OBJECTID" : 215,
+        "Name" : "WS40",
         "SurElev" : 26.809999999999999,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS40",
         "BottomElev" : 25.210000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4017,14 +4617,17 @@
           31.883871984113046
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 200,
-        "OBJECTID" : 216,
+        "Name" : "WS38",
         "SurElev" : 26.815999999999999,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS38",
         "BottomElev" : 25.216000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4037,14 +4640,17 @@
           31.883871540223982
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 201,
-        "OBJECTID" : 217,
+        "Name" : "WS35",
         "SurElev" : 26.814,
         "Depth" : 1.6000000000000001,
-        "NAME" : "WS35",
         "BottomElev" : 25.213999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4057,14 +4663,17 @@
           31.883871984766841
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 202,
-        "OBJECTID" : 218,
+        "Name" : "WS30",
         "SurElev" : 26.823,
         "Depth" : 1.55,
-        "NAME" : "WS30",
         "BottomElev" : 25.273,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4077,14 +4686,17 @@
           31.883869586071981
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 203,
-        "OBJECTID" : 219,
+        "Name" : "WS27",
         "SurElev" : 26.814,
         "Depth" : 1.5,
-        "NAME" : "WS27",
         "BottomElev" : 25.314,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4097,14 +4709,17 @@
           31.883868525538041
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 204,
-        "OBJECTID" : 220,
+        "Name" : "WS22",
         "SurElev" : 26.802,
         "Depth" : 1.5,
-        "NAME" : "WS22",
         "BottomElev" : 25.302,
-        "Level" : 1
+        "Level" : 2,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4117,14 +4732,17 @@
           31.883863865871042
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 205,
-        "OBJECTID" : 221,
+        "Name" : "WS19",
         "SurElev" : 26.785,
         "Depth" : 1.45,
-        "NAME" : "WS19",
         "BottomElev" : 25.335000000000001,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4137,14 +4755,17 @@
           31.883742656128572
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 206,
-        "OBJECTID" : 222,
+        "Name" : "WS80",
         "SurElev" : 26.864000000000001,
         "Depth" : 1.47,
-        "NAME" : "WS80",
         "BottomElev" : 25.393999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4157,14 +4778,17 @@
           31.883673680362968
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 207,
-        "OBJECTID" : 223,
+        "Name" : "WS81",
         "SurElev" : 26.84,
         "Depth" : 1.1599999999999999,
-        "NAME" : "WS81",
         "BottomElev" : 25.68,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4177,14 +4801,17 @@
           31.883083844976095
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 208,
-        "OBJECTID" : 224,
+        "Name" : "WS494",
         "SurElev" : 26.997,
         "Depth" : 1.77,
-        "NAME" : "WS494",
         "BottomElev" : 25.227,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4197,14 +4824,17 @@
           31.88234007675301
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 209,
-        "OBJECTID" : 225,
+        "Name" : "WS223",
         "SurElev" : 27.071999999999999,
         "Depth" : 1.96,
-        "NAME" : "WS223",
         "BottomElev" : 25.111999999999998,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4217,14 +4847,17 @@
           31.882876967327132
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 210,
-        "OBJECTID" : 226,
+        "Name" : "WS3000",
         "SurElev" : 26.952000000000002,
         "Depth" : 2,
-        "NAME" : "WS3000",
         "BottomElev" : 24.952000000000002,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4237,14 +4870,17 @@
           31.883211391838294
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 211,
-        "OBJECTID" : 227,
+        "Name" : "WS3001",
         "SurElev" : 26.812999999999999,
         "Depth" : 2,
-        "NAME" : "WS3001",
         "BottomElev" : 24.812999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -4257,14 +4893,17 @@
           31.883852986545307
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "distinct_point",
         "FID" : 212,
-        "OBJECTID" : 228,
+        "Name" : "WS3002",
         "SurElev" : 27.280999999999999,
         "Depth" : 1.5,
-        "NAME" : "WS3002",
         "BottomElev" : 25.780999999999999,
-        "Level" : 1
+        "Level" : 1,
+        "Category" : "WS",
+        "Type" : "JCJ",
+        "Form" : "2-S",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     }
   ]

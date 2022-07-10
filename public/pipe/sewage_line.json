@@ -23,20 +23,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 0,
-        "NAME" : "WS_MA400_Conduits05_01",
+        "Name" : "WS_MA400_Conduits05_01",
         "InNode" : "WS67",
         "OutNode" : "WS68",
         "Level" : 1,
-        "InNodeElev" : 25.795999999999999,
-        "OutNodeEle" : 25.178000000000001,
+        "InSurElev" : 29.026,
+        "InDepth" : 3.23,
         "InElev" : 25.795999999999999,
+        "InNodeElev" : 25.795999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 28.538,
+        "OutDepth" : 3.1800000000000002,
         "OutElev" : 25.358000000000001,
+        "OutNodeEle" : 25.178000000000001,
         "OutOffset" : 0.17999999999999999,
         "DN" : 0.40000000000000002,
-        "Length" : 36.8842
+        "Length" : 36.8842,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -55,20 +63,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 1,
-        "NAME" : "WS_MA400_Conduits05_02",
+        "Name" : "WS_MA400_Conduits05_02",
         "InNode" : "WS68",
         "OutNode" : "WS69",
         "Level" : 1,
-        "InNodeElev" : 25.178000000000001,
-        "OutNodeEle" : 24.975999999999999,
+        "InSurElev" : 28.538,
+        "InDepth" : 3.3599999999999999,
         "InElev" : 25.178000000000001,
+        "InNodeElev" : 25.178000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 28.076000000000001,
+        "OutDepth" : 2.9399999999999999,
         "OutElev" : 25.135999999999999,
+        "OutNodeEle" : 24.975999999999999,
         "OutOffset" : 0.16,
         "DN" : 0.40000000000000002,
-        "Length" : 34.3855
+        "Length" : 34.3855,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -87,20 +103,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 2,
-        "NAME" : "WS_MA400_Conduits05_04",
+        "Name" : "WS_MA400_Conduits05_04",
         "InNode" : "WS74",
         "OutNode" : "WS75",
         "Level" : 1,
-        "InNodeElev" : 22.939,
-        "OutNodeEle" : 23.495999999999999,
+        "InSurElev" : 26.638999999999999,
+        "InDepth" : 3.7000000000000002,
         "InElev" : 22.939,
+        "InNodeElev" : 22.939,
         "InOffset" : 0,
+        "OutSurElev" : 26.295999999999999,
+        "OutDepth" : 2.75,
         "OutElev" : 23.545999999999999,
-        "OutOffset" : 0.049999000000000002,
+        "OutNodeEle" : 23.495999999999999,
+        "OutOffset" : 0.050000000000000003,
         "DN" : 0.40000000000000002,
-        "Length" : 35.256700000000002
+        "Length" : 35.256700000000002,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -119,20 +143,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 3,
-        "NAME" : "WS_MA400_Conduits05_05",
+        "Name" : "WS_MA400_Conduits05_05",
         "InNode" : "WS75",
         "OutNode" : "WS76",
         "Level" : 1,
-        "InNodeElev" : 23.495999999999999,
-        "OutNodeEle" : 23.248999999999999,
+        "InSurElev" : 26.295999999999999,
+        "InDepth" : 2.7999999999999998,
         "InElev" : 23.495999999999999,
+        "InNodeElev" : 23.495999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 25.949000000000002,
+        "OutDepth" : 2.5699999999999998,
         "OutElev" : 23.379000000000001,
-        "OutOffset" : 0.129999,
+        "OutNodeEle" : 23.248999999999999,
+        "OutOffset" : 0.13,
         "DN" : 0.40000000000000002,
-        "Length" : 34.755200000000002
+        "Length" : 34.755200000000002,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -151,20 +183,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 4,
-        "NAME" : "WS_MA400_Conduits05_08",
+        "Name" : "WS_MA400_Conduits05_08",
         "InNode" : "WS80",
         "OutNode" : "WS82",
         "Level" : 1,
-        "InNodeElev" : 22.972000000000001,
-        "OutNodeEle" : 22.905000000000001,
+        "InSurElev" : 25.222000000000001,
+        "InDepth" : 2.25,
         "InElev" : 22.972000000000001,
+        "InNodeElev" : 22.972000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.905000000000001,
+        "OutDepth" : 1.8999999999999999,
         "OutElev" : 23.004999999999999,
-        "OutOffset" : 0.099999000000000005,
+        "OutNodeEle" : 22.905000000000001,
+        "OutOffset" : 0.10000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 37.1768
+        "Length" : 37.1768,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -183,20 +223,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 5,
-        "NAME" : "WS_MA500_Conduits02_02",
+        "Name" : "WS_MA500_Conduits02_02",
         "InNode" : "WS19",
         "OutNode" : "WS21",
         "Level" : 1,
-        "InNodeElev" : 22.216000000000001,
-        "OutNodeEle" : 21.882999999999999,
+        "InSurElev" : 25.616,
+        "InDepth" : 3.3999999999999999,
         "InElev" : 22.216000000000001,
+        "InNodeElev" : 22.216000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.952999999999999,
+        "OutDepth" : 3.0299999999999998,
         "OutElev" : 21.922999999999998,
-        "OutOffset" : 0.040001000000000002,
+        "OutNodeEle" : 21.882999999999999,
+        "OutOffset" : 0.040000000000000001,
         "DN" : 0.5,
-        "Length" : 50.995399999999997
+        "Length" : 50.995399999999997,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -215,20 +263,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 6,
-        "NAME" : "WS_MA500_Conduits06_04",
+        "Name" : "WS_MA500_Conduits06_04",
         "InNode" : "WS86",
         "OutNode" : "WS87",
         "Level" : 1,
-        "InNodeElev" : 20.547000000000001,
-        "OutNodeEle" : 20.504000000000001,
+        "InSurElev" : 24.167000000000002,
+        "InDepth" : 3.6200000000000001,
         "InElev" : 20.547000000000001,
+        "InNodeElev" : 20.547000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.844000000000001,
+        "OutDepth" : 3.3199999999999998,
         "OutElev" : 20.524000000000001,
-        "OutOffset" : 0.020001000000000001,
+        "OutNodeEle" : 20.504000000000001,
+        "OutOffset" : 0.02,
         "DN" : 0.5,
-        "Length" : 35.223399999999998
+        "Length" : 35.223399999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -247,20 +303,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 7,
-        "NAME" : "WS_MA500_Conduits02_05",
+        "Name" : "WS_MA500_Conduits02_05",
         "InNode" : "WS27",
         "OutNode" : "WS28",
         "Level" : 1,
-        "InNodeElev" : 20.600999999999999,
-        "OutNodeEle" : 19.936,
+        "InSurElev" : 23.321000000000002,
+        "InDepth" : 2.7200000000000002,
         "InElev" : 20.600999999999999,
+        "InNodeElev" : 20.600999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.585999999999999,
+        "OutDepth" : 2.2999999999999998,
         "OutElev" : 20.286000000000001,
-        "OutOffset" : 0.34999799999999998,
+        "OutNodeEle" : 19.936,
+        "OutOffset" : 0.34999999999999998,
         "DN" : 0.5,
-        "Length" : 30.608000000000001
+        "Length" : 30.608000000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -279,20 +343,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 8,
-        "NAME" : "WS_BR400_Conduits22_01",
+        "Name" : "WS_BR400_Conduits22_01",
         "InNode" : "WS66",
         "OutNode" : "WS65",
         "Level" : 1,
-        "InNodeElev" : 20.364000000000001,
-        "OutNodeEle" : 17.504000000000001,
+        "InSurElev" : 23.384,
+        "InDepth" : 3.02,
         "InElev" : 20.364000000000001,
+        "InNodeElev" : 20.364000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.384,
+        "OutDepth" : 3.2000000000000002,
         "OutElev" : 20.184000000000001,
+        "OutNodeEle" : 17.504000000000001,
         "OutOffset" : 2.6800000000000002,
         "DN" : 0.40000000000000002,
-        "Length" : 5.8394700000000004
+        "Length" : 5.8394700000000004,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -311,20 +383,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 9,
-        "NAME" : "WS_MA600_Conduits07_03",
+        "Name" : "WS_MA600_Conduits07_03",
         "InNode" : "WS92",
         "OutNode" : "WS93",
         "Level" : 1,
-        "InNodeElev" : 19.838000000000001,
-        "OutNodeEle" : 19.747,
+        "InSurElev" : 23.538,
+        "InDepth" : 3.7000000000000002,
         "InElev" : 19.838000000000001,
+        "InNodeElev" : 19.838000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.466999999999999,
+        "OutDepth" : 3.7200000000000002,
         "OutElev" : 19.747,
+        "OutNodeEle" : 19.747,
         "OutOffset" : 0,
         "DN" : 0.59999999999999998,
-        "Length" : 11.8126
+        "Length" : 11.8126,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -343,20 +423,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 10,
-        "NAME" : "WS_MA500_Conduits04_11",
+        "Name" : "WS_MA500_Conduits04_11",
         "InNode" : "WS57",
         "OutNode" : "WS58",
         "Level" : 1,
-        "InNodeElev" : 18.033000000000001,
-        "OutNodeEle" : 17.946000000000002,
+        "InSurElev" : 22.803000000000001,
+        "InDepth" : 4.7699999999999996,
         "InElev" : 18.033000000000001,
+        "InNodeElev" : 18.033000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.896000000000001,
+        "OutDepth" : 4.9100000000000001,
         "OutElev" : 17.986000000000001,
-        "OutOffset" : 0.040001000000000002,
+        "OutNodeEle" : 17.946000000000002,
+        "OutOffset" : 0.040000000000000001,
         "DN" : 0.5,
-        "Length" : 45.581200000000003
+        "Length" : 45.581200000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -375,20 +463,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 11,
-        "NAME" : "WS_MA500_Conduits04_10",
+        "Name" : "WS_MA500_Conduits04_10",
         "InNode" : "WS54",
         "OutNode" : "WS57",
         "Level" : 1,
-        "InNodeElev" : 18.212,
-        "OutNodeEle" : 18.033000000000001,
+        "InSurElev" : 22.632000000000001,
+        "InDepth" : 4.4199999999999999,
         "InElev" : 18.212,
+        "InNodeElev" : 18.212,
         "InOffset" : 0,
+        "OutSurElev" : 22.803000000000001,
+        "OutDepth" : 4.7599999999999998,
         "OutElev" : 18.042999999999999,
-        "OutOffset" : 0.0099979999999999999,
+        "OutNodeEle" : 18.033000000000001,
+        "OutOffset" : 0.01,
         "DN" : 0.5,
-        "Length" : 42.320900000000002
+        "Length" : 42.320900000000002,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -407,20 +503,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 12,
-        "NAME" : "WS_MA500_Conduits04_07",
+        "Name" : "WS_MA500_Conduits04_07",
         "InNode" : "WS43",
         "OutNode" : "WS52",
         "Level" : 1,
-        "InNodeElev" : 19.178000000000001,
-        "OutNodeEle" : 18.190000000000001,
+        "InSurElev" : 22.388000000000002,
+        "InDepth" : 3.21,
         "InElev" : 19.178000000000001,
+        "InNodeElev" : 19.178000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.390000000000001,
+        "OutDepth" : 3.2000000000000002,
         "OutElev" : 19.190000000000001,
+        "OutNodeEle" : 18.190000000000001,
         "OutOffset" : 1,
         "DN" : 0.5,
-        "Length" : 10.796099999999999
+        "Length" : 10.796099999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -439,20 +543,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 13,
-        "NAME" : "WS_MA500_Conduits04_02",
+        "Name" : "WS_MA500_Conduits04_02",
         "InNode" : "WS29",
         "OutNode" : "WS33",
         "Level" : 1,
-        "InNodeElev" : 19.989000000000001,
-        "OutNodeEle" : 19.693999999999999,
+        "InSurElev" : 22.719000000000001,
+        "InDepth" : 2.73,
         "InElev" : 19.989000000000001,
+        "InNodeElev" : 19.989000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.634,
+        "OutDepth" : 2.9300000000000002,
         "OutElev" : 19.704000000000001,
+        "OutNodeEle" : 19.693999999999999,
         "OutOffset" : 0.01,
         "DN" : 0.5,
-        "Length" : 28.488299999999999
+        "Length" : 28.488299999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -471,20 +583,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 14,
-        "NAME" : "WS_BR400_Conduits14_02",
+        "Name" : "WS_BR400_Conduits14_02",
         "InNode" : "WS37",
         "OutNode" : "WS35",
         "Level" : 1,
-        "InNodeElev" : 20.263999999999999,
-        "OutNodeEle" : 19.734000000000002,
+        "InSurElev" : 22.603999999999999,
+        "InDepth" : 2.3399999999999999,
         "InElev" : 20.263999999999999,
+        "InNodeElev" : 20.263999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.603999999999999,
+        "OutDepth" : 2.6099999999999999,
         "OutElev" : 19.994,
+        "OutNodeEle" : 19.734000000000002,
         "OutOffset" : 0.26000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 5.6159499999999998
+        "Length" : 5.6159499999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -503,20 +623,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 15,
-        "NAME" : "WS_BR400_Conduits12_02",
+        "Name" : "WS_BR400_Conduits12_02",
         "InNode" : "WS31",
         "OutNode" : "WS29",
         "Level" : 1,
-        "InNodeElev" : 20.088999999999999,
-        "OutNodeEle" : 19.989000000000001,
+        "InSurElev" : 22.719000000000001,
+        "InDepth" : 2.6299999999999999,
         "InElev" : 20.088999999999999,
+        "InNodeElev" : 20.088999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.719000000000001,
+        "OutDepth" : 2.6299999999999999,
         "OutElev" : 20.088999999999999,
+        "OutNodeEle" : 19.989000000000001,
         "OutOffset" : 0.10000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 6.4922599999999999
+        "Length" : 6.4922599999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -535,20 +663,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 16,
-        "NAME" : "WS_MA600_Conduits07_09",
+        "Name" : "WS_MA600_Conduits07_09",
         "InNode" : "WS101",
         "OutNode" : "WS104",
         "Level" : 1,
-        "InNodeElev" : 17.381,
-        "OutNodeEle" : 17.381,
+        "InSurElev" : 21.780999999999999,
+        "InDepth" : 4.4000000000000004,
         "InElev" : 17.381,
+        "InNodeElev" : 17.381,
         "InOffset" : 0,
+        "OutSurElev" : 22.331,
+        "OutDepth" : 4.9000000000000004,
         "OutElev" : 17.431000000000001,
-        "OutOffset" : 0.049999000000000002,
+        "OutNodeEle" : 17.381,
+        "OutOffset" : 0.050000000000000003,
         "DN" : 0.59999999999999998,
-        "Length" : 39.424599999999998
+        "Length" : 39.424599999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -567,20 +703,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 17,
-        "NAME" : "WS_MA400_Conduits01_03",
+        "Name" : "WS_MA400_Conduits01_03",
         "InNode" : "WS3",
         "OutNode" : "WS4",
         "Level" : 1,
-        "InNodeElev" : 24.805,
-        "OutNodeEle" : 24.783000000000001,
+        "InSurElev" : 28.555,
+        "InDepth" : 3.6800000000000002,
         "InElev" : 24.875,
+        "InNodeElev" : 24.805,
         "InOffset" : 0.070000000000000007,
+        "OutSurElev" : 29.183,
+        "OutDepth" : 4.2999999999999998,
         "OutElev" : 24.882999999999999,
-        "OutOffset" : 0.099999000000000005,
+        "OutNodeEle" : 24.783000000000001,
+        "OutOffset" : 0.10000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 37.158200000000001
+        "Length" : 37.158200000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -599,20 +743,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 18,
-        "NAME" : "WS_MA400_Conduits01_04",
+        "Name" : "WS_MA400_Conduits01_04",
         "InNode" : "WS4",
         "OutNode" : "WS7",
         "Level" : 1,
-        "InNodeElev" : 24.783000000000001,
-        "OutNodeEle" : 24.885000000000002,
+        "InSurElev" : 29.183,
+        "InDepth" : 4.3200000000000003,
         "InElev" : 24.863,
+        "InNodeElev" : 24.783000000000001,
         "InOffset" : 0.080000000000000002,
+        "OutSurElev" : 29.035,
+        "OutDepth" : 4.1500000000000004,
         "OutElev" : 24.885000000000002,
+        "OutNodeEle" : 24.885000000000002,
         "OutOffset" : 0,
         "DN" : 0.40000000000000002,
-        "Length" : 37.321599999999997
+        "Length" : 37.321599999999997,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -631,20 +783,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 19,
-        "NAME" : "WS_BR400_Conduits02_02",
+        "Name" : "WS_BR400_Conduits02_02",
         "InNode" : "WS12",
         "OutNode" : "WS9",
         "Level" : 1,
-        "InNodeElev" : 25.361000000000001,
-        "OutNodeEle" : 24.370999999999999,
+        "InSurElev" : 28.481000000000002,
+        "InDepth" : 3.1200000000000001,
         "InElev" : 25.361000000000001,
+        "InNodeElev" : 25.361000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 28.481000000000002,
+        "OutDepth" : 3.73,
         "OutElev" : 24.751000000000001,
-        "OutOffset" : 0.37999899999999998,
+        "OutNodeEle" : 24.370999999999999,
+        "OutOffset" : 0.38,
         "DN" : 0.40000000000000002,
-        "Length" : 7.3676300000000001
+        "Length" : 7.3676300000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -663,20 +823,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 20,
-        "NAME" : "WS_MA400_Conduits01_07",
+        "Name" : "WS_MA400_Conduits01_07",
         "InNode" : "WS9",
         "OutNode" : "WS13",
         "Level" : 1,
-        "InNodeElev" : 24.370999999999999,
-        "OutNodeEle" : 24.356000000000002,
+        "InSurElev" : 28.481000000000002,
+        "InDepth" : 4.1100000000000003,
         "InElev" : 24.370999999999999,
+        "InNodeElev" : 24.370999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 27.736000000000001,
+        "OutDepth" : 3.3399999999999999,
         "OutElev" : 24.396000000000001,
-        "OutOffset" : 0.039999,
+        "OutNodeEle" : 24.356000000000002,
+        "OutOffset" : 0.040000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 53.547400000000003
+        "Length" : 53.547400000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -695,20 +863,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 21,
-        "NAME" : "WS_BR400_Conduits09_01",
+        "Name" : "WS_BR400_Conduits09_01",
         "InNode" : "WS26",
         "OutNode" : "WS24",
         "Level" : 1,
-        "InNodeElev" : 21.539000000000001,
-        "OutNodeEle" : 21.029,
+        "InSurElev" : 24.138999999999999,
+        "InDepth" : 2.6000000000000001,
         "InElev" : 21.539000000000001,
+        "InNodeElev" : 21.539000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.138999999999999,
+        "OutDepth" : 2.8599999999999999,
         "OutElev" : 21.279,
+        "OutNodeEle" : 21.029,
         "OutOffset" : 0.25,
         "DN" : 0.40000000000000002,
-        "Length" : 6.59246
+        "Length" : 6.59246,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -727,20 +903,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 22,
-        "NAME" : "WS_BR500_Conduits08_01",
+        "Name" : "WS_BR500_Conduits08_01",
         "InNode" : "WS25",
         "OutNode" : "WS24",
         "Level" : 1,
-        "InNodeElev" : 20.879000000000001,
-        "OutNodeEle" : 21.029,
+        "InSurElev" : 24.138999999999999,
+        "InDepth" : 3.2599999999999998,
         "InElev" : 20.879000000000001,
+        "InNodeElev" : 20.879000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.138999999999999,
+        "OutDepth" : 3.1099999999999999,
         "OutElev" : 21.029,
+        "OutNodeEle" : 21.029,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 8.15991
+        "Length" : 8.15991,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -759,20 +943,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 23,
-        "NAME" : "WS_MA500_Conduits06_05",
+        "Name" : "WS_MA500_Conduits06_05",
         "InNode" : "WS87",
         "OutNode" : "WS88",
         "Level" : 1,
-        "InNodeElev" : 20.504000000000001,
-        "OutNodeEle" : 20.193999999999999,
+        "InSurElev" : 23.844000000000001,
+        "InDepth" : 3.3399999999999999,
         "InElev" : 20.504000000000001,
+        "InNodeElev" : 20.504000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.844000000000001,
+        "OutDepth" : 3.1400000000000001,
         "OutElev" : 20.704000000000001,
+        "OutNodeEle" : 20.193999999999999,
         "OutOffset" : 0.51000000000000001,
         "DN" : 0.5,
-        "Length" : 35.085099999999997
+        "Length" : 35.085099999999997,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -791,20 +983,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 24,
-        "NAME" : "WS_MA500_Conduits04_15",
+        "Name" : "WS_MA500_Conduits04_15",
         "InNode" : "WS64",
         "OutNode" : "WS65",
         "Level" : 1,
-        "InNodeElev" : 17.756,
-        "OutNodeEle" : 17.504000000000001,
+        "InSurElev" : 23.216000000000001,
+        "InDepth" : 5.46,
         "InElev" : 17.756,
+        "InNodeElev" : 17.756,
         "InOffset" : 0,
+        "OutSurElev" : 23.384,
+        "OutDepth" : 5.4900000000000002,
         "OutElev" : 17.893999999999998,
-        "OutOffset" : 0.38999899999999998,
+        "OutNodeEle" : 17.504000000000001,
+        "OutOffset" : 0.39000000000000001,
         "DN" : 0.5,
-        "Length" : 47.407299999999999
+        "Length" : 47.407299999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -823,20 +1023,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 25,
-        "NAME" : "WS_BR400_Conduits21_02",
+        "Name" : "WS_BR400_Conduits21_02",
         "InNode" : "WS63",
         "OutNode" : "WS61",
         "Level" : 1,
-        "InNodeElev" : 18.161999999999999,
-        "OutNodeEle" : 17.692,
+        "InSurElev" : 23.111999999999998,
+        "InDepth" : 4.9500000000000002,
         "InElev" : 18.161999999999999,
+        "InNodeElev" : 18.161999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 23.111999999999998,
+        "OutDepth" : 5.0999999999999996,
         "OutElev" : 18.012,
+        "OutNodeEle" : 17.692,
         "OutOffset" : 0.32000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 14.737299999999999
+        "Length" : 14.737299999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -855,20 +1063,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 26,
-        "NAME" : "WS_MA500_Conduits04_08",
+        "Name" : "WS_MA500_Conduits04_08",
         "InNode" : "WS52",
         "OutNode" : "WS53",
         "Level" : 1,
-        "InNodeElev" : 18.190000000000001,
-        "OutNodeEle" : 18.210000000000001,
+        "InSurElev" : 22.390000000000001,
+        "InDepth" : 4.2000000000000002,
         "InElev" : 18.190000000000001,
+        "InNodeElev" : 18.190000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.510000000000002,
+        "OutDepth" : 4.2999999999999998,
         "OutElev" : 18.210000000000001,
+        "OutNodeEle" : 18.210000000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 42.9788
+        "Length" : 42.9788,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -887,20 +1103,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 27,
-        "NAME" : "WS_BR500_Conduits18_01",
+        "Name" : "WS_BR500_Conduits18_01",
         "InNode" : "WS44",
         "OutNode" : "WS43",
         "Level" : 1,
-        "InNodeElev" : 19.988,
-        "OutNodeEle" : 19.178000000000001,
+        "InSurElev" : 22.388000000000002,
+        "InDepth" : 2.3999999999999999,
         "InElev" : 19.988,
+        "InNodeElev" : 19.988,
         "InOffset" : 0,
+        "OutSurElev" : 22.388000000000002,
+        "OutDepth" : 2.5,
         "OutElev" : 19.888000000000002,
-        "OutOffset" : 0.71000099999999999,
+        "OutNodeEle" : 19.178000000000001,
+        "OutOffset" : 0.70999999999999996,
         "DN" : 0.5,
-        "Length" : 6.28226
+        "Length" : 6.28226,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -919,20 +1143,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 28,
-        "NAME" : "WS_BR300_Conduits13_01",
+        "Name" : "WS_BR300_Conduits13_01",
         "InNode" : "WS34",
         "OutNode" : "WS33",
         "Level" : 1,
-        "InNodeElev" : 19.783999999999999,
-        "OutNodeEle" : 19.693999999999999,
+        "InSurElev" : 22.634,
+        "InDepth" : 2.8500000000000001,
         "InElev" : 19.783999999999999,
+        "InNodeElev" : 19.783999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.634,
+        "OutDepth" : 2.9399999999999999,
         "OutElev" : 19.693999999999999,
+        "OutNodeEle" : 19.693999999999999,
         "OutOffset" : 0,
         "DN" : 0.29999999999999999,
-        "Length" : 14.988300000000001
+        "Length" : 14.988300000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -951,20 +1183,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 29,
-        "NAME" : "WS_MA600_Conduits07_10",
+        "Name" : "WS_MA600_Conduits07_10",
         "InNode" : "WS104",
         "OutNode" : "WS106",
         "Level" : 1,
-        "InNodeElev" : 17.381,
-        "OutNodeEle" : 18.600999999999999,
+        "InSurElev" : 22.331,
+        "InDepth" : 4.1500000000000004,
         "InElev" : 18.181000000000001,
+        "InNodeElev" : 17.381,
         "InOffset" : 0.80000000000000004,
+        "OutSurElev" : 22.850999999999999,
+        "OutDepth" : 4.25,
         "OutElev" : 18.600999999999999,
+        "OutNodeEle" : 18.600999999999999,
         "OutOffset" : 0,
         "DN" : 0.59999999999999998,
-        "Length" : 14.678800000000001
+        "Length" : 14.678800000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -983,20 +1223,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 30,
-        "NAME" : "WS_MA400_Conduits01_01",
+        "Name" : "WS_MA400_Conduits01_01",
         "InNode" : "WS1",
         "OutNode" : "WS2",
         "Level" : 1,
-        "InNodeElev" : 25.631,
-        "OutNodeEle" : 24.914999999999999,
+        "InSurElev" : 28.940999999999999,
+        "InDepth" : 3.3100000000000001,
         "InElev" : 25.631,
+        "InNodeElev" : 25.631,
         "InOffset" : 0,
+        "OutSurElev" : 28.125,
+        "OutDepth" : 3.1800000000000002,
         "OutElev" : 24.945,
-        "OutOffset" : 0.029999000000000001,
+        "OutNodeEle" : 24.914999999999999,
+        "OutOffset" : 0.029999999999999999,
         "DN" : 0.40000000000000002,
-        "Length" : 10.6388
+        "Length" : 10.6388,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1015,20 +1263,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 31,
-        "NAME" : "WS_BR400_Conduits01_02",
+        "Name" : "WS_BR400_Conduits01_02",
         "InNode" : "WS6",
         "OutNode" : "WS4",
         "Level" : 1,
-        "InNodeElev" : 24.582999999999998,
-        "OutNodeEle" : 24.783000000000001,
+        "InSurElev" : 29.183,
+        "InDepth" : 4.5999999999999996,
         "InElev" : 24.582999999999998,
+        "InNodeElev" : 24.582999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 29.183,
+        "OutDepth" : 4.4000000000000004,
         "OutElev" : 24.783000000000001,
+        "OutNodeEle" : 24.783000000000001,
         "OutOffset" : 0,
         "DN" : 0.40000000000000002,
-        "Length" : 10.6594
+        "Length" : 10.6594,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1047,20 +1303,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 32,
-        "NAME" : "WS_MA400_Conduits01_08",
+        "Name" : "WS_MA400_Conduits01_08",
         "InNode" : "WS13",
         "OutNode" : "WS14",
         "Level" : 1,
-        "InNodeElev" : 24.356000000000002,
-        "OutNodeEle" : 23.908000000000001,
+        "InSurElev" : 27.736000000000001,
+        "InDepth" : 3.3799999999999999,
         "InElev" : 24.356000000000002,
+        "InNodeElev" : 24.356000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 27.138000000000002,
+        "OutDepth" : 3.1699999999999999,
         "OutElev" : 23.968,
-        "OutOffset" : 0.059998999999999997,
+        "OutNodeEle" : 23.908000000000001,
+        "OutOffset" : 0.059999999999999998,
         "DN" : 0.40000000000000002,
-        "Length" : 50.716000000000001
+        "Length" : 50.716000000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1079,20 +1343,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 33,
-        "NAME" : "WS_MA600_Conduits07_01",
+        "Name" : "WS_MA600_Conduits07_01",
         "InNode" : "WS88",
         "OutNode" : "WS89",
         "Level" : 1,
-        "InNodeElev" : 20.193999999999999,
-        "OutNodeEle" : 19.84,
+        "InSurElev" : 23.844000000000001,
+        "InDepth" : 3.6499999999999999,
         "InElev" : 20.193999999999999,
+        "InNodeElev" : 20.193999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 23.539999999999999,
+        "OutDepth" : 3.6200000000000001,
         "OutElev" : 19.920000000000002,
+        "OutNodeEle" : 19.84,
         "OutOffset" : 0.080000000000000002,
         "DN" : 0.59999999999999998,
-        "Length" : 31.491499999999998
+        "Length" : 31.491499999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1111,20 +1383,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 34,
-        "NAME" : "WS_MA500_Conduits04_16",
+        "Name" : "WS_MA500_Conduits04_16",
         "InNode" : "WS65",
         "OutNode" : "WS92",
         "Level" : 1,
-        "InNodeElev" : 17.504000000000001,
-        "OutNodeEle" : 17.638000000000002,
+        "InSurElev" : 23.384,
+        "InDepth" : 5.8799999999999999,
         "InElev" : 17.504000000000001,
+        "InNodeElev" : 17.504000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.538,
+        "OutDepth" : 5.9000000000000004,
         "OutElev" : 17.638000000000002,
+        "OutNodeEle" : 17.638000000000002,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 23.725999999999999
+        "Length" : 23.725999999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1143,20 +1423,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 35,
-        "NAME" : "WS_BR400_Conduits21_01",
+        "Name" : "WS_BR400_Conduits21_01",
         "InNode" : "WS62",
         "OutNode" : "WS61",
         "Level" : 1,
-        "InNodeElev" : 19.202000000000002,
-        "OutNodeEle" : 17.692,
+        "InSurElev" : 23.111999999999998,
+        "InDepth" : 3.9100000000000001,
         "InElev" : 19.202000000000002,
+        "InNodeElev" : 19.202000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 23.111999999999998,
+        "OutDepth" : 4.1399999999999997,
         "OutElev" : 18.972000000000001,
+        "OutNodeEle" : 17.692,
         "OutOffset" : 1.28,
         "DN" : 0.40000000000000002,
-        "Length" : 6.3667400000000001
+        "Length" : 6.3667400000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1175,20 +1463,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 36,
-        "NAME" : "WS_MA500_Conduits04_06",
+        "Name" : "WS_MA500_Conduits04_06",
         "InNode" : "WS40",
         "OutNode" : "WS43",
         "Level" : 1,
-        "InNodeElev" : 19.370000000000001,
-        "OutNodeEle" : 19.178000000000001,
+        "InSurElev" : 22.43,
+        "InDepth" : 3.0600000000000001,
         "InElev" : 19.370000000000001,
+        "InNodeElev" : 19.370000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.388000000000002,
+        "OutDepth" : 3.21,
         "OutElev" : 19.178000000000001,
+        "OutNodeEle" : 19.178000000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 40.762500000000003
+        "Length" : 40.762500000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1207,20 +1503,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 37,
-        "NAME" : "WS_BR400_Conduits12_01",
+        "Name" : "WS_BR400_Conduits12_01",
         "InNode" : "WS30",
         "OutNode" : "WS31",
         "Level" : 1,
-        "InNodeElev" : 20.434000000000001,
-        "OutNodeEle" : 20.088999999999999,
+        "InSurElev" : 22.834,
+        "InDepth" : 2.3999999999999999,
         "InElev" : 20.434000000000001,
+        "InNodeElev" : 20.434000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.719000000000001,
+        "OutDepth" : 2.6000000000000001,
         "OutElev" : 20.119,
-        "OutOffset" : 0.029999000000000001,
+        "OutNodeEle" : 20.088999999999999,
+        "OutOffset" : 0.029999999999999999,
         "DN" : 0.40000000000000002,
-        "Length" : 5.6515899999999997
+        "Length" : 5.6515899999999997,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1239,20 +1543,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 38,
-        "NAME" : "WS_MA600_Conduits07_06",
+        "Name" : "WS_MA600_Conduits07_06",
         "InNode" : "WS95",
         "OutNode" : "WS97",
         "Level" : 1,
-        "InNodeElev" : 17.344000000000001,
-        "OutNodeEle" : 17.489000000000001,
+        "InSurElev" : 22.414000000000001,
+        "InDepth" : 5.0700000000000003,
         "InElev" : 17.344000000000001,
+        "InNodeElev" : 17.344000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.149000000000001,
+        "OutDepth" : 4.5999999999999996,
         "OutElev" : 17.548999999999999,
-        "OutOffset" : 0.059998999999999997,
+        "OutNodeEle" : 17.489000000000001,
+        "OutOffset" : 0.059999999999999998,
         "DN" : 0.59999999999999998,
-        "Length" : 38.872599999999998
+        "Length" : 38.872599999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1271,20 +1583,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 39,
-        "NAME" : "WS_MA500_Conduits03_01",
+        "Name" : "WS_MA500_Conduits03_01",
         "InNode" : "WS45",
         "OutNode" : "WS48",
         "Level" : 1,
-        "InNodeElev" : 19.604800000000001,
-        "OutNodeEle" : 19.633700000000001,
+        "InSurElev" : 23.004799999999999,
+        "InDepth" : 3.3999999999999999,
         "InElev" : 19.604800000000001,
+        "InNodeElev" : 19.604800000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.893699999999999,
+        "OutDepth" : 3.2599999999999998,
         "OutElev" : 19.633700000000001,
+        "OutNodeEle" : 19.633700000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 49.992699999999999
+        "Length" : 49.992699999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1303,20 +1623,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 40,
-        "NAME" : "WS_MA400_Conduits01_02",
+        "Name" : "WS_MA400_Conduits01_02",
         "InNode" : "WS2",
         "OutNode" : "WS3",
         "Level" : 1,
-        "InNodeElev" : 24.914999999999999,
-        "OutNodeEle" : 24.805,
+        "InSurElev" : 28.125,
+        "InDepth" : 3.21,
         "InElev" : 24.914999999999999,
+        "InNodeElev" : 24.914999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 28.555,
+        "OutDepth" : 3.75,
         "OutElev" : 24.805,
+        "OutNodeEle" : 24.805,
         "OutOffset" : 0,
         "DN" : 0.40000000000000002,
-        "Length" : 34.328000000000003
+        "Length" : 34.328000000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1335,20 +1663,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 41,
-        "NAME" : "WS_BR400_Conduits01_01",
+        "Name" : "WS_BR400_Conduits01_01",
         "InNode" : "WS5",
         "OutNode" : "WS4",
         "Level" : 1,
-        "InNodeElev" : 22.983000000000001,
-        "OutNodeEle" : 24.783000000000001,
+        "InSurElev" : 29.183,
+        "InDepth" : 6.2000000000000002,
         "InElev" : 22.983000000000001,
+        "InNodeElev" : 22.983000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 29.183,
+        "OutDepth" : 4.0999999999999996,
         "OutElev" : 25.082999999999998,
-        "OutOffset" : 0.29999900000000002,
+        "OutNodeEle" : 24.783000000000001,
+        "OutOffset" : 0.29999999999999999,
         "DN" : 0.40000000000000002,
-        "Length" : 15.639200000000001
+        "Length" : 15.639200000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1367,20 +1703,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 42,
-        "NAME" : "WS_MA400_Conduits01_06",
+        "Name" : "WS_MA400_Conduits01_06",
         "InNode" : "WS8",
         "OutNode" : "WS9",
         "Level" : 1,
-        "InNodeElev" : 24.263000000000002,
-        "OutNodeEle" : 24.370999999999999,
+        "InSurElev" : 28.853000000000002,
+        "InDepth" : 4.5899999999999999,
         "InElev" : 24.263000000000002,
+        "InNodeElev" : 24.263000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 28.481000000000002,
+        "OutDepth" : 4.0999999999999996,
         "OutElev" : 24.381,
+        "OutNodeEle" : 24.370999999999999,
         "OutOffset" : 0.01,
         "DN" : 0.40000000000000002,
-        "Length" : 45.003399999999999
+        "Length" : 45.003399999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1399,20 +1743,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 43,
-        "NAME" : "WS_MA500_Conduits06_02",
+        "Name" : "WS_MA500_Conduits06_02",
         "InNode" : "WS71",
         "OutNode" : "WS74",
         "Level" : 1,
-        "InNodeElev" : 23.728000000000002,
-        "OutNodeEle" : 22.939,
+        "InSurElev" : 27.178000000000001,
+        "InDepth" : 3.4500000000000002,
         "InElev" : 23.728000000000002,
+        "InNodeElev" : 23.728000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 26.638999999999999,
+        "OutDepth" : 3.6000000000000001,
         "OutElev" : 23.039000000000001,
+        "OutNodeEle" : 22.939,
         "OutOffset" : 0.10000000000000001,
         "DN" : 0.5,
-        "Length" : 35.545499999999997
+        "Length" : 35.545499999999997,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1431,20 +1783,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 44,
-        "NAME" : "WS_BR300_Conduits03_01",
+        "Name" : "WS_BR300_Conduits03_01",
         "InNode" : "WS10",
         "OutNode" : "WS11",
         "Level" : 1,
-        "InNodeElev" : 26.875,
-        "OutNodeEle" : 26.161000000000001,
+        "InSurElev" : 28.425000000000001,
+        "InDepth" : 1.55,
         "InElev" : 26.875,
+        "InNodeElev" : 26.875,
         "InOffset" : 0,
+        "OutSurElev" : 28.481000000000002,
+        "OutDepth" : 1.77,
         "OutElev" : 26.710999999999999,
-        "OutOffset" : 0.55000099999999996,
+        "OutNodeEle" : 26.161000000000001,
+        "OutOffset" : 0.55000000000000004,
         "DN" : 0.29999999999999999,
-        "Length" : 12.158200000000001
+        "Length" : 12.158200000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1463,20 +1823,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 45,
-        "NAME" : "WS_MA400_Conduits01_09",
+        "Name" : "WS_MA400_Conduits01_09",
         "InNode" : "WS14",
         "OutNode" : "WS18",
         "Level" : 1,
-        "InNodeElev" : 23.908000000000001,
-        "OutNodeEle" : 23.375,
+        "InSurElev" : 27.138000000000002,
+        "InDepth" : 3.23,
         "InElev" : 23.908000000000001,
+        "InNodeElev" : 23.908000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 26.324999999999999,
+        "OutDepth" : 2.9500000000000002,
         "OutElev" : 23.375,
+        "OutNodeEle" : 23.375,
         "OutOffset" : 0,
         "DN" : 0.40000000000000002,
-        "Length" : 49.590699999999998
+        "Length" : 49.590699999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1495,20 +1863,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 46,
-        "NAME" : "WS_MA400_Conduits05_07",
+        "Name" : "WS_MA400_Conduits05_07",
         "InNode" : "WS79",
         "OutNode" : "WS80",
         "Level" : 1,
-        "InNodeElev" : 23.024999999999999,
-        "OutNodeEle" : 22.972000000000001,
+        "InSurElev" : 25.555,
+        "InDepth" : 2.5299999999999998,
         "InElev" : 23.024999999999999,
+        "InNodeElev" : 23.024999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 25.222000000000001,
+        "OutDepth" : 2.25,
         "OutElev" : 22.972000000000001,
+        "OutNodeEle" : 22.972000000000001,
         "OutOffset" : 0,
         "DN" : 0.40000000000000002,
-        "Length" : 37.164900000000003
+        "Length" : 37.164900000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1527,20 +1903,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 47,
-        "NAME" : "WS_BR300_Conduits28_02",
+        "Name" : "WS_BR300_Conduits28_02",
         "InNode" : "WS91",
         "OutNode" : "WS89",
         "Level" : 1,
-        "InNodeElev" : 19.562000000000001,
-        "OutNodeEle" : 19.84,
+        "InSurElev" : 23.251999999999999,
+        "InDepth" : 3.6899999999999999,
         "InElev" : 19.562000000000001,
+        "InNodeElev" : 19.562000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.539999999999999,
+        "OutDepth" : 3.3999999999999999,
         "OutElev" : 20.140000000000001,
-        "OutOffset" : 0.29999900000000002,
+        "OutNodeEle" : 19.84,
+        "OutOffset" : 0.29999999999999999,
         "DN" : 0.29999999999999999,
-        "Length" : 41.759599999999999
+        "Length" : 41.759599999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1559,20 +1943,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 48,
-        "NAME" : "WS_MA600_Conduits07_04",
+        "Name" : "WS_MA600_Conduits07_04",
         "InNode" : "WS93",
         "OutNode" : "WS94",
         "Level" : 1,
-        "InNodeElev" : 19.747,
-        "OutNodeEle" : 17.699000000000002,
+        "InSurElev" : 23.466999999999999,
+        "InDepth" : 3.7200000000000002,
         "InElev" : 19.747,
+        "InNodeElev" : 19.747,
         "InOffset" : 0,
+        "OutSurElev" : 23.059000000000001,
+        "OutDepth" : 3.5,
         "OutElev" : 19.559000000000001,
+        "OutNodeEle" : 17.699000000000002,
         "OutOffset" : 1.8600000000000001,
         "DN" : 0.59999999999999998,
-        "Length" : 31.292200000000001
+        "Length" : 31.292200000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1591,20 +1983,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 49,
-        "NAME" : "WS_BR400_Conduits20_01",
+        "Name" : "WS_BR400_Conduits20_01",
         "InNode" : "WS60",
         "OutNode" : "WS59",
         "Level" : 1,
-        "InNodeElev" : 19.545999999999999,
-        "OutNodeEle" : 17.876000000000001,
+        "InSurElev" : 23.045999999999999,
+        "InDepth" : 3.5,
         "InElev" : 19.545999999999999,
+        "InNodeElev" : 19.545999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 23.045999999999999,
+        "OutDepth" : 3.8900000000000001,
         "OutElev" : 19.155999999999999,
+        "OutNodeEle" : 17.876000000000001,
         "OutOffset" : 1.28,
         "DN" : 0.40000000000000002,
-        "Length" : 6.7308500000000002
+        "Length" : 6.7308500000000002,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1623,20 +2023,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 50,
-        "NAME" : "WS_MA500_Conduits04_12",
+        "Name" : "WS_MA500_Conduits04_12",
         "InNode" : "WS58",
         "OutNode" : "WS59",
         "Level" : 1,
-        "InNodeElev" : 17.946000000000002,
-        "OutNodeEle" : 17.876000000000001,
+        "InSurElev" : 22.896000000000001,
+        "InDepth" : 4.9500000000000002,
         "InElev" : 17.946000000000002,
+        "InNodeElev" : 17.946000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 23.045999999999999,
+        "OutDepth" : 5.1699999999999999,
         "OutElev" : 17.876000000000001,
+        "OutNodeEle" : 17.876000000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 32.921399999999998
+        "Length" : 32.921399999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1655,20 +2063,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 51,
-        "NAME" : "WS_BR500_Conduits32_01",
+        "Name" : "WS_BR500_Conduits32_01",
         "InNode" : "WS102",
         "OutNode" : "WS103",
         "Level" : 1,
-        "InNodeElev" : 17.954000000000001,
-        "OutNodeEle" : 17.571000000000002,
+        "InSurElev" : 21.943999999999999,
+        "InDepth" : 3.9900000000000002,
         "InElev" : 17.954000000000001,
+        "InNodeElev" : 17.954000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 21.780999999999999,
+        "OutDepth" : 4.21,
         "OutElev" : 17.571000000000002,
+        "OutNodeEle" : 17.571000000000002,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 5.5874899999999998
+        "Length" : 5.5874899999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1687,20 +2103,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 52,
-        "NAME" : "WS_MA600_Conduits07_08",
+        "Name" : "WS_MA600_Conduits07_08",
         "InNode" : "WS99",
         "OutNode" : "WS101",
         "Level" : 1,
-        "InNodeElev" : 17.326000000000001,
-        "OutNodeEle" : 17.381,
+        "InSurElev" : 21.655999999999999,
+        "InDepth" : 4.3300000000000001,
         "InElev" : 17.326000000000001,
+        "InNodeElev" : 17.326000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 21.780999999999999,
+        "OutDepth" : 4.3499999999999996,
         "OutElev" : 17.431000000000001,
-        "OutOffset" : 0.049999000000000002,
+        "OutNodeEle" : 17.381,
+        "OutOffset" : 0.050000000000000003,
         "DN" : 0.59999999999999998,
-        "Length" : 30.752099999999999
+        "Length" : 30.752099999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1719,20 +2143,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 53,
-        "NAME" : "WS_MA600_Conduits07_11",
+        "Name" : "WS_MA600_Conduits07_11",
         "InNode" : "WS106",
         "OutNode" : "WS107",
         "Level" : 1,
-        "InNodeElev" : 18.600999999999999,
-        "OutNodeEle" : 19.352,
+        "InSurElev" : 22.850999999999999,
+        "InDepth" : 2.1499999999999999,
         "InElev" : 20.701000000000001,
+        "InNodeElev" : 18.600999999999999,
         "InOffset" : 2.1000000000000001,
+        "OutSurElev" : 21.282,
+        "OutDepth" : 1.9299999999999999,
         "OutElev" : 19.352,
+        "OutNodeEle" : 19.352,
         "OutOffset" : 0,
         "DN" : 0.59999999999999998,
-        "Length" : 11.8262
+        "Length" : 11.8262,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1751,20 +2183,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 54,
-        "NAME" : "WS_MA400_Conduits01_05",
+        "Name" : "WS_MA400_Conduits01_05",
         "InNode" : "WS7",
         "OutNode" : "WS8",
         "Level" : 1,
-        "InNodeElev" : 24.885000000000002,
-        "OutNodeEle" : 24.263000000000002,
+        "InSurElev" : 29.035,
+        "InDepth" : 4.1100000000000003,
         "InElev" : 24.925000000000001,
+        "InNodeElev" : 24.885000000000002,
         "InOffset" : 0.040000000000000001,
+        "OutSurElev" : 28.853000000000002,
+        "OutDepth" : 4.5599999999999996,
         "OutElev" : 24.292999999999999,
-        "OutOffset" : 0.029999000000000001,
+        "OutNodeEle" : 24.263000000000002,
+        "OutOffset" : 0.029999999999999999,
         "DN" : 0.40000000000000002,
-        "Length" : 37.290599999999998
+        "Length" : 37.290599999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1783,20 +2223,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 55,
-        "NAME" : "WS_BR400_Conduits02_01",
+        "Name" : "WS_BR400_Conduits02_01",
         "InNode" : "WS11",
         "OutNode" : "WS9",
         "Level" : 1,
-        "InNodeElev" : 26.161000000000001,
-        "OutNodeEle" : 24.370999999999999,
+        "InSurElev" : 28.481000000000002,
+        "InDepth" : 2.3199999999999998,
         "InElev" : 26.161000000000001,
+        "InNodeElev" : 26.161000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 28.481000000000002,
+        "OutDepth" : 2.7200000000000002,
         "OutElev" : 25.760999999999999,
+        "OutNodeEle" : 24.370999999999999,
         "OutOffset" : 1.3899999999999999,
         "DN" : 0.40000000000000002,
-        "Length" : 7.7568200000000003
+        "Length" : 7.7568200000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1815,20 +2263,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 56,
-        "NAME" : "WS_BR500_Conduits06_01",
+        "Name" : "WS_BR500_Conduits06_01",
         "InNode" : "WS20",
         "OutNode" : "WS19",
         "Level" : 1,
-        "InNodeElev" : 23.616,
-        "OutNodeEle" : 22.216000000000001,
+        "InSurElev" : 25.616,
+        "InDepth" : 2,
         "InElev" : 23.616,
+        "InNodeElev" : 23.616,
         "InOffset" : 0,
+        "OutSurElev" : 25.616,
+        "OutDepth" : 2.8100000000000001,
         "OutElev" : 22.806000000000001,
+        "OutNodeEle" : 22.216000000000001,
         "OutOffset" : 0.58999999999999997,
         "DN" : 0.5,
-        "Length" : 7.0703500000000004
+        "Length" : 7.0703500000000004,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1847,20 +2303,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 57,
-        "NAME" : "WS_BR300_Conduits07_01",
+        "Name" : "WS_BR300_Conduits07_01",
         "InNode" : "WS22",
         "OutNode" : "WS23",
         "Level" : 1,
-        "InNodeElev" : 24.021999999999998,
-        "OutNodeEle" : 23.952999999999999,
+        "InSurElev" : 24.981999999999999,
+        "InDepth" : 0.95999999999999996,
         "InElev" : 24.021999999999998,
+        "InNodeElev" : 24.021999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 24.952999999999999,
+        "OutDepth" : 1,
         "OutElev" : 23.952999999999999,
+        "OutNodeEle" : 23.952999999999999,
         "OutOffset" : 0,
         "DN" : 0.29999999999999999,
-        "Length" : 13.5336
+        "Length" : 13.5336,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1879,20 +2343,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 58,
-        "NAME" : "WS_BR500_Conduits27_02",
+        "Name" : "WS_BR500_Conduits27_02",
         "InNode" : "WS85",
         "OutNode" : "WS83",
         "Level" : 1,
-        "InNodeElev" : 21.779,
-        "OutNodeEle" : 20.716000000000001,
+        "InSurElev" : 24.879000000000001,
+        "InDepth" : 3.1000000000000001,
         "InElev" : 21.779,
+        "InNodeElev" : 21.779,
         "InOffset" : 0,
+        "OutSurElev" : 24.565999999999999,
+        "OutDepth" : 3.75,
         "OutElev" : 20.815999999999999,
+        "OutNodeEle" : 20.716000000000001,
         "OutOffset" : 0.10000000000000001,
         "DN" : 0.5,
-        "Length" : 20.392199999999999
+        "Length" : 20.392199999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1911,20 +2383,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 59,
-        "NAME" : "WS_MA400_Conduits05_09",
+        "Name" : "WS_MA400_Conduits05_09",
         "InNode" : "WS82",
         "OutNode" : "WS83",
         "Level" : 1,
-        "InNodeElev" : 22.905000000000001,
-        "OutNodeEle" : 20.716000000000001,
+        "InSurElev" : 24.905000000000001,
+        "InDepth" : 2,
         "InElev" : 22.905000000000001,
+        "InNodeElev" : 22.905000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.565999999999999,
+        "OutDepth" : 3.5,
         "OutElev" : 21.065999999999999,
+        "OutNodeEle" : 20.716000000000001,
         "OutOffset" : 0.34999999999999998,
         "DN" : 0.40000000000000002,
-        "Length" : 35.0839
+        "Length" : 35.0839,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1943,20 +2423,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 60,
-        "NAME" : "WS_MA500_Conduits04_14",
+        "Name" : "WS_MA500_Conduits04_14",
         "InNode" : "WS61",
         "OutNode" : "WS64",
         "Level" : 1,
-        "InNodeElev" : 17.692,
-        "OutNodeEle" : 17.756,
+        "InSurElev" : 23.111999999999998,
+        "InDepth" : 5.4199999999999999,
         "InElev" : 17.692,
+        "InNodeElev" : 17.692,
         "InOffset" : 0,
+        "OutSurElev" : 23.216000000000001,
+        "OutDepth" : 5.4500000000000002,
         "OutElev" : 17.765999999999998,
+        "OutNodeEle" : 17.756,
         "OutOffset" : 0.01,
         "DN" : 0.5,
-        "Length" : 37.400500000000001
+        "Length" : 37.400500000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -1975,20 +2463,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 61,
-        "NAME" : "WS_MA500_Conduits04_13",
+        "Name" : "WS_MA500_Conduits04_13",
         "InNode" : "WS59",
         "OutNode" : "WS61",
         "Level" : 1,
-        "InNodeElev" : 17.876000000000001,
-        "OutNodeEle" : 17.692,
+        "InSurElev" : 23.045999999999999,
+        "InDepth" : 5.1600000000000001,
         "InElev" : 17.885999999999999,
+        "InNodeElev" : 17.876000000000001,
         "InOffset" : 0.01,
+        "OutSurElev" : 23.111999999999998,
+        "OutDepth" : 5.4100000000000001,
         "OutElev" : 17.702000000000002,
+        "OutNodeEle" : 17.692,
         "OutOffset" : 0.01,
         "DN" : 0.5,
-        "Length" : 27.377700000000001
+        "Length" : 27.377700000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2007,20 +2503,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 62,
-        "NAME" : "WS_MA500_Conduits04_09",
+        "Name" : "WS_MA500_Conduits04_09",
         "InNode" : "WS53",
         "OutNode" : "WS54",
         "Level" : 1,
-        "InNodeElev" : 18.210000000000001,
-        "OutNodeEle" : 18.212,
+        "InSurElev" : 22.510000000000002,
+        "InDepth" : 4.2999999999999998,
         "InElev" : 18.210000000000001,
+        "InNodeElev" : 18.210000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.632000000000001,
+        "OutDepth" : 4.4199999999999999,
         "OutElev" : 18.212,
+        "OutNodeEle" : 18.212,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 47.575699999999998
+        "Length" : 47.575699999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2039,20 +2543,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 63,
-        "NAME" : "WS_MA500_Conduits04_05",
+        "Name" : "WS_MA500_Conduits04_05",
         "InNode" : "WS38",
         "OutNode" : "WS40",
         "Level" : 1,
-        "InNodeElev" : 19.681999999999999,
-        "OutNodeEle" : 19.370000000000001,
+        "InSurElev" : 22.481999999999999,
+        "InDepth" : 2.7999999999999998,
         "InElev" : 19.681999999999999,
+        "InNodeElev" : 19.681999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.43,
+        "OutDepth" : 3,
         "OutElev" : 19.43,
-        "OutOffset" : 0.059998999999999997,
+        "OutNodeEle" : 19.370000000000001,
+        "OutOffset" : 0.059999999999999998,
         "DN" : 0.5,
-        "Length" : 20.7195
+        "Length" : 20.7195,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2071,20 +2583,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 64,
-        "NAME" : "WS_MA500_Conduits04_03",
+        "Name" : "WS_MA500_Conduits04_03",
         "InNode" : "WS33",
         "OutNode" : "WS35",
         "Level" : 1,
-        "InNodeElev" : 19.693999999999999,
-        "OutNodeEle" : 19.734000000000002,
+        "InSurElev" : 22.634,
+        "InDepth" : 2.9399999999999999,
         "InElev" : 19.693999999999999,
+        "InNodeElev" : 19.693999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.603999999999999,
+        "OutDepth" : 2.8300000000000001,
         "OutElev" : 19.774000000000001,
-        "OutOffset" : 0.040001000000000002,
+        "OutNodeEle" : 19.734000000000002,
+        "OutOffset" : 0.040000000000000001,
         "DN" : 0.5,
-        "Length" : 10.789
+        "Length" : 10.789,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2103,20 +2623,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 65,
-        "NAME" : "WS_BR500_Conduits11_01",
+        "Name" : "WS_BR500_Conduits11_01",
         "InNode" : "WS50",
         "OutNode" : "WS49",
         "Level" : 1,
-        "InNodeElev" : 19.567699999999999,
-        "OutNodeEle" : 19.18,
+        "InSurElev" : 22.977699999999999,
+        "InDepth" : 3.4100000000000001,
         "InElev" : 19.567699999999999,
+        "InNodeElev" : 19.567699999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.390000000000001,
+        "OutDepth" : 3.1699999999999999,
         "OutElev" : 19.219999999999999,
-        "OutOffset" : 0.039999,
+        "OutNodeEle" : 19.18,
+        "OutOffset" : 0.040000000000000001,
         "DN" : 0.5,
-        "Length" : 14.6381
+        "Length" : 14.6381,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2135,20 +2663,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 66,
-        "NAME" : "WS_MA500_Conduits03_02",
+        "Name" : "WS_MA500_Conduits03_02",
         "InNode" : "WS48",
         "OutNode" : "WS49",
         "Level" : 1,
-        "InNodeElev" : 19.633700000000001,
-        "OutNodeEle" : 19.18,
+        "InSurElev" : 22.893699999999999,
+        "InDepth" : 3.21,
         "InElev" : 19.683700000000002,
+        "InNodeElev" : 19.633700000000001,
         "InOffset" : 0.050000000000000003,
+        "OutSurElev" : 22.390000000000001,
+        "OutDepth" : 3.21,
         "OutElev" : 19.18,
+        "OutNodeEle" : 19.18,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 51.388100000000001
+        "Length" : 51.388100000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2167,20 +2703,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 67,
-        "NAME" : "WS_BR500_Conduits10_02",
+        "Name" : "WS_BR500_Conduits10_02",
         "InNode" : "WS47",
         "OutNode" : "WS45",
         "Level" : 1,
-        "InNodeElev" : 20.091899999999999,
-        "OutNodeEle" : 19.604800000000001,
+        "InSurElev" : 23.601900000000001,
+        "InDepth" : 3.5099999999999998,
         "InElev" : 20.091899999999999,
+        "InNodeElev" : 20.091899999999999,
         "InOffset" : 0,
+        "OutSurElev" : 23.004799999999999,
+        "OutDepth" : 3.3999999999999999,
         "OutElev" : 19.604800000000001,
+        "OutNodeEle" : 19.604800000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 9.0134500000000006
+        "Length" : 9.0134500000000006,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2199,20 +2743,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 68,
-        "NAME" : "WS_BR500_Conduits31_01",
+        "Name" : "WS_BR500_Conduits31_01",
         "InNode" : "WS100",
         "OutNode" : "WS99",
         "Level" : 1,
-        "InNodeElev" : 18.835999999999999,
-        "OutNodeEle" : 17.326000000000001,
+        "InSurElev" : 21.655999999999999,
+        "InDepth" : 2.8199999999999998,
         "InElev" : 18.835999999999999,
+        "InNodeElev" : 18.835999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 21.655999999999999,
+        "OutDepth" : 4.1399999999999997,
         "OutElev" : 17.515999999999998,
-        "OutOffset" : 0.190001,
+        "OutNodeEle" : 17.326000000000001,
+        "OutOffset" : 0.19,
         "DN" : 0.5,
-        "Length" : 11.795400000000001
+        "Length" : 11.795400000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2231,20 +2783,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 69,
-        "NAME" : "WS_MA400_Conduits05_03",
+        "Name" : "WS_MA400_Conduits05_03",
         "InNode" : "WS69",
         "OutNode" : "WS70",
         "Level" : 1,
-        "InNodeElev" : 24.975999999999999,
-        "OutNodeEle" : 25.234999999999999,
+        "InSurElev" : 28.076000000000001,
+        "InDepth" : 3.1000000000000001,
         "InElev" : 24.975999999999999,
+        "InNodeElev" : 24.975999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 27.635000000000002,
+        "OutDepth" : 2.3799999999999999,
         "OutElev" : 25.254999999999999,
-        "OutOffset" : 0.019998999999999999,
+        "OutNodeEle" : 25.234999999999999,
+        "OutOffset" : 0.02,
         "DN" : 0.40000000000000002,
-        "Length" : 33.961399999999998
+        "Length" : 33.961399999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2263,20 +2823,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 70,
-        "NAME" : "WS_BR600_Conduits24_01",
+        "Name" : "WS_BR600_Conduits24_01",
         "InNode" : "WS77",
         "OutNode" : "WS76",
         "Level" : 1,
-        "InNodeElev" : 23.765000000000001,
-        "OutNodeEle" : 23.248999999999999,
+        "InSurElev" : 26.414999999999999,
+        "InDepth" : 2.6499999999999999,
         "InElev" : 23.765000000000001,
+        "InNodeElev" : 23.765000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 25.949000000000002,
+        "OutDepth" : 2.5699999999999998,
         "OutElev" : 23.379000000000001,
-        "OutOffset" : 0.129999,
+        "OutNodeEle" : 23.248999999999999,
+        "OutOffset" : 0.13,
         "DN" : 0.59999999999999998,
-        "Length" : 12.088100000000001
+        "Length" : 12.088100000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2295,20 +2863,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 71,
-        "NAME" : "WS_BR400_Conduits04_02",
+        "Name" : "WS_BR400_Conduits04_02",
         "InNode" : "WS16",
         "OutNode" : "WS14",
         "Level" : 1,
-        "InNodeElev" : 24.128,
-        "OutNodeEle" : 23.908000000000001,
+        "InSurElev" : 27.138000000000002,
+        "InDepth" : 3.0099999999999998,
         "InElev" : 24.128,
+        "InNodeElev" : 24.128,
         "InOffset" : 0,
+        "OutSurElev" : 27.138000000000002,
+        "OutDepth" : 2.8199999999999998,
         "OutElev" : 24.318000000000001,
+        "OutNodeEle" : 23.908000000000001,
         "OutOffset" : 0.40999999999999998,
         "DN" : 0.40000000000000002,
-        "Length" : 6.9788600000000001
+        "Length" : 6.9788600000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2327,20 +2903,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 72,
-        "NAME" : "WS_BR500_Conduits27_01",
+        "Name" : "WS_BR500_Conduits27_01",
         "InNode" : "WS84",
         "OutNode" : "WS83",
         "Level" : 1,
-        "InNodeElev" : 21.701000000000001,
-        "OutNodeEle" : 20.716000000000001,
+        "InSurElev" : 24.800999999999998,
+        "InDepth" : 3.1000000000000001,
         "InElev" : 21.701000000000001,
+        "InNodeElev" : 21.701000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.565999999999999,
+        "OutDepth" : 3.75,
         "OutElev" : 20.815999999999999,
+        "OutNodeEle" : 20.716000000000001,
         "OutOffset" : 0.10000000000000001,
         "DN" : 0.5,
-        "Length" : 12.385999999999999
+        "Length" : 12.385999999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2359,20 +2943,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 73,
-        "NAME" : "WS_BR400_Conduits19_01",
+        "Name" : "WS_BR400_Conduits19_01",
         "InNode" : "WS55",
         "OutNode" : "WS54",
         "Level" : 1,
-        "InNodeElev" : 18.821999999999999,
-        "OutNodeEle" : 18.212,
+        "InSurElev" : 22.632000000000001,
+        "InDepth" : 3.8100000000000001,
         "InElev" : 18.821999999999999,
+        "InNodeElev" : 18.821999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.632000000000001,
+        "OutDepth" : 3.9100000000000001,
         "OutElev" : 18.722000000000001,
+        "OutNodeEle" : 18.212,
         "OutOffset" : 0.51000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 5.9825200000000001
+        "Length" : 5.9825200000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2391,20 +2983,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 74,
-        "NAME" : "WS_BR500_Conduits16_01",
+        "Name" : "WS_BR500_Conduits16_01",
         "InNode" : "WS41",
         "OutNode" : "WS40",
         "Level" : 1,
-        "InNodeElev" : 20.300000000000001,
-        "OutNodeEle" : 19.370000000000001,
+        "InSurElev" : 22.43,
+        "InDepth" : 2.1299999999999999,
         "InElev" : 20.300000000000001,
+        "InNodeElev" : 20.300000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.43,
+        "OutDepth" : 2.2000000000000002,
         "OutElev" : 20.23,
-        "OutOffset" : 0.85999899999999996,
+        "OutNodeEle" : 19.370000000000001,
+        "OutOffset" : 0.85999999999999999,
         "DN" : 0.5,
-        "Length" : 6.5104800000000003
+        "Length" : 6.5104800000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2423,20 +3023,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 75,
-        "NAME" : "WS_BR400_Conduits14_01",
+        "Name" : "WS_BR400_Conduits14_01",
         "InNode" : "WS36",
         "OutNode" : "WS37",
         "Level" : 1,
-        "InNodeElev" : 21.341000000000001,
-        "OutNodeEle" : 20.263999999999999,
+        "InSurElev" : 22.541,
+        "InDepth" : 1.2,
         "InElev" : 21.341000000000001,
+        "InNodeElev" : 21.341000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.603999999999999,
+        "OutDepth" : 1.7,
         "OutElev" : 20.904,
-        "OutOffset" : 0.63999899999999998,
+        "OutNodeEle" : 20.263999999999999,
+        "OutOffset" : 0.64000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 8.0605200000000004
+        "Length" : 8.0605200000000004,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2455,20 +3063,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 76,
-        "NAME" : "WS_MA500_Conduits04_01",
+        "Name" : "WS_MA500_Conduits04_01",
         "InNode" : "WS32",
         "OutNode" : "WS29",
         "Level" : 1,
-        "InNodeElev" : 20.012,
-        "OutNodeEle" : 19.989000000000001,
+        "InSurElev" : 22.611999999999998,
+        "InDepth" : 2.6000000000000001,
         "InElev" : 20.012,
+        "InNodeElev" : 20.012,
         "InOffset" : 0,
+        "OutSurElev" : 22.719000000000001,
+        "OutDepth" : 2.6499999999999999,
         "OutElev" : 20.068999999999999,
+        "OutNodeEle" : 19.989000000000001,
         "OutOffset" : 0.080000000000000002,
         "DN" : 0.5,
-        "Length" : 10.7667
+        "Length" : 10.7667,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2487,20 +3103,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 77,
-        "NAME" : "WS_BR300_Conduits29_01",
+        "Name" : "WS_BR300_Conduits29_01",
         "InNode" : "WS96",
         "OutNode" : "WS95",
         "Level" : 1,
-        "InNodeElev" : 19.154,
-        "OutNodeEle" : 17.344000000000001,
+        "InSurElev" : 22.414000000000001,
+        "InDepth" : 3.2599999999999998,
         "InElev" : 19.154,
+        "InNodeElev" : 19.154,
         "InOffset" : 0,
+        "OutSurElev" : 22.414000000000001,
+        "OutDepth" : 3.2200000000000002,
         "OutElev" : 19.193999999999999,
+        "OutNodeEle" : 17.344000000000001,
         "OutOffset" : 1.8500000000000001,
         "DN" : 0.29999999999999999,
-        "Length" : 12.0793
+        "Length" : 12.0793,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2519,20 +3143,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 78,
-        "NAME" : "WS_BR500_Conduits10_01",
+        "Name" : "WS_BR500_Conduits10_01",
         "InNode" : "WS46",
         "OutNode" : "WS45",
         "Level" : 1,
-        "InNodeElev" : 20.035,
-        "OutNodeEle" : 19.604800000000001,
+        "InSurElev" : 23.585000000000001,
+        "InDepth" : 3.5499999999999998,
         "InElev" : 20.035,
+        "InNodeElev" : 20.035,
         "InOffset" : 0,
+        "OutSurElev" : 23.004799999999999,
+        "OutDepth" : 3.3999999999999999,
         "OutElev" : 19.604800000000001,
+        "OutNodeEle" : 19.604800000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 12.382999999999999
+        "Length" : 12.382999999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2551,20 +3183,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 79,
-        "NAME" : "WS_BR500_Conduits23_02",
+        "Name" : "WS_BR500_Conduits23_02",
         "InNode" : "WS73",
         "OutNode" : "WS71",
         "Level" : 1,
-        "InNodeElev" : 24.306000000000001,
-        "OutNodeEle" : 23.728000000000002,
+        "InSurElev" : 27.506,
+        "InDepth" : 3.2000000000000002,
         "InElev" : 24.306000000000001,
+        "InNodeElev" : 24.306000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 27.178000000000001,
+        "OutDepth" : 3.3700000000000001,
         "OutElev" : 23.808,
+        "OutNodeEle" : 23.728000000000002,
         "OutOffset" : 0.080000000000000002,
         "DN" : 0.5,
-        "Length" : 19.641200000000001
+        "Length" : 19.641200000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2583,20 +3223,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 80,
-        "NAME" : "WS_MA500_Conduits02_01",
+        "Name" : "WS_MA500_Conduits02_01",
         "InNode" : "WS17",
         "OutNode" : "WS19",
         "Level" : 1,
-        "InNodeElev" : 22.664999999999999,
-        "OutNodeEle" : 22.216000000000001,
+        "InSurElev" : 26.324999999999999,
+        "InDepth" : 3.6600000000000001,
         "InElev" : 22.664999999999999,
+        "InNodeElev" : 22.664999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 25.616,
+        "OutDepth" : 3.21,
         "OutElev" : 22.405999999999999,
-        "OutOffset" : 0.190001,
+        "OutNodeEle" : 22.216000000000001,
+        "OutOffset" : 0.19,
         "DN" : 0.5,
-        "Length" : 50.952399999999997
+        "Length" : 50.952399999999997,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2615,20 +3263,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 81,
-        "NAME" : "WS_MA500_Conduits06_03",
+        "Name" : "WS_MA500_Conduits06_03",
         "InNode" : "WS83",
         "OutNode" : "WS86",
         "Level" : 1,
-        "InNodeElev" : 20.716000000000001,
-        "OutNodeEle" : 20.547000000000001,
+        "InSurElev" : 24.565999999999999,
+        "InDepth" : 3.8500000000000001,
         "InElev" : 20.716000000000001,
+        "InNodeElev" : 20.716000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.167000000000002,
+        "OutDepth" : 3.6000000000000001,
         "OutElev" : 20.567,
-        "OutOffset" : 0.019998999999999999,
+        "OutNodeEle" : 20.547000000000001,
+        "OutOffset" : 0.02,
         "DN" : 0.5,
-        "Length" : 35.343699999999998
+        "Length" : 35.343699999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2647,20 +3303,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 82,
-        "NAME" : "WS_MA500_Conduits02_04",
+        "Name" : "WS_MA500_Conduits02_04",
         "InNode" : "WS24",
         "OutNode" : "WS27",
         "Level" : 1,
-        "InNodeElev" : 21.029,
-        "OutNodeEle" : 20.600999999999999,
+        "InSurElev" : 24.138999999999999,
+        "InDepth" : 3.1099999999999999,
         "InElev" : 21.029,
+        "InNodeElev" : 21.029,
         "InOffset" : 0,
+        "OutSurElev" : 23.321000000000002,
+        "OutDepth" : 2.6499999999999999,
         "OutElev" : 20.670999999999999,
+        "OutNodeEle" : 20.600999999999999,
         "OutOffset" : 0.070000000000000007,
         "DN" : 0.5,
-        "Length" : 50.720599999999997
+        "Length" : 50.720599999999997,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2679,20 +3343,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 83,
-        "NAME" : "WS_BR300_Conduits28_01",
+        "Name" : "WS_BR300_Conduits28_01",
         "InNode" : "WS90",
         "OutNode" : "WS91",
         "Level" : 1,
-        "InNodeElev" : 19.609000000000002,
-        "OutNodeEle" : 19.562000000000001,
+        "InSurElev" : 23.048999999999999,
+        "InDepth" : 3.4399999999999999,
         "InElev" : 19.609000000000002,
+        "InNodeElev" : 19.609000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 23.251999999999999,
+        "OutDepth" : 3.6899999999999999,
         "OutElev" : 19.562000000000001,
+        "OutNodeEle" : 19.562000000000001,
         "OutOffset" : 0,
         "DN" : 0.29999999999999999,
-        "Length" : 35.8673
+        "Length" : 35.8673,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2711,20 +3383,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 84,
-        "NAME" : "WS_BR400_Conduits19_02",
+        "Name" : "WS_BR400_Conduits19_02",
         "InNode" : "WS56",
         "OutNode" : "WS54",
         "Level" : 1,
-        "InNodeElev" : 19.242000000000001,
-        "OutNodeEle" : 18.212,
+        "InSurElev" : 22.632000000000001,
+        "InDepth" : 3.3900000000000001,
         "InElev" : 19.242000000000001,
+        "InNodeElev" : 19.242000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.632000000000001,
+        "OutDepth" : 3.5,
         "OutElev" : 19.132000000000001,
+        "OutNodeEle" : 18.212,
         "OutOffset" : 0.92000000000000004,
         "DN" : 0.40000000000000002,
-        "Length" : 15.823399999999999
+        "Length" : 15.823399999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2743,20 +3423,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 85,
-        "NAME" : "WS_BR500_Conduits15_01",
+        "Name" : "WS_BR500_Conduits15_01",
         "InNode" : "WS39",
         "OutNode" : "WS38",
         "Level" : 1,
-        "InNodeElev" : 20.032,
-        "OutNodeEle" : 19.681999999999999,
+        "InSurElev" : 22.481999999999999,
+        "InDepth" : 2.4500000000000002,
         "InElev" : 20.032,
+        "InNodeElev" : 20.032,
         "InOffset" : 0,
+        "OutSurElev" : 22.481999999999999,
+        "OutDepth" : 2.4500000000000002,
         "OutElev" : 20.032,
+        "OutNodeEle" : 19.681999999999999,
         "OutOffset" : 0.34999999999999998,
         "DN" : 0.5,
-        "Length" : 6.7137700000000002
+        "Length" : 6.7137700000000002,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2775,20 +3463,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 86,
-        "NAME" : "WS_BR500_Conduits30_01",
+        "Name" : "WS_BR500_Conduits30_01",
         "InNode" : "WS98",
         "OutNode" : "WS97",
         "Level" : 1,
-        "InNodeElev" : 17.879000000000001,
-        "OutNodeEle" : 17.489000000000001,
+        "InSurElev" : 22.149000000000001,
+        "InDepth" : 4.2699999999999996,
         "InElev" : 17.879000000000001,
+        "InNodeElev" : 17.879000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.149000000000001,
+        "OutDepth" : 4.5800000000000001,
         "OutElev" : 17.568999999999999,
+        "OutNodeEle" : 17.489000000000001,
         "OutOffset" : 0.080000000000000002,
         "DN" : 0.5,
-        "Length" : 10.875999999999999
+        "Length" : 10.875999999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2807,20 +3503,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 87,
-        "NAME" : "WS_BR500_Conduits33_01",
+        "Name" : "WS_BR500_Conduits33_01",
         "InNode" : "WS105",
         "OutNode" : "WS104",
         "Level" : 1,
-        "InNodeElev" : 16.331,
-        "OutNodeEle" : 17.381,
+        "InSurElev" : 22.331,
+        "InDepth" : 6,
         "InElev" : 16.331,
+        "InNodeElev" : 16.331,
         "InOffset" : 0,
+        "OutSurElev" : 22.331,
+        "OutDepth" : 4.9500000000000002,
         "OutElev" : 17.381,
+        "OutNodeEle" : 17.381,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 25.423999999999999
+        "Length" : 25.423999999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2839,20 +3543,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 88,
-        "NAME" : "WS_MA500_Conduits06_01",
+        "Name" : "WS_MA500_Conduits06_01",
         "InNode" : "WS70",
         "OutNode" : "WS71",
         "Level" : 1,
-        "InNodeElev" : 25.234999999999999,
-        "OutNodeEle" : 23.728000000000002,
+        "InSurElev" : 27.635000000000002,
+        "InDepth" : 2.3999999999999999,
         "InElev" : 25.234999999999999,
+        "InNodeElev" : 25.234999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 27.178000000000001,
+        "OutDepth" : 2.6000000000000001,
         "OutElev" : 24.577999999999999,
-        "OutOffset" : 0.84999800000000003,
+        "OutNodeEle" : 23.728000000000002,
+        "OutOffset" : 0.84999999999999998,
         "DN" : 0.5,
-        "Length" : 35.744300000000003
+        "Length" : 35.744300000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2871,20 +3583,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 89,
-        "NAME" : "WS_BR500_Conduits23_01",
+        "Name" : "WS_BR500_Conduits23_01",
         "InNode" : "WS72",
         "OutNode" : "WS71",
         "Level" : 1,
-        "InNodeElev" : 24.712,
-        "OutNodeEle" : 23.728000000000002,
+        "InSurElev" : 27.782,
+        "InDepth" : 3.0699999999999998,
         "InElev" : 24.712,
+        "InNodeElev" : 24.712,
         "InOffset" : 0,
+        "OutSurElev" : 27.178000000000001,
+        "OutDepth" : 3.3599999999999999,
         "OutElev" : 23.818000000000001,
+        "OutNodeEle" : 23.728000000000002,
         "OutOffset" : 0.089999999999999997,
         "DN" : 0.5,
-        "Length" : 10.9834
+        "Length" : 10.9834,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2903,20 +3623,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 90,
-        "NAME" : "WS_MA400_Conduits05_06",
+        "Name" : "WS_MA400_Conduits05_06",
         "InNode" : "WS76",
         "OutNode" : "WS79",
         "Level" : 1,
-        "InNodeElev" : 23.248999999999999,
-        "OutNodeEle" : 23.024999999999999,
+        "InSurElev" : 25.949000000000002,
+        "InDepth" : 2.7000000000000002,
         "InElev" : 23.248999999999999,
+        "InNodeElev" : 23.248999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 25.555,
+        "OutDepth" : 2.46,
         "OutElev" : 23.094999999999999,
+        "OutNodeEle" : 23.024999999999999,
         "OutOffset" : 0.070000000000000007,
         "DN" : 0.40000000000000002,
-        "Length" : 34.999899999999997
+        "Length" : 34.999899999999997,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2935,20 +3663,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 91,
-        "NAME" : "WS_BR400_Conduits04_01",
+        "Name" : "WS_BR400_Conduits04_01",
         "InNode" : "WS15",
         "OutNode" : "WS14",
         "Level" : 1,
-        "InNodeElev" : 25.257999999999999,
-        "OutNodeEle" : 23.908000000000001,
+        "InSurElev" : 27.138000000000002,
+        "InDepth" : 1.8799999999999999,
         "InElev" : 25.257999999999999,
+        "InNodeElev" : 25.257999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 27.138000000000002,
+        "OutDepth" : 2.0499999999999998,
         "OutElev" : 25.088000000000001,
+        "OutNodeEle" : 23.908000000000001,
         "OutOffset" : 1.1799999999999999,
         "DN" : 0.40000000000000002,
-        "Length" : 7.6633300000000002
+        "Length" : 7.6633300000000002,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2967,20 +3703,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 92,
-        "NAME" : "WS_BR300_Conduits26_01",
+        "Name" : "WS_BR300_Conduits26_01",
         "InNode" : "WS81",
         "OutNode" : "WS80",
         "Level" : 1,
-        "InNodeElev" : 24.395,
-        "OutNodeEle" : 22.972000000000001,
+        "InSurElev" : 25.785,
+        "InDepth" : 1.3899999999999999,
         "InElev" : 24.395,
+        "InNodeElev" : 24.395,
         "InOffset" : 0,
+        "OutSurElev" : 25.222000000000001,
+        "OutDepth" : 1.95,
         "OutElev" : 23.271999999999998,
-        "OutOffset" : 0.29999900000000002,
+        "OutNodeEle" : 22.972000000000001,
+        "OutOffset" : 0.29999999999999999,
         "DN" : 0.29999999999999999,
-        "Length" : 19.542899999999999
+        "Length" : 19.542899999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -2999,20 +3743,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 93,
-        "NAME" : "WS_BR500_Conduits05_01",
+        "Name" : "WS_BR500_Conduits05_01",
         "InNode" : "WS18",
         "OutNode" : "WS17",
         "Level" : 1,
-        "InNodeElev" : 23.375,
-        "OutNodeEle" : 22.664999999999999,
+        "InSurElev" : 26.324999999999999,
+        "InDepth" : 2.3999999999999999,
         "InElev" : 23.925000000000001,
+        "InNodeElev" : 23.375,
         "InOffset" : 0.55000000000000004,
+        "OutSurElev" : 26.324999999999999,
+        "OutDepth" : 2.5299999999999998,
         "OutElev" : 23.795000000000002,
+        "OutNodeEle" : 22.664999999999999,
         "OutOffset" : 1.1299999999999999,
         "DN" : 0.5,
-        "Length" : 6.0602999999999998
+        "Length" : 6.0602999999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3031,20 +3783,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 94,
-        "NAME" : "WS_BR300_Conduits07_02",
+        "Name" : "WS_BR300_Conduits07_02",
         "InNode" : "WS23",
         "OutNode" : "WS21",
         "Level" : 1,
-        "InNodeElev" : 23.952999999999999,
-        "OutNodeEle" : 21.882999999999999,
+        "InSurElev" : 24.952999999999999,
+        "InDepth" : 1,
         "InElev" : 23.952999999999999,
+        "InNodeElev" : 23.952999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 24.952999999999999,
+        "OutDepth" : 3.0699999999999998,
         "OutElev" : 21.882999999999999,
+        "OutNodeEle" : 21.882999999999999,
         "OutOffset" : 0,
         "DN" : 0.29999999999999999,
-        "Length" : 7.8336600000000001
+        "Length" : 7.8336600000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3063,20 +3823,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 95,
-        "NAME" : "WS_MA500_Conduits02_03",
+        "Name" : "WS_MA500_Conduits02_03",
         "InNode" : "WS21",
         "OutNode" : "WS24",
         "Level" : 1,
-        "InNodeElev" : 21.882999999999999,
-        "OutNodeEle" : 21.029,
+        "InSurElev" : 24.952999999999999,
+        "InDepth" : 3.0699999999999998,
         "InElev" : 21.882999999999999,
+        "InNodeElev" : 21.882999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 24.138999999999999,
+        "OutDepth" : 3.1000000000000001,
         "OutElev" : 21.039000000000001,
+        "OutNodeEle" : 21.029,
         "OutOffset" : 0.01,
         "DN" : 0.5,
-        "Length" : 52.364899999999999
+        "Length" : 52.364899999999999,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3095,20 +3863,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 96,
-        "NAME" : "WS_MA500_Conduits02_06",
+        "Name" : "WS_MA500_Conduits02_06",
         "InNode" : "WS28",
         "OutNode" : "WS52",
         "Level" : 1,
-        "InNodeElev" : 19.936,
-        "OutNodeEle" : 18.190000000000001,
+        "InSurElev" : 22.585999999999999,
+        "InDepth" : 2.6499999999999999,
         "InElev" : 19.936,
+        "InNodeElev" : 19.936,
         "InOffset" : 0,
+        "OutSurElev" : 22.390000000000001,
+        "OutDepth" : 3.04,
         "OutElev" : 19.350000000000001,
+        "OutNodeEle" : 18.190000000000001,
         "OutOffset" : 1.1599999999999999,
         "DN" : 0.5,
-        "Length" : 29.0655
+        "Length" : 29.0655,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3127,20 +3903,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 97,
-        "NAME" : "WS_MA600_Conduits07_02",
+        "Name" : "WS_MA600_Conduits07_02",
         "InNode" : "WS89",
         "OutNode" : "WS92",
         "Level" : 1,
-        "InNodeElev" : 19.562000000000001,
-        "OutNodeEle" : 17.638000000000002,
+        "InSurElev" : 23.539999999999999,
+        "InDepth" : 3.7000000000000002,
         "InElev" : 19.84,
+        "InNodeElev" : 19.562000000000001,
         "InOffset" : 0.27800000000000002,
+        "OutSurElev" : 23.538,
+        "OutDepth" : 3.7000000000000002,
         "OutElev" : 19.838000000000001,
+        "OutNodeEle" : 17.638000000000002,
         "OutOffset" : 2.2000000000000002,
         "DN" : 0.59999999999999998,
-        "Length" : 6.6724600000000001
+        "Length" : 6.6724600000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3159,20 +3943,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 98,
-        "NAME" : "WS_MA500_Conduits03_03",
+        "Name" : "WS_MA500_Conduits03_03",
         "InNode" : "WS49",
         "OutNode" : "WS52",
         "Level" : 1,
-        "InNodeElev" : 19.18,
-        "OutNodeEle" : 18.190000000000001,
+        "InSurElev" : 22.390000000000001,
+        "InDepth" : 3.21,
         "InElev" : 19.18,
+        "InNodeElev" : 19.18,
         "InOffset" : 0,
+        "OutSurElev" : 22.390000000000001,
+        "OutDepth" : 3.2999999999999998,
         "OutElev" : 19.09,
+        "OutNodeEle" : 18.190000000000001,
         "OutOffset" : 0.90000000000000002,
         "DN" : 0.5,
-        "Length" : 63.350000000000001
+        "Length" : 63.350000000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3191,20 +3983,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 99,
-        "NAME" : "WS_MA500_Conduits04_04",
+        "Name" : "WS_MA500_Conduits04_04",
         "InNode" : "WS35",
         "OutNode" : "WS38",
         "Level" : 1,
-        "InNodeElev" : 19.734000000000002,
-        "OutNodeEle" : 19.681999999999999,
+        "InSurElev" : 22.603999999999999,
+        "InDepth" : 2.8700000000000001,
         "InElev" : 19.734000000000002,
+        "InNodeElev" : 19.734000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 22.481999999999999,
+        "OutDepth" : 2.7799999999999998,
         "OutElev" : 19.702000000000002,
-        "OutOffset" : 0.020001000000000001,
+        "OutNodeEle" : 19.681999999999999,
+        "OutOffset" : 0.02,
         "DN" : 0.5,
-        "Length" : 46.149500000000003
+        "Length" : 46.149500000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3223,20 +4023,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 100,
-        "NAME" : "WS_BR400_Conduits17_01",
+        "Name" : "WS_BR400_Conduits17_01",
         "InNode" : "WS42",
         "OutNode" : "WS40",
         "Level" : 1,
-        "InNodeElev" : 19.530000000000001,
-        "OutNodeEle" : 19.370000000000001,
+        "InSurElev" : 22.43,
+        "InDepth" : 2.8999999999999999,
         "InElev" : 19.530000000000001,
+        "InNodeElev" : 19.530000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.43,
+        "OutDepth" : 2.96,
         "OutElev" : 19.469999999999999,
-        "OutOffset" : 0.099999000000000005,
+        "OutNodeEle" : 19.370000000000001,
+        "OutOffset" : 0.10000000000000001,
         "DN" : 0.40000000000000002,
-        "Length" : 12.553800000000001
+        "Length" : 12.553800000000001,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3255,20 +4063,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 101,
-        "NAME" : "WS_MA600_Conduits07_05",
+        "Name" : "WS_MA600_Conduits07_05",
         "InNode" : "WS94",
         "OutNode" : "WS95",
         "Level" : 1,
-        "InNodeElev" : 17.699000000000002,
-        "OutNodeEle" : 17.344000000000001,
+        "InSurElev" : 23.059000000000001,
+        "InDepth" : 5.3600000000000003,
         "InElev" : 17.699000000000002,
+        "InNodeElev" : 17.699000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 22.414000000000001,
+        "OutDepth" : 5.0499999999999998,
         "OutElev" : 17.364000000000001,
-        "OutOffset" : 0.020001000000000001,
+        "OutNodeEle" : 17.344000000000001,
+        "OutOffset" : 0.02,
         "DN" : 0.59999999999999998,
-        "Length" : 35.476300000000002
+        "Length" : 35.476300000000002,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3287,20 +4103,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 102,
-        "NAME" : "WS_BR500_Conduits11_02",
+        "Name" : "WS_BR500_Conduits11_02",
         "InNode" : "WS51",
         "OutNode" : "WS49",
         "Level" : 1,
-        "InNodeElev" : 19.721699999999998,
-        "OutNodeEle" : 19.18,
+        "InSurElev" : 23.0717,
+        "InDepth" : 3.3500000000000001,
         "InElev" : 19.721699999999998,
+        "InNodeElev" : 19.721699999999998,
         "InOffset" : 0,
+        "OutSurElev" : 22.390000000000001,
+        "OutDepth" : 3.1899999999999999,
         "OutElev" : 19.199999999999999,
-        "OutOffset" : 0.020001000000000001,
+        "OutNodeEle" : 19.18,
+        "OutOffset" : 0.02,
         "DN" : 0.5,
-        "Length" : 9.0439100000000003
+        "Length" : 9.0439100000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3319,20 +4143,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 103,
-        "NAME" : "WS_MA600_Conduits07_07",
+        "Name" : "WS_MA600_Conduits07_07",
         "InNode" : "WS97",
         "OutNode" : "WS99",
         "Level" : 1,
-        "InNodeElev" : 17.489000000000001,
-        "OutNodeEle" : 17.326000000000001,
+        "InSurElev" : 22.149000000000001,
+        "InDepth" : 4.6600000000000001,
         "InElev" : 17.489000000000001,
+        "InNodeElev" : 17.489000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 21.655999999999999,
+        "OutDepth" : 4.3200000000000003,
         "OutElev" : 17.335999999999999,
+        "OutNodeEle" : 17.326000000000001,
         "OutOffset" : 0.01,
         "DN" : 0.59999999999999998,
-        "Length" : 47.614400000000003
+        "Length" : 47.614400000000003,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     },
     {
@@ -3351,20 +4183,28 @@
           ]
         ]
       },
-      "properties" : {
+      "properties" : { "Layer": "sewage_line",
         "FID" : 104,
-        "NAME" : "WS_BR500_Conduits32_02",
+        "Name" : "WS_BR500_Conduits32_02",
         "InNode" : "WS103",
         "OutNode" : "WS101",
         "Level" : 1,
-        "InNodeElev" : 17.571000000000002,
-        "OutNodeEle" : 17.381,
+        "InSurElev" : 21.780999999999999,
+        "InDepth" : 4.21,
         "InElev" : 17.571000000000002,
+        "InNodeElev" : 17.571000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 21.780999999999999,
+        "OutDepth" : 4.3499999999999996,
         "OutElev" : 17.431000000000001,
-        "OutOffset" : 0.049999000000000002,
+        "OutNodeEle" : 17.381,
+        "OutOffset" : 0.050000000000000003,
         "DN" : 0.29999999999999999,
-        "Length" : 3.4853999999999998
+        "Length" : 3.4853999999999998,
+        "Category" : "WS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01"
       }
     }
   ]

@@ -14,102 +14,6 @@
         "type" : "LineString",
         "coordinates" : [
           [
-            117.3642110401158,
-            31.887255652288349
-          ],
-          [
-            117.36410277036397,
-            31.887321886069412
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 0,
-        "Name" : " YS_MA600_Conduits01_02",
-        "InNode" : " YS_MA600_Junction01_02",
-        "OutNode" : " YS_MA600_Junction01_03",
-        "Level" : 1,
-        "InNodeElev" : 27.166,
-        "OutNodeEle" : 27.096,
-        "InElev" : 27.166,
-        "InOffset" : 0,
-        "OutElev" : 27.146000000000001,
-        "OutOffset" : 0.049999000000000002,
-        "DN" : 0.59999999999999998,
-        "Length" : 12.606
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 1,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.36554756386059,
-            31.88699562475027
-          ],
-          [
-            117.36524189959081,
-            31.886972000672483
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 1,
-        "Name" : " YS_MA600_Conduits01_05",
-        "InNode" : " YS_MA600_Junction01_05",
-        "OutNode" : " YS_MA600_Junction01_06",
-        "Level" : 1,
-        "InNodeElev" : 25.852,
-        "OutNodeEle" : 25.756,
-        "InElev" : 25.852,
-        "InOffset" : 0,
-        "OutElev" : 25.756,
-        "OutOffset" : 0,
-        "DN" : 0.59999999999999998,
-        "Length" : 29.037400000000002
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 2,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.36701247466488,
-            31.887224445217374
-          ],
-          [
-            117.36639507126065,
-            31.887173072484032
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 2,
-        "Name" : " YS_MA600_Conduits01_08",
-        "InNode" : " YS_MA600_Junction01_08",
-        "OutNode" : " YS_MA600_Junction01_09",
-        "Level" : 1,
-        "InNodeElev" : 26.026,
-        "OutNodeEle" : 26.186,
-        "InElev" : 26.026,
-        "InOffset" : 0,
-        "OutElev" : 26.186,
-        "OutOffset" : 0,
-        "DN" : 0.59999999999999998,
-        "Length" : 58.693100000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 3,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
             117.36874543748277,
             31.887237178144048
           ],
@@ -119,25 +23,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 3,
-        "Name" : " YS_MA1000_Conduits03_03",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 0,
+        "Name" : "YS_MA1000_Conduits03_03",
         "InNode" : "YS_MA1000_Junction03_02",
         "OutNode" : "YS_MA1000_Junction03_03",
-        "Level" : 1,
-        "InNodeElev" : 25.972999999999999,
-        "OutNodeEle" : 24.475999999999999,
+        "InSurElev" : 29.193000000000001,
+        "InDepth" : 3.2200000000000002,
         "InElev" : 25.972999999999999,
+        "InNodeElev" : 25.972999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 29.096,
+        "OutDepth" : 4.6200000000000001,
         "OutElev" : 24.475999999999999,
+        "OutNodeEle" : 24.475999999999999,
         "OutOffset" : 0,
         "DN" : 1,
-        "Length" : 41.663600000000002
+        "Length" : 41.663600000000002,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 4,
+      "id" : 1,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -151,25 +63,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 4,
-        "Name" : " YS_BR300_Conduits04_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 1,
+        "Name" : "YS_BR300_Conduits04_01",
         "InNode" : "YS_BR300_Junction04_01",
         "OutNode" : "YS_BR300_Junction04_02",
-        "Level" : 2,
-        "InNodeElev" : 26.638000000000002,
-        "OutNodeEle" : 26.439,
+        "InSurElev" : 28.358000000000001,
+        "InDepth" : 1.72,
         "InElev" : 26.638000000000002,
+        "InNodeElev" : 26.638000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 28.279,
+        "OutDepth" : 1.8400000000000001,
         "OutElev" : 26.439,
+        "OutNodeEle" : 26.439,
         "OutOffset" : 0,
         "DN" : 0.29999999999999999,
-        "Length" : 10.9727
+        "Length" : 10.9727,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 5,
+      "id" : 2,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -183,25 +103,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 5,
-        "Name" : " YS_MA1000_Conduits03_07",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 2,
+        "Name" : "YS_MA1000_Conduits03_07",
         "InNode" : "YS_MA1000_Junction03_06",
         "OutNode" : "YS_MA1000_Junction03_07",
-        "Level" : 1,
-        "InNodeElev" : 23.954999999999998,
-        "OutNodeEle" : 23.545000000000002,
+        "InSurElev" : 27.835000000000001,
+        "InDepth" : 3.8799999999999999,
         "InElev" : 23.954999999999998,
+        "InNodeElev" : 23.954999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 27.475000000000001,
+        "OutDepth" : 3.9300000000000002,
         "OutElev" : 23.545000000000002,
+        "OutNodeEle" : 23.545000000000002,
         "OutOffset" : 0,
         "DN" : 1,
-        "Length" : 29.459800000000001
+        "Length" : 29.459800000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 6,
+      "id" : 3,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -215,25 +143,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 6,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 3,
         "Name" : "YS_MA800_Conduits08_03",
         "InNode" : "YS_MA800_Junction08_02",
         "OutNode" : "YS_MA800_Junction08_03",
-        "Level" : 1,
-        "InNodeElev" : 24.873999999999999,
-        "OutNodeEle" : 24.401,
+        "InSurElev" : 26.974,
+        "InDepth" : 2.1000000000000001,
         "InElev" : 24.873999999999999,
+        "InNodeElev" : 24.873999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 26.530999999999999,
+        "OutDepth" : 2.1299999999999999,
         "OutElev" : 24.401,
+        "OutNodeEle" : 24.401,
         "OutOffset" : 0,
         "DN" : 0.80000000000000004,
-        "Length" : 36.676699999999997
+        "Length" : 36.676699999999997,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 7,
+      "id" : 4,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -247,25 +183,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 7,
-        "Name" : " YS_BR500_Conduits07_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 4,
+        "Name" : "YS_BR500_Conduits07_01",
         "InNode" : "YS_BR500_Junction07_01",
         "OutNode" : "YS_MA1000_Junction03_07",
-        "Level" : 1,
-        "InNodeElev" : 24.974,
-        "OutNodeEle" : 23.545000000000002,
+        "InSurElev" : 27.704000000000001,
+        "InDepth" : 2.73,
         "InElev" : 24.974,
+        "InNodeElev" : 24.974,
         "InOffset" : 0,
+        "OutSurElev" : 27.475000000000001,
+        "OutDepth" : 3.9300000000000002,
         "OutElev" : 23.545000000000002,
+        "OutNodeEle" : 23.545000000000002,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 8.9766999999999992
+        "Length" : 8.9766999999999992,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 8,
+      "id" : 5,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -279,25 +223,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 8,
-        "Name" : " YS_MA1200_Conduits04_05",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 5,
+        "Name" : "YS_MA1200_Conduits04_05",
         "InNode" : "YS_MA1200_Junction04_04",
         "OutNode" : "YS_MA1200_Junction04_05",
-        "Level" : 1,
-        "InNodeElev" : 22.890000000000001,
-        "OutNodeEle" : 22.326000000000001,
+        "InSurElev" : 25.66,
+        "InDepth" : 2.77,
         "InElev" : 22.890000000000001,
+        "InNodeElev" : 22.890000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 25.186,
+        "OutDepth" : 2.8599999999999999,
         "OutElev" : 22.326000000000001,
+        "OutNodeEle" : 22.326000000000001,
         "OutOffset" : 0,
         "DN" : 1.2,
-        "Length" : 32.777900000000002
+        "Length" : 32.777900000000002,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 9,
+      "id" : 6,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -311,25 +263,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 9,
-        "Name" : " YS_BR600_Conduits24_02",
-        "InNode" : " YS_BR600_Junction24_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 6,
+        "Name" : "YS_BR600_Conduits24_02",
+        "InNode" : "YS_BR600_Junction24_02",
         "OutNode" : "YS_MA1800_Junction05_13",
-        "Level" : 1,
-        "InNodeElev" : 20.349,
-        "OutNodeEle" : 18.823,
+        "InSurElev" : 22.638999999999999,
+        "InDepth" : 2.29,
         "InElev" : 20.349,
+        "InNodeElev" : 20.349,
         "InOffset" : 0,
+        "OutSurElev" : 22.693000000000001,
+        "OutDepth" : 2.7000000000000002,
         "OutElev" : 19.992999999999999,
+        "OutNodeEle" : 18.823,
         "OutOffset" : 1.1699999999999999,
         "DN" : 0.59999999999999998,
-        "Length" : 11.0037
+        "Length" : 11.0037,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 10,
+      "id" : 7,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -343,25 +303,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 10,
-        "Name" : " YS_BR500_Conduits22_03",
-        "InNode" : " YS_BR500_Junction22_03",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 7,
+        "Name" : "YS_BR500_Conduits22_03",
+        "InNode" : "YS_BR500_Junction22_03",
         "OutNode" : "YS_MA1800_Junction05_11",
-        "Level" : 1,
-        "InNodeElev" : 19.981000000000002,
-        "OutNodeEle" : 19.056999999999999,
+        "InSurElev" : 22.491,
+        "InDepth" : 2.5099999999999998,
         "InElev" : 19.981000000000002,
+        "InNodeElev" : 19.981000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 22.577000000000002,
+        "OutDepth" : 2.4399999999999999,
         "OutElev" : 20.137,
+        "OutNodeEle" : 19.056999999999999,
         "OutOffset" : 1.0800000000000001,
         "DN" : 0.5,
-        "Length" : 10.241099999999999
+        "Length" : 10.241099999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 11,
+      "id" : 8,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -375,25 +343,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 11,
-        "Name" : " YS_BR500_Conduits11_02",
-        "InNode" : " YS_BR500_Junction11_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 8,
+        "Name" : "YS_BR500_Conduits11_02",
+        "InNode" : "YS_BR500_Junction11_02",
         "OutNode" : "YS_MA1800_Junction05_07",
-        "Level" : 1,
-        "InNodeElev" : 19.949000000000002,
-        "OutNodeEle" : 19.626000000000001,
+        "InSurElev" : 22.459,
+        "InDepth" : 2.5099999999999998,
         "InElev" : 19.949000000000002,
+        "InNodeElev" : 19.949000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 22.385999999999999,
+        "OutDepth" : 2.7000000000000002,
         "OutElev" : 19.686,
+        "OutNodeEle" : 19.626000000000001,
         "OutOffset" : 0.060000999999999999,
         "DN" : 0.5,
-        "Length" : 10.6029
+        "Length" : 10.6029,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 12,
+      "id" : 9,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -407,25 +383,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 12,
-        "Name" : " YS_MA1800_Conduits05_07",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 9,
+        "Name" : "YS_MA1800_Conduits05_07",
         "InNode" : "YS_MA1800_Junction05_07",
         "OutNode" : "YS_MA1800_Junction05_08",
-        "Level" : 1,
-        "InNodeElev" : 19.626000000000001,
-        "OutNodeEle" : 19.259,
+        "InSurElev" : 22.385999999999999,
+        "InDepth" : 2.7599999999999998,
         "InElev" : 19.626000000000001,
+        "InNodeElev" : 19.626000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.379000000000001,
+        "OutDepth" : 3.1200000000000001,
         "OutElev" : 19.259,
+        "OutNodeEle" : 19.259,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 14.387499999999999
+        "Length" : 14.387499999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 13,
+      "id" : 10,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -439,89 +423,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 13,
-        "Name" : " YS_MA1000_Conduits07_03",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 10,
+        "Name" : "YS_MA1000_Conduits07_03",
         "InNode" : "YS_MA1000_Junction07_02",
         "OutNode" : "YS_MA1800_Junction05_06",
-        "Level" : 1,
-        "InNodeElev" : 20.387,
-        "OutNodeEle" : 20.166,
+        "InSurElev" : 22.507000000000001,
+        "InDepth" : 2.1200000000000001,
         "InElev" : 20.387,
+        "InNodeElev" : 20.387,
         "InOffset" : 0,
+        "OutSurElev" : 22.405999999999999,
+        "OutDepth" : 2.1200000000000001,
         "OutElev" : 20.286000000000001,
+        "OutNodeEle" : 20.166,
         "OutOffset" : 0.11999899999999999,
         "DN" : 1,
-        "Length" : 39.909599999999998
+        "Length" : 39.909599999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 14,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.36524189959081,
-            31.886972000672483
-          ],
-          [
-            117.3645783582738,
-            31.886957257653133
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 14,
-        "Name" : " YS_MA600_Conduits01_04",
-        "InNode" : " YS_MA600_Junction01_04",
-        "OutNode" : " YS_MA600_Junction01_05",
-        "Level" : 1,
-        "InNodeElev" : 26.722999999999999,
-        "OutNodeEle" : 25.852,
-        "InElev" : 26.722999999999999,
-        "InOffset" : 0,
-        "OutElev" : 25.852,
-        "OutOffset" : 0,
-        "DN" : 0.59999999999999998,
-        "Length" : 62.850900000000003
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 15,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.36597663814501,
-            31.887088135213247
-          ],
-          [
-            117.36554756386059,
-            31.88699562475027
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 15,
-        "Name" : " YS_MA600_Conduits01_06",
-        "InNode" : " YS_MA600_Junction01_06",
-        "OutNode" : " YS_MA600_Junction01_07",
-        "Level" : 1,
-        "InNodeElev" : 25.756,
-        "OutNodeEle" : 25.997,
-        "InElev" : 25.756,
-        "InOffset" : 0,
-        "OutElev" : 25.997,
-        "OutOffset" : 0,
-        "DN" : 0.59999999999999998,
-        "Length" : 41.878300000000003
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 16,
+      "id" : 11,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -535,25 +463,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 16,
-        "Name" : " YS_BR750_Conduits01_02",
-        "InNode" : " YS_BR750_Junction01_01",
-        "OutNode" : " YS_BR750_Junction01_02",
-        "Level" : 1,
-        "InNodeElev" : 26.364000000000001,
-        "OutNodeEle" : 26.367999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 11,
+        "Name" : "YS_BR750_Conduits01_02",
+        "InNode" : "YS_BR750_Junction01_01",
+        "OutNode" : "YS_BR750_Junction01_02",
+        "InSurElev" : 28.443999999999999,
+        "InDepth" : 2.0800000000000001,
         "InElev" : 26.364000000000001,
+        "InNodeElev" : 26.364000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 28.138000000000002,
+        "OutDepth" : 1.77,
         "OutElev" : 26.367999999999999,
+        "OutNodeEle" : 26.367999999999999,
         "OutOffset" : 0,
         "DN" : 0.75,
-        "Length" : 4.3282999999999996
+        "Length" : 4.3282999999999996,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 17,
+      "id" : 12,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -567,25 +503,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 17,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 12,
         "Name" : "YS_MA800_Conduits08_01",
         "InNode" : "YS_MA700_Junction07_03",
         "OutNode" : "YS_MA800_Junction08_01",
-        "Level" : 1,
-        "InNodeElev" : 25.585999999999999,
-        "OutNodeEle" : 25.097000000000001,
+        "InSurElev" : 28.056000000000001,
+        "InDepth" : 2.4700000000000002,
         "InElev" : 25.585999999999999,
+        "InNodeElev" : 25.585999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 27.497,
+        "OutDepth" : 2.3999999999999999,
         "OutElev" : 25.097000000000001,
+        "OutNodeEle" : 25.097000000000001,
         "OutOffset" : 0,
         "DN" : 0.80000000000000004,
-        "Length" : 45.820700000000002
+        "Length" : 45.820700000000002,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 18,
+      "id" : 13,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -599,25 +543,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 18,
-        "Name" : " YS_BR300_Conduits04_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 13,
+        "Name" : "YS_BR300_Conduits04_02",
         "InNode" : "YS_BR300_Junction04_02",
         "OutNode" : "YS_MA1000_Junction03_05",
-        "Level" : 2,
-        "InNodeElev" : 26.439,
-        "OutNodeEle" : 24.053999999999998,
+        "InSurElev" : 28.279,
+        "InDepth" : 1.8400000000000001,
         "InElev" : 26.439,
+        "InNodeElev" : 26.439,
         "InOffset" : 0,
+        "OutSurElev" : 28.114000000000001,
+        "OutDepth" : 4.0599999999999996,
         "OutElev" : 24.053999999999998,
+        "OutNodeEle" : 24.053999999999998,
         "OutOffset" : 0,
         "DN" : 0.29999999999999999,
-        "Length" : 4.6222000000000003
+        "Length" : 4.6222000000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 19,
+      "id" : 14,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -631,25 +583,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 19,
-        "Name" : " YS_MA1200_Conduits04_04",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 14,
+        "Name" : "YS_MA1200_Conduits04_04",
         "InNode" : "YS_MA1200_Junction04_03",
         "OutNode" : "YS_MA1200_Junction04_04",
-        "Level" : 1,
-        "InNodeElev" : 23.148,
-        "OutNodeEle" : 22.890000000000001,
+        "InSurElev" : 26.097999999999999,
+        "InDepth" : 2.9500000000000002,
         "InElev" : 23.148,
+        "InNodeElev" : 23.148,
         "InOffset" : 0,
+        "OutSurElev" : 25.66,
+        "OutDepth" : 2.77,
         "OutElev" : 22.890000000000001,
+        "OutNodeEle" : 22.890000000000001,
         "OutOffset" : 0,
         "DN" : 1.2,
-        "Length" : 34.689300000000003
+        "Length" : 34.689300000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 20,
+      "id" : 15,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -663,25 +623,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 20,
-        "Name" : " YS_BR500_Conduits08_01",
-        "InNode" : " YS_BR500_Junction08_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 15,
+        "Name" : "YS_BR500_Conduits08_01",
+        "InNode" : "YS_BR500_Junction08_01",
         "OutNode" : "YS_MA1200_Junction04_04",
-        "Level" : 2,
-        "InNodeElev" : 23.623000000000001,
-        "OutNodeEle" : 22.890000000000001,
+        "InSurElev" : 25.753,
+        "InDepth" : 2.1299999999999999,
         "InElev" : 23.623000000000001,
+        "InNodeElev" : 23.623000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 25.66,
+        "OutDepth" : 2.23,
         "OutElev" : 23.43,
+        "OutNodeEle" : 22.890000000000001,
         "OutOffset" : 0.54000099999999995,
         "DN" : 0.5,
-        "Length" : 10.350300000000001
+        "Length" : 10.350300000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 21,
+      "id" : 16,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -695,25 +663,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 21,
-        "Name" : " YS_BR400_Conduits26_01",
-        "InNode" : " YS_BR400_Junction26_01",
-        "OutNode" : " YS_BR500_Junction25_02",
-        "Level" : 1,
-        "InNodeElev" : 22.030999999999999,
-        "OutNodeEle" : 21.271000000000001,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 16,
+        "Name" : "YS_BR400_Conduits26_01",
+        "InNode" : "YS_BR400_Junction26_01",
+        "OutNode" : "YS_BR500_Junction25_02",
+        "InSurElev" : 23.411000000000001,
+        "InDepth" : 1.3799999999999999,
         "InElev" : 22.030999999999999,
+        "InNodeElev" : 22.030999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.951000000000001,
+        "OutDepth" : 1.6699999999999999,
         "OutElev" : 21.280999999999999,
+        "OutNodeEle" : 21.271000000000001,
         "OutOffset" : 0.01,
         "DN" : 0.40000000000000002,
-        "Length" : 5.3981000000000003
+        "Length" : 5.3981000000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 22,
+      "id" : 17,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -727,25 +703,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 22,
-        "Name" : " YS_BR600_Conduits27_01",
-        "InNode" : " YS_BR600_Junction27_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 17,
+        "Name" : "YS_BR600_Conduits27_01",
+        "InNode" : "YS_BR600_Junction27_01",
         "OutNode" : "YS_MA1800_Junction05_16",
-        "Level" : 2,
-        "InNodeElev" : 20.373000000000001,
-        "OutNodeEle" : 18.931999999999999,
+        "InSurElev" : 22.922999999999998,
+        "InDepth" : 2.5499999999999998,
         "InElev" : 20.373000000000001,
+        "InNodeElev" : 20.373000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.981999999999999,
+        "OutDepth" : 4.0499999999999998,
         "OutElev" : 18.931999999999999,
+        "OutNodeEle" : 18.931999999999999,
         "OutOffset" : 0,
         "DN" : 0.59999999999999998,
-        "Length" : 9.5980000000000008
+        "Length" : 9.5980000000000008,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 23,
+      "id" : 18,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -759,25 +743,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 23,
-        "Name" : " YS_BR400_Conduits21_01",
-        "InNode" : " YS_BR400_Junction21_01",
-        "OutNode" : " YS_BR500_Junction22_01",
-        "Level" : 1,
-        "InNodeElev" : 22.113,
-        "OutNodeEle" : 22.030000000000001,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 18,
+        "Name" : "YS_BR400_Conduits21_01",
+        "InNode" : "YS_BR400_Junction21_01",
+        "OutNode" : "YS_BR500_Junction22_01",
+        "InSurElev" : 22.573,
+        "InDepth" : 0.46000000000000002,
         "InElev" : 22.113,
+        "InNodeElev" : 22.113,
         "InOffset" : 0,
+        "OutSurElev" : 22.739999999999998,
+        "OutDepth" : 0.70999999999999996,
         "OutElev" : 22.030000000000001,
+        "OutNodeEle" : 22.030000000000001,
         "OutOffset" : 0,
         "DN" : 0.40000000000000002,
-        "Length" : 29.828499999999998
+        "Length" : 29.828499999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 24,
+      "id" : 19,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -791,25 +783,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 24,
-        "Name" : " YS_BR500_Conduits44_01",
-        "InNode" : " YS_BR500_Junction44_01",
-        "OutNode" : " YS_BR500_Junction44_02",
-        "Level" : 1,
-        "InNodeElev" : 20.032,
-        "OutNodeEle" : 19.733000000000001,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 19,
+        "Name" : "YS_BR500_Conduits44_01",
+        "InNode" : "YS_BR500_Junction44_01",
+        "OutNode" : "YS_BR500_Junction44_02",
+        "InSurElev" : 21.902000000000001,
+        "InDepth" : 1.8700000000000001,
         "InElev" : 20.032,
+        "InNodeElev" : 20.032,
         "InOffset" : 0,
+        "OutSurElev" : 21.832999999999998,
+        "OutDepth" : 1.8,
         "OutElev" : 20.033000000000001,
+        "OutNodeEle" : 19.733000000000001,
         "OutOffset" : 0.30000100000000002,
         "DN" : 0.5,
-        "Length" : 6.2289000000000003
+        "Length" : 6.2289000000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 25,
+      "id" : 20,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -823,25 +823,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 25,
-        "Name" : " YS_MA1000_Conduits03_02",
-        "InNode" : " YS_MA1000_Junction03_01",
-        "OutNode" : " YS_MA1000_Junction03_02",
-        "Level" : 1,
-        "InNodeElev" : 25.943000000000001,
-        "OutNodeEle" : 25.972999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 20,
+        "Name" : "YS_MA1000_Conduits03_02",
+        "InNode" : "YS_MA1000_Junction03_01",
+        "OutNode" : "YS_MA1000_Junction03_02",
+        "InSurElev" : 28.542999999999999,
+        "InDepth" : 2.6000000000000001,
         "InElev" : 25.943000000000001,
+        "InNodeElev" : 25.943000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 29.193000000000001,
+        "OutDepth" : 3.2200000000000002,
         "OutElev" : 25.972999999999999,
+        "OutNodeEle" : 25.972999999999999,
         "OutOffset" : 0,
         "DN" : 1,
-        "Length" : 41.674599999999998
+        "Length" : 41.674599999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 26,
+      "id" : 21,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -855,25 +863,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 26,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 21,
         "Name" : "YS_MA700_Conduits07_03",
         "InNode" : "YS_MA700_Junction07_02",
         "OutNode" : "YS_MA700_Junction07_03",
-        "Level" : 1,
-        "InNodeElev" : 26.294,
-        "OutNodeEle" : 25.585999999999999,
+        "InSurElev" : 28.443999999999999,
+        "InDepth" : 2.1499999999999999,
         "InElev" : 26.294,
+        "InNodeElev" : 26.294,
         "InOffset" : 0,
+        "OutSurElev" : 28.056000000000001,
+        "OutDepth" : 2.1499999999999999,
         "OutElev" : 25.905999999999999,
+        "OutNodeEle" : 25.585999999999999,
         "OutOffset" : 0.32000000000000001,
         "DN" : 0.69999999999999996,
-        "Length" : 24.945499999999999
+        "Length" : 24.945499999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 27,
+      "id" : 22,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -887,25 +903,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 27,
-        "Name" : " YS_MA1000_Conduits03_05",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 22,
+        "Name" : "YS_MA1000_Conduits03_05",
         "InNode" : "YS_MA1000_Junction03_04",
         "OutNode" : "YS_MA1000_Junction03_05",
-        "Level" : 1,
-        "InNodeElev" : 24.350000000000001,
-        "OutNodeEle" : 24.053999999999998,
+        "InSurElev" : 28.68,
+        "InDepth" : 4.3300000000000001,
         "InElev" : 24.350000000000001,
+        "InNodeElev" : 24.350000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 28.114000000000001,
+        "OutDepth" : 4.0599999999999996,
         "OutElev" : 24.053999999999998,
+        "OutNodeEle" : 24.053999999999998,
         "OutOffset" : 0,
         "DN" : 1,
-        "Length" : 53.354399999999998
+        "Length" : 53.354399999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 28,
+      "id" : 23,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -919,25 +943,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 28,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 23,
         "Name" : "YS_MA800_Conduits08_04",
         "InNode" : "YS_MA800_Junction08_03",
         "OutNode" : "YS_MA800_Junction08_04",
-        "Level" : 1,
-        "InNodeElev" : 24.401,
-        "OutNodeEle" : 23.635999999999999,
+        "InSurElev" : 26.530999999999999,
+        "InDepth" : 2.0899999999999999,
         "InElev" : 24.440999999999999,
+        "InNodeElev" : 24.401,
         "InOffset" : 0.040001000000000002,
+        "OutSurElev" : 26.245999999999999,
+        "OutDepth" : 2.1499999999999999,
         "OutElev" : 24.096,
+        "OutNodeEle" : 23.635999999999999,
         "OutOffset" : 0.46000099999999999,
         "DN" : 0.80000000000000004,
-        "Length" : 31.484300000000001
+        "Length" : 31.484300000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 29,
+      "id" : 24,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -951,25 +983,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 29,
-        "Name" : " YS_MA1200_Conduits04_03",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 24,
+        "Name" : "YS_MA1200_Conduits04_03",
         "InNode" : "YS_MA1200_Junction04_02",
         "OutNode" : "YS_MA1200_Junction04_03",
-        "Level" : 1,
-        "InNodeElev" : 23.655999999999999,
-        "OutNodeEle" : 23.148,
+        "InSurElev" : 26.666,
+        "InDepth" : 3.0099999999999998,
         "InElev" : 23.655999999999999,
+        "InNodeElev" : 23.655999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 26.097999999999999,
+        "OutDepth" : 2.73,
         "OutElev" : 23.367999999999999,
+        "OutNodeEle" : 23.148,
         "OutOffset" : 0.219999,
         "DN" : 1.2,
-        "Length" : 37.622799999999998
+        "Length" : 37.622799999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 30,
+      "id" : 25,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -983,25 +1023,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 30,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 25,
         "Name" : "YS_MA800_Conduits08_09",
         "InNode" : "YS_MA800_Junction08_08",
         "OutNode" : "YS_MA800_Junction08_09",
-        "Level" : 1,
-        "InNodeElev" : 21.928000000000001,
-        "OutNodeEle" : 20.882000000000001,
+        "InSurElev" : 24.827999999999999,
+        "InDepth" : 2.8399999999999999,
         "InElev" : 21.988,
+        "InNodeElev" : 21.928000000000001,
         "InOffset" : 0.060000999999999999,
+        "OutSurElev" : 23.882000000000001,
+        "OutDepth" : 2.96,
         "OutElev" : 20.922000000000001,
+        "OutNodeEle" : 20.882000000000001,
         "OutOffset" : 0.040001000000000002,
         "DN" : 0.80000000000000004,
-        "Length" : 34.919600000000003
+        "Length" : 34.919600000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 31,
+      "id" : 26,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1015,25 +1063,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 31,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 26,
         "Name" : "YS_MA900_Conduits09_01",
         "InNode" : "YS_MA800_Junction08_10",
         "OutNode" : "YS_MA900_Junction09_01",
-        "Level" : 1,
-        "InNodeElev" : 21.186,
-        "OutNodeEle" : 20.84,
+        "InSurElev" : 24.166,
+        "InDepth" : 2.98,
         "InElev" : 21.186,
+        "InNodeElev" : 21.186,
         "InOffset" : 0,
+        "OutSurElev" : 23.739999999999998,
+        "OutDepth" : 2.79,
         "OutElev" : 20.949999999999999,
+        "OutNodeEle" : 20.84,
         "OutOffset" : 0.110001,
         "DN" : 0.90000000000000002,
-        "Length" : 35.595199999999998
+        "Length" : 35.595199999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 32,
+      "id" : 27,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1047,25 +1103,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 32,
-        "Name" : " YS_MA1800_Conduits05_06",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 27,
+        "Name" : "YS_MA1800_Conduits05_06",
         "InNode" : "YS_MA1800_Junction05_06",
         "OutNode" : "YS_MA1800_Junction05_07",
-        "Level" : 1,
-        "InNodeElev" : 20.166,
-        "OutNodeEle" : 19.626000000000001,
+        "InSurElev" : 22.405999999999999,
+        "InDepth" : 2.2400000000000002,
         "InElev" : 20.166,
+        "InNodeElev" : 20.166,
         "InOffset" : 0,
+        "OutSurElev" : 22.385999999999999,
+        "OutDepth" : 2.21,
         "OutElev" : 20.175999999999998,
+        "OutNodeEle" : 19.626000000000001,
         "OutOffset" : 0.55000099999999996,
         "DN" : 1.8,
-        "Length" : 23.153300000000002
+        "Length" : 23.153300000000002,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 33,
+      "id" : 28,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1079,25 +1143,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 33,
-        "Name" : " YS_BR400_Conduits20_01",
-        "InNode" : " YS_BR400_Junction20_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 28,
+        "Name" : "YS_BR400_Conduits20_01",
+        "InNode" : "YS_BR400_Junction20_01",
         "OutNode" : "YS_MA1800_Junction05_09",
-        "Level" : 4,
-        "InNodeElev" : 20.632000000000001,
-        "OutNodeEle" : 19.193000000000001,
+        "InSurElev" : 22.402000000000001,
+        "InDepth" : 1.77,
         "InElev" : 20.632000000000001,
+        "InNodeElev" : 20.632000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.413,
+        "OutDepth" : 1.96,
         "OutElev" : 20.452999999999999,
+        "OutNodeEle" : 19.193000000000001,
         "OutOffset" : 1.26,
         "DN" : 0.40000000000000002,
-        "Length" : 10.6435
+        "Length" : 10.6435,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 4
       }
     },
     {
       "type" : "Feature",
-      "id" : 34,
+      "id" : 29,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1111,25 +1183,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 34,
-        "Name" : " YS_BR500_Conduits17_01",
-        "InNode" : " YS_BR500_Junction17_01",
-        "OutNode" : " YS_BR500_Junction17_02",
-        "Level" : 1,
-        "InNodeElev" : 20.895,
-        "OutNodeEle" : 20.420999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 29,
+        "Name" : "YS_BR500_Conduits17_01",
+        "InNode" : "YS_BR500_Junction17_01",
+        "OutNode" : "YS_BR500_Junction17_02",
+        "InSurElev" : 22.765000000000001,
+        "InDepth" : 1.8700000000000001,
         "InElev" : 20.895,
+        "InNodeElev" : 20.895,
         "InOffset" : 0,
+        "OutSurElev" : 22.620999999999999,
+        "OutDepth" : 2.1499999999999999,
         "OutElev" : 20.471,
+        "OutNodeEle" : 20.420999999999999,
         "OutOffset" : 0.050000999999999997,
         "DN" : 0.5,
-        "Length" : 8.4324999999999992
+        "Length" : 8.4324999999999992,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 35,
+      "id" : 30,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1143,57 +1223,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 35,
-        "Name" : " YS_BR500_Conduits13_01",
-        "InNode" : " YS_BR500_Junction13_01",
-        "OutNode" : " YS_BR500_Junction13_02",
-        "Level" : 1,
-        "InNodeElev" : 21.038,
-        "OutNodeEle" : 20.774999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 30,
+        "Name" : "YS_BR500_Conduits13_01",
+        "InNode" : "YS_BR500_Junction13_01",
+        "OutNode" : "YS_BR500_Junction13_02",
+        "InSurElev" : 22.888000000000002,
+        "InDepth" : 1.8500000000000001,
         "InElev" : 21.038,
+        "InNodeElev" : 21.038,
         "InOffset" : 0,
+        "OutSurElev" : 22.704999999999998,
+        "OutDepth" : 1.9199999999999999,
         "OutElev" : 20.785,
+        "OutNodeEle" : 20.774999999999999,
         "OutOffset" : 0.01,
         "DN" : 0.5,
-        "Length" : 13.719900000000001
+        "Length" : 13.719900000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 36,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.36410277036397,
-            31.887321886069412
-          ],
-          [
-            117.36417154503032,
-            31.887364138109618
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 36,
-        "Name" : " YS_MA600_Conduits01_01",
-        "InNode" : " YS_MA600_Junction01_01",
-        "OutNode" : " YS_MA600_Junction01_02",
-        "Level" : 1,
-        "InNodeElev" : 28.277999999999999,
-        "OutNodeEle" : 27.166,
-        "InElev" : 28.277999999999999,
-        "InOffset" : 0,
-        "OutElev" : 27.166,
-        "OutOffset" : 0,
-        "DN" : 0.59999999999999998,
-        "Length" : 8.0222999999999995
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 37,
+      "id" : 31,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1207,25 +1263,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 37,
-        "Name" : " YS_BR750_Conduits01_04",
-        "InNode" : " YS_BR750_Junction01_03",
-        "OutNode" : " YS_MA750_Junction02_01",
-        "Level" : 1,
-        "InNodeElev" : 26.167999999999999,
-        "OutNodeEle" : 26.062999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 31,
+        "Name" : "YS_BR750_Conduits01_04",
+        "InNode" : "YS_BR750_Junction01_03",
+        "OutNode" : "YS_MA750_Junction02_01",
+        "InSurElev" : 28.047999999999998,
+        "InDepth" : 1.8799999999999999,
         "InElev" : 26.167999999999999,
+        "InNodeElev" : 26.167999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 28.193000000000001,
+        "OutDepth" : 2.1200000000000001,
         "OutElev" : 26.073,
+        "OutNodeEle" : 26.062999999999999,
         "OutOffset" : 0.01,
         "DN" : 0.75,
-        "Length" : 15.755599999999999
+        "Length" : 15.755599999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 38,
+      "id" : 32,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1239,25 +1303,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 38,
-        "Name" : " YS_BR500_Conduits31_02",
-        "InNode" : " YS_BR500_Junction31_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 32,
+        "Name" : "YS_BR500_Conduits31_02",
+        "InNode" : "YS_BR500_Junction31_02",
         "OutNode" : "YS_MA1800_Junction05_20",
-        "Level" : 1,
-        "InNodeElev" : 20.515000000000001,
-        "OutNodeEle" : 18.669,
+        "InSurElev" : 23.315000000000001,
+        "InDepth" : 2.7999999999999998,
         "InElev" : 20.515000000000001,
+        "InNodeElev" : 20.515000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.309000000000001,
+        "OutDepth" : 4.6399999999999997,
         "OutElev" : 18.669,
+        "OutNodeEle" : 18.669,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 9.7171000000000003
+        "Length" : 9.7171000000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 39,
+      "id" : 33,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1271,57 +1343,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 39,
-        "Name" : " YS_BR300_Conduits14_01",
-        "InNode" : " YS_BR300_Junction14_01",
-        "OutNode" : " YS_BR500_Junction13_02",
-        "Level" : 2,
-        "InNodeElev" : 20.841999999999999,
-        "OutNodeEle" : 20.774999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 33,
+        "Name" : "YS_BR300_Conduits14_01",
+        "InNode" : "YS_BR300_Junction14_01",
+        "OutNode" : "YS_BR500_Junction13_02",
+        "InSurElev" : 22.652000000000001,
+        "InDepth" : 1.8100000000000001,
         "InElev" : 20.841999999999999,
+        "InNodeElev" : 20.841999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.704999999999998,
+        "OutDepth" : 1.8,
         "OutElev" : 20.905000000000001,
+        "OutNodeEle" : 20.774999999999999,
         "OutOffset" : 0.13000100000000001,
         "DN" : 0.29999999999999999,
-        "Length" : 7.1753999999999998
+        "Length" : 7.1753999999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 40,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.36746495474767,
-            31.887200294757985
-          ],
-          [
-            117.367440632404,
-            31.887258523942638
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 40,
-        "Name" : " YS_MA750_Conduits02_01",
-        "InNode" : " YS_MA600_Junction01_10",
-        "OutNode" : " YS_MA750_Junction02_01",
-        "Level" : 1,
-        "InNodeElev" : 26.251000000000001,
-        "OutNodeEle" : 26.062999999999999,
-        "InElev" : 26.251000000000001,
-        "InOffset" : 0,
-        "OutElev" : 26.073,
-        "OutOffset" : 0.01,
-        "DN" : 0.75,
-        "Length" : 6.9313000000000002
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 41,
+      "id" : 34,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1335,25 +1383,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 41,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 34,
         "Name" : "YS_MA800_Conduits08_07",
         "InNode" : "YS_MA800_Junction08_06",
         "OutNode" : "YS_MA800_Junction08_07",
-        "Level" : 1,
-        "InNodeElev" : 22.766999999999999,
-        "OutNodeEle" : 22.297000000000001,
+        "InSurElev" : 25.547999999999998,
+        "InDepth" : 2.6499999999999999,
         "InElev" : 22.898,
+        "InNodeElev" : 22.766999999999999,
         "InOffset" : 0.13100100000000001,
+        "OutSurElev" : 25.196999999999999,
+        "OutDepth" : 2.8999999999999999,
         "OutElev" : 22.297000000000001,
+        "OutNodeEle" : 22.297000000000001,
         "OutOffset" : 0,
         "DN" : 0.80000000000000004,
-        "Length" : 37.298299999999998
+        "Length" : 37.298299999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 42,
+      "id" : 35,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1367,25 +1423,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 42,
-        "Name" : " YS_BR500_Conduits06_01",
-        "InNode" : " YS_BR500_Junction06_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 35,
+        "Name" : "YS_BR500_Conduits06_01",
+        "InNode" : "YS_BR500_Junction06_01",
         "OutNode" : "YS_MA1000_Junction03_07",
-        "Level" : 1,
-        "InNodeElev" : 24.934999999999999,
-        "OutNodeEle" : 23.545000000000002,
+        "InSurElev" : 27.585000000000001,
+        "InDepth" : 2.6499999999999999,
         "InElev" : 24.934999999999999,
+        "InNodeElev" : 24.934999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 27.475000000000001,
+        "OutDepth" : 3.9300000000000002,
         "OutElev" : 23.545000000000002,
+        "OutNodeEle" : 23.545000000000002,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 5.2549999999999999
+        "Length" : 5.2549999999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 43,
+      "id" : 36,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1399,25 +1463,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 43,
-        "Name" : " YS_MA1200_Conduits04_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 36,
+        "Name" : "YS_MA1200_Conduits04_01",
         "InNode" : "YS_MA1000_Junction03_07",
         "OutNode" : "YS_MA1200_Junction04_01",
-        "Level" : 1,
-        "InNodeElev" : 23.545000000000002,
-        "OutNodeEle" : 23.702999999999999,
+        "InSurElev" : 27.475000000000001,
+        "InDepth" : 3.9300000000000002,
         "InElev" : 23.545000000000002,
+        "InNodeElev" : 23.545000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 27.003,
+        "OutDepth" : 3.0099999999999998,
         "OutElev" : 23.992999999999999,
+        "OutNodeEle" : 23.702999999999999,
         "OutOffset" : 0.29000100000000001,
         "DN" : 1.2,
-        "Length" : 29.739899999999999
+        "Length" : 29.739899999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 44,
+      "id" : 37,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1431,25 +1503,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 44,
-        "Name" : " YS_MA1200_Conduits04_07",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 37,
+        "Name" : "YS_MA1200_Conduits04_07",
         "InNode" : "YS_MA1200_Junction04_06",
         "OutNode" : "YS_MA1200_Junction04_07",
-        "Level" : 1,
-        "InNodeElev" : 21.873999999999999,
-        "OutNodeEle" : 21.143999999999998,
+        "InSurElev" : 24.463999999999999,
+        "InDepth" : 1.9299999999999999,
         "InElev" : 22.533999999999999,
+        "InNodeElev" : 21.873999999999999,
         "InOffset" : 0.66000000000000003,
+        "OutSurElev" : 23.834,
+        "OutDepth" : 2.5800000000000001,
         "OutElev" : 21.254000000000001,
+        "OutNodeEle" : 21.143999999999998,
         "OutOffset" : 0.110001,
         "DN" : 1.2,
-        "Length" : 39.063400000000001
+        "Length" : 39.063400000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 45,
+      "id" : 38,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1463,25 +1543,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 45,
-        "Name" : " YS_BR600_Conduits24_01",
-        "InNode" : " YS_BR600_Junction24_01",
-        "OutNode" : " YS_BR600_Junction24_02",
-        "Level" : 4,
-        "InNodeElev" : 21.039999999999999,
-        "OutNodeEle" : 20.349,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 38,
+        "Name" : "YS_BR600_Conduits24_01",
+        "InNode" : "YS_BR600_Junction24_01",
+        "OutNode" : "YS_BR600_Junction24_02",
+        "InSurElev" : 22.969999999999999,
+        "InDepth" : 1.9299999999999999,
         "InElev" : 21.039999999999999,
+        "InNodeElev" : 21.039999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.638999999999999,
+        "OutDepth" : 1.72,
         "OutElev" : 20.919,
+        "OutNodeEle" : 20.349,
         "OutOffset" : 0.56999999999999995,
         "DN" : 0.59999999999999998,
-        "Length" : 6.3807
+        "Length" : 6.3807,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 4
       }
     },
     {
       "type" : "Feature",
-      "id" : 46,
+      "id" : 39,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1495,25 +1583,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 46,
-        "Name" : " YS_BR500_Conduits22_01",
-        "InNode" : " YS_BR500_Junction22_01",
-        "OutNode" : " YS_BR500_Junction22_02",
-        "Level" : 1,
-        "InNodeElev" : 22.030000000000001,
-        "OutNodeEle" : 20.716000000000001,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 39,
+        "Name" : "YS_BR500_Conduits22_01",
+        "InNode" : "YS_BR500_Junction22_01",
+        "OutNode" : "YS_BR500_Junction22_02",
+        "InSurElev" : 22.739999999999998,
+        "InDepth" : 0.70999999999999996,
         "InElev" : 22.030000000000001,
+        "InNodeElev" : 22.030000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.675999999999998,
+        "OutDepth" : 1.96,
         "OutElev" : 20.716000000000001,
+        "OutNodeEle" : 20.716000000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 1.6601999999999999
+        "Length" : 1.6601999999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 47,
+      "id" : 40,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1527,25 +1623,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 47,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 40,
         "Name" : "YS_MA700_Conduits07_02",
         "InNode" : "YS_MA700_Junction07_01",
         "OutNode" : "YS_MA700_Junction07_02",
-        "Level" : 1,
-        "InNodeElev" : 26.736999999999998,
-        "OutNodeEle" : 26.294,
+        "InSurElev" : 28.887,
+        "InDepth" : 2.1299999999999999,
         "InElev" : 26.757000000000001,
+        "InNodeElev" : 26.736999999999998,
         "InOffset" : 0.020001000000000001,
+        "OutSurElev" : 28.443999999999999,
+        "OutDepth" : 2.1000000000000001,
         "OutElev" : 26.344000000000001,
+        "OutNodeEle" : 26.294,
         "OutOffset" : 0.049999000000000002,
         "DN" : 0.69999999999999996,
-        "Length" : 34.792499999999997
+        "Length" : 34.792499999999997,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 48,
+      "id" : 41,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1559,25 +1663,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 48,
-        "Name" : " YS_MA1000_Conduits03_06",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 41,
+        "Name" : "YS_MA1000_Conduits03_06",
         "InNode" : "YS_MA1000_Junction03_05",
         "OutNode" : "YS_MA1000_Junction03_06",
-        "Level" : 1,
-        "InNodeElev" : 24.053999999999998,
-        "OutNodeEle" : 23.954999999999998,
+        "InSurElev" : 28.114000000000001,
+        "InDepth" : 4.0599999999999996,
         "InElev" : 24.053999999999998,
+        "InNodeElev" : 24.053999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 27.835000000000001,
+        "OutDepth" : 3.8799999999999999,
         "OutElev" : 23.954999999999998,
+        "OutNodeEle" : 23.954999999999998,
         "OutOffset" : 0,
         "DN" : 1,
-        "Length" : 20.272099999999998
+        "Length" : 20.272099999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 49,
+      "id" : 42,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1591,25 +1703,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 49,
-        "Name" : " YS_BR500_Conduits31_01",
-        "InNode" : " YS_BR500_Junction31_01",
-        "OutNode" : " YS_BR500_Junction31_02",
-        "Level" : 1,
-        "InNodeElev" : 21.265000000000001,
-        "OutNodeEle" : 20.515000000000001,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 42,
+        "Name" : "YS_BR500_Conduits31_01",
+        "InNode" : "YS_BR500_Junction31_01",
+        "OutNode" : "YS_BR500_Junction31_02",
+        "InSurElev" : 23.465,
+        "InDepth" : 2.2000000000000002,
         "InElev" : 21.265000000000001,
+        "InNodeElev" : 21.265000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.315000000000001,
+        "OutDepth" : 2.3599999999999999,
         "OutElev" : 20.954999999999998,
+        "OutNodeEle" : 20.515000000000001,
         "OutOffset" : 0.44000099999999998,
         "DN" : 0.5,
-        "Length" : 8.1041000000000007
+        "Length" : 8.1041000000000007,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 50,
+      "id" : 43,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1623,25 +1743,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 50,
-        "Name" : " YS_BR500_Conduits29_01",
-        "InNode" : " YS_BR500_Junction29_01",
-        "OutNode" : " YS_BR500_Junction29_02",
-        "Level" : 2,
-        "InNodeElev" : 21.350999999999999,
-        "OutNodeEle" : 19.983000000000001,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 43,
+        "Name" : "YS_BR500_Conduits29_01",
+        "InNode" : "YS_BR500_Junction29_01",
+        "OutNode" : "YS_BR500_Junction29_02",
+        "InSurElev" : 23.321000000000002,
+        "InDepth" : 1.97,
         "InElev" : 21.350999999999999,
+        "InNodeElev" : 21.350999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 23.082999999999998,
+        "OutDepth" : 2.0099999999999998,
         "OutElev" : 21.073,
+        "OutNodeEle" : 19.983000000000001,
         "OutOffset" : 1.0900000000000001,
         "DN" : 0.5,
-        "Length" : 5.7173999999999996
+        "Length" : 5.7173999999999996,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 51,
+      "id" : 44,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1655,25 +1783,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 51,
-        "Name" : " YS_BR500_Conduits25_02",
-        "InNode" : " YS_BR500_Junction25_02",
-        "OutNode" : " YS_BR500_Junction25_03",
-        "Level" : 1,
-        "InNodeElev" : 21.271000000000001,
-        "OutNodeEle" : 20.754999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 44,
+        "Name" : "YS_BR500_Conduits25_02",
+        "InNode" : "YS_BR500_Junction25_02",
+        "OutNode" : "YS_BR500_Junction25_03",
+        "InSurElev" : 22.951000000000001,
+        "InDepth" : 1.6799999999999999,
         "InElev" : 21.271000000000001,
+        "InNodeElev" : 21.271000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.875,
+        "OutDepth" : 1.77,
         "OutElev" : 21.105,
+        "OutNodeEle" : 20.754999999999999,
         "OutOffset" : 0.34999999999999998,
         "DN" : 0.5,
-        "Length" : 7.0942999999999996
+        "Length" : 7.0942999999999996,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 52,
+      "id" : 45,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1687,57 +1823,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 52,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 45,
         "Name" : "YS_MA1000_Conduits07_01",
         "InNode" : "YS_MA800_Junction06_01",
         "OutNode" : "YS_MA1000_Junction07_01",
-        "Level" : 1,
-        "InNodeElev" : 20.640999999999998,
-        "OutNodeEle" : 20.486000000000001,
+        "InSurElev" : 22.640999999999998,
+        "InDepth" : 2,
         "InElev" : 20.640999999999998,
+        "InNodeElev" : 20.640999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 22.616,
+        "OutDepth" : 2.1200000000000001,
         "OutElev" : 20.495999999999999,
+        "OutNodeEle" : 20.486000000000001,
         "OutOffset" : 0.01,
         "DN" : 1,
-        "Length" : 24.193899999999999
+        "Length" : 24.193899999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 53,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.3645783582738,
-            31.886957257653133
-          ],
-          [
-            117.3642110401158,
-            31.887255652288349
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 53,
-        "Name" : " YS_MA600_Conduits01_03",
-        "InNode" : " YS_MA600_Junction01_03",
-        "OutNode" : " YS_MA600_Junction01_04",
-        "Level" : 1,
-        "InNodeElev" : 27.096,
-        "OutNodeEle" : 26.722999999999999,
-        "InElev" : 27.096,
-        "InOffset" : 0,
-        "OutElev" : 26.722999999999999,
-        "OutOffset" : 0,
-        "DN" : 0.59999999999999998,
-        "Length" : 48.035699999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 54,
+      "id" : 46,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1751,25 +1863,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 54,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 46,
         "Name" : "YS_MA700_Conduits07_01",
         "InNode" : "YS_MA500_Junction06_03",
         "OutNode" : "YS_MA700_Junction07_01",
-        "Level" : 1,
-        "InNodeElev" : 27.277000000000001,
-        "OutNodeEle" : 26.736999999999998,
+        "InSurElev" : 29.187000000000001,
+        "InDepth" : 1.9099999999999999,
         "InElev" : 27.277000000000001,
+        "InNodeElev" : 27.277000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 28.887,
+        "OutDepth" : 2.1499999999999999,
         "OutElev" : 26.736999999999998,
+        "OutNodeEle" : 26.736999999999998,
         "OutOffset" : 0,
         "DN" : 0.69999999999999996,
-        "Length" : 35.884
+        "Length" : 35.884,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 55,
+      "id" : 47,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1783,25 +1903,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 55,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 47,
         "Name" : "YS_MA800_Conduits08_08",
         "InNode" : "YS_MA800_Junction08_07",
         "OutNode" : "YS_MA800_Junction08_08",
-        "Level" : 1,
-        "InNodeElev" : 22.297000000000001,
-        "OutNodeEle" : 21.928000000000001,
+        "InSurElev" : 25.196999999999999,
+        "InDepth" : 2.8999999999999999,
         "InElev" : 22.297000000000001,
+        "InNodeElev" : 22.297000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.827999999999999,
+        "OutDepth" : 2.8999999999999999,
         "OutElev" : 21.928000000000001,
+        "OutNodeEle" : 21.928000000000001,
         "OutOffset" : 0,
         "DN" : 0.80000000000000004,
-        "Length" : 37.229700000000001
+        "Length" : 37.229700000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 56,
+      "id" : 48,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1815,25 +1943,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 56,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 48,
         "Name" : "YS_MA1000_Junction10_01",
         "InNode" : "YS_MA900_Junction09_01",
         "OutNode" : "YS_MA1800_Junction05_21",
-        "Level" : 1,
-        "InNodeElev" : 20.84,
-        "OutNodeEle" : 18.960999999999999,
+        "InSurElev" : 23.739999999999998,
+        "InDepth" : 2.8999999999999999,
         "InElev" : 20.84,
+        "InNodeElev" : 20.84,
         "InOffset" : 0,
+        "OutSurElev" : 23.600999999999999,
+        "OutDepth" : 2.7599999999999998,
         "OutElev" : 20.841000000000001,
+        "OutNodeEle" : 18.960999999999999,
         "OutOffset" : 1.8799999999999999,
         "DN" : 1,
-        "Length" : 40.745199999999997
+        "Length" : 40.745199999999997,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 57,
+      "id" : 49,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1847,25 +1983,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 57,
-        "Name" : " YS_BR300_Conduits17_01",
-        "InNode" : " YS_BR300_Junction17_01",
-        "OutNode" : " YS_BR500_Junction16_02",
-        "Level" : 1,
-        "InNodeElev" : 22.105,
-        "OutNodeEle" : 21.251999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 49,
+        "Name" : "YS_BR300_Conduits17_01",
+        "InNode" : "YS_BR300_Junction17_01",
+        "OutNode" : "YS_BR500_Junction16_02",
+        "InSurElev" : 23.504999999999999,
+        "InDepth" : 1.3999999999999999,
         "InElev" : 22.105,
+        "InNodeElev" : 22.105,
         "InOffset" : 0,
+        "OutSurElev" : 23.071999999999999,
+        "OutDepth" : 1.54,
         "OutElev" : 21.532,
+        "OutNodeEle" : 21.251999999999999,
         "OutOffset" : 0.279999,
         "DN" : 0.29999999999999999,
-        "Length" : 7.2523
+        "Length" : 7.2523,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 58,
+      "id" : 50,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1879,25 +2023,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 58,
-        "Name" : " YS_BR500_Conduits18_02",
-        "InNode" : " YS_BR500_Junction18_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 50,
+        "Name" : "YS_BR500_Conduits18_02",
+        "InNode" : "YS_BR500_Junction18_02",
         "OutNode" : "YS_MA1800_Junction05_06",
-        "Level" : 1,
-        "InNodeElev" : 20.463999999999999,
-        "OutNodeEle" : 20.166,
+        "InSurElev" : 22.344000000000001,
+        "InDepth" : 1.8799999999999999,
         "InElev" : 20.463999999999999,
+        "InNodeElev" : 20.463999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.405999999999999,
+        "OutDepth" : 1.96,
         "OutElev" : 20.446000000000002,
+        "OutNodeEle" : 20.166,
         "OutOffset" : 0.279999,
         "DN" : 0.5,
-        "Length" : 10.7995
+        "Length" : 10.7995,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 59,
+      "id" : 51,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1911,25 +2063,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 59,
-        "Name" : " YS_BR500_Conduits17_02",
-        "InNode" : " YS_BR500_Junction17_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 51,
+        "Name" : "YS_BR500_Conduits17_02",
+        "InNode" : "YS_BR500_Junction17_02",
         "OutNode" : "YS_MA1000_Junction07_02",
-        "Level" : 1,
-        "InNodeElev" : 20.420999999999999,
-        "OutNodeEle" : 20.387,
+        "InSurElev" : 22.620999999999999,
+        "InDepth" : 2.2000000000000002,
         "InElev" : 20.420999999999999,
+        "InNodeElev" : 20.420999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.507000000000001,
+        "OutDepth" : 1.95,
         "OutElev" : 20.556999999999999,
+        "OutNodeEle" : 20.387,
         "OutOffset" : 0.17000000000000001,
         "DN" : 0.5,
-        "Length" : 10.4518
+        "Length" : 10.4518,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 60,
+      "id" : 52,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1943,25 +2103,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 60,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 52,
         "Name" : "YS_MA1000_Conduits07_02",
         "InNode" : "YS_MA1000_Junction07_01",
         "OutNode" : "YS_MA1000_Junction07_02",
-        "Level" : 1,
-        "InNodeElev" : 20.486000000000001,
-        "OutNodeEle" : 20.387,
+        "InSurElev" : 22.616,
+        "InDepth" : 2.1299999999999999,
         "InElev" : 20.486000000000001,
+        "InNodeElev" : 20.486000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.507000000000001,
+        "OutDepth" : 2.1200000000000001,
         "OutElev" : 20.387,
+        "OutNodeEle" : 20.387,
         "OutOffset" : 0,
         "DN" : 1,
-        "Length" : 29.253
+        "Length" : 29.253,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 61,
+      "id" : 53,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -1975,25 +2143,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 61,
-        "Name" : " YS_BR500_Conduits28_02",
-        "InNode" : " YS_BR500_Junction28_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 53,
+        "Name" : "YS_BR500_Conduits28_02",
+        "InNode" : "YS_BR500_Junction28_02",
         "OutNode" : "YS_MA1800_Junction05_17",
-        "Level" : 1,
-        "InNodeElev" : 20.939,
-        "OutNodeEle" : 18.901,
+        "InSurElev" : 22.949000000000002,
+        "InDepth" : 2.0099999999999998,
         "InElev" : 20.939,
+        "InNodeElev" : 20.939,
         "InOffset" : 0,
+        "OutSurElev" : 23.061,
+        "OutDepth" : 4.1600000000000001,
         "OutElev" : 18.901,
+        "OutNodeEle" : 18.901,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 9.4468999999999994
+        "Length" : 9.4468999999999994,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 62,
+      "id" : 54,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2007,25 +2183,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 62,
-        "Name" : " YS_BR500_Conduits25_03",
-        "InNode" : " YS_BR500_Junction25_03",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 54,
+        "Name" : "YS_BR500_Conduits25_03",
+        "InNode" : "YS_BR500_Junction25_03",
         "OutNode" : "YS_MA1800_Junction05_16",
-        "Level" : 1,
-        "InNodeElev" : 20.754999999999999,
-        "OutNodeEle" : 18.931999999999999,
+        "InSurElev" : 22.875,
+        "InDepth" : 2.1200000000000001,
         "InElev" : 20.754999999999999,
+        "InNodeElev" : 20.754999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.981999999999999,
+        "OutDepth" : 4.0499999999999998,
         "OutElev" : 18.931999999999999,
+        "OutNodeEle" : 18.931999999999999,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 9.9530999999999992
+        "Length" : 9.9530999999999992,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 63,
+      "id" : 55,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2039,25 +2223,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 63,
-        "Name" : " YS_BR500_Conduits23_01",
-        "InNode" : " YS_BR500_Junction23_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 55,
+        "Name" : "YS_BR500_Conduits23_01",
+        "InNode" : "YS_BR500_Junction23_01",
         "OutNode" : "YS_MA1800_Junction05_12",
-        "Level" : 2,
-        "InNodeElev" : 20.265999999999998,
-        "OutNodeEle" : 18.859999999999999,
+        "InSurElev" : 22.466000000000001,
+        "InDepth" : 2.2000000000000002,
         "InElev" : 20.265999999999998,
+        "InNodeElev" : 20.265999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 22.609999999999999,
+        "OutDepth" : 3.75,
         "OutElev" : 18.859999999999999,
+        "OutNodeEle" : 18.859999999999999,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 9.8310999999999993
+        "Length" : 9.8310999999999993,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 64,
+      "id" : 56,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2071,57 +2263,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 64,
-        "Name" : " YS_BR600_Conduits19_01",
-        "InNode" : " YS_BR600_Junction19_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 56,
+        "Name" : "YS_BR600_Conduits19_01",
+        "InNode" : "YS_BR600_Junction19_01",
         "OutNode" : "YS_MA1800_Junction05_06",
-        "Level" : 1,
-        "InNodeElev" : 20.265999999999998,
-        "OutNodeEle" : 20.166,
+        "InSurElev" : 22.396000000000001,
+        "InDepth" : 2.1299999999999999,
         "InElev" : 20.265999999999998,
+        "InNodeElev" : 20.265999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 22.405999999999999,
+        "OutDepth" : 2.1200000000000001,
         "OutElev" : 20.286000000000001,
+        "OutNodeEle" : 20.166,
         "OutOffset" : 0.11999899999999999,
         "DN" : 0.59999999999999998,
-        "Length" : 7.7925000000000004
+        "Length" : 7.7925000000000004,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 65,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.36639507126065,
-            31.887173072484032
-          ],
-          [
-            117.36597663814501,
-            31.887088135213247
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 65,
-        "Name" : " YS_MA600_Conduits01_07",
-        "InNode" : " YS_MA600_Junction01_07",
-        "OutNode" : " YS_MA600_Junction01_08",
-        "Level" : 1,
-        "InNodeElev" : 25.997,
-        "OutNodeEle" : 26.026,
-        "InElev" : 25.997,
-        "InOffset" : 0,
-        "OutElev" : 26.026,
-        "OutOffset" : 0,
-        "DN" : 0.59999999999999998,
-        "Length" : 40.709200000000003
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 66,
+      "id" : 57,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2135,25 +2303,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 66,
-        "Name" : " YS_MA1000_Conduits03_01",
-        "InNode" : " YS_MA750_Junction02_01",
-        "OutNode" : " YS_MA1000_Junction03_01",
-        "Level" : 1,
-        "InNodeElev" : 26.062999999999999,
-        "OutNodeEle" : 25.943000000000001,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 57,
+        "Name" : "YS_MA1000_Conduits03_01",
+        "InNode" : "YS_MA750_Junction02_01",
+        "OutNode" : "YS_MA1000_Junction03_01",
+        "InSurElev" : 28.193000000000001,
+        "InDepth" : 2.1299999999999999,
         "InElev" : 26.062999999999999,
+        "InNodeElev" : 26.062999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 28.542999999999999,
+        "OutDepth" : 2.6000000000000001,
         "OutElev" : 25.943000000000001,
+        "OutNodeEle" : 25.943000000000001,
         "OutOffset" : 0,
         "DN" : 1,
-        "Length" : 37.892299999999999
+        "Length" : 37.892299999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 67,
+      "id" : 58,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2167,25 +2343,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 67,
-        "Name" : " YS_BR500_Conduits05_01",
-        "InNode" : " YS_BR500_Junction05_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 58,
+        "Name" : "YS_BR500_Conduits05_01",
+        "InNode" : "YS_BR500_Junction05_01",
         "OutNode" : "YS_MA1000_Junction03_05",
-        "Level" : 1,
-        "InNodeElev" : 25.806000000000001,
-        "OutNodeEle" : 24.053999999999998,
+        "InSurElev" : 28.366,
+        "InDepth" : 2.5600000000000001,
         "InElev" : 25.806000000000001,
+        "InNodeElev" : 25.806000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 28.114000000000001,
+        "OutDepth" : 4,
         "OutElev" : 24.114000000000001,
+        "OutNodeEle" : 24.053999999999998,
         "OutOffset" : 0.059998999999999997,
         "DN" : 0.5,
-        "Length" : 10.610099999999999
+        "Length" : 10.610099999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 68,
+      "id" : 59,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2199,25 +2383,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 68,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 59,
         "Name" : "YS_BR500_Conduits09_01",
         "InNode" : "YS_BR500_Junction09_01",
         "OutNode" : "YS_MA1200_Junction04_05",
-        "Level" : 1,
-        "InNodeElev" : 22.914999999999999,
-        "OutNodeEle" : 22.326000000000001,
+        "InSurElev" : 25.375,
+        "InDepth" : 2.46,
         "InElev" : 22.914999999999999,
+        "InNodeElev" : 22.914999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 25.186,
+        "OutDepth" : 2.8599999999999999,
         "OutElev" : 22.326000000000001,
+        "OutNodeEle" : 22.326000000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 5.1295999999999999
+        "Length" : 5.1295999999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 69,
+      "id" : 60,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2231,25 +2423,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 69,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 60,
         "Name" : "YS_MA800_Conduits06_01",
-        "InNode" : " YS_BR500_Junction13_02",
+        "InNode" : "YS_BR500_Junction13_02",
         "OutNode" : "YS_MA800_Junction06_01",
-        "Level" : 1,
-        "InNodeElev" : 20.774999999999999,
-        "OutNodeEle" : 20.640999999999998,
+        "InSurElev" : 22.704999999999998,
+        "InDepth" : 1.9299999999999999,
         "InElev" : 20.774999999999999,
+        "InNodeElev" : 20.774999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.640999999999998,
+        "OutDepth" : 1.98,
         "OutElev" : 20.661000000000001,
+        "OutNodeEle" : 20.640999999999998,
         "OutOffset" : 0.019998999999999999,
         "DN" : 0.80000000000000004,
-        "Length" : 23.2821
+        "Length" : 23.2821,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 70,
+      "id" : 61,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2263,25 +2463,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 70,
-        "Name" : " YS_BR500_Conduits16_03",
-        "InNode" : " YS_BR500_Junction16_03",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 61,
+        "Name" : "YS_BR500_Conduits16_03",
+        "InNode" : "YS_BR500_Junction16_03",
         "OutNode" : "YS_MA1000_Junction07_01",
-        "Level" : 1,
-        "InNodeElev" : 20.812000000000001,
-        "OutNodeEle" : 20.486000000000001,
+        "InSurElev" : 22.492000000000001,
+        "InDepth" : 1.6799999999999999,
         "InElev" : 20.812000000000001,
+        "InNodeElev" : 20.812000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.616,
+        "OutDepth" : 2.0099999999999998,
         "OutElev" : 20.606000000000002,
+        "OutNodeEle" : 20.486000000000001,
         "OutOffset" : 0.120001,
         "DN" : 0.5,
-        "Length" : 10.3424
+        "Length" : 10.3424,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 71,
+      "id" : 62,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2295,25 +2503,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 71,
-        "Name" : " YS_BR500_Conduits15_01",
-        "InNode" : " YS_BR500_Junction15_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 62,
+        "Name" : "YS_BR500_Conduits15_01",
+        "InNode" : "YS_BR500_Junction15_01",
         "OutNode" : "YS_MA800_Junction06_01",
-        "Level" : 1,
-        "InNodeElev" : 20.875,
-        "OutNodeEle" : 20.640999999999998,
+        "InSurElev" : 22.655000000000001,
+        "InDepth" : 1.78,
         "InElev" : 20.875,
+        "InNodeElev" : 20.875,
         "InOffset" : 0,
+        "OutSurElev" : 22.640999999999998,
+        "OutDepth" : 1.8999999999999999,
         "OutElev" : 20.741,
+        "OutNodeEle" : 20.640999999999998,
         "OutOffset" : 0.099999000000000005,
         "DN" : 0.5,
-        "Length" : 7.4446000000000003
+        "Length" : 7.4446000000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 72,
+      "id" : 63,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2327,25 +2543,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 72,
-        "Name" : " YS_MA1800_Conduits05_21",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 63,
+        "Name" : "YS_MA1800_Conduits05_21",
         "InNode" : "YS_MA1800_Junction05_21",
         "OutNode" : "YS_MA1800_Junction05_22",
-        "Level" : 1,
-        "InNodeElev" : 18.960999999999999,
-        "OutNodeEle" : 18.483000000000001,
+        "InSurElev" : 23.600999999999999,
+        "InDepth" : 4.6399999999999997,
         "InElev" : 18.960999999999999,
+        "InNodeElev" : 18.960999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.803000000000001,
+        "OutDepth" : 4.3200000000000003,
         "OutElev" : 18.483000000000001,
+        "OutNodeEle" : 18.483000000000001,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 52.6038
+        "Length" : 52.6038,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 73,
+      "id" : 64,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2359,57 +2583,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 73,
-        "Name" : " YS_BR600_Conduits43_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 64,
+        "Name" : "YS_BR600_Conduits43_01",
         "InNode" : "YS_BR600_Junction43_01",
         "OutNode" : "YS_MA1800_Junction05_24",
-        "Level" : 1,
-        "InNodeElev" : 20.062999999999999,
-        "OutNodeEle" : 18.300000000000001,
+        "InSurElev" : 22.163,
+        "InDepth" : 2.1000000000000001,
         "InElev" : 20.062999999999999,
+        "InNodeElev" : 20.062999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.260000000000002,
+        "OutDepth" : 2.75,
         "OutElev" : 19.510000000000002,
+        "OutNodeEle" : 18.300000000000001,
         "OutOffset" : 1.21,
         "DN" : 0.59999999999999998,
-        "Length" : 14.5022
+        "Length" : 14.5022,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 74,
-      "geometry" : {
-        "type" : "LineString",
-        "coordinates" : [
-          [
-            117.367440632404,
-            31.887258523942638
-          ],
-          [
-            117.36701247466488,
-            31.887224445217374
-          ]
-        ]
-      },
-      "properties" : {
-        "FID" : 74,
-        "Name" : " YS_MA600_Conduits01_08",
-        "InNode" : " YS_MA600_Junction01_09",
-        "OutNode" : " YS_MA600_Junction01_10",
-        "Level" : 1,
-        "InNodeElev" : 26.186,
-        "OutNodeEle" : 26.251000000000001,
-        "InElev" : 26.186,
-        "InOffset" : 0,
-        "OutElev" : 26.280999999999999,
-        "OutOffset" : 0.030001,
-        "DN" : 0.59999999999999998,
-        "Length" : 40.7239
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 75,
+      "id" : 65,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2423,25 +2623,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 75,
-        "Name" : " YS_MA1000_Conduits03_04",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 65,
+        "Name" : "YS_MA1000_Conduits03_04",
         "InNode" : "YS_MA1000_Junction03_03",
         "OutNode" : "YS_MA1000_Junction03_04",
-        "Level" : 1,
-        "InNodeElev" : 24.475999999999999,
-        "OutNodeEle" : 24.350000000000001,
+        "InSurElev" : 29.096,
+        "InDepth" : 4.6200000000000001,
         "InElev" : 24.475999999999999,
+        "InNodeElev" : 24.475999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 28.68,
+        "OutDepth" : 4.3300000000000001,
         "OutElev" : 24.350000000000001,
+        "OutNodeEle" : 24.350000000000001,
         "OutOffset" : 0,
         "DN" : 1,
-        "Length" : 41.712200000000003
+        "Length" : 41.712200000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 76,
+      "id" : 66,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2455,25 +2663,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 76,
-        "Name" : " YS_MA1200_Conduits04_06",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 66,
+        "Name" : "YS_MA1200_Conduits04_06",
         "InNode" : "YS_MA1200_Junction04_05",
         "OutNode" : "YS_MA1200_Junction04_06",
-        "Level" : 1,
-        "InNodeElev" : 22.326000000000001,
-        "OutNodeEle" : 21.873999999999999,
+        "InSurElev" : 25.186,
+        "InDepth" : 2.8599999999999999,
         "InElev" : 22.326000000000001,
+        "InNodeElev" : 22.326000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.463999999999999,
+        "OutDepth" : 1.9299999999999999,
         "OutElev" : 22.533999999999999,
+        "OutNodeEle" : 21.873999999999999,
         "OutOffset" : 0.66000000000000003,
         "DN" : 1.2,
-        "Length" : 51.742600000000003
+        "Length" : 51.742600000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 77,
+      "id" : 67,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2487,25 +2703,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 77,
-        "Name" : " YS_BR500_Conduits10_01",
-        "InNode" : " YS_BR500_Junction10_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 67,
+        "Name" : "YS_BR500_Conduits10_01",
+        "InNode" : "YS_BR500_Junction10_01",
         "OutNode" : "YS_MA1200_Junction04_06",
-        "Level" : 4,
-        "InNodeElev" : 22.390000000000001,
-        "OutNodeEle" : 21.873999999999999,
+        "InSurElev" : 24.32,
+        "InDepth" : 1.9299999999999999,
         "InElev" : 22.390000000000001,
+        "InNodeElev" : 22.390000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.463999999999999,
+        "OutDepth" : 2.5899999999999999,
         "OutElev" : 21.873999999999999,
+        "OutNodeEle" : 21.873999999999999,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 10.271800000000001
+        "Length" : 10.271800000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 4
       }
     },
     {
       "type" : "Feature",
-      "id" : 78,
+      "id" : 68,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2519,25 +2743,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 78,
-        "Name" : " YS_BR500_Conduits44_03",
-        "InNode" : " YS_BR500_Junction44_04",
-        "OutNode" : " YS_BR500_Junction44_03",
-        "Level" : 1,
-        "InNodeElev" : 19.657,
-        "OutNodeEle" : 19.373999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 68,
+        "Name" : "YS_BR500_Conduits44_03",
+        "InNode" : "YS_BR500_Junction44_04",
+        "OutNode" : "YS_BR500_Junction44_03",
+        "InSurElev" : 22.236999999999998,
+        "InDepth" : 2.5800000000000001,
         "InElev" : 19.657,
+        "InNodeElev" : 19.657,
         "InOffset" : 0,
+        "OutSurElev" : 21.754000000000001,
+        "OutDepth" : 2.3399999999999999,
         "OutElev" : 19.414000000000001,
+        "OutNodeEle" : 19.373999999999999,
         "OutOffset" : 0.039999,
         "DN" : 0.5,
-        "Length" : 35.782299999999999
+        "Length" : 35.782299999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 79,
+      "id" : 69,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2551,25 +2783,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 79,
-        "Name" : " YS_BR750_Conduits01_03",
-        "InNode" : " YS_BR750_Junction01_02",
-        "OutNode" : " YS_BR750_Junction01_03",
-        "Level" : 1,
-        "InNodeElev" : 26.367999999999999,
-        "OutNodeEle" : 26.167999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 69,
+        "Name" : "YS_BR750_Conduits01_03",
+        "InNode" : "YS_BR750_Junction01_02",
+        "OutNode" : "YS_BR750_Junction01_03",
+        "InSurElev" : 28.138000000000002,
+        "InDepth" : 1.77,
         "InElev" : 26.367999999999999,
+        "InNodeElev" : 26.367999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 28.047999999999998,
+        "OutDepth" : 1.76,
         "OutElev" : 26.288,
+        "OutNodeEle" : 26.167999999999999,
         "OutOffset" : 0.120001,
         "DN" : 0.75,
-        "Length" : 14.7964
+        "Length" : 14.7964,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 80,
+      "id" : 70,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2583,25 +2823,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 80,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 70,
         "Name" : "YS_MA800_Conduits08_02",
         "InNode" : "YS_MA800_Junction08_01",
         "OutNode" : "YS_MA800_Junction08_02",
-        "Level" : 1,
-        "InNodeElev" : 25.097000000000001,
-        "OutNodeEle" : 24.873999999999999,
+        "InSurElev" : 27.497,
+        "InDepth" : 2.3500000000000001,
         "InElev" : 25.146999999999998,
+        "InNodeElev" : 25.097000000000001,
         "InOffset" : 0.049999000000000002,
+        "OutSurElev" : 26.974,
+        "OutDepth" : 2.0499999999999998,
         "OutElev" : 24.923999999999999,
+        "OutNodeEle" : 24.873999999999999,
         "OutOffset" : 0.049999000000000002,
         "DN" : 0.80000000000000004,
-        "Length" : 37.4955
+        "Length" : 37.4955,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 81,
+      "id" : 71,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2615,25 +2863,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 81,
-        "Name" : " YS_BR500_Conduits29_02",
-        "InNode" : " YS_BR500_Junction29_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 71,
+        "Name" : "YS_BR500_Conduits29_02",
+        "InNode" : "YS_BR500_Junction29_02",
         "OutNode" : "YS_MA1800_Junction05_18",
-        "Level" : 2,
-        "InNodeElev" : 19.983000000000001,
-        "OutNodeEle" : 18.789000000000001,
+        "InSurElev" : 23.082999999999998,
+        "InDepth" : 3.1000000000000001,
         "InElev" : 19.983000000000001,
+        "InNodeElev" : 19.983000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.149000000000001,
+        "OutDepth" : 4.3600000000000003,
         "OutElev" : 18.789000000000001,
+        "OutNodeEle" : 18.789000000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 10.2767
+        "Length" : 10.2767,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 82,
+      "id" : 72,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2647,25 +2903,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 82,
-        "Name" : " YS_BR500_Conduits42_01",
-        "InNode" : " YS_BR500_Junction42_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 72,
+        "Name" : "YS_BR500_Conduits42_01",
+        "InNode" : "YS_BR500_Junction42_01",
         "OutNode" : "YS_MA1800_Junction05_23",
-        "Level" : 1,
-        "InNodeElev" : 20.225000000000001,
-        "OutNodeEle" : 18.334,
+        "InSurElev" : 22.364999999999998,
+        "InDepth" : 2.1400000000000001,
         "InElev" : 20.225000000000001,
+        "InNodeElev" : 20.225000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.553999999999998,
+        "OutDepth" : 2.29,
         "OutElev" : 20.263999999999999,
+        "OutNodeEle" : 18.334,
         "OutOffset" : 1.9299999999999999,
         "DN" : 0.5,
-        "Length" : 16.6401
+        "Length" : 16.6401,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 83,
+      "id" : 73,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2679,25 +2943,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 83,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 73,
         "Name" : "YS_MA800_Conduits08_10",
         "InNode" : "YS_MA800_Junction08_09",
         "OutNode" : "YS_MA800_Junction08_10",
-        "Level" : 1,
-        "InNodeElev" : 20.882000000000001,
-        "OutNodeEle" : 21.186,
+        "InSurElev" : 23.882000000000001,
+        "InDepth" : 3,
         "InElev" : 20.882000000000001,
+        "InNodeElev" : 20.882000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 24.166,
+        "OutDepth" : 2.9700000000000002,
         "OutElev" : 21.196000000000002,
+        "OutNodeEle" : 21.186,
         "OutOffset" : 0.0099979999999999999,
         "DN" : 0.80000000000000004,
-        "Length" : 35.335500000000003
+        "Length" : 35.335500000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 84,
+      "id" : 74,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2711,25 +2983,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 84,
-        "Name" : " YS_MA1200_Conduits04_08",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 74,
+        "Name" : "YS_MA1200_Conduits04_08",
         "InNode" : "YS_MA1200_Junction04_07",
         "OutNode" : "YS_MA1200_Junction04_08",
-        "Level" : 1,
-        "InNodeElev" : 21.143999999999998,
-        "OutNodeEle" : 20.757999999999999,
+        "InSurElev" : 23.834,
+        "InDepth" : 2.6899999999999999,
         "InElev" : 21.143999999999998,
+        "InNodeElev" : 21.143999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 23.158000000000001,
+        "OutDepth" : 2.3500000000000001,
         "OutElev" : 20.808,
+        "OutNodeEle" : 20.757999999999999,
         "OutOffset" : 0.050000999999999997,
         "DN" : 1.2,
-        "Length" : 39.755699999999997
+        "Length" : 39.755699999999997,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 85,
+      "id" : 75,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2743,25 +3023,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 85,
-        "Name" : " YS_MA1200_Conduits04_08",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 75,
+        "Name" : "YS_MA1200_Conduits04_08",
         "InNode" : "YS_MA1200_Junction04_08",
         "OutNode" : "YS_MA1200_Junction04_09",
-        "Level" : 1,
-        "InNodeElev" : 20.757999999999999,
-        "OutNodeEle" : 20.055,
+        "InSurElev" : 23.158000000000001,
+        "InDepth" : 2.3999999999999999,
         "InElev" : 20.757999999999999,
+        "InNodeElev" : 20.757999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.405000000000001,
+        "OutDepth" : 2.3500000000000001,
         "OutElev" : 20.055,
+        "OutNodeEle" : 20.055,
         "OutOffset" : 0,
         "DN" : 1.2,
-        "Length" : 33.256500000000003
+        "Length" : 33.256500000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 86,
+      "id" : 76,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2775,25 +3063,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 86,
-        "Name" : " YS_BR400_Conduits30_01",
-        "InNode" : " YS_BR400_Junction30_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 76,
+        "Name" : "YS_BR400_Conduits30_01",
+        "InNode" : "YS_BR400_Junction30_01",
         "OutNode" : "YS_MA1800_Junction05_19",
-        "Level" : 2,
-        "InNodeElev" : 20.190999999999999,
-        "OutNodeEle" : 18.629999999999999,
+        "InSurElev" : 23.231000000000002,
+        "InDepth" : 3.04,
         "InElev" : 20.190999999999999,
+        "InNodeElev" : 20.190999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 23.23,
+        "OutDepth" : 4.5999999999999996,
         "OutElev" : 18.629999999999999,
+        "OutNodeEle" : 18.629999999999999,
         "OutOffset" : 0,
         "DN" : 0.40000000000000002,
-        "Length" : 11.166700000000001
+        "Length" : 11.166700000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 87,
+      "id" : 77,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2807,25 +3103,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 87,
-        "Name" : " YS_BR500_Conduits12_01",
-        "InNode" : " YS_BR500_Junction12_01",
-        "OutNode" : " YS_BR500_Junction13_02",
-        "Level" : 1,
-        "InNodeElev" : 20.891999999999999,
-        "OutNodeEle" : 20.774999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 77,
+        "Name" : "YS_BR500_Conduits12_01",
+        "InNode" : "YS_BR500_Junction12_01",
+        "OutNode" : "YS_BR500_Junction13_02",
+        "InSurElev" : 22.692,
+        "InDepth" : 1.8,
         "InElev" : 20.891999999999999,
+        "InNodeElev" : 20.891999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.704999999999998,
+        "OutDepth" : 1.8200000000000001,
         "OutElev" : 20.885000000000002,
+        "OutNodeEle" : 20.774999999999999,
         "OutOffset" : 0.110001,
         "DN" : 0.5,
-        "Length" : 11.866199999999999
+        "Length" : 11.866199999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 88,
+      "id" : 78,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2839,25 +3143,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 88,
-        "Name" : " YS_BR500_Conduits44_02",
-        "InNode" : " YS_BR500_Junction44_02",
-        "OutNode" : " YS_BR500_Junction44_03",
-        "Level" : 1,
-        "InNodeElev" : 19.733000000000001,
-        "OutNodeEle" : 19.373999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 78,
+        "Name" : "YS_BR500_Conduits44_02",
+        "InNode" : "YS_BR500_Junction44_02",
+        "OutNode" : "YS_BR500_Junction44_03",
+        "InSurElev" : 21.832999999999998,
+        "InDepth" : 2.1000000000000001,
         "InElev" : 19.733000000000001,
+        "InNodeElev" : 19.733000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 21.754000000000001,
+        "OutDepth" : 2.3799999999999999,
         "OutElev" : 19.373999999999999,
+        "OutNodeEle" : 19.373999999999999,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 6.2096
+        "Length" : 6.2096,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 89,
+      "id" : 79,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2871,25 +3183,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 89,
-        "Name" : " YS_BR500_Conduits44_04",
-        "InNode" : " YS_BR500_Junction44_03",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 79,
+        "Name" : "YS_BR500_Conduits44_04",
+        "InNode" : "YS_BR500_Junction44_03",
         "OutNode" : "YS_MA1800_Junction05_27",
-        "Level" : 1,
-        "InNodeElev" : 19.373999999999999,
-        "OutNodeEle" : 18.007000000000001,
+        "InSurElev" : 21.754000000000001,
+        "InDepth" : 2.3500000000000001,
         "InElev" : 19.404,
+        "InNodeElev" : 19.373999999999999,
         "InOffset" : 0.029999000000000001,
+        "OutSurElev" : 21.707000000000001,
+        "OutDepth" : 3.7000000000000002,
         "OutElev" : 18.007000000000001,
+        "OutNodeEle" : 18.007000000000001,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 6.4718999999999998
+        "Length" : 6.4718999999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 90,
+      "id" : 80,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2903,25 +3223,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 90,
-        "Name" : " YS_BR400_Conduits03_01",
-        "InNode" : " YS_BR400_Junction03_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 80,
+        "Name" : "YS_BR400_Conduits03_01",
+        "InNode" : "YS_BR400_Junction03_01",
         "OutNode" : "YS_MA1000_Junction03_04",
-        "Level" : 1,
-        "InNodeElev" : 27.064,
-        "OutNodeEle" : 24.350000000000001,
+        "InSurElev" : 28.783999999999999,
+        "InDepth" : 1.72,
         "InElev" : 27.064,
+        "InNodeElev" : 27.064,
         "InOffset" : 0,
+        "OutSurElev" : 28.68,
+        "OutDepth" : 1.6000000000000001,
         "OutElev" : 27.079999999999998,
+        "OutNodeEle" : 24.350000000000001,
         "OutOffset" : 2.73,
         "DN" : 0.40000000000000002,
-        "Length" : 14.5236
+        "Length" : 14.5236,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 91,
+      "id" : 81,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2935,25 +3263,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 91,
-        "Name" : " YS_BR300_Conduits07_01",
-        "InNode" : " YS_BR300_Junction07_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 81,
+        "Name" : "YS_BR300_Conduits07_01",
+        "InNode" : "YS_BR300_Junction07_01",
         "OutNode" : "YS_MA1200_Junction04_01",
-        "Level" : 1,
-        "InNodeElev" : 26.074000000000002,
-        "OutNodeEle" : 23.702999999999999,
+        "InSurElev" : 27.074000000000002,
+        "InDepth" : 1,
         "InElev" : 26.074000000000002,
+        "InNodeElev" : 26.074000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 27.003,
+        "OutDepth" : 1,
         "OutElev" : 26.003,
+        "OutNodeEle" : 23.702999999999999,
         "OutOffset" : 2.2999999999999998,
         "DN" : 0.29999999999999999,
-        "Length" : 6.2854999999999999
+        "Length" : 6.2854999999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 92,
+      "id" : 82,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2967,25 +3303,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 92,
-        "Name" : " YS_BR500_Conduits16_02",
-        "InNode" : " YS_BR500_Junction16_02",
-        "OutNode" : " YS_BR500_Junction16_03",
-        "Level" : 1,
-        "InNodeElev" : 21.251999999999999,
-        "OutNodeEle" : 20.812000000000001,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 82,
+        "Name" : "YS_BR500_Conduits16_02",
+        "InNode" : "YS_BR500_Junction16_02",
+        "OutNode" : "YS_BR500_Junction16_03",
+        "InSurElev" : 23.071999999999999,
+        "InDepth" : 1.8200000000000001,
         "InElev" : 21.251999999999999,
+        "InNodeElev" : 21.251999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.492000000000001,
+        "OutDepth" : 1.6699999999999999,
         "OutElev" : 20.821999999999999,
+        "OutNodeEle" : 20.812000000000001,
         "OutOffset" : 0.01,
         "DN" : 0.5,
-        "Length" : 8.7582000000000004
+        "Length" : 8.7582000000000004,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 93,
+      "id" : 83,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -2999,25 +3343,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 93,
-        "Name" : " YS_BR500_Conduits18_01",
-        "InNode" : " YS_BR500_Junction18_01",
-        "OutNode" : " YS_BR500_Junction18_02",
-        "Level" : 1,
-        "InNodeElev" : 21.058,
-        "OutNodeEle" : 20.463999999999999,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 83,
+        "Name" : "YS_BR500_Conduits18_01",
+        "InNode" : "YS_BR500_Junction18_01",
+        "OutNode" : "YS_BR500_Junction18_02",
+        "InSurElev" : 22.948,
+        "InDepth" : 1.8899999999999999,
         "InElev" : 21.058,
+        "InNodeElev" : 21.058,
         "InOffset" : 0,
+        "OutSurElev" : 22.344000000000001,
+        "OutDepth" : 1.72,
         "OutElev" : 20.623999999999999,
+        "OutNodeEle" : 20.463999999999999,
         "OutOffset" : 0.16,
         "DN" : 0.5,
-        "Length" : 7.7925000000000004
+        "Length" : 7.7925000000000004,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 94,
+      "id" : 84,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3031,25 +3383,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 94,
-        "Name" : " YS_BR500_Conduits11_01",
-        "InNode" : " YS_BR500_Junction11_01",
-        "OutNode" : " YS_BR500_Junction11_02",
-        "Level" : 1,
-        "InNodeElev" : 20.974,
-        "OutNodeEle" : 19.949000000000002,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 84,
+        "Name" : "YS_BR500_Conduits11_01",
+        "InNode" : "YS_BR500_Junction11_01",
+        "OutNode" : "YS_BR500_Junction11_02",
+        "InSurElev" : 22.603999999999999,
+        "InDepth" : 1.6299999999999999,
         "InElev" : 20.974,
+        "InNodeElev" : 20.974,
         "InOffset" : 0,
+        "OutSurElev" : 22.459,
+        "OutDepth" : 1.55,
         "OutElev" : 20.908999999999999,
+        "OutNodeEle" : 19.949000000000002,
         "OutOffset" : 0.96000099999999999,
         "DN" : 0.5,
-        "Length" : 8.0533000000000001
+        "Length" : 8.0533000000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 95,
+      "id" : 85,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3063,25 +3423,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 95,
-        "Name" : " YS_BR500_Conduits22_02",
-        "InNode" : " YS_BR500_Junction22_02",
-        "OutNode" : " YS_BR500_Junction22_03",
-        "Level" : 1,
-        "InNodeElev" : 20.716000000000001,
-        "OutNodeEle" : 19.981000000000002,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 85,
+        "Name" : "YS_BR500_Conduits22_02",
+        "InNode" : "YS_BR500_Junction22_02",
+        "OutNode" : "YS_BR500_Junction22_03",
+        "InSurElev" : 22.675999999999998,
+        "InDepth" : 1.96,
         "InElev" : 20.716000000000001,
+        "InNodeElev" : 20.716000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.491,
+        "OutDepth" : 2.5099999999999998,
         "OutElev" : 19.981000000000002,
+        "OutNodeEle" : 19.981000000000002,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 6.7412000000000001
+        "Length" : 6.7412000000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 96,
+      "id" : 86,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3095,25 +3463,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 96,
-        "Name" : " YS_BR500_Conduits28_01",
-        "InNode" : " YS_BR500_Junction28_01",
-        "OutNode" : " YS_BR500_Junction28_02",
-        "Level" : 1,
-        "InNodeElev" : 21.379999999999999,
-        "OutNodeEle" : 20.939,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 86,
+        "Name" : "YS_BR500_Conduits28_01",
+        "InNode" : "YS_BR500_Junction28_01",
+        "OutNode" : "YS_BR500_Junction28_02",
+        "InSurElev" : 23.079999999999998,
+        "InDepth" : 1.7,
         "InElev" : 21.379999999999999,
+        "InNodeElev" : 21.379999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.949000000000002,
+        "OutDepth" : 2.0099999999999998,
         "OutElev" : 20.939,
+        "OutNodeEle" : 20.939,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 7.3541999999999996
+        "Length" : 7.3541999999999996,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 97,
+      "id" : 87,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3127,25 +3503,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 97,
-        "Name" : " YS_MA1800_Conduits05_20",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 87,
+        "Name" : "YS_MA1800_Conduits05_20",
         "InNode" : "YS_MA1800_Junction05_20",
         "OutNode" : "YS_MA1800_Junction05_21",
-        "Level" : 1,
-        "InNodeElev" : 18.669,
-        "OutNodeEle" : 18.960999999999999,
+        "InSurElev" : 23.309000000000001,
+        "InDepth" : 4.6399999999999997,
         "InElev" : 18.669,
+        "InNodeElev" : 18.669,
         "InOffset" : 0,
+        "OutSurElev" : 23.600999999999999,
+        "OutDepth" : 4.6399999999999997,
         "OutElev" : 18.960999999999999,
+        "OutNodeEle" : 18.960999999999999,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 37.904899999999998
+        "Length" : 37.904899999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 98,
+      "id" : 88,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3159,25 +3543,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 98,
-        "Name" : " YS_MA1800_Conduits05_19",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 88,
+        "Name" : "YS_MA1800_Conduits05_19",
         "InNode" : "YS_MA1800_Junction05_19",
         "OutNode" : "YS_MA1800_Junction05_20",
-        "Level" : 1,
-        "InNodeElev" : 18.629999999999999,
-        "OutNodeEle" : 18.669,
+        "InSurElev" : 23.23,
+        "InDepth" : 4.5999999999999996,
         "InElev" : 18.629999999999999,
+        "InNodeElev" : 18.629999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 23.309000000000001,
+        "OutDepth" : 4.6399999999999997,
         "OutElev" : 18.669,
+        "OutNodeEle" : 18.669,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 34.880600000000001
+        "Length" : 34.880600000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 99,
+      "id" : 89,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3191,25 +3583,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 99,
-        "Name" : " YS_MA1800_Conduits05_18",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 89,
+        "Name" : "YS_MA1800_Conduits05_18",
         "InNode" : "YS_MA1800_Junction05_18",
         "OutNode" : "YS_MA1800_Junction05_19",
-        "Level" : 1,
-        "InNodeElev" : 18.789000000000001,
-        "OutNodeEle" : 18.629999999999999,
+        "InSurElev" : 23.149000000000001,
+        "InDepth" : 4.3600000000000003,
         "InElev" : 18.789000000000001,
+        "InNodeElev" : 18.789000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.23,
+        "OutDepth" : 4.5999999999999996,
         "OutElev" : 18.629999999999999,
+        "OutNodeEle" : 18.629999999999999,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 33.159300000000002
+        "Length" : 33.159300000000002,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 100,
+      "id" : 90,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3223,25 +3623,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 100,
-        "Name" : " YS_MA1800_Conduits05_17",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 90,
+        "Name" : "YS_MA1800_Conduits05_17",
         "InNode" : "YS_MA1800_Junction05_17",
         "OutNode" : "YS_MA1800_Junction05_18",
-        "Level" : 1,
-        "InNodeElev" : 18.901,
-        "OutNodeEle" : 18.789000000000001,
+        "InSurElev" : 23.061,
+        "InDepth" : 4.1600000000000001,
         "InElev" : 18.901,
+        "InNodeElev" : 18.901,
         "InOffset" : 0,
+        "OutSurElev" : 23.149000000000001,
+        "OutDepth" : 4.3600000000000003,
         "OutElev" : 18.789000000000001,
+        "OutNodeEle" : 18.789000000000001,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 21.076799999999999
+        "Length" : 21.076799999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 101,
+      "id" : 91,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3255,25 +3663,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 101,
-        "Name" : " YS_MA1800_Conduits05_16",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 91,
+        "Name" : "YS_MA1800_Conduits05_16",
         "InNode" : "YS_MA1800_Junction05_16",
         "OutNode" : "YS_MA1800_Junction05_17",
-        "Level" : 1,
-        "InNodeElev" : 18.931999999999999,
-        "OutNodeEle" : 18.901,
+        "InSurElev" : 22.981999999999999,
+        "InDepth" : 4.0499999999999998,
         "InElev" : 18.931999999999999,
+        "InNodeElev" : 18.931999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 23.061,
+        "OutDepth" : 4.1600000000000001,
         "OutElev" : 18.901,
+        "OutNodeEle" : 18.901,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 25.433299999999999
+        "Length" : 25.433299999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 102,
+      "id" : 92,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3287,25 +3703,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 102,
-        "Name" : " YS_MA1800_Conduits05_15",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 92,
+        "Name" : "YS_MA1800_Conduits05_15",
         "InNode" : "YS_MA1800_Junction05_15",
         "OutNode" : "YS_MA1800_Junction05_16",
-        "Level" : 1,
-        "InNodeElev" : 18.809999999999999,
-        "OutNodeEle" : 18.931999999999999,
+        "InSurElev" : 22.859999999999999,
+        "InDepth" : 4.0499999999999998,
         "InElev" : 18.809999999999999,
+        "InNodeElev" : 18.809999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.981999999999999,
+        "OutDepth" : 4.0499999999999998,
         "OutElev" : 18.931999999999999,
+        "OutNodeEle" : 18.931999999999999,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 28.329599999999999
+        "Length" : 28.329599999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 103,
+      "id" : 93,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3319,25 +3743,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 103,
-        "Name" : " YS_MA1800_Conduits05_14",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 93,
+        "Name" : "YS_MA1800_Conduits05_14",
         "InNode" : "YS_MA1800_Junction05_14",
         "OutNode" : "YS_MA1800_Junction05_15",
-        "Level" : 1,
-        "InNodeElev" : 18.914000000000001,
-        "OutNodeEle" : 18.809999999999999,
+        "InSurElev" : 22.783999999999999,
+        "InDepth" : 3.8700000000000001,
         "InElev" : 18.914000000000001,
+        "InNodeElev" : 18.914000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.859999999999999,
+        "OutDepth" : 4.0499999999999998,
         "OutElev" : 18.809999999999999,
+        "OutNodeEle" : 18.809999999999999,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 30.966000000000001
+        "Length" : 30.966000000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 104,
+      "id" : 94,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3351,25 +3783,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 104,
-        "Name" : " YS_MA1800_Conduits05_13",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 94,
+        "Name" : "YS_MA1800_Conduits05_13",
         "InNode" : "YS_MA1800_Junction05_13",
         "OutNode" : "YS_MA1800_Junction05_14",
-        "Level" : 1,
-        "InNodeElev" : 18.823,
-        "OutNodeEle" : 18.914000000000001,
+        "InSurElev" : 22.693000000000001,
+        "InDepth" : 3.8700000000000001,
         "InElev" : 18.823,
+        "InNodeElev" : 18.823,
         "InOffset" : 0,
+        "OutSurElev" : 22.783999999999999,
+        "OutDepth" : 3.8700000000000001,
         "OutElev" : 18.914000000000001,
+        "OutNodeEle" : 18.914000000000001,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 31.2728
+        "Length" : 31.2728,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 105,
+      "id" : 95,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3383,25 +3823,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 105,
-        "Name" : " YS_MA1800_Conduits05_12",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 95,
+        "Name" : "YS_MA1800_Conduits05_12",
         "InNode" : "YS_MA1800_Junction05_12",
         "OutNode" : "YS_MA1800_Junction05_13",
-        "Level" : 1,
-        "InNodeElev" : 18.859999999999999,
-        "OutNodeEle" : 18.823,
+        "InSurElev" : 22.609999999999999,
+        "InDepth" : 3.5099999999999998,
         "InElev" : 19.100000000000001,
+        "InNodeElev" : 18.859999999999999,
         "InOffset" : 0.23999999999999999,
+        "OutSurElev" : 22.693000000000001,
+        "OutDepth" : 3.8700000000000001,
         "OutElev" : 18.823,
+        "OutNodeEle" : 18.823,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 21.4924
+        "Length" : 21.4924,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 106,
+      "id" : 96,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3415,25 +3863,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 106,
-        "Name" : " YS_MA1800_Conduits05_11",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 96,
+        "Name" : "YS_MA1800_Conduits05_11",
         "InNode" : "YS_MA1800_Junction05_11",
         "OutNode" : "YS_MA1800_Junction05_12",
-        "Level" : 1,
-        "InNodeElev" : 19.056999999999999,
-        "OutNodeEle" : 18.859999999999999,
+        "InSurElev" : 22.577000000000002,
+        "InDepth" : 3.52,
         "InElev" : 19.056999999999999,
+        "InNodeElev" : 19.056999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 22.609999999999999,
+        "OutDepth" : 3.5099999999999998,
         "OutElev" : 19.100000000000001,
+        "OutNodeEle" : 18.859999999999999,
         "OutOffset" : 0.23999999999999999,
         "DN" : 1.8,
-        "Length" : 7.1475999999999997
+        "Length" : 7.1475999999999997,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 107,
+      "id" : 97,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3447,25 +3903,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 107,
-        "Name" : " YS_MA1800_Conduits05_10",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 97,
+        "Name" : "YS_MA1800_Conduits05_10",
         "InNode" : "YS_MA1800_Junction05_10",
         "OutNode" : "YS_MA1800_Junction05_11",
-        "Level" : 1,
-        "InNodeElev" : 19.082999999999998,
-        "OutNodeEle" : 19.056999999999999,
+        "InSurElev" : 22.503,
+        "InDepth" : 3.4199999999999999,
         "InElev" : 19.082999999999998,
+        "InNodeElev" : 19.082999999999998,
         "InOffset" : 0,
+        "OutSurElev" : 22.577000000000002,
+        "OutDepth" : 3.52,
         "OutElev" : 19.056999999999999,
+        "OutNodeEle" : 19.056999999999999,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 35.774500000000003
+        "Length" : 35.774500000000003,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 108,
+      "id" : 98,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3479,25 +3943,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 108,
-        "Name" : " YS_MA1800_Conduits05_09",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 98,
+        "Name" : "YS_MA1800_Conduits05_09",
         "InNode" : "YS_MA1800_Junction05_09",
         "OutNode" : "YS_MA1800_Junction05_10",
-        "Level" : 1,
-        "InNodeElev" : 19.193000000000001,
-        "OutNodeEle" : 19.082999999999998,
+        "InSurElev" : 22.413,
+        "InDepth" : 3.2200000000000002,
         "InElev" : 19.193000000000001,
+        "InNodeElev" : 19.193000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.503,
+        "OutDepth" : 3.4100000000000001,
         "OutElev" : 19.093,
+        "OutNodeEle" : 19.082999999999998,
         "OutOffset" : 0.01,
         "DN" : 1.8,
-        "Length" : 37.258800000000001
+        "Length" : 37.258800000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 109,
+      "id" : 99,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3511,25 +3983,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 109,
-        "Name" : " YS_MA1800_Conduits05_08",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 99,
+        "Name" : "YS_MA1800_Conduits05_08",
         "InNode" : "YS_MA1800_Junction05_08",
         "OutNode" : "YS_MA1800_Junction05_09",
-        "Level" : 1,
-        "InNodeElev" : 19.259,
-        "OutNodeEle" : 19.193000000000001,
+        "InSurElev" : 22.379000000000001,
+        "InDepth" : 3.1200000000000001,
         "InElev" : 19.259,
+        "InNodeElev" : 19.259,
         "InOffset" : 0,
+        "OutSurElev" : 22.413,
+        "OutDepth" : 3.2200000000000002,
         "OutElev" : 19.193000000000001,
+        "OutNodeEle" : 19.193000000000001,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 17.3489
+        "Length" : 17.3489,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 110,
+      "id" : 100,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3543,25 +4023,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 110,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 100,
         "Name" : "YS_MA500_Conduits06_02",
         "InNode" : "YS_MA500_Junction06_02",
         "OutNode" : "YS_MA500_Junction06_03",
-        "Level" : 1,
-        "InNodeElev" : 27.622,
-        "OutNodeEle" : 27.277000000000001,
+        "InSurElev" : 29.271999999999998,
+        "InDepth" : 1.6499999999999999,
         "InElev" : 27.622,
+        "InNodeElev" : 27.622,
         "InOffset" : 0,
+        "OutSurElev" : 29.187000000000001,
+        "OutDepth" : 1.8799999999999999,
         "OutElev" : 27.306999999999999,
+        "OutNodeEle" : 27.277000000000001,
         "OutOffset" : 0.029999000000000001,
         "DN" : 0.5,
-        "Length" : 33.9255
+        "Length" : 33.9255,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 111,
+      "id" : 101,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3575,25 +4063,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 111,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 101,
         "Name" : "YS_MA500_Conduits06_01",
         "InNode" : "YS_MA500_Junction06_01",
         "OutNode" : "YS_MA500_Junction06_02",
-        "Level" : 1,
-        "InNodeElev" : 27.765000000000001,
-        "OutNodeEle" : 27.622,
+        "InSurElev" : 29.215,
+        "InDepth" : 1.45,
         "InElev" : 27.765000000000001,
+        "InNodeElev" : 27.765000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 29.271999999999998,
+        "OutDepth" : 1.6299999999999999,
         "OutElev" : 27.641999999999999,
+        "OutNodeEle" : 27.622,
         "OutOffset" : 0.020001000000000001,
         "DN" : 0.5,
-        "Length" : 25.3811
+        "Length" : 25.3811,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 112,
+      "id" : 102,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3607,25 +4103,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 112,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 102,
         "Name" : "YS_BR600_Conduits32_01",
         "InNode" : "YS_BR600_Junction32_01",
         "OutNode" : "YS_MA700_Junction07_01",
-        "Level" : 4,
-        "InNodeElev" : 26.940999999999999,
-        "OutNodeEle" : 26.736999999999998,
+        "InSurElev" : 29.190999999999999,
+        "InDepth" : 2.25,
         "InElev" : 26.940999999999999,
+        "InNodeElev" : 26.940999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 28.887,
+        "OutDepth" : 2.1499999999999999,
         "OutElev" : 26.736999999999998,
+        "OutNodeEle" : 26.736999999999998,
         "OutOffset" : 0,
         "DN" : 0.59999999999999998,
-        "Length" : 20.1493
+        "Length" : 20.1493,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 4
       }
     },
     {
       "type" : "Feature",
-      "id" : 113,
+      "id" : 103,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3639,25 +4143,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 113,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 103,
         "Name" : "YS_BR600_Conduits33_01",
         "InNode" : "YS_BR600_Junction33_01",
         "OutNode" : "YS_MA700_Junction07_01",
-        "Level" : 1,
-        "InNodeElev" : 26.891999999999999,
-        "OutNodeEle" : 26.736999999999998,
+        "InSurElev" : 28.891999999999999,
+        "InDepth" : 2,
         "InElev" : 26.891999999999999,
+        "InNodeElev" : 26.891999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 28.887,
+        "OutDepth" : 2.1499999999999999,
         "OutElev" : 26.736999999999998,
+        "OutNodeEle" : 26.736999999999998,
         "OutOffset" : 0,
         "DN" : 0.59999999999999998,
-        "Length" : 15.6387
+        "Length" : 15.6387,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 114,
+      "id" : 104,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3671,25 +4183,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 114,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 104,
         "Name" : "YS_BR600_Conduits35_01",
         "InNode" : "YS_BR500_Junction34_04",
         "OutNode" : "YS_MA700_Junction07_03",
-        "Level" : 1,
-        "InNodeElev" : 25.536000000000001,
-        "OutNodeEle" : 25.585999999999999,
+        "InSurElev" : 27.786000000000001,
+        "InDepth" : 2.25,
         "InElev" : 25.536000000000001,
+        "InNodeElev" : 25.536000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 28.056000000000001,
+        "OutDepth" : 2.4199999999999999,
         "OutElev" : 25.635999999999999,
+        "OutNodeEle" : 25.585999999999999,
         "OutOffset" : 0.049999000000000002,
         "DN" : 0.59999999999999998,
-        "Length" : 11.6721
+        "Length" : 11.6721,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 115,
+      "id" : 105,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3703,25 +4223,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 115,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 105,
         "Name" : "YS_BR500_Conduits34_03",
         "InNode" : "YS_BR500_Junction34_03",
         "OutNode" : "YS_BR500_Junction34_04",
-        "Level" : 1,
-        "InNodeElev" : 26.077999999999999,
-        "OutNodeEle" : 25.536000000000001,
+        "InSurElev" : 28.077999999999999,
+        "InDepth" : 2,
         "InElev" : 26.077999999999999,
+        "InNodeElev" : 26.077999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 27.786000000000001,
+        "OutDepth" : 1.8300000000000001,
         "OutElev" : 25.956,
+        "OutNodeEle" : 25.536000000000001,
         "OutOffset" : 0.41999999999999998,
         "DN" : 0.5,
-        "Length" : 30.501100000000001
+        "Length" : 30.501100000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 116,
+      "id" : 106,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3735,25 +4263,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 116,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 106,
         "Name" : "YS_BR500_Conduits34_02",
         "InNode" : "YS_BR500_Junction34_02",
         "OutNode" : "YS_BR500_Junction34_03",
-        "Level" : 1,
-        "InNodeElev" : 26.227,
-        "OutNodeEle" : 26.077999999999999,
+        "InSurElev" : 28.196999999999999,
+        "InDepth" : 1.97,
         "InElev" : 26.227,
+        "InNodeElev" : 26.227,
         "InOffset" : 0,
+        "OutSurElev" : 28.077999999999999,
+        "OutDepth" : 2,
         "OutElev" : 26.077999999999999,
+        "OutNodeEle" : 26.077999999999999,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 38.291499999999999
+        "Length" : 38.291499999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 117,
+      "id" : 107,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3767,25 +4303,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 117,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 107,
         "Name" : "YS_BR500_Conduits34_01",
         "InNode" : "YS_BR500_Junction34_01",
         "OutNode" : "YS_BR500_Junction34_02",
-        "Level" : 1,
-        "InNodeElev" : 26.349,
-        "OutNodeEle" : 26.227,
+        "InSurElev" : 28.228999999999999,
+        "InDepth" : 1.8799999999999999,
         "InElev" : 26.349,
+        "InNodeElev" : 26.349,
         "InOffset" : 0,
+        "OutSurElev" : 28.196999999999999,
+        "OutDepth" : 1.97,
         "OutElev" : 26.227,
+        "OutNodeEle" : 26.227,
         "OutOffset" : 0,
         "DN" : 0.5,
-        "Length" : 32.210999999999999
+        "Length" : 32.210999999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 118,
+      "id" : 108,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3799,25 +4343,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 118,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 108,
         "Name" : "YS_BR600_Conduits36_01",
         "InNode" : "YS_BR600_Junction36_01",
         "OutNode" : "YS_MA800_Junction08_01",
-        "Level" : 2,
-        "InNodeElev" : 25.702000000000002,
-        "OutNodeEle" : 25.097000000000001,
+        "InSurElev" : 27.841999999999999,
+        "InDepth" : 2.1400000000000001,
         "InElev" : 25.702000000000002,
+        "InNodeElev" : 25.702000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 27.497,
+        "OutDepth" : 2.3399999999999999,
         "OutElev" : 25.157,
+        "OutNodeEle" : 25.097000000000001,
         "OutOffset" : 0.059998999999999997,
         "DN" : 0.59999999999999998,
-        "Length" : 22.5442
+        "Length" : 22.5442,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 2
       }
     },
     {
       "type" : "Feature",
-      "id" : 119,
+      "id" : 109,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3831,25 +4383,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 119,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 109,
         "Name" : "YS_BR600_Conduits37_01",
         "InNode" : "YS_BR600_Junction37_01",
         "OutNode" : "YS_MA800_Junction08_01",
-        "Level" : 1,
-        "InNodeElev" : 25.221,
-        "OutNodeEle" : 25.097000000000001,
+        "InSurElev" : 27.370999999999999,
+        "InDepth" : 2.1499999999999999,
         "InElev" : 25.221,
+        "InNodeElev" : 25.221,
         "InOffset" : 0,
+        "OutSurElev" : 27.497,
+        "OutDepth" : 2.2000000000000002,
         "OutElev" : 25.297000000000001,
+        "OutNodeEle" : 25.097000000000001,
         "OutOffset" : 0.20000100000000001,
         "DN" : 0.59999999999999998,
-        "Length" : 8.3251000000000008
+        "Length" : 8.3251000000000008,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 120,
+      "id" : 110,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3863,25 +4423,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 120,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 110,
         "Name" : "YS_BR600_Conduits38_01",
         "InNode" : "YS_BR600_Junction38_01",
         "OutNode" : "YS_MA800_Junction08_04",
-        "Level" : 1,
-        "InNodeElev" : 24.081,
-        "OutNodeEle" : 23.635999999999999,
+        "InSurElev" : 26.611000000000001,
+        "InDepth" : 2.5299999999999998,
         "InElev" : 24.081,
+        "InNodeElev" : 24.081,
         "InOffset" : 0,
+        "OutSurElev" : 26.245999999999999,
+        "OutDepth" : 2.2999999999999998,
         "OutElev" : 23.946000000000002,
+        "OutNodeEle" : 23.635999999999999,
         "OutOffset" : 0.30999900000000002,
         "DN" : 0.59999999999999998,
-        "Length" : 22.635000000000002
+        "Length" : 22.635000000000002,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 121,
+      "id" : 111,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3895,25 +4463,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 121,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 111,
         "Name" : "YS_BR600_Conduits39_01",
         "InNode" : "YS_BR600_Junction39_01",
         "OutNode" : "YS_MA800_Junction08_04",
-        "Level" : 1,
-        "InNodeElev" : 24.164000000000001,
-        "OutNodeEle" : 23.635999999999999,
+        "InSurElev" : 26.213999999999999,
+        "InDepth" : 2.0499999999999998,
         "InElev" : 24.164000000000001,
+        "InNodeElev" : 24.164000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 26.245999999999999,
+        "OutDepth" : 2.2000000000000002,
         "OutElev" : 24.045999999999999,
+        "OutNodeEle" : 23.635999999999999,
         "OutOffset" : 0.40999999999999998,
         "DN" : 0.59999999999999998,
-        "Length" : 9.4144000000000005
+        "Length" : 9.4144000000000005,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 122,
+      "id" : 112,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3927,25 +4503,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 122,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 112,
         "Name" : "YS_MA800_Conduits08_05",
         "InNode" : "YS_MA800_Junction08_04",
         "OutNode" : "YS_MA800_Junction08_05",
-        "Level" : 1,
-        "InNodeElev" : 23.635999999999999,
-        "OutNodeEle" : 23.114999999999998,
+        "InSurElev" : 26.245999999999999,
+        "InDepth" : 2.3500000000000001,
         "InElev" : 23.896000000000001,
+        "InNodeElev" : 23.635999999999999,
         "InOffset" : 0.26000000000000001,
+        "OutSurElev" : 25.841000000000001,
+        "OutDepth" : 2.5499999999999998,
         "OutElev" : 23.291,
+        "OutNodeEle" : 23.114999999999998,
         "OutOffset" : 0.17600099999999999,
         "DN" : 0.80000000000000004,
-        "Length" : 35.217199999999998
+        "Length" : 35.217199999999998,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 123,
+      "id" : 113,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3959,25 +4543,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 123,
-        "Name" : " YS_BR600_Conduits46_12",
-        "InNode" : " YS_BR600_Junction46_12",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 113,
+        "Name" : "YS_BR600_Conduits46_12",
+        "InNode" : "YS_BR600_Junction46_12",
         "OutNode" : "YS_MA800_Junction08_05",
-        "Level" : 1,
-        "InNodeElev" : 23.712,
-        "OutNodeEle" : 23.114999999999998,
+        "InSurElev" : 26.481999999999999,
+        "InDepth" : 2.7000000000000002,
         "InElev" : 23.782,
+        "InNodeElev" : 23.712,
         "InOffset" : 0.070000000000000007,
+        "OutSurElev" : 25.841000000000001,
+        "OutDepth" : 2.1499999999999999,
         "OutElev" : 23.690999999999999,
+        "OutNodeEle" : 23.114999999999998,
         "OutOffset" : 0.57599999999999996,
         "DN" : 0.59999999999999998,
-        "Length" : 17.9328
+        "Length" : 17.9328,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 124,
+      "id" : 114,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -3991,25 +4583,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 124,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 114,
         "Name" : "YS_MA800_Conduits08_06",
         "InNode" : "YS_MA800_Junction08_05",
         "OutNode" : "YS_MA800_Junction08_06",
-        "Level" : 1,
-        "InNodeElev" : 23.114999999999998,
-        "OutNodeEle" : 22.766999999999999,
+        "InSurElev" : 25.841000000000001,
+        "InDepth" : 2.6000000000000001,
         "InElev" : 23.241,
+        "InNodeElev" : 23.114999999999998,
         "InOffset" : 0.125999,
+        "OutSurElev" : 25.547999999999998,
+        "OutDepth" : 2.7000000000000002,
         "OutElev" : 22.847999999999999,
+        "OutNodeEle" : 22.766999999999999,
         "OutOffset" : 0.080999000000000002,
         "DN" : 0.80000000000000004,
-        "Length" : 31.185600000000001
+        "Length" : 31.185600000000001,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 125,
+      "id" : 115,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4023,25 +4623,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 125,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 115,
         "Name" : "YS_BR700_Conduits40_01",
         "InNode" : "YS_BR700_Junction40_01",
         "OutNode" : "YS_MA800_Junction08_09",
-        "Level" : 1,
-        "InNodeElev" : 21.949000000000002,
-        "OutNodeEle" : 20.882000000000001,
+        "InSurElev" : 24.748999999999999,
+        "InDepth" : 2.7999999999999998,
         "InElev" : 21.949000000000002,
+        "InNodeElev" : 21.949000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 23.882000000000001,
+        "OutDepth" : 2.7200000000000002,
         "OutElev" : 21.161999999999999,
+        "OutNodeEle" : 20.882000000000001,
         "OutOffset" : 0.280001,
         "DN" : 0.69999999999999996,
-        "Length" : 24.2165
+        "Length" : 24.2165,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 126,
+      "id" : 116,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4055,25 +4663,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 126,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 116,
         "Name" : "YS_BR600_Conduits41_01",
         "InNode" : "YS_BR600_Junction41_01",
         "OutNode" : "YS_MA800_Junction08_09",
-        "Level" : 4,
-        "InNodeElev" : 22.488,
-        "OutNodeEle" : 20.882000000000001,
+        "InSurElev" : 24.707999999999998,
+        "InDepth" : 2.2200000000000002,
         "InElev" : 22.488,
+        "InNodeElev" : 22.488,
         "InOffset" : 0,
+        "OutSurElev" : 23.882000000000001,
+        "OutDepth" : 2.6099999999999999,
         "OutElev" : 21.271999999999998,
+        "OutNodeEle" : 20.882000000000001,
         "OutOffset" : 0.38999899999999998,
         "DN" : 0.59999999999999998,
-        "Length" : 12.965299999999999
+        "Length" : 12.965299999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 4
       }
     },
     {
       "type" : "Feature",
-      "id" : 127,
+      "id" : 117,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4087,25 +4703,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 127,
-        "Name" : " YS_MA1800_Conduits05_22",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 117,
+        "Name" : "YS_MA1800_Conduits05_22",
         "InNode" : "YS_MA1800_Junction05_22",
         "OutNode" : "YS_MA1800_Junction05_23",
-        "Level" : 1,
-        "InNodeElev" : 18.483000000000001,
-        "OutNodeEle" : 18.334,
+        "InSurElev" : 22.803000000000001,
+        "InDepth" : 4.3200000000000003,
         "InElev" : 18.483000000000001,
+        "InNodeElev" : 18.483000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 22.553999999999998,
+        "OutDepth" : 4.2199999999999998,
         "OutElev" : 18.334,
+        "OutNodeEle" : 18.334,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 23.1387
+        "Length" : 23.1387,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 128,
+      "id" : 118,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4119,25 +4743,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 128,
-        "Name" : " YS_MA1800_Conduits05_23",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 118,
+        "Name" : "YS_MA1800_Conduits05_23",
         "InNode" : "YS_MA1800_Junction05_23",
         "OutNode" : "YS_MA1800_Junction05_24",
-        "Level" : 1,
-        "InNodeElev" : 18.334,
-        "OutNodeEle" : 18.300000000000001,
+        "InSurElev" : 22.553999999999998,
+        "InDepth" : 4.2199999999999998,
         "InElev" : 18.334,
+        "InNodeElev" : 18.334,
         "InOffset" : 0,
+        "OutSurElev" : 22.260000000000002,
+        "OutDepth" : 3.96,
         "OutElev" : 18.300000000000001,
+        "OutNodeEle" : 18.300000000000001,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 24.1005
+        "Length" : 24.1005,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 129,
+      "id" : 119,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4151,25 +4783,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 129,
-        "Name" : " YS_MA1800_Conduits05_24",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 119,
+        "Name" : "YS_MA1800_Conduits05_24",
         "InNode" : "YS_MA1800_Junction05_24",
         "OutNode" : "YS_MA1800_Junction05_25",
-        "Level" : 1,
-        "InNodeElev" : 18.300000000000001,
-        "OutNodeEle" : 18.109000000000002,
+        "InSurElev" : 22.260000000000002,
+        "InDepth" : 3.96,
         "InElev" : 18.300000000000001,
+        "InNodeElev" : 18.300000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 21.709,
+        "OutDepth" : 3.6000000000000001,
         "OutElev" : 18.109000000000002,
+        "OutNodeEle" : 18.109000000000002,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 44.718299999999999
+        "Length" : 44.718299999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 130,
+      "id" : 120,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4183,25 +4823,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 130,
-        "Name" : " YS_MA1800_Conduits05_25",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 120,
+        "Name" : "YS_MA1800_Conduits05_25",
         "InNode" : "YS_MA1800_Junction05_25",
         "OutNode" : "YS_MA1800_Junction05_26",
-        "Level" : 1,
-        "InNodeElev" : 18.109000000000002,
-        "OutNodeEle" : 18.103999999999999,
+        "InSurElev" : 21.709,
+        "InDepth" : 3.6000000000000001,
         "InElev" : 18.109000000000002,
+        "InNodeElev" : 18.109000000000002,
         "InOffset" : 0,
+        "OutSurElev" : 21.614000000000001,
+        "OutDepth" : 3.5099999999999998,
         "OutElev" : 18.103999999999999,
+        "OutNodeEle" : 18.103999999999999,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 19.2745
+        "Length" : 19.2745,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 131,
+      "id" : 121,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4215,25 +4863,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 131,
-        "Name" : " YS_MA1800_Conduits05_26",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 121,
+        "Name" : "YS_MA1800_Conduits05_26",
         "InNode" : "YS_MA1800_Junction05_26",
         "OutNode" : "YS_MA1800_Junction05_27",
-        "Level" : 1,
-        "InNodeElev" : 18.103999999999999,
-        "OutNodeEle" : 18.007000000000001,
+        "InSurElev" : 21.614000000000001,
+        "InDepth" : 3.5099999999999998,
         "InElev" : 18.103999999999999,
+        "InNodeElev" : 18.103999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 21.707000000000001,
+        "OutDepth" : 3.7000000000000002,
         "OutElev" : 18.007000000000001,
+        "OutNodeEle" : 18.007000000000001,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 19.611499999999999
+        "Length" : 19.611499999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 132,
+      "id" : 122,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4247,25 +4903,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 132,
-        "Name" : " YS_MA2000_Conduits11_01",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 122,
+        "Name" : "YS_MA2000_Conduits11_01",
         "InNode" : "YS_MA1800_Junction05_29",
         "OutNode" : "YS_MA2000_Junction11_01",
-        "Level" : 1,
-        "InNodeElev" : 17.952999999999999,
-        "OutNodeEle" : 18.111999999999998,
+        "InSurElev" : 23.503,
+        "InDepth" : 5.5499999999999998,
         "InElev" : 17.952999999999999,
+        "InNodeElev" : 17.952999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 21.622,
+        "OutDepth" : 3.5099999999999998,
         "OutElev" : 18.111999999999998,
+        "OutNodeEle" : 18.111999999999998,
         "OutOffset" : 0,
         "DN" : 2,
-        "Length" : 15.2096
+        "Length" : 15.2096,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 133,
+      "id" : 123,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4279,25 +4943,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 133,
-        "Name" : " YS_MA1800_Conduits05_28",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 123,
+        "Name" : "YS_MA1800_Conduits05_28",
         "InNode" : "YS_MA1800_Junction05_28",
         "OutNode" : "YS_MA1800_Junction05_29",
-        "Level" : 1,
-        "InNodeElev" : 18.585000000000001,
-        "OutNodeEle" : 17.952999999999999,
+        "InSurElev" : 23.385000000000002,
+        "InDepth" : 4.7999999999999998,
         "InElev" : 18.585000000000001,
+        "InNodeElev" : 18.585000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.503,
+        "OutDepth" : 5.5499999999999998,
         "OutElev" : 17.952999999999999,
+        "OutNodeEle" : 17.952999999999999,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 42.835599999999999
+        "Length" : 42.835599999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 134,
+      "id" : 124,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4311,25 +4983,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 134,
+      "properties" : { "Layer": "rain_line",
+        "FID" : 124,
         "Name" : "YS_BR500_Conduits02_01",
         "InNode" : "YS_BR500_Junction02_01",
         "OutNode" : "YS_MA1000_Junction03_03",
-        "Level" : 1,
-        "InNodeElev" : 26.152999999999999,
-        "OutNodeEle" : 24.475999999999999,
+        "InSurElev" : 30.382999999999999,
+        "InDepth" : 4.2300000000000004,
         "InElev" : 26.152999999999999,
+        "InNodeElev" : 26.152999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 29.096,
+        "OutDepth" : 3.6400000000000001,
         "OutElev" : 25.456,
+        "OutNodeEle" : 24.475999999999999,
         "OutOffset" : 0.97999999999999998,
         "DN" : 0.5,
-        "Length" : 10.9122
+        "Length" : 10.9122,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 135,
+      "id" : 125,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4343,25 +5023,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 135,
-        "Name" : " YS_MA1200_Conduits04_02",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 125,
+        "Name" : "YS_MA1200_Conduits04_02",
         "InNode" : "YS_MA1200_Junction04_01",
         "OutNode" : "YS_MA1200_Junction04_02",
-        "Level" : 1,
-        "InNodeElev" : 23.702999999999999,
-        "OutNodeEle" : 23.655999999999999,
+        "InSurElev" : 27.003,
+        "InDepth" : 3.2999999999999998,
         "InElev" : 23.702999999999999,
+        "InNodeElev" : 23.702999999999999,
         "InOffset" : 0,
+        "OutSurElev" : 26.666,
+        "OutDepth" : 3,
         "OutElev" : 23.666,
+        "OutNodeEle" : 23.655999999999999,
         "OutOffset" : 0.01,
         "DN" : 1.2,
-        "Length" : 23.346
+        "Length" : 23.346,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 136,
+      "id" : 126,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4375,25 +5063,33 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 136,
-        "Name" : " YS_MA1200_Conduits04_09",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 126,
+        "Name" : "YS_MA1200_Conduits04_09",
         "InNode" : "YS_MA1200_Junction04_09",
         "OutNode" : "YS_MA1800_Junction05_08",
-        "Level" : 1,
-        "InNodeElev" : 20.055,
-        "OutNodeEle" : 19.259,
+        "InSurElev" : 22.405000000000001,
+        "InDepth" : 2.3500000000000001,
         "InElev" : 20.055,
+        "InNodeElev" : 20.055,
         "InOffset" : 0,
+        "OutSurElev" : 22.379000000000001,
+        "OutDepth" : 2.7999999999999998,
         "OutElev" : 19.579000000000001,
+        "OutNodeEle" : 19.259,
         "OutOffset" : 0.32000000000000001,
         "DN" : 1.2,
-        "Length" : 24.846299999999999
+        "Length" : 24.846299999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     },
     {
       "type" : "Feature",
-      "id" : 137,
+      "id" : 127,
       "geometry" : {
         "type" : "LineString",
         "coordinates" : [
@@ -4407,20 +5103,28 @@
           ]
         ]
       },
-      "properties" : {
-        "FID" : 137,
-        "Name" : " YS_MA1800_Conduits05_27",
+      "properties" : { "Layer": "rain_line",
+        "FID" : 127,
+        "Name" : "YS_MA1800_Conduits05_27",
         "InNode" : "YS_MA1800_Junction05_27",
         "OutNode" : "YS_MA1800_Junction05_28",
-        "Level" : 1,
-        "InNodeElev" : 18.007000000000001,
-        "OutNodeEle" : 18.585000000000001,
+        "InSurElev" : 21.707000000000001,
+        "InDepth" : 3.7000000000000002,
         "InElev" : 18.007000000000001,
+        "InNodeElev" : 18.007000000000001,
         "InOffset" : 0,
+        "OutSurElev" : 23.385000000000002,
+        "OutDepth" : 4.7999999999999998,
         "OutElev" : 18.585000000000001,
+        "OutNodeEle" : 18.585000000000001,
         "OutOffset" : 0,
         "DN" : 1.8,
-        "Length" : 20.674399999999999
+        "Length" : 20.674399999999999,
+        "Category" : "YS",
+        "Material" : "Concrete",
+        "Form" : "Circular",
+        "Outfall" : "YHXBQH_RainOutfalls_Right_01",
+        "Level" : 1
       }
     }
   ]
