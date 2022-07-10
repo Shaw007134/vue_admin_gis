@@ -1083,7 +1083,7 @@ export default {
         };
         view.hitTest(event, point_opt).then(response => {
           if (response.results.length) {
-            // if (hovered) return;
+            if (hovered) return;
             hovered = true;
             console.log('===', response.results[0]);
             var graphic = response.results[0].graphic;
@@ -1165,7 +1165,7 @@ export default {
               }
             });
           } else {
-            // hovered = false;
+            hovered = false;
             // this.visiblePoint = false;
             resultsLayer.removeAll();
           }
@@ -1187,7 +1187,37 @@ export default {
         };
         view.hitTest(event, point_opt).then(response => {
           if (response.results.length) {
+            resultsLayer.removeAll();
             var graphic = response.results[0].graphic;
+            console.log('clicked --', response.results[0]);
+            var features;
+            if (graphic.geometry.type == 'point') {
+              features = [graphic].map(graphic => {
+                graphic.symbol = {
+                  type: 'simple-marker',
+                  color: [12, 128, 128, 0.5],
+                  outline: {
+                    width: 4,
+                    color: 'red'
+                  }
+                };
+                return graphic;
+              });
+            } else {
+              features = [graphic].map(graphic => {
+                graphic.symbol = {
+                  type: 'simple-fill',
+                  color: [12, 128, 128, 0.5],
+                  outline: {
+                    width: 4,
+                    color: 'red'
+                  }
+                };
+                return graphic;
+              });
+            }
+
+            resultsLayer.addMany(features);
             var { Name, Layer } = graphic.attributes;
             if (Name.indexOf('Conduit') >= 0) {
               this.visibleLine = true;
@@ -1198,6 +1228,7 @@ export default {
           } else {
             // hovered = false;
             // this.visiblePoint = false;
+            resultsLayer.removeAll();
           }
         });
       });
