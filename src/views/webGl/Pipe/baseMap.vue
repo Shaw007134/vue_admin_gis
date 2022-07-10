@@ -75,7 +75,16 @@
             <a-descriptions-item label="流向情况"> {{ clickedAttrs.FlowDir }} </a-descriptions-item>
           </a-descriptions>
         </a-tab-pane>
-        <a-tab-pane key="l4" tab="功能属性"> </a-tab-pane>
+        <a-tab-pane key="l4" tab="功能属性">
+          <a-descriptions bordered :column="1">
+            <a-descriptions-item label="沉积程度"> {{ clickedAttrs.CJ }} </a-descriptions-item>
+            <a-descriptions-item label="结垢程度"> {{ clickedAttrs.JG }} </a-descriptions-item>
+            <a-descriptions-item label="障碍物情况"> {{ clickedAttrs.ZW }} </a-descriptions-item>
+            <a-descriptions-item label="残墙、坝根遗留情况"> {{ clickedAttrs.CQ }} </a-descriptions-item>
+            <a-descriptions-item label="树根进入情况"> {{ clickedAttrs.SG }} </a-descriptions-item>
+            <a-descriptions-item label="浮渣情况"> {{ clickedAttrs.FZ }} </a-descriptions-item>
+          </a-descriptions>
+        </a-tab-pane>
       </a-tabs>
     </a-modal>
   </div>
@@ -1219,10 +1228,10 @@ export default {
 
             resultsLayer.addMany(features);
             var { Name, Layer } = graphic.attributes;
-            if (Name.indexOf('Conduit') >= 0 ) {
+            if (Name.indexOf('Conduit') >= 0) {
               this.visibleLine = true;
             }
-            if (Name.indexOf('Junction') >= 0 || Name.indexOf("WS") >= 0) {
+            if (Name.indexOf('Junction') >= 0 || Name.indexOf('WS') >= 0) {
               this.visiblePoint = true;
             }
           } else {
