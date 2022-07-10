@@ -1219,10 +1219,10 @@ export default {
 
             resultsLayer.addMany(features);
             var { Name, Layer } = graphic.attributes;
-            if (Name.indexOf('Conduit') >= 0) {
+            if (Name.indexOf('Conduit') >= 0 ) {
               this.visibleLine = true;
             }
-            if (Name.indexOf('Junction') >= 0) {
+            if (Name.indexOf('Junction') >= 0 || Name.indexOf("WS") >= 0) {
               this.visiblePoint = true;
             }
           } else {
