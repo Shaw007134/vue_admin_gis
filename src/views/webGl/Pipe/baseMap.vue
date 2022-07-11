@@ -57,7 +57,7 @@
             <a-descriptions-item label="材质"> {{ clickedAttrs.Material }} </a-descriptions-item>
             <a-descriptions-item label="形状"> {{ clickedAttrs.Form }} </a-descriptions-item>
           </a-descriptions>
-        </a-tab-pane> 
+        </a-tab-pane>
         <a-tab-pane key="l2" tab="工艺属性" force-render>
           <a-descriptions bordered :column="1">
             <a-descriptions-item label="水深（含淤泥）"> {{ clickedAttrs.WaterDepth }} </a-descriptions-item>
@@ -117,7 +117,7 @@ export default {
   },
   components: {
     LineChart
-},
+  },
   mounted() {
     // this.$nextTick(() => {
     this.handleMounted();
@@ -902,15 +902,7 @@ export default {
         renderer: renderer_building,
         opacity: 0.7
       });
-      const geojsonLayer_Building1 = new GeoJSONLayer({
-        url: url_building1,
-        visible: true,
-        title: 'test',
-        outFields: ['*'],
-        popupTemplate: template_building,
-        renderer: renderer_building1,
-        opacity: 0.7
-      });
+
       const geojsonLayer_RainPipeline_2D = new GeoJSONLayer({
         url: url_rain_line,
         visible: true,
@@ -1082,7 +1074,7 @@ export default {
         zoom: 15
       });
       var hovered = false;
-      view.popup.autoOpenEnabled = false;
+      // view.popup.autoOpenEnabled = false;
 
       view.on('pointer-move', event => {
         const point_opt = {
@@ -1103,15 +1095,22 @@ export default {
             hovered = true;
             console.log('===', response.results[0]);
             var graphic = response.results[0].graphic;
+            // view.popup.open({
+            //   location: view.toMap({ x: event.x, y: event.y }),
+            //   features: [graphic]
+            // });
+            
             var { Name, Layer } = graphic.attributes;
             this.clickedAttrs = graphic.attributes;
-            console.log(this.clickedAttrs);
+            console.log(this.clickedAttrs, graphic);
             const res = backtracking(Layer, Name);
             console.log('--res', res);
             var queryLayer;
             var query;
             var queryLayerPoint;
             var queryPoint;
+            var queryBuilding;
+            var queryLayerBuilding
             //
             if (Layer == 'rain_line' || Layer == 'rain_point') {
               // line
@@ -1173,7 +1172,31 @@ export default {
                     };
                     return graphic;
                   });
+ 
                   resultsLayer.addMany(features);
+
+                  // building
+                  queryLayerBuilding = geojsonLayer_Building
+                  queryBuilding = queryLayerBuilding.createQuery();
+                  sql = 'Outfall IN' + "('" + Name +"')";
+                  queryBuilding.where = sql;
+                  queryLayerBuilding.queryFeatures(queryBuilding).then(results => {
+                    console.log("building", results)
+                    var features = results.features.map(graphic => {
+                      graphic.symbol = {
+                        type: 'simple-fill',
+                        color: [12, 128, 128, 0.5],
+                        outline: {
+                          width: 4,
+                          color: 'red'
+                        }
+                      };
+                      return graphic;
+                    });
+                    resultsLayer.addMany(features);
+                    resultsLayer.visible = true;
+                  })
+                  
                   resultsLayer.visible = true;
                 });
               } else {
@@ -1182,6 +1205,7 @@ export default {
             });
           } else {
             hovered = false;
+            // view.popup.close()
             // this.visiblePoint = false;
             resultsLayer.removeAll();
           }
@@ -1204,6 +1228,7 @@ export default {
         view.hitTest(event, point_opt).then(response => {
           if (response.results.length) {
             resultsLayer.removeAll();
+            view.popup.close()
             var graphic = response.results[0].graphic;
             console.log('clicked --', response.results[0]);
             var features;

@@ -81,7 +81,7 @@ export default {
           ],
           series: [
             {
-              name: '最高流量',
+              name: '实际流量',
               type: 'line',
               data: [32, 34, 39, 35, 38, 36, 34],
               smooth: true,
@@ -90,7 +90,7 @@ export default {
               markPoint: {
                 data: [
                   {
-                    name: '周最高',
+                    name: '实际',
                     value: 39,
                     xAxis: 2,
                     yAxis: 39,
@@ -114,7 +114,7 @@ export default {
               }
             },
             {
-              name: '最低流量',
+              name: '模型模拟',
               type: 'line',
               data: [25, 22, 26, 28, 27, 26, 23],
               smooth: true,
@@ -123,7 +123,7 @@ export default {
               markPoint: {
                 data: [
                   {
-                    name: '周最低',
+                    name: '模型',
                     value: 22,
                     xAxis: 1,
                     yAxis: 22,
