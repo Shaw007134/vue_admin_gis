@@ -78,7 +78,7 @@ export default {
           ],
           series: [
             {
-              name: '运动时长',
+              name: 'COD',
               type: 'line',
               data: [60, 75, 55, 40, 100, 140, 160],
               smooth: true,

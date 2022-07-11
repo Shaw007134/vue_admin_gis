@@ -22,6 +22,7 @@
             <a-descriptions-item label="透明度"> {{ clickedAttrs.Transparency }} </a-descriptions-item>
             <a-descriptions-item label="流向情况"> {{ clickedAttrs.FlowDir }} </a-descriptions-item>
           </a-descriptions>
+          <LineChart></LineChart>
         </a-tab-pane>
         <a-tab-pane key="p3" tab="结构属性">
           <a-descriptions bordered :column="1">
@@ -56,7 +57,7 @@
             <a-descriptions-item label="材质"> {{ clickedAttrs.Material }} </a-descriptions-item>
             <a-descriptions-item label="形状"> {{ clickedAttrs.Form }} </a-descriptions-item>
           </a-descriptions>
-        </a-tab-pane>
+        </a-tab-pane> 
         <a-tab-pane key="l2" tab="工艺属性" force-render>
           <a-descriptions bordered :column="1">
             <a-descriptions-item label="水深（含淤泥）"> {{ clickedAttrs.WaterDepth }} </a-descriptions-item>
@@ -65,6 +66,7 @@
             <a-descriptions-item label="透明度"> {{ clickedAttrs.Transparency }} </a-descriptions-item>
             <a-descriptions-item label="流向情况"> {{ clickedAttrs.FlowDir }} </a-descriptions-item>
           </a-descriptions>
+          <LineChart></LineChart>
         </a-tab-pane>
         <a-tab-pane key="l3" tab="结构属性">
           <a-descriptions bordered :column="1">
@@ -101,6 +103,8 @@ import LayerList from '@arcgis/core/widgets/LayerList';
 import BasemapToggle from '@arcgis/core/widgets/BasemapToggle';
 
 import { backtracking } from '@/utils/layer_utils';
+// import {  lineChart  } from '../../echarts/line';
+import LineChart from '@/views/echarts/line';
 
 export default {
   data() {
@@ -111,6 +115,9 @@ export default {
       confirmLoading: false
     };
   },
+  components: {
+    LineChart
+},
   mounted() {
     // this.$nextTick(() => {
     this.handleMounted();

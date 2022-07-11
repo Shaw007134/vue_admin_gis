@@ -81,7 +81,7 @@ export default {
           ],
           series: [
             {
-              name: '最高气温',
+              name: '最高流量',
               type: 'line',
               data: [32, 34, 39, 35, 38, 36, 34],
               smooth: true,
@@ -114,7 +114,7 @@ export default {
               }
             },
             {
-              name: '最低气温',
+              name: '最低流量',
               type: 'line',
               data: [25, 22, 26, 28, 27, 26, 23],
               smooth: true,
