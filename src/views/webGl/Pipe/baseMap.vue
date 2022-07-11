@@ -1099,7 +1099,7 @@ export default {
             //   location: view.toMap({ x: event.x, y: event.y }),
             //   features: [graphic]
             // });
-            
+
             var { Name, Layer } = graphic.attributes;
             this.clickedAttrs = graphic.attributes;
             console.log(this.clickedAttrs, graphic);
@@ -1110,7 +1110,7 @@ export default {
             var queryLayerPoint;
             var queryPoint;
             var queryBuilding;
-            var queryLayerBuilding
+            var queryLayerBuilding;
             //
             if (Layer == 'rain_line' || Layer == 'rain_point') {
               // line
@@ -1166,22 +1166,26 @@ export default {
                       type: 'simple-marker',
                       color: [12, 128, 128, 0.5],
                       outline: {
-                        width: 4,
+                        width: 2,
                         color: 'red'
                       }
                     };
                     return graphic;
                   });
- 
+
                   resultsLayer.addMany(features);
 
                   // building
-                  queryLayerBuilding = geojsonLayer_Building
+                  queryLayerBuilding = geojsonLayer_Building;
                   queryBuilding = queryLayerBuilding.createQuery();
-                  sql = 'Outfall IN' + "('" + Name +"')";
+                  sql = 'Outfall IN' + "('";
+                  for (let i = 0; i < res.point.length - 1; i++) {
+                    sql += res.point[i] + "','";
+                  }
+                  sql += res.point[res.point.length - 1] + "')";
                   queryBuilding.where = sql;
                   queryLayerBuilding.queryFeatures(queryBuilding).then(results => {
-                    console.log("building", results)
+                    console.log('building', results);
                     var features = results.features.map(graphic => {
                       graphic.symbol = {
                         type: 'simple-fill',
@@ -1195,8 +1199,8 @@ export default {
                     });
                     resultsLayer.addMany(features);
                     resultsLayer.visible = true;
-                  })
-                  
+                  });
+
                   resultsLayer.visible = true;
                 });
               } else {
@@ -1228,7 +1232,7 @@ export default {
         view.hitTest(event, point_opt).then(response => {
           if (response.results.length) {
             resultsLayer.removeAll();
-            view.popup.close()
+            view.popup.close();
             var graphic = response.results[0].graphic;
             console.log('clicked --', response.results[0]);
             var features;

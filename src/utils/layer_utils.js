@@ -69,9 +69,7 @@ const backtracking = (layerID, start) => {
   };
 };
 
-export {
-  backtracking
-}
+export { backtracking };
 
 // const data = require("./rain_line.json")
 // const start = 'YS_MA1000_Conduits03_03';
