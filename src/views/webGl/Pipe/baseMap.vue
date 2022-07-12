@@ -14,16 +14,7 @@
             <a-descriptions-item label="形状"> {{ clickedAttrs.Form }} </a-descriptions-item>
           </a-descriptions>
         </a-tab-pane>
-        <a-tab-pane key="p2" tab="工艺属性" force-render>
-          <a-descriptions bordered :column="1">
-            <a-descriptions-item label="水深（含淤泥）"> {{ clickedAttrs.WaterDepth }} </a-descriptions-item>
-            <a-descriptions-item label="淤泥深"> {{ clickedAttrs.SludgDepth }} </a-descriptions-item>
-            <a-descriptions-item label="气味"> {{ clickedAttrs.Odour }} </a-descriptions-item>
-            <a-descriptions-item label="透明度"> {{ clickedAttrs.Transparency }} </a-descriptions-item>
-            <a-descriptions-item label="流向情况"> {{ clickedAttrs.FlowDir }} </a-descriptions-item>
-          </a-descriptions>
-          <LineChart></LineChart>
-        </a-tab-pane>
+
         <a-tab-pane key="p3" tab="结构属性">
           <a-descriptions bordered :column="1">
             <a-descriptions-item label="井壁破裂"> {{ clickedAttrs.PL }} </a-descriptions-item>
@@ -38,6 +29,16 @@
             <a-descriptions-item label="井底淤泥沉积"> {{ clickedAttrs.YJ }} </a-descriptions-item>
             <a-descriptions-item label="井内固体废物"> {{ clickedAttrs.FW }} </a-descriptions-item>
           </a-descriptions>
+        </a-tab-pane>
+        <a-tab-pane key="p2" tab="工艺属性" force-render>
+          <a-descriptions bordered :column="1">
+            <a-descriptions-item label="水深（含淤泥）"> {{ clickedAttrs.WaterDepth }} </a-descriptions-item>
+            <a-descriptions-item label="淤泥深"> {{ clickedAttrs.SludgDepth }} </a-descriptions-item>
+            <a-descriptions-item label="气味"> {{ clickedAttrs.Odour }} </a-descriptions-item>
+            <a-descriptions-item label="透明度"> {{ clickedAttrs.Transparency }} </a-descriptions-item>
+            <a-descriptions-item label="流向情况"> {{ clickedAttrs.FlowDir }} </a-descriptions-item>
+          </a-descriptions>
+          <LineChart></LineChart>
         </a-tab-pane>
       </a-tabs>
     </a-modal>
@@ -58,16 +59,7 @@
             <a-descriptions-item label="形状"> {{ clickedAttrs.Form }} </a-descriptions-item>
           </a-descriptions>
         </a-tab-pane>
-        <a-tab-pane key="l2" tab="工艺属性" force-render>
-          <a-descriptions bordered :column="1">
-            <a-descriptions-item label="水深（含淤泥）"> {{ clickedAttrs.WaterDepth }} </a-descriptions-item>
-            <a-descriptions-item label="淤泥深"> {{ clickedAttrs.SludgDepth }} </a-descriptions-item>
-            <a-descriptions-item label="气味"> {{ clickedAttrs.Odour }} </a-descriptions-item>
-            <a-descriptions-item label="透明度"> {{ clickedAttrs.Transparency }} </a-descriptions-item>
-            <a-descriptions-item label="流向情况"> {{ clickedAttrs.FlowDir }} </a-descriptions-item>
-          </a-descriptions>
-          <LineChart></LineChart>
-        </a-tab-pane>
+
         <a-tab-pane key="l3" tab="结构属性">
           <a-descriptions bordered :column="1">
             <a-descriptions-item label="破裂程度"> {{ clickedAttrs.PL }} </a-descriptions-item>
@@ -81,7 +73,7 @@
             <a-descriptions-item label="异物穿入情况"> {{ clickedAttrs.CR }} </a-descriptions-item>
             <a-descriptions-item label="渗漏程度"> {{ clickedAttrs.SL }} </a-descriptions-item>
           </a-descriptions>
-        </a-tab-pane> 
+        </a-tab-pane>
         <a-tab-pane key="l4" tab="功能属性">
           <a-descriptions bordered :column="1">
             <a-descriptions-item label="沉积程度"> {{ clickedAttrs.CJ }} </a-descriptions-item>
@@ -91,6 +83,16 @@
             <a-descriptions-item label="树根进入情况"> {{ clickedAttrs.SG }} </a-descriptions-item>
             <a-descriptions-item label="浮渣情况"> {{ clickedAttrs.FZ }} </a-descriptions-item>
           </a-descriptions>
+        </a-tab-pane>
+        <a-tab-pane key="l2" tab="工艺属性" force-render>
+          <a-descriptions bordered :column="1">
+            <a-descriptions-item label="水深（含淤泥）"> {{ clickedAttrs.WaterDepth }} </a-descriptions-item>
+            <a-descriptions-item label="淤泥深"> {{ clickedAttrs.SludgDepth }} </a-descriptions-item>
+            <a-descriptions-item label="气味"> {{ clickedAttrs.Odour }} </a-descriptions-item>
+            <a-descriptions-item label="透明度"> {{ clickedAttrs.Transparency }} </a-descriptions-item>
+            <a-descriptions-item label="流向情况"> {{ clickedAttrs.FlowDir }} </a-descriptions-item>
+          </a-descriptions>
+          <LineChart></LineChart>
         </a-tab-pane>
       </a-tabs>
     </a-modal>
@@ -1302,10 +1304,16 @@ export default {
     padding: 0;
     margin: 0;
     min-height: 900px;
-    min-width: 600px;
+    min-width: 800px;
     height: 100%;
     width: 100%;
   }
+}
+.paddingBox-container{
+  padding: 4px !important;
+}
+.horizontal .app-main{
+  background-color: #293348 !important;
 }
 .ant-descriptions-item-label {
   min-width: 100px;
