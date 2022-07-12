@@ -1082,7 +1082,7 @@ export default {
       });
       var hovered = false;
       // view.popup.autoOpenEnabled = false;
-
+      var timer;
       view.on('pointer-move', event => {
         const point_opt = {
           include: [
@@ -1101,121 +1101,124 @@ export default {
             if (hovered) return;
             hovered = true;
             console.log('===', response.results[0]);
-            var graphic = response.results[0].graphic;
-            // view.popup.open({
-            //   location: view.toMap({ x: event.x, y: event.y }),
-            //   features: [graphic]
-            // });
+            timer = setTimeout(() => {
+              var graphic = response.results[0].graphic;
+              // view.popup.open({
+              //   location: view.toMap({ x: event.x, y: event.y }),
+              //   features: [graphic]
+              // });
 
-            var { Name, Layer } = graphic.attributes;
-            this.clickedAttrs = graphic.attributes;
-            console.log(this.clickedAttrs, graphic);
-            const res = backtracking(Layer, Name);
-            console.log('--res', res);
-            var queryLayer;
-            var query;
-            var queryLayerPoint;
-            var queryPoint;
-            var queryBuilding;
-            var queryLayerBuilding;
-            //
-            if (Layer == 'rain_line' || Layer == 'rain_point') {
-              // line
-              queryLayer = geojsonLayer_RainPipeline_2D;
-              queryLayerPoint = geojsonLayer_RainManhole_2D;
-            } else if (Layer === 'sewage_line' || Layer == 'sewage_point') {
-              queryLayer = geojsonLayer_SewagePipeline_2D;
-              queryLayerPoint = geojsonLayer_SewageManhole_2D;
-            } else if (Layer === 'distinct_line' || Layer == 'distinct_point') {
-              queryLayer = geojsonLayer_DistinctPipeline_2D;
-              queryLayerPoint = geojsonLayer_DistinctManhole_2D;
-            } else if (Layer === 'distinct_rain_line' || Layer == 'distinct_rain_point') {
-              queryLayer = geojsonLayer_DistinctRainPipeline_2D;
-              queryLayerPoint = geojsonLayer_DistinctRainManhole_2D;
-            }
-            query = queryLayer.createQuery();
-            let sql = 'Name IN' + "('";
-            if (res && res.line instanceof Array) {
-              for (let i = 0; i < res.line.length - 1; i++) {
-                sql += res.line[i] + "','";
+              var { Name, Layer } = graphic.attributes;
+              this.clickedAttrs = graphic.attributes;
+              console.log(this.clickedAttrs, graphic);
+              const res = backtracking(Layer, Name);
+              console.log('--res', res);
+              var queryLayer;
+              var query;
+              var queryLayerPoint;
+              var queryPoint;
+              var queryBuilding;
+              var queryLayerBuilding;
+              //
+              if (Layer == 'rain_line' || Layer == 'rain_point') {
+                // line
+                queryLayer = geojsonLayer_RainPipeline_2D;
+                queryLayerPoint = geojsonLayer_RainManhole_2D;
+              } else if (Layer === 'sewage_line' || Layer == 'sewage_point') {
+                queryLayer = geojsonLayer_SewagePipeline_2D;
+                queryLayerPoint = geojsonLayer_SewageManhole_2D;
+              } else if (Layer === 'distinct_line' || Layer == 'distinct_point') {
+                queryLayer = geojsonLayer_DistinctPipeline_2D;
+                queryLayerPoint = geojsonLayer_DistinctManhole_2D;
+              } else if (Layer === 'distinct_rain_line' || Layer == 'distinct_rain_point') {
+                queryLayer = geojsonLayer_DistinctRainPipeline_2D;
+                queryLayerPoint = geojsonLayer_DistinctRainManhole_2D;
               }
-              sql += res.line[res.line.length - 1] + "')";
-            }
-            query.where = sql;
-            queryLayer.queryFeatures(query).then(results => {
-              resultsLayer.removeAll();
-              var features = results.features.map(graphic => {
-                graphic.symbol = {
-                  type: 'simple-fill',
-                  color: [245, 242, 39, 0.7],
-                  outline: {
-                    width: 4,
-                    color: '#FFFF00'
-                  }
-                };
-                return graphic;
-              });
-              resultsLayer.addMany(features);
-
-              // point
-              if (res && res.point instanceof Array) {
-                queryPoint = queryLayerPoint.createQuery();
-                sql = 'Name IN' + "('";
-                for (let i = 0; i < res.point.length - 1; i++) {
-                  sql += res.point[i] + "','";
+              query = queryLayer.createQuery();
+              let sql = 'Name IN' + "('";
+              if (res && res.line instanceof Array) {
+                for (let i = 0; i < res.line.length - 1; i++) {
+                  sql += res.line[i] + "','";
                 }
-                sql += res.point[res.point.length - 1] + "')";
-                queryPoint.where = sql;
-                queryLayerPoint.queryFeatures(queryPoint).then(results => {
-                  // resultsLayer.removeAll();
-                  var features = results.features.map(graphic => {
-                    graphic.symbol = {
-                      type: 'simple-marker',
-                      color: [245, 242, 39, 0.7],
-                      outline: {
-                        width: 2,
-                        color: '#FFFF00'
-                      }
-                    };
-                    return graphic;
-                  });
+                sql += res.line[res.line.length - 1] + "')";
+              }
+              query.where = sql;
+              queryLayer.queryFeatures(query).then(results => {
+                resultsLayer.removeAll();
+                var features = results.features.map(graphic => {
+                  graphic.symbol = {
+                    type: 'simple-fill',
+                    color: [245, 242, 39, 0.7],
+                    outline: {
+                      width: 4,
+                      color: '#FFFF00'
+                    }
+                  };
+                  return graphic;
+                });
+                resultsLayer.addMany(features);
 
-                  resultsLayer.addMany(features);
-
-                  // building
-                  queryLayerBuilding = geojsonLayer_Building;
-                  queryBuilding = queryLayerBuilding.createQuery();
-                  sql = 'Outfall IN' + "('";
+                // point
+                if (res && res.point instanceof Array) {
+                  queryPoint = queryLayerPoint.createQuery();
+                  sql = 'Name IN' + "('";
                   for (let i = 0; i < res.point.length - 1; i++) {
                     sql += res.point[i] + "','";
                   }
                   sql += res.point[res.point.length - 1] + "')";
-                  queryBuilding.where = sql;
-                  queryLayerBuilding.queryFeatures(queryBuilding).then(results => {
-                    console.log('building', results);
+                  queryPoint.where = sql;
+                  queryLayerPoint.queryFeatures(queryPoint).then(results => {
+                    // resultsLayer.removeAll();
                     var features = results.features.map(graphic => {
                       graphic.symbol = {
-                        type: 'simple-fill',
+                        type: 'simple-marker',
                         color: [245, 242, 39, 0.7],
                         outline: {
-                          width: 4,
+                          width: 2,
                           color: '#FFFF00'
                         }
                       };
                       return graphic;
                     });
+
                     resultsLayer.addMany(features);
+
+                    // building
+                    queryLayerBuilding = geojsonLayer_Building;
+                    queryBuilding = queryLayerBuilding.createQuery();
+                    sql = 'Outfall IN' + "('";
+                    for (let i = 0; i < res.point.length - 1; i++) {
+                      sql += res.point[i] + "','";
+                    }
+                    sql += res.point[res.point.length - 1] + "')";
+                    queryBuilding.where = sql;
+                    queryLayerBuilding.queryFeatures(queryBuilding).then(results => {
+                      console.log('building', results);
+                      var features = results.features.map(graphic => {
+                        graphic.symbol = {
+                          type: 'simple-fill',
+                          color: [245, 242, 39, 0.7],
+                          outline: {
+                            width: 4,
+                            color: '#FFFF00'
+                          }
+                        };
+                        return graphic;
+                      });
+                      resultsLayer.addMany(features);
+                      resultsLayer.visible = true;
+                    });
+
                     resultsLayer.visible = true;
                   });
-
+                } else {
                   resultsLayer.visible = true;
-                });
-              } else {
-                resultsLayer.visible = true;
-              }
-            });
+                }
+              });
+            }, 1000);
           } else {
             hovered = false;
+            clearTimeout(timer)
             // view.popup.close()
             // this.visiblePoint = false;
             resultsLayer.removeAll();
@@ -1309,10 +1312,10 @@ export default {
     width: 100%;
   }
 }
-.paddingBox-container{
+.paddingBox-container {
   padding: 4px !important;
 }
-.horizontal .app-main{
+.horizontal .app-main {
   background-color: #293348 !important;
 }
 .ant-descriptions-item-label {
