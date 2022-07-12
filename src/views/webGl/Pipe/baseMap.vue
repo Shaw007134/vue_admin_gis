@@ -70,13 +70,18 @@
         </a-tab-pane>
         <a-tab-pane key="l3" tab="结构属性">
           <a-descriptions bordered :column="1">
-            <a-descriptions-item label="水深（含淤泥）"> {{ clickedAttrs.WaterDepth }} </a-descriptions-item>
-            <a-descriptions-item label="淤泥深"> {{ clickedAttrs.SludgDepth }} </a-descriptions-item>
-            <a-descriptions-item label="气味"> {{ clickedAttrs.Odour }} </a-descriptions-item>
-            <a-descriptions-item label="透明度"> {{ clickedAttrs.Transparency }} </a-descriptions-item>
-            <a-descriptions-item label="流向情况"> {{ clickedAttrs.FlowDir }} </a-descriptions-item>
+            <a-descriptions-item label="破裂程度"> {{ clickedAttrs.PL }} </a-descriptions-item>
+            <a-descriptions-item label="腐蚀程度"> {{ clickedAttrs.FS }} </a-descriptions-item>
+            <a-descriptions-item label="变形程度"> {{ clickedAttrs.BX }} </a-descriptions-item>
+            <a-descriptions-item label="错口程度"> {{ clickedAttrs.CK }} </a-descriptions-item>
+            <a-descriptions-item label="起伏程度"> {{ clickedAttrs.QF }} </a-descriptions-item>
+            <a-descriptions-item label="脱节程度"> {{ clickedAttrs.TJ }} </a-descriptions-item>
+            <a-descriptions-item label="接口材料脱落程度"> {{ clickedAttrs.TL }} </a-descriptions-item>
+            <a-descriptions-item label="支管暗接程度"> {{ clickedAttrs.AJ }} </a-descriptions-item>
+            <a-descriptions-item label="异物穿入情况"> {{ clickedAttrs.CR }} </a-descriptions-item>
+            <a-descriptions-item label="渗漏程度"> {{ clickedAttrs.SL }} </a-descriptions-item>
           </a-descriptions>
-        </a-tab-pane>
+        </a-tab-pane> 
         <a-tab-pane key="l4" tab="功能属性">
           <a-descriptions bordered :column="1">
             <a-descriptions-item label="沉积程度"> {{ clickedAttrs.CJ }} </a-descriptions-item>
