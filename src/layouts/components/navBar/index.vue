@@ -55,7 +55,9 @@ export default {
         {
           path: '/dashboard',
           meta: { title: '首页', icon: 'dashboard' }
-        }
+        },
+        
+
       ],
       count: 6,
       isFullscreen: false

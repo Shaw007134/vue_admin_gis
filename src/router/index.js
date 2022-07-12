@@ -232,7 +232,7 @@ export const asyncRoutes = [
 
 const createRouter = function() {
   return new VueRouter({
-    routes: baseRoute,
+    routes: [...baseRoute, ...asyncRoutes],
     scrollBehavior: () => ({ y: 0 })
   });
 };
