@@ -1145,10 +1145,10 @@ export default {
               var features = results.features.map(graphic => {
                 graphic.symbol = {
                   type: 'simple-fill',
-                  color: [12, 128, 128, 0.5],
+                  color: [245, 242, 39, 0.7],
                   outline: {
                     width: 4,
-                    color: 'red'
+                    color: '#FFFF00'
                   }
                 };
                 return graphic;
@@ -1169,10 +1169,10 @@ export default {
                   var features = results.features.map(graphic => {
                     graphic.symbol = {
                       type: 'simple-marker',
-                      color: [12, 128, 128, 0.5],
+                      color: [245, 242, 39, 0.7],
                       outline: {
                         width: 2,
-                        color: 'red'
+                        color: '#FFFF00'
                       }
                     };
                     return graphic;
@@ -1194,10 +1194,10 @@ export default {
                     var features = results.features.map(graphic => {
                       graphic.symbol = {
                         type: 'simple-fill',
-                        color: [12, 128, 128, 0.5],
+                        color: [245, 242, 39, 0.7],
                         outline: {
                           width: 4,
-                          color: 'red'
+                          color: '#FFFF00'
                         }
                       };
                       return graphic;
