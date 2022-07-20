@@ -110,8 +110,14 @@ import LayerList from '@arcgis/core/widgets/LayerList';
 import BasemapToggle from '@arcgis/core/widgets/BasemapToggle';
 
 import { backtracking } from '@/utils/layer_utils';
+import EchartsLayer from '@/utils/echartsLayer';
 // import {  lineChart  } from '../../echarts/line';
 import LineChart from '@/views/echarts/line';
+
+import rain_line from '/public/pipe/rain_line.json';
+import sewage_line from '/public/pipe/sewage_line.json';
+import distinct_line from '/public/pipe/distinct_line.json';
+import distinct_rain_line from '/public/pipe/distinct_rain_line.json';
 
 export default {
   data() {
@@ -1071,6 +1077,11 @@ export default {
         layers: [osmLayer, geojsonLayer_Stream, geojsonLayer_Zone, geojsonLayer_Building, RegionGroupLayer]
       });
 
+      RainPipeNetworkGroupLayer.on('layerview-create', () => {
+        const fluidLayer = new EchartsLayer(view, 'rain pipe');
+        console.log('fluidLayer', fluidLayer);
+      });
+
       map.layers.push(generalGroup);
       map.layers.push(distinctGroup);
 
@@ -1080,9 +1091,23 @@ export default {
         center: [117.373724, 31.886219],
         zoom: 15
       });
+
       var hovered = false;
       // view.popup.autoOpenEnabled = false;
       var timer;
+      const layerMapper = layerID => {
+        let layer;
+        if (layerID === 'rain_line' || layerID == 'rain_point') {
+          layer = rain_line;
+        } else if (layerID === 'sewage_line' || layerID == 'sewage_point') {
+          layer = sewage_line;
+        } else if (layerID === 'distinct_line' || layerID == 'distinct_point') {
+          layer = distinct_line;
+        } else if (layerID === 'distinct_rain_line' || layerID == 'distinct_rain_point') {
+          layer = distinct_rain_line;
+        }
+        return layer;
+      };
       view.on('pointer-move', event => {
         const point_opt = {
           include: [
@@ -1111,7 +1136,8 @@ export default {
               var { Name, Layer } = graphic.attributes;
               this.clickedAttrs = graphic.attributes;
               console.log(this.clickedAttrs, graphic);
-              const res = backtracking(Layer, Name);
+              var layer = layerMapper(Layer)
+              const res = backtracking(layer, Name);
               console.log('--res', res);
               var queryLayer;
               var query;
@@ -1218,7 +1244,7 @@ export default {
             }, 1000);
           } else {
             hovered = false;
-            clearTimeout(timer)
+            clearTimeout(timer);
             // view.popup.close()
             // this.visiblePoint = false;
             resultsLayer.removeAll();
