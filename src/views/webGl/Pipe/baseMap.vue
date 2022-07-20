@@ -109,7 +109,7 @@ import OpenStreetMapLayer from '@arcgis/core/layers/OpenStreetMapLayer';
 import LayerList from '@arcgis/core/widgets/LayerList';
 import BasemapToggle from '@arcgis/core/widgets/BasemapToggle';
 
-import { backtracking } from '@/utils/layer_utils';
+import { backtracking, optionFluid } from '@/utils/layer_utils';
 import EchartsLayer from '@/utils/echartsLayer';
 // import {  lineChart  } from '../../echarts/line';
 import LineChart from '@/views/echarts/line';
@@ -118,6 +118,7 @@ import rain_line from '/public/pipe/rain_line.json';
 import sewage_line from '/public/pipe/sewage_line.json';
 import distinct_line from '/public/pipe/distinct_line.json';
 import distinct_rain_line from '/public/pipe/distinct_rain_line.json';
+import $ from 'jquery';
 
 export default {
   data() {
@@ -919,7 +920,7 @@ export default {
       const geojsonLayer_RainPipeline_2D = new GeoJSONLayer({
         url: url_rain_line,
         visible: true,
-        title: '管道',
+        title: '雨水管道',
         outFields: ['*'],
         // popupTemplate: template_RainPipeline_2D,
         renderer: renderer_RainPipeline_2D,
@@ -928,7 +929,7 @@ export default {
       const geojsonLayer_RainManhole_2D = new GeoJSONLayer({
         url: url_rain_point,
         visible: true,
-        title: '管井',
+        title: '雨水管井',
         outFields: ['*'],
         // popupTemplate: template_RainManhole_2D,
         renderer: renderer_RainManhole_2D,
@@ -938,7 +939,7 @@ export default {
       const geojsonLayer_SewagePipeline_2D = new GeoJSONLayer({
         url: url_sewage_line,
         visible: true,
-        title: '管道',
+        title: '污水管道',
         outFields: ['*'],
         // popupTemplate: template_SewagePipeline_2D,
         renderer: renderer_SewagePipeline_2D,
@@ -947,7 +948,7 @@ export default {
 
       const geojsonLayer_SewageManhole_2D = new GeoJSONLayer({
         url: url_sewage_point,
-        title: '管井',
+        title: '污水管井',
         outFields: ['*'],
         visible: true,
         // popupTemplate: template_SewageManhole_2D,
@@ -957,7 +958,7 @@ export default {
 
       const geojsonLayer_DistinctManhole_2D = new GeoJSONLayer({
         url: url_distinct_point,
-        title: '管井',
+        title: '小区污水管井',
         outFields: ['*'],
         visible: true,
         // popupTemplate: template_DistinctManhole_2D,
@@ -969,7 +970,7 @@ export default {
         url: url_distinct_line,
         visible: true,
         outFields: ['*'],
-        title: '管道',
+        title: '小区污水管道',
         // popupTemplate: template_DistinctPipeline_2D,
         renderer: renderer_DistinctPipeline_2D,
         opacity: 0.9
@@ -977,7 +978,7 @@ export default {
 
       const geojsonLayer_DistinctRainManhole_2D = new GeoJSONLayer({
         url: url_distinct_rain_point,
-        title: '管井',
+        title: '小区雨水管井',
         outFields: ['*'],
         visible: true,
         // popupTemplate: template_DistinctRainManhole_2D,
@@ -989,7 +990,7 @@ export default {
         url: url_distinct_rain_line,
         visible: true,
         outFields: ['*'],
-        title: '管道',
+        title: '小区雨水管道',
         // popupTemplate: template_DistinctRainPipeline_2D,
         renderer: renderer_DistinctRainPipeline_2D,
         opacity: 0.9
@@ -1005,7 +1006,7 @@ export default {
       });
 
       const RainPipeNetworkGroupLayer = new GroupLayer({
-        title: '雨水管网及管井',
+        title: '雨水管网',
         visible: true,
         outFields: ['*'],
         visibilityMode: 'independent',
@@ -1014,8 +1015,8 @@ export default {
       });
 
       const SewagePipeNetworkGroupLayer = new GroupLayer({
-        title: '污水管网及管井',
-        visible: false,
+        title: '污水管网',
+        visible: true,
         outFields: ['*'],
         visibilityMode: 'independent',
         layers: [geojsonLayer_SewagePipeline_2D, geojsonLayer_SewageManhole_2D],
@@ -1023,7 +1024,7 @@ export default {
       });
 
       const DistinctRainPipeNetworkGroupLayer = new GroupLayer({
-        title: '雨水管网及管井',
+        title: '小区雨水管网',
         visible: true,
         outFields: ['*'],
         visibilityMode: 'independent',
@@ -1032,8 +1033,8 @@ export default {
       });
 
       const DistinctSewagePipeNetworkGroupLayer = new GroupLayer({
-        title: '污水管网及管井',
-        visible: false,
+        title: '小区污水管网',
+        visible: true,
         outFields: ['*'],
         visibilityMode: 'independent',
         layers: [geojsonLayer_DistinctManhole_2D, geojsonLayer_DistinctPipeline_2D],
@@ -1044,16 +1045,16 @@ export default {
         title: '雨污管网',
         visible: true,
         outFields: ['*'],
-        visibilityMode: 'exclusive',
+        visibilityMode: 'independent',
         layers: [SewagePipeNetworkGroupLayer, RainPipeNetworkGroupLayer],
         opacity: 1
       });
 
       const distinctGroup = new GroupLayer({
-        title: '小区管网',
+        title: '小区雨污管网',
         visible: true,
         outFields: ['*'],
-        visibilityMode: 'exclusive',
+        visibilityMode: 'independent',
         layers: [DistinctRainPipeNetworkGroupLayer, DistinctSewagePipeNetworkGroupLayer],
         opacity: 1
       });
@@ -1061,10 +1062,10 @@ export default {
       const osmLayer = new OpenStreetMapLayer({
         title: 'OSM'
       });
-      var resultsLayer = new GraphicsLayer({
+      const resultsLayer = new GraphicsLayer({
         // listMode: "hide",
       });
-      var RegionGroupLayer = new GroupLayer({
+      const RegionGroupLayer = new GroupLayer({
         title: '上游区域',
         visible: true,
         visibilityMode: 'independent',
@@ -1075,11 +1076,6 @@ export default {
       let map = new Map({
         basemap: 'hybrid', // streets，hybrid
         layers: [osmLayer, geojsonLayer_Stream, geojsonLayer_Zone, geojsonLayer_Building, RegionGroupLayer]
-      });
-
-      RainPipeNetworkGroupLayer.on('layerview-create', () => {
-        const fluidLayer = new EchartsLayer(view, 'rain pipe');
-        console.log('fluidLayer', fluidLayer);
       });
 
       map.layers.push(generalGroup);
@@ -1108,6 +1104,44 @@ export default {
         }
         return layer;
       };
+
+      const coordsMapper = (layer, type) => {
+        const res = [];
+        if (layer && layer.features instanceof Array) {
+          layer.features.forEach(track => {
+            res.push({
+              coords: [track.geometry.coordinates[1], track.geometry.coordinates[0]],
+              type: type
+            });
+          });
+        }
+        return res;
+      };
+
+      const fluidLayerMapper = {};
+
+      const setFluid = (layer, json, type) => {
+        layer.on('layerview-create', ({ layerView }) => {
+          // console.log('rain pipe', layerView)
+          let title = layer.title
+          const fluidLayer = new EchartsLayer(view, title);
+          const pipeline = coordsMapper(json, type);
+          let option = optionFluid(pipeline);
+          fluidLayer.setChartOption(option);
+          fluidLayerMapper[title] = fluidLayer;
+          let { visible } = layerView.layer;
+          if (!visible) {
+            fluidLayer.setVisible(false);
+          }
+          // console.log('fluidLayer', fluidLayer, pipeline);
+        });
+      };
+
+      setFluid(geojsonLayer_RainPipeline_2D, rain_line,  'Rain');
+      setFluid(geojsonLayer_SewagePipeline_2D, sewage_line,  'Sewage');
+      setFluid(geojsonLayer_DistinctRainPipeline_2D, distinct_rain_line,  'Rain');
+      setFluid(geojsonLayer_DistinctPipeline_2D, distinct_line,  'Sewage');
+
       view.on('pointer-move', event => {
         const point_opt = {
           include: [
@@ -1136,7 +1170,7 @@ export default {
               var { Name, Layer } = graphic.attributes;
               this.clickedAttrs = graphic.attributes;
               console.log(this.clickedAttrs, graphic);
-              var layer = layerMapper(Layer)
+              var layer = layerMapper(Layer);
               const res = backtracking(layer, Name);
               console.log('--res', res);
               var queryLayer;
@@ -1314,12 +1348,66 @@ export default {
         });
       });
 
+      // esri-layer-list__item-label
+      //esri-layer-list__item-title
+      var count = 0;
       let layerList = new LayerList({
-        view: view
+        view: view,
+        listItemCreatedFunction: event => {
+          // console.log(event);
+        }
       });
+
       view.ui.add(layerList, {
         position: 'top-right'
       });
+
+      layerList
+        .when(layerView => {
+          // The layerview for the layer
+          let list = document.getElementsByClassName('esri-layer-list__item-title');
+          for (let i = 0; i < list.length; i++) {
+            let cur = list[i];
+            let title = cur.innerText;
+            if (title.indexOf('管道') >= 0 || title.indexOf('管网') >= 0) {
+              if (title.indexOf('雨污') < 0) {
+                title = title.replace('网', '道');
+              }
+              cur.onclick = e => {
+                console.log(e.path[0].innerText);
+                if (title.indexOf('雨污') < 0) {
+                  let fl = fluidLayerMapper[title];
+                  if (fl && fl.setVisible instanceof Function) {
+                    let vis = fl.visible;
+                    fl.setVisible(!vis);
+                  }
+                } else {
+                  let title1, title2
+                  if (title == "雨污管网") {
+                    title1 = "雨水管道"
+                    title2 = "污水管道"
+                  } else if (title == "小区雨污管网") {
+                    title1 = "小区雨水管道"
+                    title2 = "小区污水管道"
+                  }
+                  let fl = fluidLayerMapper[title1];
+                  if (fl && fl.setVisible instanceof Function) {
+                    let vis = fl.visible;
+                    fl.setVisible(!vis);
+                  }
+                  fl = fluidLayerMapper[title2];
+                  if (fl && fl.setVisible instanceof Function) {
+                    let vis = fl.visible;
+                    fl.setVisible(!vis);
+                  }
+                }
+              };
+            }
+          }
+        })
+        .catch(function (error) {
+          // An error occurred during the layerview creation
+        });
     }
   }
 };
@@ -1349,9 +1437,12 @@ export default {
   padding: 8px 12px !important;
 }
 .esri-component.esri-widget--panel {
-  width: 180px !important;
+  width: 220px !important;
 }
 .esri-popup__main-container {
   max-width: 250px !important;
+}
+.esri-layer-list__item-toggle{
+  pointer-events: none !important;
 }
 </style>

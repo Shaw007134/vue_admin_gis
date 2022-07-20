@@ -1,10 +1,43 @@
-
+const optionFluid = (lines, show = true) => {
+  var option = {
+    series: [
+      {
+        type: 'lines',
+        coordinateSystem: 'arcgis',
+        data: lines,
+        polyline: show,
+        effect: {
+          show: show,
+          // symbol: 'arrow',
+          period: 3,
+          trailLength: 0.1,
+          symbolSize: 3
+        },
+        lineStyle: {
+          normal: {
+            color: function (params) {
+              if (params.data.type == 'Sewage') {
+                return '#8F4E35';
+              } else if (params.data.type == 'Rain') {
+                return '#33CC33';
+              } else {
+                return '#009999';
+              }
+            },
+            opacity: 0.6,
+            width: 0.0
+          }
+        }
+      }
+    ]
+  };
+  return option;
+};
 
 const backtracking = (layer, start) => {
   const graph = {}; // OutNode -> InNode
   const nameOutMap = {}; // Name -> OutNode
   const inNameMap = {}; // OutNode -> Name
-
 
   layer.features.forEach(feature => {
     let { Name, InNode, OutNode } = feature.properties;
@@ -51,4 +84,4 @@ const backtracking = (layer, start) => {
   };
 };
 
-export { backtracking };
+export { backtracking, optionFluid };
