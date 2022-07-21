@@ -341,6 +341,36 @@ export default {
         };
       }
 
+      const scaleSizePoint = [
+        {
+          type: 'size',
+          valueExpression: '$view.scale',
+          // target: 'size',
+          stops: [
+            { size: 10, value: 800 },
+            { size: 6.5, value: 2000 },
+            { size: 6, value: 5000 },
+            { size: 4, value: 10000 },
+            { size: 2, value: 20000 }
+          ]
+        }
+      ];
+
+      const scaleSizeLine = [
+        {
+          type: 'size',
+          valueExpression: '$view.scale',
+          // target: 'outline',
+          stops: [
+            { size: 12, value: 800 },
+            { size: 3, value: 2500 },
+            { size: 2, value: 5000 },
+            { size: 1, value: 10000 },
+            { size: 0.5, value: 20000 }
+          ]
+        }
+      ];
+
       const renderer_Stream = {
         type: 'simple',
         symbol: {
@@ -413,9 +443,10 @@ export default {
       const renderer_RainManhole_2D = {
         type: 'unique-value',
         field: 'Level',
-        defaultSymbol: {
+        // type: 'simple',
+        defalutSymbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 6,
+          size: '6px',
           color: 'blue',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -428,7 +459,7 @@ export default {
             value: 1,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'lime',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -441,7 +472,7 @@ export default {
             value: 2,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'yellow',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -454,7 +485,7 @@ export default {
             value: 3,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'red',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -467,7 +498,7 @@ export default {
             value: 4,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'grey',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -528,7 +559,7 @@ export default {
         field: 'Level',
         defaultSymbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 6,
+          size: '6px',
           color: 'blue',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -541,7 +572,7 @@ export default {
             value: 1,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'lime',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -554,7 +585,7 @@ export default {
             value: 2,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'yellow',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -567,7 +598,7 @@ export default {
             value: 3,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'red',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -580,7 +611,7 @@ export default {
             value: 4,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'grey',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -641,7 +672,7 @@ export default {
         field: 'Level',
         defaultSymbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 6,
+          size: '6px',
           color: 'blue',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -654,7 +685,7 @@ export default {
             value: 1,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'lime',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -667,7 +698,7 @@ export default {
             value: 2,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'yellow',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -680,7 +711,7 @@ export default {
             value: 3,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'red',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -693,7 +724,7 @@ export default {
             value: 4,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'grey',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -754,7 +785,7 @@ export default {
         field: 'Level',
         defaultSymbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: 6,
+          size: '6px',
           color: 'blue',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -767,7 +798,7 @@ export default {
             value: 1,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'lime',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -780,7 +811,7 @@ export default {
             value: 2,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'yellow',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -793,7 +824,7 @@ export default {
             value: 3,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'red',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -806,7 +837,7 @@ export default {
             value: 4,
             symbol: {
               type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: 6,
+              size: '6px',
               color: 'grey',
               outline: {
                 // autocasts as new SimpleLineSymbol()
@@ -890,6 +921,17 @@ export default {
           }
         }
       };
+
+      renderer_RainManhole_2D.visualVariables = scaleSizePoint;
+      renderer_SewageManhole_2D.visualVariables = scaleSizePoint;
+      renderer_DistinctRainManhole_2D.visualVariables = scaleSizePoint;
+      renderer_DistinctManhole_2D.visualVariables = scaleSizePoint;
+
+      renderer_RainPipeline_2D.visualVariables = scaleSizeLine;
+      renderer_SewagePipeline_2D.visualVariables = scaleSizeLine;
+      renderer_DistinctRainPipeline_2D.visualVariables = scaleSizeLine;
+      renderer_DistinctPipeline_2D.visualVariables = scaleSizeLine;
+
       const geojsonLayer_Stream = new GeoJSONLayer({
         url: url_stream,
         title: '河道',
@@ -1080,12 +1122,15 @@ export default {
 
       map.layers.push(generalGroup);
       map.layers.push(distinctGroup);
-
+      const spatialReference = {
+        wkid: 54035
+      };
       let view = new MapView({
         container: 'viewDiv',
         map,
         center: [117.373724, 31.886219],
-        zoom: 15
+        // zoom: 15,
+        scale: 5000
       });
 
       var hovered = false;
@@ -1123,7 +1168,7 @@ export default {
       const setFluid = (layer, json, type) => {
         layer.on('layerview-create', ({ layerView }) => {
           // console.log('rain pipe', layerView)
-          let title = layer.title
+          let title = layer.title;
           const fluidLayer = new EchartsLayer(view, title);
           const pipeline = coordsMapper(json, type);
           let option = optionFluid(pipeline);
@@ -1137,10 +1182,10 @@ export default {
         });
       };
 
-      setFluid(geojsonLayer_RainPipeline_2D, rain_line,  'Rain');
-      setFluid(geojsonLayer_SewagePipeline_2D, sewage_line,  'Sewage');
-      setFluid(geojsonLayer_DistinctRainPipeline_2D, distinct_rain_line,  'Rain');
-      setFluid(geojsonLayer_DistinctPipeline_2D, distinct_line,  'Sewage');
+      setFluid(geojsonLayer_RainPipeline_2D, rain_line, 'Rain');
+      setFluid(geojsonLayer_SewagePipeline_2D, sewage_line, 'Sewage');
+      setFluid(geojsonLayer_DistinctRainPipeline_2D, distinct_rain_line, 'Rain');
+      setFluid(geojsonLayer_DistinctPipeline_2D, distinct_line, 'Sewage');
 
       view.on('pointer-move', event => {
         const point_opt = {
@@ -1287,6 +1332,7 @@ export default {
       });
 
       view.on('click', event => {
+        console.log(view.scale);
         const point_opt = {
           include: [
             geojsonLayer_DistinctManhole_2D,
@@ -1382,13 +1428,13 @@ export default {
                     fl.setVisible(!vis);
                   }
                 } else {
-                  let title1, title2
-                  if (title == "雨污管网") {
-                    title1 = "雨水管道"
-                    title2 = "污水管道"
-                  } else if (title == "小区雨污管网") {
-                    title1 = "小区雨水管道"
-                    title2 = "小区污水管道"
+                  let title1, title2;
+                  if (title == '雨污管网') {
+                    title1 = '雨水管道';
+                    title2 = '污水管道';
+                  } else if (title == '小区雨污管网') {
+                    title1 = '小区雨水管道';
+                    title2 = '小区污水管道';
                   }
                   let fl = fluidLayerMapper[title1];
                   if (fl && fl.setVisible instanceof Function) {
@@ -1442,7 +1488,7 @@ export default {
 .esri-popup__main-container {
   max-width: 250px !important;
 }
-.esri-layer-list__item-toggle{
+.esri-layer-list__item-toggle {
   pointer-events: none !important;
 }
 </style>
