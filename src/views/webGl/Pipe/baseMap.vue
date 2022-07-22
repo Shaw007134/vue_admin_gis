@@ -1154,10 +1154,17 @@ export default {
         const res = [];
         if (layer && layer.features instanceof Array) {
           layer.features.forEach(track => {
-            res.push({
-              coords: [track.geometry.coordinates[1], track.geometry.coordinates[0]],
-              type: type
-            });
+            if (type == 'Rain') {
+              res.push({
+                coords: [track.geometry.coordinates[1], track.geometry.coordinates[0]],
+                type: type
+              });
+            } else {
+              res.push({
+                coords: [track.geometry.coordinates[0], track.geometry.coordinates[1]],
+                type: type
+              });
+            }
           });
         }
         return res;
