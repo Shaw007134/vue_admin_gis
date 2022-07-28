@@ -347,9 +347,9 @@ export default {
           valueExpression: '$view.scale',
           // target: 'size',
           stops: [
-            { size: 10, value: 800 },
-            { size: 6.5, value: 2000 },
-            { size: 6, value: 5000 },
+            { size: 16, value: 800 },
+            { size: 14, value: 2000 },
+            { size: 10, value: 5000 },
             { size: 4, value: 10000 },
             { size: 2, value: 20000 }
           ]
@@ -447,6 +447,7 @@ export default {
         defalutSymbol: {
           type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
           size: '6px',
+          url: '/svg/manhole/rain_green.svg',
           color: 'blue',
           outline: {
             // autocasts as new SimpleLineSymbol()
@@ -458,9 +459,10 @@ export default {
           {
             value: 1,
             symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'lime',
+              type: "picture-marker",
+              height: "6px",
+              width: "6px",
+              url: '/svg/manhole/rain_green.svg',
               outline: {
                 // autocasts as new SimpleLineSymbol()
                 width: 0.5,
@@ -471,9 +473,10 @@ export default {
           {
             value: 2,
             symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'yellow',
+              type: "picture-marker",
+              height: "6px",
+              width: "6px",
+              url: '/svg/manhole/rain_yellow.svg',
               outline: {
                 // autocasts as new SimpleLineSymbol()
                 width: 0.5,
@@ -484,9 +487,10 @@ export default {
           {
             value: 3,
             symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'red',
+              type: "picture-marker",
+              height: "6px",
+              width: "6px",
+              url: '/svg/manhole/rain_red.svg',
               outline: {
                 // autocasts as new SimpleLineSymbol()
                 width: 0.5,
@@ -497,9 +501,10 @@ export default {
           {
             value: 4,
             symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'grey',
+              type: "picture-marker",
+              height: "6px",
+              width: "6px",
+              url: '/svg/manhole/rain_grey.svg',
               outline: {
                 // autocasts as new SimpleLineSymbol()
                 width: 0.5,
@@ -571,9 +576,10 @@ export default {
           {
             value: 1,
             symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'lime',
+              type: "picture-marker",
+              height: "6px",
+              width: "6px",
+              url: '/svg/manhole/sewage_green.svg',
               outline: {
                 // autocasts as new SimpleLineSymbol()
                 width: 0.5,
@@ -584,9 +590,10 @@ export default {
           {
             value: 2,
             symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'yellow',
+              type: "picture-marker",
+              height: "6px",
+              width: "6px",
+              url: '/svg/manhole/sewage_yellow.svg',
               outline: {
                 // autocasts as new SimpleLineSymbol()
                 width: 0.5,
@@ -597,9 +604,10 @@ export default {
           {
             value: 3,
             symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'red',
+              type: "picture-marker",
+              height: "6px",
+              width: "6px",
+              url: '/svg/manhole/sewage_red.svg',
               outline: {
                 // autocasts as new SimpleLineSymbol()
                 width: 0.5,
@@ -610,9 +618,10 @@ export default {
           {
             value: 4,
             symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'grey',
+              type: "picture-marker",
+              height: "6px",
+              width: "6px",
+              url: '/svg/manhole/sewage_grey.svg',
               outline: {
                 // autocasts as new SimpleLineSymbol()
                 width: 0.5,
@@ -666,75 +675,75 @@ export default {
           }
         ]
       };
-
-      const renderer_DistinctManhole_2D = {
-        type: 'unique-value',
-        field: 'Level',
-        defaultSymbol: {
-          type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: '6px',
-          color: 'blue',
-          outline: {
-            // autocasts as new SimpleLineSymbol()
-            width: 0.5,
-            color: 'white'
-          }
-        },
-        uniqueValueInfos: [
-          {
-            value: 1,
-            symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'lime',
-              outline: {
-                // autocasts as new SimpleLineSymbol()
-                width: 0.5,
-                color: 'white'
-              }
-            }
-          },
-          {
-            value: 2,
-            symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'yellow',
-              outline: {
-                // autocasts as new SimpleLineSymbol()
-                width: 0.5,
-                color: 'white'
-              }
-            }
-          },
-          {
-            value: 3,
-            symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'red',
-              outline: {
-                // autocasts as new SimpleLineSymbol()
-                width: 0.5,
-                color: 'white'
-              }
-            }
-          },
-          {
-            value: 4,
-            symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'grey',
-              outline: {
-                // autocasts as new SimpleLineSymbol()
-                width: 0.5,
-                color: 'white'
-              }
-            }
-          }
-        ]
-      };
+      const renderer_DistinctManhole_2D = renderer_SewageManhole_2D
+      // const renderer_DistinctManhole_2D = {
+      //   type: 'unique-value',
+      //   field: 'Level',
+      //   defaultSymbol: {
+      //     type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //     size: '6px',
+      //     color: 'blue',
+      //     outline: {
+      //       // autocasts as new SimpleLineSymbol()
+      //       width: 0.5,
+      //       color: 'white'
+      //     }
+      //   },
+      //   uniqueValueInfos: [
+      //     {
+      //       value: 1,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //         size: '6px',
+      //         color: 'lime',
+      //         outline: {
+      //           // autocasts as new SimpleLineSymbol()
+      //           width: 0.5,
+      //           color: 'white'
+      //         }
+      //       }
+      //     },
+      //     {
+      //       value: 2,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //         size: '6px',
+      //         color: 'yellow',
+      //         outline: {
+      //           // autocasts as new SimpleLineSymbol()
+      //           width: 0.5,
+      //           color: 'white'
+      //         }
+      //       }
+      //     },
+      //     {
+      //       value: 3,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //         size: '6px',
+      //         color: 'red',
+      //         outline: {
+      //           // autocasts as new SimpleLineSymbol()
+      //           width: 0.5,
+      //           color: 'white'
+      //         }
+      //       }
+      //     },
+      //     {
+      //       value: 4,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //         size: '6px',
+      //         color: 'grey',
+      //         outline: {
+      //           // autocasts as new SimpleLineSymbol()
+      //           width: 0.5,
+      //           color: 'white'
+      //         }
+      //       }
+      //     }
+      //   ]
+      // };
 
       const renderer_DistinctRainPipeline_2D = {
         type: 'unique-value',
@@ -779,86 +788,76 @@ export default {
           }
         ]
       };
+      const renderer_DistinctRainManhole_2D = renderer_RainManhole_2D
+      // const renderer_DistinctRainManhole_2D = {
+      //   type: 'unique-value',
+      //   field: 'Level',
+      //   defaultSymbol: {
+      //     type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //     size: '6px',
+      //     color: 'blue',
+      //     outline: {
+      //       // autocasts as new SimpleLineSymbol()
+      //       width: 0.5,
+      //       color: 'white'
+      //     }
+      //   },
+      //   uniqueValueInfos: [
+      //     {
+      //       value: 1,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //         size: '6px',
+      //         color: 'lime',
+      //         outline: {
+      //           // autocasts as new SimpleLineSymbol()
+      //           width: 0.5,
+      //           color: 'white'
+      //         }
+      //       }
+      //     },
+      //     {
+      //       value: 2,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //         size: '6px',
+      //         color: 'yellow',
+      //         outline: {
+      //           // autocasts as new SimpleLineSymbol()
+      //           width: 0.5,
+      //           color: 'white'
+      //         }
+      //       }
+      //     },
+      //     {
+      //       value: 3,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //         size: '6px',
+      //         color: 'red',
+      //         outline: {
+      //           // autocasts as new SimpleLineSymbol()
+      //           width: 0.5,
+      //           color: 'white'
+      //         }
+      //       }
+      //     },
+      //     {
+      //       value: 4,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
+      //         size: '6px',
+      //         color: 'grey',
+      //         outline: {
+      //           // autocasts as new SimpleLineSymbol()
+      //           width: 0.5,
+      //           color: 'white'
+      //         }
+      //       }
+      //     }
+      //   ]
+      // };
 
-      const renderer_DistinctRainManhole_2D = {
-        type: 'unique-value',
-        field: 'Level',
-        defaultSymbol: {
-          type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-          size: '6px',
-          color: 'blue',
-          outline: {
-            // autocasts as new SimpleLineSymbol()
-            width: 0.5,
-            color: 'white'
-          }
-        },
-        uniqueValueInfos: [
-          {
-            value: 1,
-            symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'lime',
-              outline: {
-                // autocasts as new SimpleLineSymbol()
-                width: 0.5,
-                color: 'white'
-              }
-            }
-          },
-          {
-            value: 2,
-            symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'yellow',
-              outline: {
-                // autocasts as new SimpleLineSymbol()
-                width: 0.5,
-                color: 'white'
-              }
-            }
-          },
-          {
-            value: 3,
-            symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'red',
-              outline: {
-                // autocasts as new SimpleLineSymbol()
-                width: 0.5,
-                color: 'white'
-              }
-            }
-          },
-          {
-            value: 4,
-            symbol: {
-              type: 'simple-marker', // autocasts as new PictureMarkerSymbol()
-              size: '6px',
-              color: 'grey',
-              outline: {
-                // autocasts as new SimpleLineSymbol()
-                width: 0.5,
-                color: 'white'
-              }
-            }
-          }
-        ]
-      };
-      const renderer_building1 = {
-        type: 'simple',
-        symbol: {
-          type: 'simple-fill',
-          color: [128, 128, 225, 0.5],
-          outline: {
-            color: [0, 225, 225, 0.6],
-            width: '1px'
-          }
-        }
-      };
       const renderer_building = {
         type: 'unique-value',
         field: 'Level',

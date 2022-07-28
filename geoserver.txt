@@ -1,0 +1,81 @@
+geoserver地址：http://124.70.195.185:8080/geoserver
+user:admin
+pwd:geoserver
+
+发布的工作区为yaohai
+
+数据表采用黄徐最新修改的版本，修改了包括表名，合并主管与分管表，用“Genre"区分，添加了”Subwatersh"区分子流域等。
+
+后台api地址swagger地址：http://www.plakeco.com:8997/doc.html
+
+目前瑶海模块只有上传gis文件，和溯源两个api
+
+溯源api分为雨水和污水api
+
+污水请求示例：
+request:	http://www.plakeco.com:8997/yaohai/gis/tracing/sewage/WS102
+response: 
+{
+  "msg": "操作成功",
+  "code": 200,
+  "data": {
+    "pipeline": [
+      "WS_BR300_Conduits17_05",
+      "WS_BR300_Conduits17_04",
+      "WS_BR300_Conduits17_03",
+      "WS_BR300_Conduits17_02",
+      "WS_BR300_Conduits17_01"
+    ],
+    "manhole": [
+      "WS102",
+      "WS105",
+      "WS109",
+      "WS110",
+      "WS115",
+      "WS118"
+    ],
+    "drainage_unit": []
+  }
+}
+
+雨水请求示例：
+request:	http://www.plakeco.com:8997/yaohai/gis/tracing/rain/YS_MA1000_Junction07_01
+response:
+{
+  "msg": "操作成功",
+  "code": 200,
+  "data": {
+    "pipeline": [
+      "YS_BR500_Conduits13_01",
+      "YS_BR300_Conduits14_01",
+      "YS_MA1000_Conduits07_01",
+      "YS_BR300_Conduits17_01",
+      "YS_MA800_Conduits06_01",
+      "YS_BR500_Conduits16_03",
+      "YS_BR500_Conduits15_01",
+      "YS_BR500_Conduits12_01",
+      "YS_BR500_Conduits16_02"
+    ],
+    "manhole": [
+      "YS_MA1000_Junction07_01",
+      "YS_MA800_Junction06_01",
+      "YS_BR500_Junction16_03",
+      "YS_BR500_Junction13_02",
+      "YS_BR500_Junction15_01",
+      "YS_BR500_Junction12_01",
+      "YS_BR500_Junction13_01",
+      "YS_BR300_Junction14_01",
+      "YS_BR500_Junction16_02",
+      "YS_BR300_Junction17_01"
+    ],
+    "drainage_unit": [
+      "合肥福云经贸有限公司",
+      "中峻印花新材料有限公司",
+      "合肥龙岗开发区垃圾中转站",
+      "合肥广告标示有限公司",
+      "合肥金泰虹玻璃涂膜有限公司",
+      "合肥四胜商贸有限公司",
+      "合肥四胜商贸有限责任有限公司"
+    ]
+  }
+}
